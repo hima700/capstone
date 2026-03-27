@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-pxg6-pf52-xh8x",
+    "aliases": [
+      "CVE-2024-47764"
+    ],
+    "severity": "LOW",
+    "summary": "cookie accepts cookie name, path, and domain with out of bounds characters"
+  }
+]

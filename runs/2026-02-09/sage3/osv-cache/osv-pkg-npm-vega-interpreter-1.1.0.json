@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-7f2v-3qq3-vvjf",
+    "aliases": [
+      "CVE-2025-59840"
+    ],
+    "severity": "HIGH",
+    "summary": "Vega Cross-Site Scripting (XSS) via expressions abusing toString calls in environments using the VEGA_DEBUG global varia"
+  }
+]

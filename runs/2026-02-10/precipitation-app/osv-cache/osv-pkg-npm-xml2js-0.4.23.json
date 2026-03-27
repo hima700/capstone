@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-776f-qx25-q3cc",
+    "aliases": [
+      "CVE-2023-0842"
+    ],
+    "severity": "MODERATE",
+    "summary": "xml2js is vulnerable to prototype pollution"
+  }
+]

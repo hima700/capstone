@@ -1,0 +1,34 @@
+[
+  {
+    "id": "GHSA-29mw-wpgm-hmr9",
+    "aliases": [
+      "CVE-2020-28500"
+    ],
+    "severity": "MODERATE",
+    "summary": "Regular Expression Denial of Service (ReDoS) in lodash"
+  },
+  {
+    "id": "GHSA-35jh-r3h4-6jhm",
+    "aliases": [
+      "CVE-2021-23337"
+    ],
+    "severity": "HIGH",
+    "summary": "Command Injection in lodash"
+  },
+  {
+    "id": "GHSA-p6mc-m468-83gw",
+    "aliases": [
+      "CVE-2020-8203"
+    ],
+    "severity": "HIGH",
+    "summary": "Prototype Pollution in lodash"
+  },
+  {
+    "id": "GHSA-xxjr-mmjv-4gpg",
+    "aliases": [
+      "CVE-2025-13465"
+    ],
+    "severity": "MODERATE",
+    "summary": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions"
+  }
+]

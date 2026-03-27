@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-c9g6-9335-x697",
+    "aliases": [
+      "CVE-2020-7693"
+    ],
+    "severity": "MODERATE",
+    "summary": "Improper Input Validation in SocksJS-Node"
+  }
+]

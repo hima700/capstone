@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-6rw7-vpxm-498p",
+    "aliases": [
+      "CVE-2025-15284"
+    ],
+    "severity": "HIGH",
+    "summary": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion"
+  }
+]

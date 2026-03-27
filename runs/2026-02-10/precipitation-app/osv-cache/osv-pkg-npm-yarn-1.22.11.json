@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-mpwj-fcr6-x34c",
+    "aliases": [
+      "CVE-2021-4435"
+    ],
+    "severity": "HIGH",
+    "summary": "Yarn untrusted search path vulnerability"
+  }
+]

@@ -1,0 +1,157 @@
+CVE_ID,Package,Current_Version,Latest_Version,CVSS_Score,CVSS_Severity,Grype_Severity,Dep_Type,Depth,Occurrences,Ecosystem,Action,Risk_Level
+CVE-2023-44487,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-2p57-rm9w-gvfp,ip,1.1.5,2.0.1,None,HIGH,high,transitive,3,3,npm,"UPGRADE — update from 1.1.5 to 2.0.1",low
+CVE-2024-27983,node,16.20.2,unknown,8.2,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-9c47-m6qq-7p4h,json5,1.0.1,2.2.3,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 1.0.1 to 2.2.3",low
+GHSA-76p3-8jx3-jpfq,loader-utils,1.2.3,3.3.1,None,CRITICAL,critical,transitive,2,15,npm,"UPGRADE — update from 1.2.3 to 3.3.1",low
+GHSA-h4j5-c7cj-74xg,xmlhttprequest-ssl,1.5.5,4.0.0,None,CRITICAL,critical,transitive,5,1,npm,"UPGRADE — update from 1.5.5 to 4.0.0",low
+GHSA-7x7c-qm48-pq9c,karma,4.0.1,6.4.4,None,MEDIUM,medium,direct,1,1,npm,"UPGRADE — update from 4.0.1 to 6.4.4",low
+GHSA-c9g6-9335-x697,sockjs,0.3.19,0.3.24,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 0.3.19 to 0.3.24",low
+GHSA-72xf-g2v4-qvf3,tough-cookie,2.5.0,6.0.0,None,MEDIUM,medium,transitive,4,1,npm,"UPGRADE — update from 2.5.0 to 6.0.0",low
+GHSA-j7fq-p9q7-5wfv,tree-kill,1.2.1,1.2.2,None,CRITICAL,critical,transitive,2,2,npm,"UPGRADE — update from 1.2.1 to 1.2.2",low
+GHSA-765h-qjxv-5f44,handlebars,4.4.0,4.7.8,None,CRITICAL,critical,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-884p-74jh-xrg2,tree-kill,1.2.1,1.2.2,None,HIGH,high,transitive,2,2,npm,"UPGRADE — update from 1.2.1 to 1.2.2",low
+GHSA-4wf5-vphf-c2xc,terser,3.17.0,5.46.0,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 3.17.0 to 5.46.0",low
+GHSA-qwcr-r2fm-qrc7,body-parser,1.20.1,2.2.2,None,HIGH,high,transitive,2,2,npm,"UPGRADE — update from 1.20.1 to 2.2.2",low
+GHSA-wc69-rhjr-hc9g,moment,2.18.1,2.30.1,None,HIGH,high,direct,1,7,npm,"UPGRADE — update from 2.18.1 to 2.30.1",low
+GHSA-hhq3-ff78-jv3g,loader-utils,1.2.3,3.3.1,None,HIGH,high,transitive,2,15,npm,"UPGRADE — update from 1.2.3 to 3.3.1",low
+GHSA-49q7-c7j4-3p7m,elliptic,6.5.4,6.6.1,None,LOW,low,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+GHSA-p6mc-m468-83gw,lodash,4.17.15,4.17.23,None,HIGH,high,transitive,2,14,npm,"UPGRADE — update from 4.17.15 to 4.17.23",low
+GHSA-wr3j-pwj9-hqq6,webpack-dev-middleware,3.6.2,7.4.5,None,HIGH,high,transitive,2,2,npm,"UPGRADE — update from 3.6.2 to 7.4.5",low
+GHSA-hxcc-f52p-wc94,serialize-javascript,1.9.1,7.0.2,None,HIGH,high,transitive,3,2,npm,"UPGRADE — update from 1.9.1 to 7.0.2",low
+GHSA-f2jv-r9rf-7988,handlebars,4.4.0,4.7.8,None,CRITICAL,critical,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-8hfj-j24r-96c4,moment,2.18.1,2.30.1,None,HIGH,high,direct,1,7,npm,"UPGRADE — update from 2.18.1 to 2.30.1",low
+GHSA-crh6-fp67-6883,xmldom,0.1.27,0.6.0,None,CRITICAL,critical,transitive,2,1,npm,"UPGRADE — update from 0.1.27 to 0.6.0",low
+GHSA-r7qp-cfhv-p84w,engine.io,3.2.1,6.6.5,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 3.2.1 to 6.6.5",low
+GHSA-896r-f27r-55mw,json-schema,0.2.3,0.4.0,None,CRITICAL,critical,transitive,6,1,npm,"UPGRADE — update from 0.2.3 to 0.4.0",low
+GHSA-hrpp-h998-j3pp,qs,6.5.2,6.15.0,None,HIGH,high,transitive,3,3,npm,"UPGRADE — update from 6.5.2 to 6.15.0",low
+GHSA-qm95-pgcg-qqfq,socket.io-parser,3.2.0,4.2.5,None,CRITICAL,critical,transitive,3,2,npm,"UPGRADE — update from 3.2.0 to 4.2.5",low
+GHSA-xvch-5gv4-984h,minimist,0.0.10,1.2.8,None,CRITICAL,critical,transitive,2,11,npm,"UPGRADE — update from 0.0.10 to 1.2.8",low
+CVE-2023-46809,node,16.20.2,unknown,7.4,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-3rfm-jhwj-7488,loader-utils,1.2.3,3.3.1,None,HIGH,high,transitive,2,15,npm,"UPGRADE — update from 1.2.3 to 3.3.1",low
+GHSA-36fh-84j7-cv5h,jszip,3.6.0,3.10.1,None,MEDIUM,medium,direct,1,2,npm,"UPGRADE — update from 3.6.0 to 3.10.1",low
+GHSA-74fj-2j2h-c42q,follow-redirects,1.9.0,1.15.11,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 1.9.0 to 1.15.11",low
+GHSA-c75v-2vq8-878f,@angular/core,8.2.14,21.1.4,None,MEDIUM,medium,direct,1,2,npm,"UPGRADE — update from 8.2.14 to 21.1.4",low
+GHSA-j4f2-536g-r55m,engine.io,3.2.1,6.6.5,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 3.2.1 to 6.6.5",low
+GHSA-4gmj-3p3h-gm8h,es5-ext,0.10.62,0.10.64,None,LOW,low,transitive,4,3,npm,"UPGRADE — update from 0.10.62 to 0.10.64",low
+GHSA-35jh-r3h4-6jhm,lodash,4.17.15,4.17.23,None,HIGH,high,transitive,2,14,npm,"UPGRADE — update from 4.17.15 to 4.17.23",low
+GHSA-c2qf-rxjj-qqgw,semver,5.6.0,7.7.4,None,HIGH,high,transitive,2,19,npm,"UPGRADE — update from 5.6.0 to 7.7.4",low
+GHSA-3h5v-q93c-6h6q,ws,3.3.3,8.19.0,None,HIGH,high,transitive,4,2,npm,"UPGRADE — update from 3.3.3 to 8.19.0",low
+GHSA-xfhh-g9f5-x4m4,socket.io-parser,3.2.0,4.2.5,None,HIGH,high,transitive,3,2,npm,"UPGRADE — update from 3.2.0 to 4.2.5",low
+GHSA-cxjh-pqwp-8mfp,follow-redirects,1.9.0,1.15.11,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 1.9.0 to 1.15.11",low
+GHSA-x9w5-v3q2-3rhw,browserify-sign,4.2.1,4.2.5,None,HIGH,high,transitive,5,1,npm,"UPGRADE — update from 4.2.1 to 4.2.5",low
+GHSA-w573-4hg7-7wgq,decode-uri-component,0.2.0,0.4.1,None,HIGH,high,transitive,5,2,npm,"UPGRADE — update from 0.2.0 to 0.4.1",low
+GHSA-72mh-269x-7mh5,xmlhttprequest-ssl,1.5.5,4.0.0,None,CRITICAL,critical,transitive,5,1,npm,"UPGRADE — update from 1.5.5 to 4.0.0",low
+GHSA-f8q6-p94x-37v3,minimatch,3.0.4,10.2.0,None,HIGH,high,transitive,2,14,npm,"UPGRADE — update from 3.0.4 to 10.2.0",low
+GHSA-p8p7-x288-28g6,request,2.88.2,2.88.2,None,MEDIUM,medium,transitive,3,3,npm,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-cm22-4g7w-348p,serve-static,1.15.0,2.2.1,None,LOW,low,transitive,4,1,npm,"UPGRADE — update from 1.15.0 to 2.2.1",low
+CVE-2023-38552,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-3cqr-58rm-57f8,handlebars,4.4.0,4.7.8,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-5fg8-2547-mr8q,xmldom,0.1.27,0.6.0,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 0.1.27 to 0.6.0",low
+GHSA-f5x3-32g6-xq36,tar,4.4.19,7.5.9,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 4.4.19 to 7.5.9",low
+GHSA-h6q6-9hqw-rwfv,xmldom,0.1.27,0.6.0,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 0.1.27 to 0.6.0",low
+GHSA-c7qv-q95q-8v27,http-proxy-middleware,0.19.2,3.0.5,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 0.19.2 to 3.0.5",low
+CVE-2024-22025,node,16.20.2,unknown,6.5,MEDIUM,medium,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-446m-mv8f-q348,moment,2.18.1,2.30.1,None,HIGH,high,direct,1,7,npm,"UPGRADE — update from 2.18.1 to 2.30.1",low
+CVE-2024-27982,node,16.20.2,unknown,6.5,MEDIUM,medium,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-62gr-4qp9-h98f,handlebars,4.4.0,4.7.8,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-qqgx-2p2h-9c37,ini,1.3.5,6.0.0,None,HIGH,high,transitive,2,3,npm,"UPGRADE — update from 1.3.5 to 6.0.0",low
+CVE-2024-21892,node,16.20.2,unknown,7.8,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-h9rv-jmmf-4pgx,serialize-javascript,1.9.1,7.0.2,None,MEDIUM,medium,transitive,3,2,npm,"UPGRADE — update from 1.9.1 to 7.0.2",low
+GHSA-v88g-cgmw-v5xw,ajv,5.5.2,8.18.0,None,MEDIUM,medium,transitive,2,10,npm,"UPGRADE — update from 5.5.2 to 8.18.0",low
+GHSA-hj48-42vr-x3v9,path-parse,1.0.6,1.0.7,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 1.0.6 to 1.0.7",low
+GHSA-w8qv-6jwh-64r5,browserslist,4.5.5,4.28.1,None,MEDIUM,medium,transitive,2,3,npm,"UPGRADE — update from 4.5.5 to 4.28.1",low
+GHSA-grv7-fg5c-xmjg,braces,2.3.2,3.0.3,None,HIGH,high,transitive,2,4,npm,"UPGRADE — update from 2.3.2 to 3.0.3",low
+GHSA-78xj-cgh5-2h22,ip,1.1.5,2.0.1,None,LOW,low,transitive,3,3,npm,"UPGRADE — update from 1.1.5 to 2.0.1",low
+GHSA-hwj9-h5mp-3pm3,postcss,7.0.14,8.5.6,None,MEDIUM,medium,transitive,2,4,npm,"UPGRADE — update from 7.0.14 to 8.5.6",low
+GHSA-whgm-jr23-g3j9,ansi-html,0.0.7,0.0.9,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 0.0.7 to 0.0.9",low
+CVE-2024-22019,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-6c8f-qphg-qjgp,kind-of,6.0.2,6.0.3,None,HIGH,high,transitive,4,24,npm,"UPGRADE — update from 6.0.2 to 6.0.3",low
+GHSA-vh95-rmgr-6w4m,minimist,0.0.10,1.2.8,None,MEDIUM,medium,transitive,2,11,npm,"UPGRADE — update from 0.0.10 to 1.2.8",low
+GHSA-rc3x-jf5g-xvc5,karma,4.0.1,6.4.4,None,MEDIUM,medium,direct,1,1,npm,"UPGRADE — update from 4.0.1 to 6.4.4",low
+GHSA-4rq4-32rv-6wp6,shelljs,0.8.3,0.10.0,None,HIGH,high,transitive,2,1,npm,"UPGRADE — update from 0.8.3 to 0.10.0",low
+GHSA-rc47-6667-2j5j,http-cache-semantics,3.8.1,4.2.0,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 3.8.1 to 4.2.0",low
+GHSA-29mw-wpgm-hmr9,lodash,4.17.15,4.17.23,None,MEDIUM,medium,transitive,2,14,npm,"UPGRADE — update from 4.17.15 to 4.17.23",low
+GHSA-rhx6-c78j-4q9w,path-to-regexp,0.1.7,8.3.0,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 0.1.7 to 8.3.0",low
+GHSA-776f-qx25-q3cc,xml2js,0.4.22,0.6.2,None,MEDIUM,medium,transitive,3,2,npm,"UPGRADE — update from 0.4.22 to 0.6.2",low
+GHSA-x4jg-mjrx-434g,node-forge,0.10.0,1.3.3,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-h68q-55jf-x68w,chart.js,2.5.0,4.5.1,None,HIGH,high,direct,1,1,npm,"UPGRADE — update from 2.5.0 to 4.5.1",low
+GHSA-wjc4-73q6-gv3m,plotly.js,1.58.5,3.3.1,None,CRITICAL,critical,direct,1,1,npm,"UPGRADE — update from 1.58.5 to 3.3.1",low
+GHSA-cfm4-qjh2-4765,node-forge,0.10.0,1.3.3,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-cqmj-92xf-r6r9,socket.io-parser,3.2.0,4.2.5,None,MEDIUM,medium,transitive,3,2,npm,"UPGRADE — update from 3.2.0 to 4.2.5",low
+GHSA-cpq7-6gpm-g9rc,cipher-base,1.0.4,1.0.7,None,CRITICAL,critical,transitive,6,4,npm,"UPGRADE — update from 1.0.4 to 1.0.7",low
+GHSA-554w-wpv2-vw27,node-forge,0.10.0,1.3.3,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-h7cp-r72f-jxh6,pbkdf2,3.1.2,3.1.5,None,CRITICAL,critical,transitive,5,2,npm,"UPGRADE — update from 3.1.2 to 3.1.5",low
+GHSA-7fh5-64p2-3v2j,postcss,7.0.14,8.5.6,None,MEDIUM,medium,transitive,2,4,npm,"UPGRADE — update from 7.0.14 to 8.5.6",low
+GHSA-fxwf-4rqh-v8g3,socket.io,2.1.1,4.8.3,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 2.1.1 to 4.8.3",low
+GHSA-8fr3-hfg3-gpgp,node-forge,0.10.0,1.3.3,None,MEDIUM,medium,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-67hx-6x53-jw92,@babel/traverse,7.6.0,7.29.0,None,CRITICAL,critical,transitive,4,1,npm,"UPGRADE — update from 7.6.0 to 7.29.0",low
+GHSA-977x-g7h5-7qgw,elliptic,6.5.4,6.6.1,None,LOW,low,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+GHSA-25hc-qcg6-38wj,socket.io,2.1.1,4.8.3,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 2.1.1 to 4.8.3",low
+GHSA-82v2-mx6x-wq7q,log4js,4.5.1,6.9.1,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 4.5.1 to 6.9.1",low
+GHSA-mgfv-m47x-4wqp,useragent,2.3.0,2.3.0,None,MEDIUM,medium,transitive,2,1,npm,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-v62p-rq8g-8h59,pbkdf2,3.1.2,3.1.5,None,CRITICAL,critical,transitive,5,2,npm,"UPGRADE — update from 3.1.2 to 3.1.5",low
+GHSA-jg8v-48h5-wgxg,jszip,3.6.0,3.10.1,None,MEDIUM,medium,direct,1,2,npm,"UPGRADE — update from 3.6.0 to 3.10.1",low
+CVE-2025-23166,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-22020,node,16.20.2,unknown,6.5,MEDIUM,medium,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-fjxv-7rqg-78g4,form-data,2.3.3,4.0.5,None,CRITICAL,critical,transitive,4,1,npm,"UPGRADE — update from 2.3.3 to 4.0.5",low
+GHSA-6rw7-vpxm-498p,qs,6.11.0,6.15.0,None,HIGH,high,transitive,3,3,npm,"UPGRADE — update from 6.11.0 to 6.15.0",low
+GHSA-p9pc-299p-vxgp,yargs-parser,11.1.1,22.0.0,None,MEDIUM,medium,transitive,3,2,npm,"UPGRADE — update from 11.1.1 to 22.0.0",low
+GHSA-2r2c-g63r-vccr,node-forge,0.10.0,1.3.3,None,MEDIUM,medium,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-952p-6rrq-rcjv,micromatch,3.1.10,4.0.8,None,MEDIUM,medium,transitive,3,5,npm,"UPGRADE — update from 3.1.10 to 4.0.8",low
+GHSA-m6fv-jmcg-4jfg,send,0.18.0,1.2.1,None,LOW,low,transitive,4,2,npm,"UPGRADE — update from 0.18.0 to 1.2.1",low
+GHSA-58c5-g7wp-6w37,@angular/common,8.2.14,21.1.4,None,HIGH,high,direct,1,2,npm,"UPGRADE — update from 8.2.14 to 21.1.4",low
+GHSA-jchw-25xp-jwwc,follow-redirects,1.9.0,1.15.11,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 1.9.0 to 1.15.11",low
+GHSA-v4hv-rgfq-gp49,@angular/compiler,8.2.14,21.1.4,None,HIGH,high,direct,1,2,npm,"UPGRADE — update from 8.2.14 to 21.1.4",low
+GHSA-434g-2637-qmqr,elliptic,6.5.4,6.6.1,None,LOW,low,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+CVE-2025-23085,node,16.20.2,unknown,5.3,MEDIUM,medium,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-4fc4-chg7-h8gh,webpack-subresource-integrity,1.1.0-rc.6,5.2.0-rc.1,None,LOW,low,transitive,2,1,npm,"UPGRADE — update from 1.1.0-rc.6 to 5.2.0-rc.1",low
+GHSA-3xgq-45jj-v275,cross-spawn,6.0.5,7.0.6,None,HIGH,high,transitive,2,2,npm,"UPGRADE — update from 6.0.5 to 7.0.6",low
+GHSA-rv95-896h-c2vc,express,4.18.2,5.2.1,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 4.18.2 to 5.2.1",low
+CVE-2023-39333,node,16.20.2,unknown,5.3,MEDIUM,medium,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-9wv6-86v2-598j,path-to-regexp,0.1.7,8.3.0,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 0.1.7 to 8.3.0",low
+GHSA-5gfm-wpxj-wjgq,node-forge,0.10.0,1.3.3,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+CVE-2025-59465,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-f7q4-pwc6-w24p,elliptic,6.5.4,6.6.1,None,LOW,low,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+GHSA-pxg6-pf52-xh8x,cookie,0.3.1,1.1.1,None,LOW,low,transitive,4,2,npm,"UPGRADE — update from 0.3.1 to 1.1.1",low
+GHSA-qw6h-vgh9-j6wx,express,4.18.2,5.2.1,None,LOW,low,transitive,3,1,npm,"UPGRADE — update from 4.18.2 to 5.2.1",low
+CVE-2025-23165,node,16.20.2,unknown,3.7,LOW,low,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-fc9h-whq2-v747,elliptic,6.5.4,6.6.1,None,LOW,low,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+GHSA-95m3-7q98-8xr5,sha.js,2.4.11,2.4.12,None,CRITICAL,critical,transitive,6,3,npm,"UPGRADE — update from 2.4.11 to 2.4.12",low
+GHSA-566m-qj78-rww5,postcss,7.0.14,8.5.6,None,MEDIUM,medium,transitive,2,4,npm,"UPGRADE — update from 7.0.14 to 8.5.6",low
+GHSA-6fx8-h7jm-663j,parseuri,0.0.5,3.0.2,None,MEDIUM,medium,transitive,4,2,npm,"UPGRADE — update from 0.0.5 to 3.0.2",low
+GHSA-xxjr-mmjv-4gpg,lodash,4.17.15,4.17.23,None,MEDIUM,medium,transitive,2,14,npm,"UPGRADE — update from 4.17.15 to 4.17.23",low
+GHSA-pw2r-vq6v-hr8c,follow-redirects,1.9.0,1.15.11,None,MEDIUM,medium,transitive,3,1,npm,"UPGRADE — update from 1.9.0 to 1.15.11",low
+GHSA-gxpj-cx7g-858c,debug,3.2.6,4.4.3,None,LOW,low,transitive,2,31,npm,"UPGRADE — update from 3.2.6 to 4.4.3",low
+CVE-2025-60876,busybox,1.36.1-r7,unknown,6.5,MEDIUM,medium,unknown,None,0,alpine,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-4v9v-hfq4-rm2v,webpack-dev-server,3.3.1,5.2.3,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 3.3.1 to 5.2.3",low
+CVE-2026-21637,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-65ch-62r8-g69g,node-forge,0.10.0,1.3.3,None,MEDIUM,medium,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-52f5-9888-hmc6,tmp,0.0.30,0.2.5,None,LOW,low,transitive,2,5,npm,"UPGRADE — update from 0.0.30 to 0.2.5",low
+GHSA-34x7-hfp2-rc4v,tar,4.4.19,7.5.9,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 4.4.19 to 7.5.9",low
+GHSA-9jgg-88mc-972h,webpack-dev-server,3.3.1,5.2.3,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 3.3.1 to 5.2.3",low
+GHSA-jrmj-c5cx-3cw6,@angular/compiler,8.2.14,21.1.4,None,HIGH,high,direct,1,2,npm,"UPGRADE — update from 8.2.14 to 21.1.4",low
+CVE-2025-55131,node,16.20.2,unknown,7.1,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-w7fw-mjwx-w883,qs,6.11.0,6.15.0,None,LOW,low,transitive,3,3,npm,"UPGRADE — update from 6.11.0 to 6.15.0",low
+CVE-2025-23167,node,16.20.2,unknown,6.5,MEDIUM,medium,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-73rr-hh4g-fpgx,diff,3.5.0,8.0.3,None,LOW,low,transitive,2,2,npm,"UPGRADE — update from 3.5.0 to 8.0.3",low
+CVE-2025-59466,node,16.20.2,unknown,7.5,HIGH,high,unknown,None,0,unknown,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-r6q2-hw4h-h46w,tar,4.4.19,7.5.9,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 4.4.19 to 7.5.9",low
+GHSA-mh29-5h37-fv8m,js-yaml,3.13.1,4.1.1,None,MEDIUM,medium,transitive,2,3,npm,"UPGRADE — update from 3.13.1 to 4.1.1",low
+CVE-2025-46394,busybox,1.36.1-r7,unknown,3.2,LOW,low,unknown,None,0,alpine,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-8qq5-rm4j-mr97,tar,4.4.19,7.5.9,None,HIGH,high,transitive,3,1,npm,"UPGRADE — update from 4.4.19 to 7.5.9",low
+CVE-2024-58251,busybox,1.36.1-r7,unknown,2.5,LOW,low,unknown,None,0,alpine,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-v6h2-p8h4-qcjw,brace-expansion,1.1.11,5.0.2,None,LOW,low,transitive,3,4,npm,"UPGRADE — update from 1.1.11 to 5.0.2",low
+GHSA-848j-6mx2-7j84,elliptic,6.5.4,6.6.1,None,LOW,low,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+GHSA-76c9-3jph-rj3q,on-headers,1.0.2,1.1.0,None,LOW,low,transitive,4,1,npm,"UPGRADE — update from 1.0.2 to 1.1.0",low
+GHSA-vjh7-7g9h-fjfh,elliptic,6.5.4,6.6.1,None,CRITICAL,critical,transitive,6,2,npm,"UPGRADE — update from 6.5.4 to 6.6.1",low
+GHSA-j2hj-f22c-chm4,example-typescript,1.0.0,0.0.1-security,None,CRITICAL,critical,unknown,None,0,npm,"UPGRADE — update from 1.0.0 to 0.0.1-security",low
+GHSA-2jcg-qqmg-46q6,monorepo-symlink-test,0.0.0,0.0.1-security,None,CRITICAL,critical,unknown,None,0,npm,"UPGRADE — update from 0.0.0 to 0.0.1-security",low
+GHSA-36jr-mh4h-2g58,d3-color,1.4.0,3.1.0,None,HIGH,high,transitive,2,4,npm,"UPGRADE — update from 1.4.0 to 3.1.0",low
+GHSA-2cf5-4w76-r9qv,handlebars,4.4.0,4.7.8,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-g9r4-xpmj-mj65,handlebars,4.4.0,4.7.8,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-q2c6-c6pm-g3gh,handlebars,4.4.0,4.7.8,None,HIGH,high,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-f52g-6jhx-586p,handlebars,4.4.0,4.7.8,None,MEDIUM,medium,transitive,4,1,npm,"UPGRADE — update from 4.4.0 to 4.7.8",low
+GHSA-64g7-mvw6-v9qj,shelljs,0.8.3,0.10.0,None,MEDIUM,medium,transitive,2,1,npm,"UPGRADE — update from 0.8.3 to 0.10.0",low
+GHSA-5rrq-pxf6-6jx5,node-forge,0.10.0,1.3.3,None,LOW,low,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low
+GHSA-gf8q-jrpm-jvxq,node-forge,0.10.0,1.3.3,None,LOW,low,transitive,4,1,npm,"UPGRADE — update from 0.10.0 to 1.3.3",low

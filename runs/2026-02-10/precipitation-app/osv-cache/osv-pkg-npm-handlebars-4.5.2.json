@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GHSA-3cqr-58rm-57f8",
+    "aliases": [
+      "CVE-2019-20920"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary Code Execution in Handlebars"
+  },
+  {
+    "id": "GHSA-765h-qjxv-5f44",
+    "aliases": [
+      "CVE-2021-23383"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Prototype Pollution in handlebars"
+  },
+  {
+    "id": "GHSA-f2jv-r9rf-7988",
+    "aliases": [
+      "CVE-2021-23369"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Remote code execution in handlebars when compiling templates"
+  },
+  {
+    "id": "GHSA-g9r4-xpmj-mj65",
+    "aliases": [],
+    "severity": "HIGH",
+    "summary": "Prototype Pollution in handlebars"
+  },
+  {
+    "id": "GHSA-q2c6-c6pm-g3gh",
+    "aliases": [],
+    "severity": "HIGH",
+    "summary": "Arbitrary Code Execution in handlebars"
+  }
+]

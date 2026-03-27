@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-c7qv-q95q-8v27",
+    "aliases": [
+      "CVE-2024-21536"
+    ],
+    "severity": "HIGH",
+    "summary": "Denial of service in http-proxy-middleware"
+  }
+]

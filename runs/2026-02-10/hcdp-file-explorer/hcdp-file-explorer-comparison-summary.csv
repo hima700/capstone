@@ -1,0 +1,4 @@
+Variant,Components,Dependencies,Unique_CVEs,Critical,High,Medium,Low,None,Debian_CVEs,npm_CVEs,CVEs_Removed,CVEs_Added,Net_Reduction,Reduction_Pct
+baseline,5701,83,118,4,31,46,13,24,39,38,0,0,0,0
+hcdp-file-explorer-patched-slim,5719,83,117,4,30,46,13,24,39,37,1,0,1,0.8
+hcdp-file-explorer-alpine,2744,16,79,4,25,39,11,0,0,38,40,1,39,33.1

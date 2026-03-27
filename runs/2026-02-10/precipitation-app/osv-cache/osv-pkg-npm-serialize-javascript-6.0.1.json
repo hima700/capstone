@@ -1,0 +1,16 @@
+[
+  {
+    "id": "GHSA-5c6j-r48x-rmvq",
+    "aliases": [],
+    "severity": "HIGH",
+    "summary": "Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()"
+  },
+  {
+    "id": "GHSA-76p7-773f-r4q5",
+    "aliases": [
+      "CVE-2024-11831"
+    ],
+    "severity": "MODERATE",
+    "summary": "Cross-site Scripting (XSS) in serialize-javascript"
+  }
+]

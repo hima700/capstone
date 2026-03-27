@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-6c8f-qphg-qjgp",
+    "aliases": [
+      "CVE-2019-20149"
+    ],
+    "severity": "HIGH",
+    "summary": "Validation Bypass in kind-of"
+  }
+]

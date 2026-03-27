@@ -1,0 +1,34 @@
+[
+  {
+    "id": "GHSA-74fj-2j2h-c42q",
+    "aliases": [
+      "CVE-2022-0155"
+    ],
+    "severity": "HIGH",
+    "summary": "Exposure of sensitive information in follow-redirects"
+  },
+  {
+    "id": "GHSA-cxjh-pqwp-8mfp",
+    "aliases": [
+      "CVE-2024-28849"
+    ],
+    "severity": "MODERATE",
+    "summary": "follow-redirects' Proxy-Authorization header kept across hosts"
+  },
+  {
+    "id": "GHSA-jchw-25xp-jwwc",
+    "aliases": [
+      "CVE-2023-26159"
+    ],
+    "severity": "MODERATE",
+    "summary": "Follow Redirects improperly handles URLs in the url.parse() function"
+  },
+  {
+    "id": "GHSA-pw2r-vq6v-hr8c",
+    "aliases": [
+      "CVE-2022-0536"
+    ],
+    "severity": "MODERATE",
+    "summary": "Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects"
+  }
+]

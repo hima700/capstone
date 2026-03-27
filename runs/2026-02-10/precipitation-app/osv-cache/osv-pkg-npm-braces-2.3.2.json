@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-grv7-fg5c-xmjg",
+    "aliases": [
+      "CVE-2024-4068"
+    ],
+    "severity": "HIGH",
+    "summary": "Uncontrolled resource consumption in braces"
+  }
+]

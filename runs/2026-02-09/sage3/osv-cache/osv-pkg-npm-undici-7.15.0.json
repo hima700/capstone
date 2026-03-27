@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-g9mf-h72j-4rw9",
+    "aliases": [
+      "CVE-2026-22036"
+    ],
+    "severity": "MODERATE",
+    "summary": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resourc"
+  }
+]

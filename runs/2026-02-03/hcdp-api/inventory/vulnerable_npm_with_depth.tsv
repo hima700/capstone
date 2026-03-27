@@ -1,0 +1,8 @@
+name	version	purl	vuln_count	max_severity	depth	blast_radius
+nodemailer	6.10.1	pkg:npm/nodemailer@6.10.1	2	medium	1	1
+glob	10.4.5	pkg:npm/glob@10.4.5	1	high		
+tar	6.2.1	pkg:npm/tar@6.2.1	3	high		
+tar	7.4.3	pkg:npm/tar@7.4.3	3	high		
+tar	7.4.3	pkg:npm/tar@7.4.3	3	high		
+diff	5.2.0	pkg:npm/diff@5.2.0	1	low		
+npm	10.9.4	pkg:npm/npm@10.9.4	1	high		

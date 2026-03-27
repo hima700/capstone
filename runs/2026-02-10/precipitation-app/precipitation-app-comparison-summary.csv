@@ -1,0 +1,4 @@
+Variant,Components,Dependencies,Unique_CVEs,Critical,High,Medium,Low,None,Debian_CVEs,npm_CVEs,CVEs_Removed,CVEs_Added,Net_Reduction,Reduction_Pct
+baseline,25109,383,1036,69,286,336,78,266,845,145,0,0,0,0
+precipitation-app-patched-slim,7969,81,192,20,67,57,24,24,39,135,859,15,844,81.5
+precipitation-app-alpine,4993,13,156,20,62,50,24,0,0,138,883,3,880,84.9

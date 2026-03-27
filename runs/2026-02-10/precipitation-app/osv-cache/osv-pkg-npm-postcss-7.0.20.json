@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-566m-qj78-rww5",
+    "aliases": [
+      "CVE-2021-23382"
+    ],
+    "severity": "MODERATE",
+    "summary": "Regular Expression Denial of Service in postcss"
+  },
+  {
+    "id": "GHSA-7fh5-64p2-3v2j",
+    "aliases": [
+      "CVE-2023-44270"
+    ],
+    "severity": "MODERATE",
+    "summary": "PostCSS line return parsing error"
+  },
+  {
+    "id": "GHSA-hwj9-h5mp-3pm3",
+    "aliases": [
+      "CVE-2021-23368"
+    ],
+    "severity": "MODERATE",
+    "summary": "Regular Expression Denial of Service in postcss"
+  }
+]

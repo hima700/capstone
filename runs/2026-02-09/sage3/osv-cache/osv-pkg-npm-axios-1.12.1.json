@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-43fc-jf86-j433",
+    "aliases": [
+      "CVE-2026-25639"
+    ],
+    "severity": "HIGH",
+    "summary": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig"
+  }
+]

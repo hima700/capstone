@@ -1,0 +1,3561 @@
+[
+  {
+    "package": "@angular/common",
+    "source_package": "@angular/common",
+    "current_version": "8.2.14",
+    "latest_version": "21.1.4",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-58c5-g7wp-6w37",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "21.0.1",
+        "affected_range": "introduced: 21.0.0-next.0, fixed: 21.0.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "@angular/compiler",
+    "source_package": "@angular/compiler",
+    "current_version": "8.2.14",
+    "latest_version": "21.1.4",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-v4hv-rgfq-gp49",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "21.0.2",
+        "affected_range": "introduced: 21.0.0-next.0, fixed: 21.0.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-jrmj-c5cx-3cw6",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "21.1.0-rc.0",
+        "affected_range": "introduced: 21.1.0-next.0, fixed: 21.1.0-rc.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "@angular/core",
+    "source_package": "@angular/core",
+    "current_version": "8.2.14",
+    "latest_version": "21.1.4",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-c75v-2vq8-878f",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "11.0.5",
+        "affected_range": "introduced: 11.0.0, fixed: 11.0.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "@babel/traverse",
+    "source_package": "@babel/traverse",
+    "current_version": "7.6.0",
+    "latest_version": "7.29.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-67hx-6x53-jw92",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.23.2",
+        "affected_range": "introduced: 0, fixed: 7.23.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "ajv",
+    "source_package": "ajv",
+    "current_version": "5.5.2",
+    "latest_version": "8.18.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-v88g-cgmw-v5xw",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.12.3",
+        "affected_range": "introduced: 0, fixed: 6.12.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "ansi-html",
+    "source_package": "ansi-html",
+    "current_version": "0.0.7",
+    "latest_version": "0.0.9",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-whgm-jr23-g3j9",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.0.8",
+        "affected_range": "introduced: 0, fixed: 0.0.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "body-parser",
+    "source_package": "body-parser",
+    "current_version": "1.20.1",
+    "latest_version": "2.2.2",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-qwcr-r2fm-qrc7",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.20.3",
+        "affected_range": "introduced: 0, fixed: 1.20.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "brace-expansion",
+    "source_package": "brace-expansion",
+    "current_version": "1.1.11",
+    "latest_version": "5.0.2",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-v6h2-p8h4-qcjw",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.0.2",
+        "affected_range": "introduced: 2.0.0, fixed: 2.0.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "braces",
+    "source_package": "braces",
+    "current_version": "2.3.2",
+    "latest_version": "3.0.3",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-grv7-fg5c-xmjg",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.0.3",
+        "affected_range": "introduced: 0, fixed: 3.0.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "browserify-sign",
+    "source_package": "browserify-sign",
+    "current_version": "4.2.1",
+    "latest_version": "4.2.5",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-x9w5-v3q2-3rhw",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.2.2",
+        "affected_range": "introduced: 2.6.0, fixed: 4.2.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "browserslist",
+    "source_package": "browserslist",
+    "current_version": "4.5.5",
+    "latest_version": "4.28.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-w8qv-6jwh-64r5",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.16.5",
+        "affected_range": "introduced: 4.0.0, fixed: 4.16.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "busybox",
+    "source_package": "busybox",
+    "current_version": "1.36.1-r7",
+    "latest_version": "unknown",
+    "ecosystem": "alpine",
+    "total_cves": 3,
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-60876",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": []
+      },
+      {
+        "cve_id": "CVE-2025-46394",
+        "severity": "LOW",
+        "cvss_score": 3.2,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-58251",
+        "severity": "LOW",
+        "cvss_score": 2.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 0,
+      "unknown": 3,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "INVESTIGATE \u2014 fix status unknown for all 3 CVEs"
+    }
+  },
+  {
+    "package": "chart.js",
+    "source_package": "chart.js",
+    "current_version": "2.5.0",
+    "latest_version": "4.5.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-h68q-55jf-x68w",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.9.4",
+        "affected_range": "introduced: 0, fixed: 2.9.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "cipher-base",
+    "source_package": "cipher-base",
+    "current_version": "1.0.4",
+    "latest_version": "1.0.7",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-cpq7-6gpm-g9rc",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.0.5",
+        "affected_range": "introduced: 0, fixed: 1.0.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "cookie",
+    "source_package": "cookie",
+    "current_version": "0.3.1",
+    "latest_version": "1.1.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-pxg6-pf52-xh8x",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.7.0",
+        "affected_range": "introduced: 0, fixed: 0.7.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "cross-spawn",
+    "source_package": "cross-spawn",
+    "current_version": "6.0.5",
+    "latest_version": "7.0.6",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-3xgq-45jj-v275",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.0.5",
+        "affected_range": "introduced: 7.0.0, fixed: 7.0.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "d3-color",
+    "source_package": "d3-color",
+    "current_version": "1.4.0",
+    "latest_version": "3.1.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-36jr-mh4h-2g58",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.1.0",
+        "affected_range": "introduced: 0, fixed: 3.1.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "debug",
+    "source_package": "debug",
+    "current_version": "3.2.6",
+    "latest_version": "4.4.3",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-gxpj-cx7g-858c",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.6.9",
+        "affected_range": "introduced: 0, fixed: 2.6.9",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "decode-uri-component",
+    "source_package": "decode-uri-component",
+    "current_version": "0.2.0",
+    "latest_version": "0.4.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-w573-4hg7-7wgq",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.2.1",
+        "affected_range": "introduced: 0, fixed: 0.2.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "diff",
+    "source_package": "diff",
+    "current_version": "3.5.0",
+    "latest_version": "8.0.3",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-73rr-hh4g-fpgx",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "8.0.3",
+        "affected_range": "introduced: 6.0.0, fixed: 8.0.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "elliptic",
+    "source_package": "elliptic",
+    "current_version": "6.5.4",
+    "latest_version": "6.6.1",
+    "ecosystem": "npm",
+    "total_cves": 7,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-49q7-c7j4-3p7m",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.5.7",
+        "affected_range": "introduced: 5.2.1, fixed: 6.5.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-977x-g7h5-7qgw",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.5.7",
+        "affected_range": "introduced: 2.0.0, fixed: 6.5.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-434g-2637-qmqr",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.5.6",
+        "affected_range": "introduced: 0, fixed: 6.5.6",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-f7q4-pwc6-w24p",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.5.7",
+        "affected_range": "introduced: 4.0.0, fixed: 6.5.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-fc9h-whq2-v747",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.6.0",
+        "affected_range": "introduced: 0, fixed: 6.6.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-848j-6mx2-7j84",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": "0..6.6.1+",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-vjh7-7g9h-fjfh",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.6.1",
+        "affected_range": "introduced: 0, fixed: 6.6.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 6,
+      "still_open": 0,
+      "unknown": 1,
+      "new_cves_introduced": 0,
+      "net_cve_change": -6,
+      "recommendation": "UPGRADE \u2014 6/7 fixed, 0 remain, no new CVEs"
+    }
+  },
+  {
+    "package": "engine.io",
+    "source_package": "engine.io",
+    "current_version": "3.2.1",
+    "latest_version": "6.6.5",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-r7qp-cfhv-p84w",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.6.1",
+        "affected_range": "introduced: 0, fixed: 3.6.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-j4f2-536g-r55m",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.6.0",
+        "affected_range": "introduced: 0, fixed: 3.6.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "es5-ext",
+    "source_package": "es5-ext",
+    "current_version": "0.10.62",
+    "latest_version": "0.10.64",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-4gmj-3p3h-gm8h",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.10.63",
+        "affected_range": "introduced: 0.10.0, fixed: 0.10.63",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "example-typescript",
+    "source_package": "example-typescript",
+    "current_version": "1.0.0",
+    "latest_version": "0.0.1-security",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-j2hj-f22c-chm4",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": []
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 0,
+      "unknown": 1,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "INVESTIGATE \u2014 fix status unknown for all 1 CVEs"
+    }
+  },
+  {
+    "package": "express",
+    "source_package": "express",
+    "current_version": "4.18.2",
+    "latest_version": "5.2.1",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-rv95-896h-c2vc",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.19.2",
+        "affected_range": "introduced: 0, fixed: 4.19.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-qw6h-vgh9-j6wx",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.20.0",
+        "affected_range": "introduced: 0, fixed: 4.20.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "follow-redirects",
+    "source_package": "follow-redirects",
+    "current_version": "1.9.0",
+    "latest_version": "1.15.11",
+    "ecosystem": "npm",
+    "total_cves": 4,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-74fj-2j2h-c42q",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.14.7",
+        "affected_range": "introduced: 0, fixed: 1.14.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-cxjh-pqwp-8mfp",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.15.6",
+        "affected_range": "introduced: 0, fixed: 1.15.6",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-jchw-25xp-jwwc",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.15.4",
+        "affected_range": "introduced: 0, fixed: 1.15.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-pw2r-vq6v-hr8c",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.14.8",
+        "affected_range": "introduced: 0, fixed: 1.14.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 4,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -4,
+      "recommendation": "UPGRADE \u2014 all 4 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "form-data",
+    "source_package": "form-data",
+    "current_version": "2.3.3",
+    "latest_version": "4.0.5",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-fjxv-7rqg-78g4",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.5.4",
+        "affected_range": "introduced: 0, fixed: 2.5.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "handlebars",
+    "source_package": "handlebars",
+    "current_version": "4.4.0",
+    "latest_version": "4.7.8",
+    "ecosystem": "npm",
+    "total_cves": 8,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-765h-qjxv-5f44",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.7.7",
+        "affected_range": "introduced: 0, fixed: 4.7.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-f2jv-r9rf-7988",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.7.7",
+        "affected_range": "introduced: 0, fixed: 4.7.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-3cqr-58rm-57f8",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.0.8",
+        "affected_range": "introduced: 0, fixed: 3.0.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-62gr-4qp9-h98f",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.4.5",
+        "affected_range": "introduced: 4.0.0, fixed: 4.4.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-2cf5-4w76-r9qv",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.0.8",
+        "affected_range": "introduced: 0, fixed: 3.0.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-g9r4-xpmj-mj65",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.0.8",
+        "affected_range": "introduced: 0, fixed: 3.0.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-q2c6-c6pm-g3gh",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.0.8",
+        "affected_range": "introduced: 0, fixed: 3.0.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-f52g-6jhx-586p",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.4.5",
+        "affected_range": "introduced: 4.0.0, fixed: 4.4.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 8,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -8,
+      "recommendation": "UPGRADE \u2014 all 8 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "http-cache-semantics",
+    "source_package": "http-cache-semantics",
+    "current_version": "3.8.1",
+    "latest_version": "4.2.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-rc47-6667-2j5j",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.1.1",
+        "affected_range": "introduced: 0, fixed: 4.1.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "http-proxy-middleware",
+    "source_package": "http-proxy-middleware",
+    "current_version": "0.19.2",
+    "latest_version": "3.0.5",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-c7qv-q95q-8v27",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.0.7",
+        "affected_range": "introduced: 0, fixed: 2.0.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "ini",
+    "source_package": "ini",
+    "current_version": "1.3.5",
+    "latest_version": "6.0.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-qqgx-2p2h-9c37",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.6",
+        "affected_range": "introduced: 0, fixed: 1.3.6",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "ip",
+    "source_package": "ip",
+    "current_version": "1.1.5",
+    "latest_version": "2.0.1",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-2p57-rm9w-gvfp",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": "0..2.0.1+",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-78xj-cgh5-2h22",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.0.1",
+        "affected_range": "introduced: 2.0.0, fixed: 2.0.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 1,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 1/2 fixed, 0 remain, no new CVEs"
+    }
+  },
+  {
+    "package": "js-yaml",
+    "source_package": "js-yaml",
+    "current_version": "3.13.1",
+    "latest_version": "4.1.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-mh29-5h37-fv8m",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.1.1",
+        "affected_range": "introduced: 4.0.0, fixed: 4.1.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "json-schema",
+    "source_package": "json-schema",
+    "current_version": "0.2.3",
+    "latest_version": "0.4.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-896r-f27r-55mw",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.4.0",
+        "affected_range": "introduced: 0, fixed: 0.4.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "json5",
+    "source_package": "json5",
+    "current_version": "1.0.1",
+    "latest_version": "2.2.3",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-9c47-m6qq-7p4h",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.2.2",
+        "affected_range": "introduced: 2.0.0, fixed: 2.2.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "jszip",
+    "source_package": "jszip",
+    "current_version": "3.6.0",
+    "latest_version": "3.10.1",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-36fh-84j7-cv5h",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.8.0",
+        "affected_range": "introduced: 0, fixed: 3.8.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-jg8v-48h5-wgxg",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.7.0",
+        "affected_range": "introduced: 3.0.0, fixed: 3.7.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "karma",
+    "source_package": "karma",
+    "current_version": "4.0.1",
+    "latest_version": "6.4.4",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-7x7c-qm48-pq9c",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.3.14",
+        "affected_range": "introduced: 0, fixed: 6.3.14",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-rc3x-jf5g-xvc5",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.3.16",
+        "affected_range": "introduced: 0, fixed: 6.3.16",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "kind-of",
+    "source_package": "kind-of",
+    "current_version": "6.0.2",
+    "latest_version": "6.0.3",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-6c8f-qphg-qjgp",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.0.3",
+        "affected_range": "introduced: 6.0.0, fixed: 6.0.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "loader-utils",
+    "source_package": "loader-utils",
+    "current_version": "1.2.3",
+    "latest_version": "3.3.1",
+    "ecosystem": "npm",
+    "total_cves": 3,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-76p3-8jx3-jpfq",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.0.3",
+        "affected_range": "introduced: 2.0.0, fixed: 2.0.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-hhq3-ff78-jv3g",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.4.2",
+        "affected_range": "introduced: 1.0.0, fixed: 1.4.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-3rfm-jhwj-7488",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.4.2",
+        "affected_range": "introduced: 1.0.0, fixed: 1.4.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 3,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -3,
+      "recommendation": "UPGRADE \u2014 all 3 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "lodash",
+    "source_package": "lodash",
+    "current_version": "4.17.15",
+    "latest_version": "4.17.23",
+    "ecosystem": "npm",
+    "total_cves": 4,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-p6mc-m468-83gw",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.17.19",
+        "affected_range": "introduced: 3.7.0, fixed: 4.17.19",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-35jh-r3h4-6jhm",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.17.21",
+        "affected_range": "introduced: 0, fixed: 4.17.21",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-29mw-wpgm-hmr9",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.17.21",
+        "affected_range": "introduced: 4.0.0, fixed: 4.17.21",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-xxjr-mmjv-4gpg",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.17.23",
+        "affected_range": "introduced: 4.0.0, fixed: 4.17.23",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 4,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -4,
+      "recommendation": "UPGRADE \u2014 all 4 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "log4js",
+    "source_package": "log4js",
+    "current_version": "4.5.1",
+    "latest_version": "6.9.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-82v2-mx6x-wq7q",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.4.0",
+        "affected_range": "introduced: 0, fixed: 6.4.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "micromatch",
+    "source_package": "micromatch",
+    "current_version": "3.1.10",
+    "latest_version": "4.0.8",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-952p-6rrq-rcjv",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.0.8",
+        "affected_range": "introduced: 0, fixed: 4.0.8",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "minimatch",
+    "source_package": "minimatch",
+    "current_version": "3.0.4",
+    "latest_version": "10.2.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-f8q6-p94x-37v3",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.0.5",
+        "affected_range": "introduced: 0, fixed: 3.0.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "minimist",
+    "source_package": "minimist",
+    "current_version": "0.0.10",
+    "latest_version": "1.2.8",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-xvch-5gv4-984h",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.2.6",
+        "affected_range": "introduced: 1.0.0, fixed: 1.2.6",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-vh95-rmgr-6w4m",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.2.1",
+        "affected_range": "introduced: 0, fixed: 0.2.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "moment",
+    "source_package": "moment",
+    "current_version": "2.18.1",
+    "latest_version": "2.30.1",
+    "ecosystem": "npm",
+    "total_cves": 3,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-wc69-rhjr-hc9g",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.29.4",
+        "affected_range": "introduced: 2.18.0, fixed: 2.29.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-8hfj-j24r-96c4",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.29.2",
+        "affected_range": "introduced: 0, fixed: 2.29.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-446m-mv8f-q348",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.19.3",
+        "affected_range": "introduced: 0, fixed: 2.19.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 3,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -3,
+      "recommendation": "UPGRADE \u2014 all 3 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "monorepo-symlink-test",
+    "source_package": "monorepo-symlink-test",
+    "current_version": "0.0.0",
+    "latest_version": "0.0.1-security",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-2jcg-qqmg-46q6",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": []
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 0,
+      "unknown": 1,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "INVESTIGATE \u2014 fix status unknown for all 1 CVEs"
+    }
+  },
+  {
+    "package": "node-forge",
+    "source_package": "node-forge",
+    "current_version": "0.10.0",
+    "latest_version": "1.3.3",
+    "ecosystem": "npm",
+    "total_cves": 9,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-x4jg-mjrx-434g",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.0",
+        "affected_range": "introduced: 0, fixed: 1.3.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-cfm4-qjh2-4765",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.0",
+        "affected_range": "introduced: 0, fixed: 1.3.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-554w-wpv2-vw27",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.2",
+        "affected_range": "introduced: 0, fixed: 1.3.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-8fr3-hfg3-gpgp",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.0.0",
+        "affected_range": "introduced: 0, fixed: 1.0.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-2r2c-g63r-vccr",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.0",
+        "affected_range": "introduced: 0, fixed: 1.3.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-5gfm-wpxj-wjgq",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.2",
+        "affected_range": "introduced: 0, fixed: 1.3.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-65ch-62r8-g69g",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.3.2",
+        "affected_range": "introduced: 0, fixed: 1.3.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-5rrq-pxf6-6jx5",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.0.0",
+        "affected_range": "introduced: 0, fixed: 1.0.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-gf8q-jrpm-jvxq",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.0.0",
+        "affected_range": "introduced: 0, fixed: 1.0.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 9,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -9,
+      "recommendation": "UPGRADE \u2014 all 9 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "node",
+    "source_package": "node",
+    "current_version": "16.20.2",
+    "latest_version": "unknown",
+    "ecosystem": "unknown",
+    "total_cves": 18,
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-44487",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": "de47b464201769870a06764cdd5143a59cd95302",
+        "affected_range": "introduced: e498667bd7811e846771a852b16ce9f1e524b81b, fixed: de47b464201769870a06764cdd5143a59cd95302",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-27983",
+        "severity": "HIGH",
+        "cvss_score": 8.2,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2023-46809",
+        "severity": "HIGH",
+        "cvss_score": 7.4,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2023-38552",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": "68ef4a687d5a1802b9f585d7f464c44ce6caa766..a86c2caea9c329442bbbd8eeec6d5385b594b7ca+",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-22025",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-27982",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-21892",
+        "severity": "HIGH",
+        "cvss_score": 7.8,
+        "fixed_in_latest": null,
+        "fix_version": "9b1bf44ea9e7785e38c93b7d22d32dbca262df6c",
+        "affected_range": "introduced: e7618fb5a5fc25d76b6474e2a6607f04fd6f10e0, fixed: 9b1bf44ea9e7785e38c93b7d22d32dbca262df6c",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-22019",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": "9b1bf44ea9e7785e38c93b7d22d32dbca262df6c",
+        "affected_range": "introduced: e7618fb5a5fc25d76b6474e2a6607f04fd6f10e0, fixed: 9b1bf44ea9e7785e38c93b7d22d32dbca262df6c",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2025-23166",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-22020",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2025-23085",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2023-39333",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2025-59465",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": "1f7186e1e01d279022cab6acdecb119e472bb409",
+        "affected_range": "introduced: e7618fb5a5fc25d76b6474e2a6607f04fd6f10e0, fixed: 1f7186e1e01d279022cab6acdecb119e472bb409",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2025-23165",
+        "severity": "LOW",
+        "cvss_score": 3.7,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2026-21637",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": "1f7186e1e01d279022cab6acdecb119e472bb409",
+        "affected_range": "introduced: f9f837885343a2a3f5ba2b8c510eaac395c8c865, fixed: 1f7186e1e01d279022cab6acdecb119e472bb409",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2025-55131",
+        "severity": "HIGH",
+        "cvss_score": 7.1,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": []
+      },
+      {
+        "cve_id": "CVE-2025-23167",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": null,
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "CVE-2025-59466",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "fixed_in_latest": null,
+        "fix_version": "1f7186e1e01d279022cab6acdecb119e472bb409",
+        "affected_range": "introduced: e7618fb5a5fc25d76b6474e2a6607f04fd6f10e0, fixed: 1f7186e1e01d279022cab6acdecb119e472bb409",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 0,
+      "unknown": 18,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "INVESTIGATE \u2014 fix status unknown for all 18 CVEs"
+    }
+  },
+  {
+    "package": "on-headers",
+    "source_package": "on-headers",
+    "current_version": "1.0.2",
+    "latest_version": "1.1.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-76c9-3jph-rj3q",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.1.0",
+        "affected_range": "introduced: 0, fixed: 1.1.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "parseuri",
+    "source_package": "parseuri",
+    "current_version": "0.0.5",
+    "latest_version": "3.0.2",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-6fx8-h7jm-663j",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": "0..1.0.9+; >=0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 0,
+      "unknown": 1,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "INVESTIGATE \u2014 fix status unknown for all 1 CVEs"
+    }
+  },
+  {
+    "package": "path-parse",
+    "source_package": "path-parse",
+    "current_version": "1.0.6",
+    "latest_version": "1.0.7",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-hj48-42vr-x3v9",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.0.7",
+        "affected_range": "introduced: 0, fixed: 1.0.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "path-to-regexp",
+    "source_package": "path-to-regexp",
+    "current_version": "0.1.7",
+    "latest_version": "8.3.0",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-rhx6-c78j-4q9w",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.1.12",
+        "affected_range": "introduced: 0, fixed: 0.1.12",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-9wv6-86v2-598j",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.9.0",
+        "affected_range": "introduced: 0.2.0, fixed: 1.9.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "pbkdf2",
+    "source_package": "pbkdf2",
+    "current_version": "3.1.2",
+    "latest_version": "3.1.5",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-h7cp-r72f-jxh6",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.1.3",
+        "affected_range": "introduced: 3.0.10, fixed: 3.1.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-v62p-rq8g-8h59",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.1.3",
+        "affected_range": "introduced: 0, fixed: 3.1.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "plotly.js",
+    "source_package": "plotly.js",
+    "current_version": "1.58.5",
+    "latest_version": "3.3.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-wjc4-73q6-gv3m",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.25.2",
+        "affected_range": "introduced: 0, fixed: 2.25.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "postcss",
+    "source_package": "postcss",
+    "current_version": "7.0.14",
+    "latest_version": "8.5.6",
+    "ecosystem": "npm",
+    "total_cves": 3,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-hwj9-h5mp-3pm3",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.0.36",
+        "affected_range": "introduced: 7.0.0, fixed: 7.0.36",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-7fh5-64p2-3v2j",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "8.4.31",
+        "affected_range": "introduced: 0, fixed: 8.4.31",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-566m-qj78-rww5",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "8.2.13",
+        "affected_range": "introduced: 8.0.0, fixed: 8.2.13",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 3,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -3,
+      "recommendation": "UPGRADE \u2014 all 3 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "qs",
+    "source_package": "qs",
+    "current_version": "6.11.0",
+    "latest_version": "6.15.0",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-6rw7-vpxm-498p",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.14.1",
+        "affected_range": "introduced: 0, fixed: 6.14.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-w7fw-mjwx-w883",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.14.2",
+        "affected_range": "introduced: 6.7.0, fixed: 6.14.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "qs",
+    "source_package": "qs",
+    "current_version": "6.5.2",
+    "latest_version": "6.15.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-hrpp-h998-j3pp",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.10.3",
+        "affected_range": "introduced: 6.10.0, fixed: 6.10.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "request",
+    "source_package": "request",
+    "current_version": "2.88.2",
+    "latest_version": "2.88.2",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-p8p7-x288-28g6",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": false,
+        "fix_version": "3.0.0",
+        "affected_range": "introduced: 0, fixed: 3.0.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 1,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "NO FIX AVAILABLE \u2014 all 1 CVEs still open"
+    }
+  },
+  {
+    "package": "semver",
+    "source_package": "semver",
+    "current_version": "5.6.0",
+    "latest_version": "7.7.4",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-c2qf-rxjj-qqgw",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.5.2",
+        "affected_range": "introduced: 7.0.0, fixed: 7.5.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "send",
+    "source_package": "send",
+    "current_version": "0.18.0",
+    "latest_version": "1.2.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-m6fv-jmcg-4jfg",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.19.0",
+        "affected_range": "introduced: 0, fixed: 0.19.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "serialize-javascript",
+    "source_package": "serialize-javascript",
+    "current_version": "1.9.1",
+    "latest_version": "7.0.2",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-hxcc-f52p-wc94",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.1.0",
+        "affected_range": "introduced: 0, fixed: 3.1.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-h9rv-jmmf-4pgx",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.1.1",
+        "affected_range": "introduced: 0, fixed: 2.1.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "serve-static",
+    "source_package": "serve-static",
+    "current_version": "1.15.0",
+    "latest_version": "2.2.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-cm22-4g7w-348p",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.16.0",
+        "affected_range": "introduced: 0, fixed: 1.16.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "sha.js",
+    "source_package": "sha.js",
+    "current_version": "2.4.11",
+    "latest_version": "2.4.12",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-95m3-7q98-8xr5",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.4.12",
+        "affected_range": "introduced: 0, fixed: 2.4.12",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "shelljs",
+    "source_package": "shelljs",
+    "current_version": "0.8.3",
+    "latest_version": "0.10.0",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-4rq4-32rv-6wp6",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.8.5",
+        "affected_range": "introduced: 0, fixed: 0.8.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-64g7-mvw6-v9qj",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.8.5",
+        "affected_range": "introduced: 0, fixed: 0.8.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "socket.io-parser",
+    "source_package": "socket.io-parser",
+    "current_version": "3.2.0",
+    "latest_version": "4.2.5",
+    "ecosystem": "npm",
+    "total_cves": 3,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-qm95-pgcg-qqfq",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.0.5",
+        "affected_range": "introduced: 4.0.0, fixed: 4.0.5",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-xfhh-g9f5-x4m4",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "3.3.2",
+        "affected_range": "introduced: 0, fixed: 3.3.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-cqmj-92xf-r6r9",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.2.3",
+        "affected_range": "introduced: 4.0.4, fixed: 4.2.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 3,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -3,
+      "recommendation": "UPGRADE \u2014 all 3 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "socket.io",
+    "source_package": "socket.io",
+    "current_version": "2.1.1",
+    "latest_version": "4.8.3",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-fxwf-4rqh-v8g3",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.4.0",
+        "affected_range": "introduced: 0, fixed: 2.4.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-25hc-qcg6-38wj",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "2.5.1",
+        "affected_range": "introduced: 0, fixed: 2.5.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "sockjs",
+    "source_package": "sockjs",
+    "current_version": "0.3.19",
+    "latest_version": "0.3.24",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-c9g6-9335-x697",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.3.20",
+        "affected_range": "introduced: 0, fixed: 0.3.20",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "tar",
+    "source_package": "tar",
+    "current_version": "4.4.19",
+    "latest_version": "7.5.9",
+    "ecosystem": "npm",
+    "total_cves": 4,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-f5x3-32g6-xq36",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "6.2.1",
+        "affected_range": "introduced: 0, fixed: 6.2.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-34x7-hfp2-rc4v",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.5.7",
+        "affected_range": "introduced: 0, fixed: 7.5.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-r6q2-hw4h-h46w",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.5.4",
+        "affected_range": "introduced: 0, fixed: 7.5.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-8qq5-rm4j-mr97",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.5.3",
+        "affected_range": "introduced: 0, fixed: 7.5.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 4,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -4,
+      "recommendation": "UPGRADE \u2014 all 4 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "terser",
+    "source_package": "terser",
+    "current_version": "3.17.0",
+    "latest_version": "5.46.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-4wf5-vphf-c2xc",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.8.1",
+        "affected_range": "introduced: 0, fixed: 4.8.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "tmp",
+    "source_package": "tmp",
+    "current_version": "0.0.30",
+    "latest_version": "0.2.5",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-52f5-9888-hmc6",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.2.4",
+        "affected_range": "introduced: 0, fixed: 0.2.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "tough-cookie",
+    "source_package": "tough-cookie",
+    "current_version": "2.5.0",
+    "latest_version": "6.0.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-72xf-g2v4-qvf3",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "4.1.3",
+        "affected_range": "introduced: 0, fixed: 4.1.3",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "tree-kill",
+    "source_package": "tree-kill",
+    "current_version": "1.2.1",
+    "latest_version": "1.2.2",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-j7fq-p9q7-5wfv",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.2.2",
+        "affected_range": "introduced: 0, fixed: 1.2.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-884p-74jh-xrg2",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.2.2",
+        "affected_range": "introduced: 0, fixed: 1.2.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "useragent",
+    "source_package": "useragent",
+    "current_version": "2.3.0",
+    "latest_version": "2.3.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-mgfv-m47x-4wqp",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": null,
+        "fix_version": null,
+        "affected_range": "0..2.3.0+",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 0,
+      "still_open": 0,
+      "unknown": 1,
+      "new_cves_introduced": 0,
+      "net_cve_change": 0,
+      "recommendation": "INVESTIGATE \u2014 fix status unknown for all 1 CVEs"
+    }
+  },
+  {
+    "package": "webpack-dev-middleware",
+    "source_package": "webpack-dev-middleware",
+    "current_version": "3.6.2",
+    "latest_version": "7.4.5",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-wr3j-pwj9-hqq6",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "7.1.0",
+        "affected_range": "introduced: 7.0.0, fixed: 7.1.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "webpack-dev-server",
+    "source_package": "webpack-dev-server",
+    "current_version": "3.3.1",
+    "latest_version": "5.2.3",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-4v9v-hfq4-rm2v",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "5.2.1",
+        "affected_range": "introduced: 0, fixed: 5.2.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-9jgg-88mc-972h",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "5.2.1",
+        "affected_range": "introduced: 0, fixed: 5.2.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "webpack-subresource-integrity",
+    "source_package": "webpack-subresource-integrity",
+    "current_version": "1.1.0-rc.6",
+    "latest_version": "5.2.0-rc.1",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-4fc4-chg7-h8gh",
+        "severity": "LOW",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.5.1",
+        "affected_range": "introduced: 0, fixed: 1.5.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "ws",
+    "source_package": "ws",
+    "current_version": "3.3.3",
+    "latest_version": "8.19.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-3h5v-q93c-6h6q",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "5.2.4",
+        "affected_range": "introduced: 2.1.0, fixed: 5.2.4",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "xml2js",
+    "source_package": "xml2js",
+    "current_version": "0.4.22",
+    "latest_version": "0.6.2",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-776f-qx25-q3cc",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.5.0",
+        "affected_range": "introduced: 0, fixed: 0.5.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "xmldom",
+    "source_package": "xmldom",
+    "current_version": "0.1.27",
+    "latest_version": "0.6.0",
+    "ecosystem": "npm",
+    "total_cves": 3,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-crh6-fp67-6883",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": false,
+        "fix_version": "0.7.7",
+        "affected_range": "introduced: 0, fixed: 0.7.7",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-5fg8-2547-mr8q",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": false,
+        "fix_version": "0.7.0",
+        "affected_range": "introduced: 0, fixed: 0.7.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-h6q6-9hqw-rwfv",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "0.5.0",
+        "affected_range": "introduced: 0, fixed: 0.5.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 2,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 1/3 fixed, 2 remain, no new CVEs"
+    }
+  },
+  {
+    "package": "xmlhttprequest-ssl",
+    "source_package": "xmlhttprequest-ssl",
+    "current_version": "1.5.5",
+    "latest_version": "4.0.0",
+    "ecosystem": "npm",
+    "total_cves": 2,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-h4j5-c7cj-74xg",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.7.0",
+        "affected_range": "introduced: 0, fixed: 1.7.0",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      },
+      {
+        "cve_id": "GHSA-72mh-269x-7mh5",
+        "severity": "CRITICAL",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "1.6.1",
+        "affected_range": "introduced: 0, fixed: 1.6.1",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 2,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -2,
+      "recommendation": "UPGRADE \u2014 all 2 CVEs fixed, no new CVEs"
+    }
+  },
+  {
+    "package": "yargs-parser",
+    "source_package": "yargs-parser",
+    "current_version": "11.1.1",
+    "latest_version": "22.0.0",
+    "ecosystem": "npm",
+    "total_cves": 1,
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-p9pc-299p-vxgp",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "fixed_in_latest": true,
+        "fix_version": "13.1.2",
+        "affected_range": "introduced: 6.0.0, fixed: 13.1.2",
+        "debian_urgency": null,
+        "debian_status": null,
+        "sources_checked": [
+          "OSV"
+        ]
+      }
+    ],
+    "new_cves_in_latest": [],
+    "summary": {
+      "fixed_if_upgraded": 1,
+      "still_open": 0,
+      "unknown": 0,
+      "new_cves_introduced": 0,
+      "net_cve_change": -1,
+      "recommendation": "UPGRADE \u2014 all 1 CVEs fixed, no new CVEs"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-prjf-86w9-mfqv",
+    "aliases": [
+      "CVE-2026-27970"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular i18n vulnerable to Cross-Site Scripting"
+  }
+]

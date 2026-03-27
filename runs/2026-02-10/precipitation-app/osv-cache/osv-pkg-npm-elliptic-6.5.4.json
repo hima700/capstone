@@ -1,0 +1,56 @@
+[
+  {
+    "id": "GHSA-434g-2637-qmqr",
+    "aliases": [
+      "CVE-2024-48949"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic's verify function omits uniqueness validation"
+  },
+  {
+    "id": "GHSA-49q7-c7j4-3p7m",
+    "aliases": [
+      "CVE-2024-42461"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic allows BER-encoded signatures"
+  },
+  {
+    "id": "GHSA-848j-6mx2-7j84",
+    "aliases": [
+      "CVE-2025-14505"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic Uses a Cryptographic Primitive with a Risky Implementation"
+  },
+  {
+    "id": "GHSA-977x-g7h5-7qgw",
+    "aliases": [
+      "CVE-2024-42460"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic's ECDSA missing check for whether leading bit of r and s is zero"
+  },
+  {
+    "id": "GHSA-f7q4-pwc6-w24p",
+    "aliases": [
+      "CVE-2024-42459"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic's EDDSA missing signature length check"
+  },
+  {
+    "id": "GHSA-fc9h-whq2-v747",
+    "aliases": [
+      "CVE-2024-48948"
+    ],
+    "severity": "LOW",
+    "summary": "Valid ECDSA signatures erroneously rejected in Elliptic"
+  },
+  {
+    "id": "GHSA-vjh7-7g9h-fjfh",
+    "aliases": [],
+    "severity": "CRITICAL",
+    "summary": "Elliptic's private key extraction in ECDSA upon signing a malformed input (e.g. a string)"
+  }
+]

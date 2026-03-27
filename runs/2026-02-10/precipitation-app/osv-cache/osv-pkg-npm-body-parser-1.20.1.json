@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-qwcr-r2fm-qrc7",
+    "aliases": [
+      "CVE-2024-45590"
+    ],
+    "severity": "HIGH",
+    "summary": "body-parser vulnerable to denial of service when url encoding is enabled"
+  }
+]

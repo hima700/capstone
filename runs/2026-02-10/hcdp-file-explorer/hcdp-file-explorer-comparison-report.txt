@@ -1,0 +1,133 @@
+================================================================================
+  SBOM Remediation Comparison Report -- HCDP-FILE-EXPLORER
+  Generated: 2026-02-16 14:09:35
+================================================================================
+
+VARIANT COMPARISON
+--------------------------------------------------------------------------------
+Metric                                baseline hcdp-file-explo hcdp-file-explo 
+--------------------------------------------------------------------------------
+Components                                5701            5719            2744 
+Dependencies                                83              83              16 
+Unique CVEs                                118             117              79 
+--------------------------------------------------------------------------------
+  critical                                   4               4               4 
+  high                                      31              30              25 
+  medium                                    46              46              39 
+  low                                       13              13              11 
+  none                                      24              24               0 
+--------------------------------------------------------------------------------
+  debian                                    39              39               0 
+  npm                                       38              37              37 
+  alpine                                     0               0               1 
+  unknown                                   41              41              41 
+
+
+DEBIAN CVE URGENCY CLASSIFICATION (Baseline)
+------------------------------------------------------------
+  Source: Debian Security Tracker (security-tracker.debian.org)
+
+  unknown                  :  118  (No urgency data available)
+
+
+REMEDIATION: hcdp-file-explorer-patched-slim
+------------------------------------------------------------
+  CVEs removed:     1
+  CVEs added (new): 0
+  CVEs remaining:   117
+  Net reduction:    1 (0.8%)
+
+  Removed by ecosystem:
+    npm: 1
+
+  Removed by severity:
+    high: 1
+
+  Removed by Debian urgency:
+    unknown: 1
+
+  [OK] No new CVEs introduced by this remediation
+
+  Top CVEs removed:
+    [+] GHSA-3xgq-45jj-v275 -- cross-spawn@7.0.3 (high)
+
+
+REMEDIATION: hcdp-file-explorer-alpine
+------------------------------------------------------------
+  CVEs removed:     40
+  CVEs added (new): 1
+  CVEs remaining:   78
+  Net reduction:    39 (33.1%)
+
+  Removed by ecosystem:
+    debian: 39
+    npm: 1
+
+  Removed by severity:
+    high: 6
+    medium: 8
+    low: 2
+    none: 24
+
+  Removed by Debian urgency:
+    unknown: 40
+
+  [!] NEWLY INTRODUCED CVEs:
+    CVE-2025-60876 -- busybox@1.37.0-r30 (medium, alpine)
+
+  Top CVEs removed:
+    [+] CVE-2026-0861 -- libc-bin@2.36-9+deb12u13 (high)
+    [+] CVE-2025-6297 -- dpkg@1.21.22 (high)
+    [+] CVE-2026-0915 -- libc-bin@2.36-9+deb12u13 (high)
+    [+] CVE-2025-15281 -- libc-bin@2.36-9+deb12u13 (high)
+    [+] CVE-2025-13151 -- libtasn1-6@4.19.0-2+deb12u1 (high)
+    [+] GHSA-3xgq-45jj-v275 -- cross-spawn@7.0.3 (high)
+    [+] CVE-2025-6141 -- libtinfo6@6.4-4 (medium)
+    [+] CVE-2025-30258 -- gpgv@2.2.40-1.1+deb12u2 (medium)
+    [+] CVE-2024-10041 -- libpam-modules@1.5.2-6+deb12u2 (medium)
+    [+] CVE-2023-50495 -- libtinfo6@6.4-4 (medium)
+    [+] CVE-2025-14104 -- bsdutils@1:2.38.1-5+deb12u3 (medium)
+    [+] CVE-2025-14831 -- libgnutls30@3.7.9-2+deb12u5 (medium)
+    [+] CVE-2025-9820 -- libgnutls30@3.7.9-2+deb12u5 (medium)
+    [+] CVE-2025-68972 -- gpgv@2.2.40-1.1+deb12u2 (medium)
+    [+] CVE-2016-2781 -- coreutils@9.1-1 (low)
+    [+] CVE-2024-56433 -- login@1:4.13+dfsg1-1+deb12u2 (low)
+    [+] CVE-2019-1010023 -- libc-bin@2.36-9+deb12u13 (none)
+    [+] CVE-2005-2541 -- tar@1.34+dfsg-1.2+deb12u1 (none)
+    [+] CVE-2023-31438 -- libsystemd0@252.39-1~deb12u1 (none)
+    [+] CVE-2019-9192 -- libc-bin@2.36-9+deb12u13 (none)
+    [+] CVE-2023-31437 -- libsystemd0@252.39-1~deb12u1 (none)
+    [+] CVE-2011-3374 -- apt@2.6.1 (none)
+    [+] CVE-2023-31486 -- perl-base@5.36.0-7+deb12u3 (none)
+    [+] CVE-2025-5278 -- coreutils@9.1-1 (none)
+    [+] CVE-2011-3389 -- libgnutls30@3.7.9-2+deb12u5 (none)
+    ... and 15 more
+
+
+RECOMMENDATIONS
+------------------------------------------------------------
+  Based on this analysis:
+
+  1. BEST VARIANT: hcdp-file-explorer-alpine
+     Reduces CVEs from 118 to 79 (-39, 33.1% reduction)
+
+  2. npm DEPENDENCIES:
+     - Upgrade nodemailer 6.10.1 -> latest (direct dependency, 2 CVEs)
+     - Run npm audit fix for transitive vulnerabilities
+
+  3. DOCKER BASE IMAGE:
+     - Switch to node:22-alpine OR regularly rebuild with latest node:22-slim
+     - Alpine eliminates most Debian CVEs by using musl/apk instead
+
+  4. DEBIAN CVEs (if staying on Debian-based image):
+     - 0 CVEs are 'unimportant' per Debian Security -- accept risk
+     - Remaining: monitor via periodic apt-get upgrade in image rebuilds
+
+  5. ONGOING MAINTENANCE:
+     - Pin base image digest for reproducibility
+     - Re-scan monthly with Syft + Grype
+     - Integrate SBOM generation into CI/CD pipeline
+
+================================================================================
+  END OF COMPARISON REPORT
+================================================================================

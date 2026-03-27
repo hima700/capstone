@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-25hc-qcg6-38wj",
+    "aliases": [
+      "CVE-2024-38355"
+    ],
+    "severity": "MODERATE",
+    "summary": "socket.io has an unhandled 'error' event"
+  },
+  {
+    "id": "GHSA-fxwf-4rqh-v8g3",
+    "aliases": [
+      "CVE-2020-28481"
+    ],
+    "severity": "MODERATE",
+    "summary": "CORS misconfiguration in socket.io"
+  }
+]

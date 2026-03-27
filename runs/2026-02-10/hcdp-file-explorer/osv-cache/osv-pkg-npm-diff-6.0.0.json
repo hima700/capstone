@@ -1,0 +1,11 @@
+[
+  {
+    "id": "GHSA-73rr-hh4g-fpgx",
+    "aliases": [
+      "CVE-2026-24001"
+    ],
+    "severity": "LOW",
+    "summary": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch",
+    "published": "2026-01-14T21:34:12Z"
+  }
+]

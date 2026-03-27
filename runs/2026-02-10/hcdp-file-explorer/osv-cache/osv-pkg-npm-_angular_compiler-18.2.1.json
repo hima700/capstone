@@ -1,0 +1,29 @@
+[
+  {
+    "id": "GHSA-g93w-mfhg-p222",
+    "aliases": [
+      "CVE-2026-32635"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular vulnerable to XSS in i18n attribute bindings",
+    "published": "2026-03-13T20:56:18Z"
+  },
+  {
+    "id": "GHSA-jrmj-c5cx-3cw6",
+    "aliases": [
+      "CVE-2026-22610"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular has XSS Vulnerability via Unsanitized SVG Script Attributes",
+    "published": "2026-01-09T18:52:14Z"
+  },
+  {
+    "id": "GHSA-v4hv-rgfq-gp49",
+    "aliases": [
+      "CVE-2025-66412"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes",
+    "published": "2025-12-02T01:20:30Z"
+  }
+]

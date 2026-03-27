@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-446m-mv8f-q348",
+    "aliases": [
+      "CVE-2017-18214"
+    ],
+    "severity": "HIGH",
+    "summary": "Regular Expression Denial of Service in moment"
+  },
+  {
+    "id": "GHSA-8hfj-j24r-96c4",
+    "aliases": [
+      "CVE-2022-24785"
+    ],
+    "severity": "HIGH",
+    "summary": "Path Traversal: 'dir/../../filename' in moment.locale"
+  },
+  {
+    "id": "GHSA-wc69-rhjr-hc9g",
+    "aliases": [
+      "CVE-2022-31129"
+    ],
+    "severity": "HIGH",
+    "summary": "Moment.js vulnerable to Inefficient Regular Expression Complexity"
+  }
+]

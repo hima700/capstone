@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-4v9v-hfq4-rm2v",
+    "aliases": [
+      "CVE-2025-30359"
+    ],
+    "severity": "MODERATE",
+    "summary": "webpack-dev-server users' source code may be stolen when they access a malicious web site"
+  },
+  {
+    "id": "GHSA-9jgg-88mc-972h",
+    "aliases": [
+      "CVE-2025-30360"
+    ],
+    "severity": "MODERATE",
+    "summary": "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browse"
+  }
+]

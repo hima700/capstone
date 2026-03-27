@@ -1,0 +1,11 @@
+[
+  {
+    "id": "GHSA-93m4-6634-74q7",
+    "aliases": [
+      "CVE-2025-62522"
+    ],
+    "severity": "MODERATE",
+    "summary": "vite allows server.fs.deny bypass via backslash on Windows",
+    "published": "2025-10-20T19:54:28Z"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-m6fv-jmcg-4jfg",
+    "aliases": [
+      "CVE-2024-43799"
+    ],
+    "severity": "LOW",
+    "summary": "send vulnerable to template injection that can lead to XSS"
+  }
+]

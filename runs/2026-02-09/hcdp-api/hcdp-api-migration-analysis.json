@@ -1,0 +1,2942 @@
+[
+  {
+    "package": "apt",
+    "current_version": "2.6.1",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2011-3374",
+        "severity": "LOW",
+        "cvss_score": 3.7,
+        "description": "It was found that apt-key in apt, all versions, do not correctly validate gpg keys with the master keyring, leading to a potential man-in-the-middle a"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2011-3374",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "binutils",
+    "current_version": "2.40-2",
+    "ecosystem": "debian",
+    "total_cves_current": 45,
+    "cves": [
+      {
+        "cve_id": "CVE-2018-20712",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "A heap-based buffer over-read exists in the function d_expression_1 in cp-demangle.c in GNU libiberty, as distributed in GNU Binutils 2.31.1. A crafte"
+      },
+      {
+        "cve_id": "CVE-2025-1153",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability classified as problematic was found in GNU Binutils 2.43/2.44. Affected by this vulnerability is the function bfd_set_format of the fi"
+      },
+      {
+        "cve_id": "CVE-2025-0840",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0,
+        "description": "A vulnerability, which was classified as problematic, was found in GNU Binutils up to 2.43. This affects the function disassemble_bytes of the file bi"
+      },
+      {
+        "cve_id": "CVE-2025-1181",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0,
+        "description": "A vulnerability classified as critical was found in GNU Binutils 2.43. This vulnerability affects the function _bfd_elf_gc_mark_rsec of the file bfd/e"
+      },
+      {
+        "cve_id": "CVE-2025-1148",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability was found in GNU Binutils 2.43 and classified as problematic. Affected by this issue is the function link_order_scan of the file ld/ld"
+      },
+      {
+        "cve_id": "CVE-2025-1147",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability has been found in GNU Binutils 2.43 and classified as problematic. Affected by this vulnerability is the function __sanitizer::interna"
+      },
+      {
+        "cve_id": "CVE-2018-9996",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "An issue was discovered in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.30. Stack Exhaustion occurs in the C++ demangling functions "
+      },
+      {
+        "cve_id": "CVE-2025-1178",
+        "severity": "MEDIUM",
+        "cvss_score": 5.6,
+        "description": "A vulnerability was found in GNU Binutils 2.43. It has been declared as problematic. Affected by this vulnerability is the function bfd_putl64 of the "
+      },
+      {
+        "cve_id": "CVE-2025-1176",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0,
+        "description": "A vulnerability was found in GNU Binutils 2.43 and classified as critical. This issue affects the function _bfd_elf_gc_mark_rsec of the file elflink.c"
+      },
+      {
+        "cve_id": "CVE-2025-1179",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0,
+        "description": "A vulnerability was found in GNU Binutils 2.43. It has been rated as critical. Affected by this issue is the function bfd_putl64 of the file bfd/libbf"
+      },
+      {
+        "cve_id": "CVE-2025-1182",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0,
+        "description": "A vulnerability, which was classified as critical, was found in GNU Binutils 2.43. Affected is the function bfd_elf_reloc_symbol_deleted_p of the file"
+      },
+      {
+        "cve_id": "CVE-2025-1180",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability classified as problematic has been found in GNU Binutils 2.43. This affects the function _bfd_elf_write_section_eh_frame of the file b"
+      },
+      {
+        "cve_id": "CVE-2017-13716",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "The C++ symbol demangler routine in cplus-dem.c in libiberty, as distributed in GNU Binutils 2.29, allows remote attackers to cause a denial of servic"
+      },
+      {
+        "cve_id": "CVE-2025-1149",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability was found in GNU Binutils 2.43. It has been classified as problematic. This affects the function xstrdup of the file libiberty/xmalloc"
+      },
+      {
+        "cve_id": "CVE-2025-1150",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability was found in GNU Binutils 2.43. It has been declared as problematic. This vulnerability affects the function bfd_malloc of the file li"
+      },
+      {
+        "cve_id": "CVE-2025-1152",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability classified as problematic has been found in GNU Binutils 2.43. Affected is the function xstrdup of the file xstrdup.c of the component"
+      },
+      {
+        "cve_id": "CVE-2024-53589",
+        "severity": "HIGH",
+        "cvss_score": 8.4,
+        "description": "GNU objdump 2.43 is vulnerable to Buffer Overflow in the BFD (Binary File Descriptor) library's handling of tekhex format files."
+      },
+      {
+        "cve_id": "CVE-2025-1151",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "A vulnerability was found in GNU Binutils 2.43. It has been rated as problematic. This issue affects the function xmemdup of the file xmemdup.c of the"
+      },
+      {
+        "cve_id": "CVE-2018-20673",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "The demangle_template function in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.31.1, contains an integer overflow vulnerability (for"
+      },
+      {
+        "cve_id": "CVE-2021-32256",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "An issue was discovered in GNU libiberty, as distributed in GNU Binutils 2.36. It is a stack-overflow issue in demangle_type in rust-demangle.c."
+      },
+      {
+        "cve_id": "CVE-2025-3198",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability has been found in GNU Binutils 2.43/2.44 and classified as problematic. Affected by this vulnerability is the function display_info of"
+      },
+      {
+        "cve_id": "CVE-2025-66862",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "A buffer overflow vulnerability in function gnu_special in file cplus-dem.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted"
+      },
+      {
+        "cve_id": "CVE-2025-66863",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An issue was discovered in function d_discriminator in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted P"
+      },
+      {
+        "cve_id": "CVE-2025-66865",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An issue was discovered in function d_print_comp_inner in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafte"
+      },
+      {
+        "cve_id": "CVE-2023-1972",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "A potential heap based buffer overflow was found in _bfd_elf_slurp_version_tables() in bfd/elf.c. This may lead to loss of availability."
+      },
+      {
+        "cve_id": "CVE-2025-11081",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability was detected in GNU Binutils 2.45. This issue affects the function dump_dwarf_section of the file binutils/objdump.c. Performing manip"
+      },
+      {
+        "cve_id": "CVE-2025-11412",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability has been found in GNU Binutils 2.45. This impacts the function bfd_elf_gc_record_vtentry of the file bfd/elflink.c of the component Li"
+      },
+      {
+        "cve_id": "CVE-2025-11413",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability was found in GNU Binutils 2.45. Affected is the function elf_link_add_object_symbols of the file bfd/elflink.c of the component Linker"
+      },
+      {
+        "cve_id": "CVE-2025-11414",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability was determined in GNU Binutils 2.45. Affected by this vulnerability is the function get_link_hash_entry of the file bfd/elflink.c of t"
+      },
+      {
+        "cve_id": "CVE-2025-11494",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability was found in GNU Binutils 2.45. Impacted is the function _bfd_x86_elf_late_size_sections of the file bfd/elfxx-x86.c of the component "
+      },
+      {
+        "cve_id": "CVE-2025-11495",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability was determined in GNU Binutils 2.45. The affected element is the function elf_x86_64_relocate_section of the file elf64-x86-64.c of th"
+      },
+      {
+        "cve_id": "CVE-2025-11083",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability has been found in GNU Binutils 2.45. The affected element is the function elf_swap_shdr in the library bfd/elfcode.h of the component "
+      },
+      {
+        "cve_id": "CVE-2025-66864",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An issue was discovered in function d_print_comp_inner in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafte"
+      },
+      {
+        "cve_id": "CVE-2025-66866",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An issue was discovered in function d_abi_tags in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted PE fil"
+      },
+      {
+        "cve_id": "CVE-2025-11082",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A flaw has been found in GNU Binutils 2.45. Impacted is the function _bfd_elf_parse_eh_frame of the file bfd/elf-eh-frame.c of the component Linker. E"
+      },
+      {
+        "cve_id": "CVE-2024-57360",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "https://www.gnu.org/software/binutils/ nm >=2.43 is affected by: Incorrect Access Control. The type of exploitation is: local. The component is: `nm -"
+      },
+      {
+        "cve_id": "CVE-2025-11840",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A weakness has been identified in GNU Binutils 2.45. The affected element is the function vfinfo of the file ldmisc.c. Executing manipulation can lead"
+      },
+      {
+        "cve_id": "CVE-2025-8224",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability has been found in GNU Binutils 2.44 and classified as problematic. This vulnerability affects the function bfd_elf_get_str_section of "
+      },
+      {
+        "cve_id": "CVE-2025-5245",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability classified as critical has been found in GNU Binutils up to 2.44. This affects the function debug_type_samep of the file /binutils/deb"
+      },
+      {
+        "cve_id": "CVE-2025-5244",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability was found in GNU Binutils up to 2.44. It has been rated as critical. Affected by this issue is the function elf_gc_sweep of the file b"
+      },
+      {
+        "cve_id": "CVE-2025-66861",
+        "severity": "LOW",
+        "cvss_score": 2.5,
+        "description": "An issue was discovered in function d_unqualified_name in file cp-demangle.c in BinUtils 2.26 allowing attackers to cause a denial of service via craf"
+      },
+      {
+        "cve_id": "CVE-2025-8225",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability was found in GNU Binutils 2.44 and classified as problematic. This issue affects the function process_debug_info of the file binutils/"
+      },
+      {
+        "cve_id": "CVE-2025-7545",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability classified as problematic was found in GNU Binutils 2.45. Affected by this vulnerability is the function copy_section of the file binu"
+      },
+      {
+        "cve_id": "CVE-2025-7546",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability, which was classified as problematic, has been found in GNU Binutils 2.45. Affected by this issue is the function bfd_elf_set_group_co"
+      },
+      {
+        "cve_id": "CVE-2025-11839",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A security flaw has been discovered in GNU Binutils 2.45. Impacted is the function tg_tag_type of the file prdbg.c. Performing manipulation results in"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2018-20712",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1153",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-0840",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1181",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1148",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1147",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2018-9996",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1178",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1176",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1179",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1182",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1180",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2017-13716",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1149",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1150",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1152",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-53589",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-1151",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2018-20673",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2021-32256",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-3198",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66862",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66863",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66865",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-1972",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11081",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11412",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11413",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11414",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11494",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11495",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11083",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66864",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66866",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11082",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-57360",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11840",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8224",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-5245",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-5244",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66861",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8225",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-7545",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-7546",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-11839",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 45,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 45,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 45,
+      "upgrade_recommendation": "NO BENEFIT: None of the 45 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "bsdutils",
+    "current_version": "1:2.38.1-5+deb12u3",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-14104",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1,
+        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam"
+      },
+      {
+        "cve_id": "CVE-2022-0563",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "A flaw was found in the util-linux chfn and chsh utilities when compiled with Readline support. The Readline library uses an \"INPUTRC\" environment var"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-14104",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "unknown",
+        "urgency": "unknown",
+        "method": "debian_tracker_no_match",
+        "details": "Debian bookworm: not_found"
+      },
+      {
+        "cve_id": "CVE-2022-0563",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "unknown",
+        "urgency": "unknown",
+        "method": "debian_tracker_no_match",
+        "details": "Debian bookworm: not_found"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 0,
+      "unknown_status": 2,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "INVESTIGATE: 2 CVEs with unknown fix status"
+    }
+  },
+  {
+    "package": "coreutils",
+    "current_version": "9.1-1",
+    "ecosystem": "debian",
+    "total_cves_current": 3,
+    "cves": [
+      {
+        "cve_id": "CVE-2016-2781",
+        "severity": "MEDIUM",
+        "cvss_score": 4.6,
+        "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes "
+      },
+      {
+        "cve_id": "CVE-2017-18018",
+        "severity": "HIGH",
+        "cvss_score": 7.1,
+        "description": "In GNU Coreutils through 8.29, chown-core.c in chown and chgrp does not prevent replacement of a plain file with a symlink during use of the POSIX \"-R"
+      },
+      {
+        "cve_id": "CVE-2025-5278",
+        "severity": "MEDIUM",
+        "cvss_score": 4.4,
+        "description": "A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory out"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2016-2781",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "low",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2017-18018",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-5278",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 3,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 3,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 3,
+      "upgrade_recommendation": "NO BENEFIT: None of the 3 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "cpp-12",
+    "current_version": "12.2.0-14+deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2022-27943",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2022-27943",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "curl",
+    "current_version": "7.88.1-10+deb12u14",
+    "ecosystem": "debian",
+    "total_cves_current": 9,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-0725",
+        "severity": "HIGH",
+        "cvss_score": 7.3,
+        "description": "When libcurl is asked to perform automatic gzip decompression of\ncontent-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,\n**using zli"
+      },
+      {
+        "cve_id": "CVE-2025-10148",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that"
+      },
+      {
+        "cve_id": "CVE-2025-14819",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "When doing TLS related transfers with reused easy or multi handles and\naltering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally\nr"
+      },
+      {
+        "cve_id": "CVE-2025-14524",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer\nperforms a cross-protocol redirect to a second URL that uses an IMAP, L"
+      },
+      {
+        "cve_id": "CVE-2024-2379",
+        "severity": "MEDIUM",
+        "cvss_score": 6.3,
+        "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad ci"
+      },
+      {
+        "cve_id": "CVE-2025-15224",
+        "severity": "LOW",
+        "cvss_score": 3.1,
+        "description": "When doing SSH-based transfers using either SCP or SFTP, and asked to do\npublic key authentication, curl would wrongly still ask and authenticate usin"
+      },
+      {
+        "cve_id": "CVE-2025-15079",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "When doing SSH-based transfers using either SCP or SFTP, and setting the\nknown_hosts file, libcurl could still mistakenly accept connecting to hosts\n*"
+      },
+      {
+        "cve_id": "CVE-2025-10966",
+        "severity": "MEDIUM",
+        "cvss_score": 4.3,
+        "description": "curl's code for managing SSH connections when SFTP was done using the wolfSSH\npowered backend was flawed and missed host verification mechanisms.\n\nThi"
+      },
+      {
+        "cve_id": "CVE-2025-14017",
+        "severity": "MEDIUM",
+        "cvss_score": 6.3,
+        "description": "When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,\nchanging TLS options in one thread would inadvertently change them globally\nan"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-0725",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-10148",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-14819",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-14524",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-2379",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-15224",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-15079",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-10966",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-14017",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 9,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 9,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 9,
+      "upgrade_recommendation": "NO BENEFIT: None of the 9 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "diff",
+    "current_version": "5.2.0",
+    "ecosystem": "npm",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "GHSA-73rr-hh4g-fpgx",
+        "severity": "LOW",
+        "cvss_score": null,
+        "description": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch"
+      }
+    ],
+    "latest_version": "8.0.3",
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-73rr-hh4g-fpgx",
+        "severity": "LOW",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 0,
+      "unknown_status": 1,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "INVESTIGATE: 1 CVEs with unknown fix status"
+    }
+  },
+  {
+    "package": "dpkg",
+    "current_version": "1.21.22",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-6297",
+        "severity": "HIGH",
+        "cvss_score": 8.2,
+        "description": "It was discovered that dpkg-deb does not properly sanitize directory permissions when extracting a control member into a temporary directory, which is"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-6297",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "glob",
+    "current_version": "10.4.5",
+    "ecosystem": "npm",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "GHSA-5j98-mcp5-4vw2",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "description": "glob CLI: Command injection via -c/--cmd executes matches with shell:true"
+      }
+    ],
+    "latest_version": "13.0.1",
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-5j98-mcp5-4vw2",
+        "severity": "HIGH",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 0,
+      "unknown_status": 1,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "INVESTIGATE: 1 CVEs with unknown fix status"
+    }
+  },
+  {
+    "package": "gpgv",
+    "current_version": "2.2.40-1.1+deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 3,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-30258",
+        "severity": "LOW",
+        "cvss_score": 2.7,
+        "description": "In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usa"
+      },
+      {
+        "cve_id": "CVE-2025-68972",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9,
+        "description": "In GnuPG through 2.4.8, if a signed message has \\f at the end of a plaintext line, an adversary can construct a modified message that places additiona"
+      },
+      {
+        "cve_id": "CVE-2022-3219",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-30258",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-68972",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2022-3219",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 3,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 3,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 3,
+      "upgrade_recommendation": "NO BENEFIT: None of the 3 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "krb5-locales",
+    "current_version": "1.20.1-2+deb12u4",
+    "ecosystem": "debian",
+    "total_cves_current": 3,
+    "cves": [
+      {
+        "cve_id": "CVE-2018-5709",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16"
+      },
+      {
+        "cve_id": "CVE-2024-26458",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c."
+      },
+      {
+        "cve_id": "CVE-2024-26461",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2018-5709",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-26458",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-26461",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 3,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 3,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 3,
+      "upgrade_recommendation": "NO BENEFIT: None of the 3 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libaom3",
+    "current_version": "3.6.0-1+deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-6879",
+        "severity": "CRITICAL",
+        "cvss_score": 9.0,
+        "description": "Increasing the resolution of video frames, while performing a multi-threaded encode, can result in a heap overflow in av1_loop_restoration_dealloc()."
+      },
+      {
+        "cve_id": "CVE-2023-39616",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "AOMedia v3.0.0 to v3.5.0 was discovered to contain an invalid read memory access via the component assign_frame_buffer_p in av1/common/av1_common_int."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-6879",
+        "severity": "CRITICAL",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-39616",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 2,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "NO BENEFIT: None of the 2 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libc-bin",
+    "current_version": "2.36-9+deb12u13",
+    "ecosystem": "debian",
+    "total_cves_current": 10,
+    "cves": [
+      {
+        "cve_id": "CVE-2018-20796",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by "
+      },
+      {
+        "cve_id": "CVE-2019-1010025",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may guess the heap addresses of pthread_created thread. The component is: "
+      },
+      {
+        "cve_id": "CVE-2019-9192",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by "
+      },
+      {
+        "cve_id": "CVE-2025-15281",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uni"
+      },
+      {
+        "cve_id": "CVE-2019-1010024",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may bypass ASLR using cache of thread stack and heap. The component is: gl"
+      },
+      {
+        "cve_id": "CVE-2026-0915",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-va"
+      },
+      {
+        "cve_id": "CVE-2010-4756",
+        "severity": "",
+        "cvss_score": null,
+        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consu"
+      },
+      {
+        "cve_id": "CVE-2019-1010023",
+        "severity": "MEDIUM",
+        "cvss_score": 5.4,
+        "description": "GNU Libc current is affected by: Re-mapping current loaded library with malicious ELF file. The impact is: In worst case attacker may evaluate privile"
+      },
+      {
+        "cve_id": "CVE-2026-0861",
+        "severity": "HIGH",
+        "cvss_score": 8.4,
+        "description": "Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 "
+      },
+      {
+        "cve_id": "CVE-2019-1010022",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8,
+        "description": "GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may bypass stack guard protection. The component is: nptl. The attack vect"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2018-20796",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2019-1010025",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2019-9192",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-15281",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2019-1010024",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2026-0915",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2010-4756",
+        "severity": "",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2019-1010023",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2026-0861",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2019-1010022",
+        "severity": "CRITICAL",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 10,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 10,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 10,
+      "upgrade_recommendation": "NO BENEFIT: None of the 10 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libdav1d6",
+    "current_version": "1.0.0-2+deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-32570",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9,
+        "description": "VideoLAN dav1d before 1.2.0 has a thread_task.c race condition that can lead to an application crash, related to dav1d_decode_frame_exit."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-32570",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libde265-0",
+    "current_version": "1.0.11-1+deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 3,
+    "cves": [
+      {
+        "cve_id": "CVE-2024-38950",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "Heap Buffer Overflow vulnerability in Libde265 v1.0.15 allows attackers to crash the application via crafted payload to __interceptor_memcpy function."
+      },
+      {
+        "cve_id": "CVE-2024-38949",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "Heap Buffer Overflow vulnerability in Libde265 v1.0.15 allows attackers to crash the application via crafted payload to display444as420 function at sd"
+      },
+      {
+        "cve_id": "CVE-2023-51792",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "Buffer Overflow vulnerability in libde265 v1.0.12 allows a local attacker to cause a denial of service via the allocation size exceeding the maximum s"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2024-38950",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-38949",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-51792",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 3,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 3,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 3,
+      "upgrade_recommendation": "NO BENEFIT: None of the 3 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libexpat1",
+    "current_version": "2.5.0-1+deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 6,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-59375",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing."
+      },
+      {
+        "cve_id": "CVE-2024-28757",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreat"
+      },
+      {
+        "cve_id": "CVE-2025-66382",
+        "severity": "LOW",
+        "cvss_score": 2.9,
+        "description": "In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time."
+      },
+      {
+        "cve_id": "CVE-2026-25210",
+        "severity": "MEDIUM",
+        "cvss_score": 6.9,
+        "description": "In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for ta"
+      },
+      {
+        "cve_id": "CVE-2026-24515",
+        "severity": "LOW",
+        "cvss_score": 2.9,
+        "description": "In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data."
+      },
+      {
+        "cve_id": "CVE-2023-52426",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-59375",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-28757",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-66382",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2026-25210",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2026-24515",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-52426",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 6,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 6,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 6,
+      "upgrade_recommendation": "NO BENEFIT: None of the 6 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libgcrypt20",
+    "current_version": "1.10.1-3",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2018-6829",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain s"
+      },
+      {
+        "cve_id": "CVE-2024-2236",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9,
+        "description": "A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-styl"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2018-6829",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-2236",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 2,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "NO BENEFIT: None of the 2 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libgnutls30",
+    "current_version": "3.7.9-2+deb12u5",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2011-3389",
+        "severity": "",
+        "cvss_score": null,
+        "description": "The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and o"
+      },
+      {
+        "cve_id": "CVE-2025-9820",
+        "severity": "MEDIUM",
+        "cvss_score": 4.0,
+        "description": "A flaw was found in the GnuTLS library, specifically in the gnutls_pkcs11_token_init() function that handles PKCS#11 token initialization. When a toke"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2011-3389",
+        "severity": "",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-9820",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 2,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "NO BENEFIT: None of the 2 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libheif1",
+    "current_version": "1.15.1-1+deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 3,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-68431",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "libheif is an HEIF and AVIF file format decoder and encoder. Prior to version 1.21.0, a crafted HEIF that exercises the overlay image item path trigge"
+      },
+      {
+        "cve_id": "CVE-2023-49463",
+        "severity": "HIGH",
+        "cvss_score": 8.8,
+        "description": "libheif v1.17.5 was discovered to contain a segmentation violation via the function find_exif_tag at /libheif/exif.cc."
+      },
+      {
+        "cve_id": "CVE-2024-25269",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "libheif <= 1.17.6 contains a memory leak in the function JpegEncoder::Encode. This flaw allows an attacker to cause a denial of service attack."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-68431",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-49463",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-25269",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 3,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 3,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 3,
+      "upgrade_recommendation": "NO BENEFIT: None of the 3 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libjansson4",
+    "current_version": "2.14-2",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2020-36325",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An issue was discovered in Jansson through 2.13.1. Due to a parsing error in json_loads, there's an out-of-bounds read-access bug. NOTE: the vendor re"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2020-36325",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libjbig0",
+    "current_version": "2.1-6.1",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2017-9937",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "In LibTIFF 4.0.8, there is a memory malloc failure in tif_jbig.c. A crafted TIFF document can lead to an abort resulting in a remote denial of service"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2017-9937",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libldap-2.5-0",
+    "current_version": "2.5.13+dfsg-5",
+    "ecosystem": "debian",
+    "total_cves_current": 6,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-2953",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function."
+      },
+      {
+        "cve_id": "CVE-2015-3276",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which"
+      },
+      {
+        "cve_id": "CVE-2017-17740",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffe"
+      },
+      {
+        "cve_id": "CVE-2020-15719",
+        "severity": "MEDIUM",
+        "cvss_score": 4.2,
+        "description": "libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It consi"
+      },
+      {
+        "cve_id": "CVE-2017-14159",
+        "severity": "MEDIUM",
+        "cvss_score": 4.7,
+        "description": "slapd in OpenLDAP 2.4.45 and earlier creates a PID file after dropping privileges to a non-root account, which might allow local users to kill arbitra"
+      },
+      {
+        "cve_id": "CVE-2026-22185",
+        "severity": "",
+        "cvss_score": null,
+        "description": "OpenLDAP Lightning Memory-Mapped Database (LMDB) versions up to and including 0.9.14, prior to commit 8e1fda8, contain a heap buffer underflow in the "
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-2953",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2015-3276",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2017-17740",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2020-15719",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2017-14159",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2026-22185",
+        "severity": "",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 6,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 6,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 6,
+      "upgrade_recommendation": "NO BENEFIT: None of the 6 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libpam-modules",
+    "current_version": "1.5.2-6+deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2024-10041",
+        "severity": "MEDIUM",
+        "cvss_score": 4.7,
+        "description": "A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending "
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2024-10041",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libpng16-16",
+    "current_version": "1.6.39-2+deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 5,
+    "cves": [
+      {
+        "cve_id": "CVE-2026-22695",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1,
+        "description": "LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.5"
+      },
+      {
+        "cve_id": "CVE-2021-4214",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "A heap overflow flaw was found in libpngs' pngimage.c program. This flaw allows an attacker with local network access to pass a specially crafted PNG "
+      },
+      {
+        "cve_id": "CVE-2026-22801",
+        "severity": "MEDIUM",
+        "cvss_score": 6.8,
+        "description": "LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.2"
+      },
+      {
+        "cve_id": "CVE-2025-28162",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via the pngimage with AddressSanitizer (ASa"
+      },
+      {
+        "cve_id": "CVE-2025-28164",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via png_create_read_struct() function."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2026-22695",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2021-4214",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2026-22801",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-28162",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-28164",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 5,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 5,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 5,
+      "upgrade_recommendation": "NO BENEFIT: None of the 5 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libssl3",
+    "current_version": "3.0.18-1~deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-27587",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "OpenSSL 3.0.0 through 3.3.2 on the PowerPC architecture is vulnerable to a Minerva attack, exploitable by measuring the time of signing of random mess"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-27587",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libsystemd0",
+    "current_version": "252.39-1~deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 4,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-31437",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages ar"
+      },
+      {
+        "cve_id": "CVE-2023-31438",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows "
+      },
+      {
+        "cve_id": "CVE-2023-31439",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that che"
+      },
+      {
+        "cve_id": "CVE-2013-4392",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0,
+        "description": "systemd, when updating file permissions, allows local users to change the permissions and SELinux security contexts for arbitrary files via a symlink "
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-31437",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-31438",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-31439",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2013-4392",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 4,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 4,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 4,
+      "upgrade_recommendation": "NO BENEFIT: None of the 4 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libtasn1-6",
+    "current_version": "4.19.0-2+deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2025-13151",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2025-13151",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libtiff6",
+    "current_version": "4.5.0-6+deb12u3",
+    "ecosystem": "debian",
+    "total_cves_current": 15,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-52355",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "An out-of-memory flaw was found in libtiff that could be triggered by passing a crafted tiff file to the TIFFRasterScanlineSize64() API. This flaw all"
+      },
+      {
+        "cve_id": "CVE-2023-6277",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "An out-of-memory flaw was found in libtiff. Passing a crafted tiff file to TIFFOpen() API may allow a remote attacker to cause a denial of service via"
+      },
+      {
+        "cve_id": "CVE-2017-16232",
+        "severity": "HIGH",
+        "cvss_score": 7.5,
+        "description": "LibTIFF 4.0.8 has multiple memory leak vulnerabilities, which allow attackers to cause a denial of service (memory consumption), as demonstrated by ti"
+      },
+      {
+        "cve_id": "CVE-2018-10126",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "ijg-libjpeg before 9d, as used in tiff2pdf (from LibTIFF) and other products, does not check for a NULL pointer at a certain place in jpeg_fdct_16x16 "
+      },
+      {
+        "cve_id": "CVE-2024-13978",
+        "severity": "LOW",
+        "cvss_score": 2.5,
+        "description": "A vulnerability was found in LibTIFF up to 4.7.0. It has been declared as problematic. Affected by this vulnerability is the function t2p_read_tiff_in"
+      },
+      {
+        "cve_id": "CVE-2022-1210",
+        "severity": "MEDIUM",
+        "cvss_score": 4.3,
+        "description": "A vulnerability classified as problematic was found in LibTIFF 4.3.0. Affected by this vulnerability is the TIFF File Handler of tiff2ps. Opening a ma"
+      },
+      {
+        "cve_id": "CVE-2025-8961",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A weakness has been identified in LibTIFF 4.7.0. This affects the function main of the file tiffcrop.c of the component tiffcrop. Executing manipulati"
+      },
+      {
+        "cve_id": "CVE-2025-8534",
+        "severity": "LOW",
+        "cvss_score": 2.5,
+        "description": "A vulnerability classified as problematic was found in libtiff 4.6.0. This vulnerability affects the function PS_Lvl2page of the file tools/tiff2ps.c "
+      },
+      {
+        "cve_id": "CVE-2025-9165",
+        "severity": "LOW",
+        "cvss_score": 2.5,
+        "description": "A flaw has been found in LibTIFF 4.7.0. This affects the function _TIFFmallocExt/_TIFFCheckRealloc/TIFFHashSetNew/InitCCITTFax3 of the file tools/tiff"
+      },
+      {
+        "cve_id": "CVE-2023-1916",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1,
+        "description": "A flaw was found in tiffcrop, a program distributed by the libtiff package. A specially crafted tiff file can lead to an out-of-bounds read in the ext"
+      },
+      {
+        "cve_id": "CVE-2025-8851",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability was determined in LibTIFF up to 4.5.1. Affected by this issue is the function readSeparateStripsetoBuffer of the file tools/tiffcrop.c"
+      },
+      {
+        "cve_id": "CVE-2025-8177",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability was found in LibTIFF up to 4.7.0. It has been rated as critical. This issue affects the function setrow of the file tools/thumbnail.c."
+      },
+      {
+        "cve_id": "CVE-2025-8176",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3,
+        "description": "A vulnerability was found in LibTIFF up to 4.7.0. It has been declared as critical. This vulnerability affects the function get_histogram of the file "
+      },
+      {
+        "cve_id": "CVE-2023-6228",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "An issue was found in the tiffcp utility distributed by the libtiff package where a crafted TIFF file on processing may cause a heap-based buffer over"
+      },
+      {
+        "cve_id": "CVE-2023-3164",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "description": "A heap-buffer-overflow vulnerability was found in LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916 and tools/tiffcrop.c:7801. This flaw allo"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-52355",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-6277",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2017-16232",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2018-10126",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2024-13978",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2022-1210",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8961",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8534",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-9165",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-1916",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8851",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8177",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-8176",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-6228",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2023-3164",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 15,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 15,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 15,
+      "upgrade_recommendation": "NO BENEFIT: None of the 15 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "libtinfo6",
+    "current_version": "6.4-4",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-50495",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5,
+        "description": "NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry()."
+      },
+      {
+        "cve_id": "CVE-2025-6141",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A vulnerability has been found in GNU ncurses up to 6.5-20250322 and classified as problematic. This vulnerability affects the function postprocess_te"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-50495",
+        "severity": "MEDIUM",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2025-6141",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 2,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "NO BENEFIT: None of the 2 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "login",
+    "current_version": "1:4.13+dfsg1-1+deb12u2",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2024-56433",
+        "severity": "LOW",
+        "cvss_score": 3.6,
+        "description": "shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) t"
+      },
+      {
+        "cve_id": "CVE-2007-5686",
+        "severity": "",
+        "cvss_score": null,
+        "description": "initscripts in rPath Linux 1 sets insecure permissions for the /var/log/btmp file, which allows local users to obtain sensitive information regarding "
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2024-56433",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "not yet assigned",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2007-5686",
+        "severity": "",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 2,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "NO BENEFIT: None of the 2 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "nodemailer",
+    "current_version": "6.10.1",
+    "ecosystem": "npm",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "GHSA-mm7p-fcc7-pg87",
+        "severity": "MEDIUM",
+        "cvss_score": null,
+        "description": "Nodemailer: Email to an unintended domain can occur due to Interpretation Conflict"
+      },
+      {
+        "cve_id": "GHSA-rcmh-qjqh-p98v",
+        "severity": "LOW",
+        "cvss_score": null,
+        "description": "Nodemailer\u2019s addressparser is vulnerable to DoS caused by recursive calls"
+      }
+    ],
+    "latest_version": "8.0.1",
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-mm7p-fcc7-pg87",
+        "severity": "MEDIUM",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      },
+      {
+        "cve_id": "GHSA-rcmh-qjqh-p98v",
+        "severity": "LOW",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 0,
+      "unknown_status": 2,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "INVESTIGATE: 2 CVEs with unknown fix status"
+    }
+  },
+  {
+    "package": "perl-base",
+    "current_version": "5.36.0-7+deb12u3",
+    "ecosystem": "debian",
+    "total_cves_current": 2,
+    "cves": [
+      {
+        "cve_id": "CVE-2023-31486",
+        "severity": "HIGH",
+        "cvss_score": 8.1,
+        "description": "HTTP::Tiny before 0.083, a Perl core module since 5.13.9 and available standalone on CPAN, has an insecure default TLS configuration where users must "
+      },
+      {
+        "cve_id": "CVE-2011-4116",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "_is_safe in the File::Temp module for Perl does not properly handle symlinks."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2023-31486",
+        "severity": "HIGH",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      },
+      {
+        "cve_id": "CVE-2011-4116",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 2,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 2,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 2,
+      "upgrade_recommendation": "NO BENEFIT: None of the 2 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "tar",
+    "current_version": "1.34+dfsg-1.2+deb12u1",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2005-2541",
+        "severity": "",
+        "cvss_score": null,
+        "description": "Tar 1.15.1 does not properly warn the user when extracting setuid or setgid files, which may allow local users or remote attackers to gain privileges."
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2005-2541",
+        "severity": "",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "tar",
+    "current_version": "6.2.1",
+    "ecosystem": "npm",
+    "total_cves_current": 3,
+    "cves": [
+      {
+        "cve_id": "GHSA-34x7-hfp2-rc4v",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "description": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal"
+      },
+      {
+        "cve_id": "GHSA-r6q2-hw4h-h46w",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "description": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS"
+      },
+      {
+        "cve_id": "GHSA-8qq5-rm4j-mr97",
+        "severity": "HIGH",
+        "cvss_score": null,
+        "description": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization"
+      }
+    ],
+    "latest_version": "7.5.7",
+    "cve_analysis": [
+      {
+        "cve_id": "GHSA-34x7-hfp2-rc4v",
+        "severity": "HIGH",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      },
+      {
+        "cve_id": "GHSA-r6q2-hw4h-h46w",
+        "severity": "HIGH",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      },
+      {
+        "cve_id": "GHSA-8qq5-rm4j-mr97",
+        "severity": "HIGH",
+        "fixed_in_latest": null,
+        "affected_range": "unknown",
+        "fix_version": "unknown",
+        "method": "no_nvd_data",
+        "details": "NVD range: unknown"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 3,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 0,
+      "unknown_status": 3,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 3,
+      "upgrade_recommendation": "INVESTIGATE: 3 CVEs with unknown fix status"
+    }
+  },
+  {
+    "package": "unzip",
+    "current_version": "6.0-28",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2021-4217",
+        "severity": "LOW",
+        "cvss_score": 3.3,
+        "description": "A flaw was found in unzip. The vulnerability occurs due to improper handling of Unicode strings, which can lead to a null pointer dereference. This fl"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2021-4217",
+        "severity": "LOW",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  },
+  {
+    "package": "zip",
+    "current_version": "3.0-13",
+    "ecosystem": "debian",
+    "total_cves_current": 1,
+    "cves": [
+      {
+        "cve_id": "CVE-2018-13410",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8,
+        "description": "Info-ZIP Zip 3.0, when the -T and -TT command-line options are used, allows attackers to cause a denial of service (invalid free and application crash"
+      }
+    ],
+    "latest_version": "unknown",
+    "cve_analysis": [
+      {
+        "cve_id": "CVE-2018-13410",
+        "severity": "CRITICAL",
+        "fixed_in_latest": false,
+        "fix_version": "not_fixed",
+        "urgency": "unimportant",
+        "method": "debian_tracker",
+        "details": "Debian bookworm: open"
+      }
+    ],
+    "summary": {
+      "total_cves_current_version": 1,
+      "fixed_if_upgraded": 0,
+      "still_affected_if_upgraded": 1,
+      "unknown_status": 0,
+      "net_cve_reduction": 0,
+      "remaining_cves_after_upgrade": 1,
+      "upgrade_recommendation": "NO BENEFIT: None of the 1 CVEs are fixed in latest version"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-8fgc-7cc6-rx7x",
+    "aliases": [
+      "CVE-2025-68458"
+    ],
+    "severity": "LOW",
+    "summary": "webpack buildHttp: allowedUris allow-list bypass via URL userinfo (@) leading to build-time SSRF behavior"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-jrmj-c5cx-3cw6",
+    "aliases": [
+      "CVE-2026-22610"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular has XSS Vulnerability via Unsanitized SVG Script Attributes"
+  },
+  {
+    "id": "GHSA-prjf-86w9-mfqv",
+    "aliases": [
+      "CVE-2026-27970"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular i18n vulnerable to Cross-Site Scripting"
+  }
+]

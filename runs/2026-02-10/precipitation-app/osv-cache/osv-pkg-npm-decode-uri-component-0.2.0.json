@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-w573-4hg7-7wgq",
+    "aliases": [
+      "CVE-2022-38900"
+    ],
+    "severity": "HIGH",
+    "summary": "decode-uri-component vulnerable to Denial of Service (DoS)"
+  }
+]

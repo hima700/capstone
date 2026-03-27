@@ -1,0 +1,10 @@
+[
+  {
+    "id": "MAL-2022-4691",
+    "aliases": [
+      "GHSA-2jcg-qqmg-46q6"
+    ],
+    "severity": "UNKNOWN",
+    "summary": "Malicious code in monorepo-symlink-test (npm)"
+  }
+]

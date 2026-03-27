@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-2h3h-q99f-3fhc",
+    "aliases": [
+      "CVE-2021-39134"
+    ],
+    "severity": "HIGH",
+    "summary": "@npmcli/arborist vulnerable to UNIX Symbolic Link (Symlink) Following"
+  },
+  {
+    "id": "GHSA-gmw6-94gg-2rc2",
+    "aliases": [
+      "CVE-2021-39135"
+    ],
+    "severity": "HIGH",
+    "summary": "UNIX Symbolic Link (Symlink) Following in @npmcli/arborist"
+  }
+]

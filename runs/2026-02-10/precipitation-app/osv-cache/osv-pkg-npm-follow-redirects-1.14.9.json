@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-cxjh-pqwp-8mfp",
+    "aliases": [
+      "CVE-2024-28849"
+    ],
+    "severity": "MODERATE",
+    "summary": "follow-redirects' Proxy-Authorization header kept across hosts"
+  },
+  {
+    "id": "GHSA-jchw-25xp-jwwc",
+    "aliases": [
+      "CVE-2023-26159"
+    ],
+    "severity": "MODERATE",
+    "summary": "Follow Redirects improperly handles URLs in the url.parse() function"
+  }
+]

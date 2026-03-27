@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-wc69-rhjr-hc9g",
+    "aliases": [
+      "CVE-2022-31129"
+    ],
+    "severity": "HIGH",
+    "summary": "Moment.js vulnerable to Inefficient Regular Expression Complexity"
+  }
+]

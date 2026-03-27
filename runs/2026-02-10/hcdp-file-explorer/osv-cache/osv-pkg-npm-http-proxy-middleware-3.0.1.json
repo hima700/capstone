@@ -1,0 +1,29 @@
+[
+  {
+    "id": "GHSA-4www-5p9h-95mh",
+    "aliases": [
+      "CVE-2025-32996"
+    ],
+    "severity": "MODERATE",
+    "summary": "http-proxy-middleware can call writeBody twice because \"else if\" is not used",
+    "published": "2025-04-15T03:30:34Z"
+  },
+  {
+    "id": "GHSA-9gqv-wp59-fq42",
+    "aliases": [
+      "CVE-2025-32997"
+    ],
+    "severity": "MODERATE",
+    "summary": "http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed",
+    "published": "2025-04-15T03:30:34Z"
+  },
+  {
+    "id": "GHSA-c7qv-q95q-8v27",
+    "aliases": [
+      "CVE-2024-21536"
+    ],
+    "severity": "HIGH",
+    "summary": "Denial of service in http-proxy-middleware",
+    "published": "2024-10-19T06:30:30Z"
+  }
+]

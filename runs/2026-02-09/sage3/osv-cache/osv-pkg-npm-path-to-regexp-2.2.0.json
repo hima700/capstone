@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-9wv6-86v2-598j",
+    "aliases": [
+      "CVE-2024-45296"
+    ],
+    "severity": "HIGH",
+    "summary": "path-to-regexp outputs backtracking regular expressions"
+  }
+]

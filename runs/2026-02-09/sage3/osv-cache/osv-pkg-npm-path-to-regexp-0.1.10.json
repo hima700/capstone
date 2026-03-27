@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-rhx6-c78j-4q9w",
+    "aliases": [
+      "CVE-2024-52798"
+    ],
+    "severity": "HIGH",
+    "summary": "path-to-regexp contains a ReDoS"
+  }
+]

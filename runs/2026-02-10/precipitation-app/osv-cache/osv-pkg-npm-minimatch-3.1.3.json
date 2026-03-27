@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-23c5-xmqv-rm74",
+    "aliases": [
+      "CVE-2026-27904"
+    ],
+    "severity": "HIGH",
+    "summary": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions"
+  }
+]

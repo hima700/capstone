@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-cqmj-92xf-r6r9",
+    "aliases": [
+      "CVE-2023-32695"
+    ],
+    "severity": "MODERATE",
+    "summary": "Insufficient validation when decoding a Socket.IO packet"
+  },
+  {
+    "id": "GHSA-qm95-pgcg-qqfq",
+    "aliases": [
+      "CVE-2022-2421"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Insufficient validation when decoding a Socket.IO packet"
+  },
+  {
+    "id": "GHSA-xfhh-g9f5-x4m4",
+    "aliases": [
+      "CVE-2020-36049"
+    ],
+    "severity": "HIGH",
+    "summary": "Resource exhaustion in socket.io-parser"
+  }
+]

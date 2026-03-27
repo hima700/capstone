@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-wgrm-67xf-hhpq",
+    "aliases": [
+      "CVE-2024-4367"
+    ],
+    "severity": "HIGH",
+    "summary": "PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF"
+  }
+]

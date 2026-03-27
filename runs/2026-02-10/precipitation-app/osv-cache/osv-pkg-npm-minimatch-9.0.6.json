@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-23c5-xmqv-rm74",
+    "aliases": [
+      "CVE-2026-27904"
+    ],
+    "severity": "HIGH",
+    "summary": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions"
+  },
+  {
+    "id": "GHSA-7r86-cg39-jmmj",
+    "aliases": [
+      "CVE-2026-27903"
+    ],
+    "severity": "HIGH",
+    "summary": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments"
+  }
+]

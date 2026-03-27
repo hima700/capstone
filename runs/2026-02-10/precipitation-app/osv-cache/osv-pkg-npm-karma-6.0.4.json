@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-7x7c-qm48-pq9c",
+    "aliases": [
+      "CVE-2022-0437"
+    ],
+    "severity": "MODERATE",
+    "summary": "Cross-site Scripting in karma"
+  },
+  {
+    "id": "GHSA-rc3x-jf5g-xvc5",
+    "aliases": [
+      "CVE-2021-23495"
+    ],
+    "severity": "MODERATE",
+    "summary": "Open redirect in karma"
+  }
+]

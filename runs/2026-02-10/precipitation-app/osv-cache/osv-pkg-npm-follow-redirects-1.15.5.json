@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-cxjh-pqwp-8mfp",
+    "aliases": [
+      "CVE-2024-28849"
+    ],
+    "severity": "MODERATE",
+    "summary": "follow-redirects' Proxy-Authorization header kept across hosts"
+  }
+]

@@ -1,0 +1,7 @@
+BASE_IMAGE	nodemailer	6.10.1	pkg:npm/nodemailer@6.10.1
+BASE_IMAGE	glob	10.4.5	pkg:npm/glob@10.4.5
+BASE_IMAGE	tar	6.2.1	pkg:npm/tar@6.2.1
+BASE_IMAGE	tar	7.4.3	pkg:npm/tar@7.4.3
+BASE_IMAGE	tar	7.4.3	pkg:npm/tar@7.4.3
+BASE_IMAGE	diff	5.2.0	pkg:npm/diff@5.2.0
+BASE_IMAGE	npm	10.9.4	pkg:npm/npm@10.9.4

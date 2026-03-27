@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-p9pc-299p-vxgp",
+    "aliases": [
+      "CVE-2020-7608"
+    ],
+    "severity": "MODERATE",
+    "summary": "yargs-parser Vulnerable to Prototype Pollution"
+  }
+]

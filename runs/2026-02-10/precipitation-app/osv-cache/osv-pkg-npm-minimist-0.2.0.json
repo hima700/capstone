@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-vh95-rmgr-6w4m",
+    "aliases": [
+      "CVE-2020-7598"
+    ],
+    "severity": "MODERATE",
+    "summary": "Prototype Pollution in minimist"
+  },
+  {
+    "id": "GHSA-xvch-5gv4-984h",
+    "aliases": [
+      "CVE-2021-44906"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Prototype Pollution in minimist"
+  }
+]

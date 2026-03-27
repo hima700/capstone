@@ -1,0 +1,20 @@
+[
+  {
+    "id": "GHSA-9ppj-qmqm-q256",
+    "aliases": [
+      "CVE-2026-31802"
+    ],
+    "severity": "HIGH",
+    "summary": "node-tar Symlink Path Traversal via Drive-Relative Linkpath",
+    "published": "2026-03-10T23:44:58Z"
+  },
+  {
+    "id": "GHSA-qffp-2rhf-9h96",
+    "aliases": [
+      "CVE-2026-29786"
+    ],
+    "severity": "HIGH",
+    "summary": "tar has Hardlink Path Traversal via Drive-Relative Linkpath",
+    "published": "2026-03-05T00:52:32Z"
+  }
+]

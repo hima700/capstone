@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-wr3j-pwj9-hqq6",
+    "aliases": [
+      "CVE-2024-29180"
+    ],
+    "severity": "HIGH",
+    "summary": "Path traversal in webpack-dev-middleware"
+  }
+]

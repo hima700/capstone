@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-4r6h-8v6p-xvw6",
+    "aliases": [
+      "CVE-2023-30533"
+    ],
+    "severity": "HIGH",
+    "summary": "Prototype Pollution in sheetJS"
+  },
+  {
+    "id": "GHSA-5pgg-2g8v-p4x9",
+    "aliases": [
+      "CVE-2024-22363"
+    ],
+    "severity": "HIGH",
+    "summary": "SheetJS Regular Expression Denial of Service (ReDoS)"
+  }
+]

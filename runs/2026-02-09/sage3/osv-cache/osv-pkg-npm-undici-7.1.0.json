@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-c76h-2ccp-4975",
+    "aliases": [
+      "CVE-2025-22150"
+    ],
+    "severity": "MODERATE",
+    "summary": "Use of Insufficiently Random Values in undici"
+  },
+  {
+    "id": "GHSA-cxrh-j4jr-qwg3",
+    "aliases": [
+      "CVE-2025-47279"
+    ],
+    "severity": "LOW",
+    "summary": "undici Denial of Service attack via bad certificate data"
+  },
+  {
+    "id": "GHSA-g9mf-h72j-4rw9",
+    "aliases": [
+      "CVE-2026-22036"
+    ],
+    "severity": "MODERATE",
+    "summary": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resourc"
+  }
+]

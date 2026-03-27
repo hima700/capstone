@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-3xgq-45jj-v275",
+    "aliases": [
+      "CVE-2024-21538"
+    ],
+    "severity": "HIGH",
+    "summary": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+  }
+]

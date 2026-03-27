@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-968p-4wvh-cqc8",
+    "aliases": [
+      "CVE-2025-27789"
+    ],
+    "severity": "MODERATE",
+    "summary": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups"
+  }
+]

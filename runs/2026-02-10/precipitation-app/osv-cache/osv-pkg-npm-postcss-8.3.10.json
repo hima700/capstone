@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-7fh5-64p2-3v2j",
+    "aliases": [
+      "CVE-2023-44270"
+    ],
+    "severity": "MODERATE",
+    "summary": "PostCSS line return parsing error"
+  }
+]

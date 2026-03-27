@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-rcmh-qjqh-p98v",
+    "aliases": [
+      "CVE-2025-14874"
+    ],
+    "severity": "HIGH",
+    "summary": "Nodemailer\u2019s addressparser is vulnerable to DoS caused by recursive calls"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-82v2-mx6x-wq7q",
+    "aliases": [
+      "CVE-2022-21704"
+    ],
+    "severity": "MODERATE",
+    "summary": "Incorrect Default Permissions in log4js"
+  }
+]

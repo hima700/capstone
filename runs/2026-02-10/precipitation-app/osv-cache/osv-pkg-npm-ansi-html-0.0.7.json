@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-whgm-jr23-g3j9",
+    "aliases": [
+      "CVE-2021-23424"
+    ],
+    "severity": "HIGH",
+    "summary": "Uncontrolled Resource Consumption in ansi-html"
+  }
+]

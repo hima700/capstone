@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-xvch-5gv4-984h",
+    "aliases": [
+      "CVE-2021-44906"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Prototype Pollution in minimist"
+  }
+]

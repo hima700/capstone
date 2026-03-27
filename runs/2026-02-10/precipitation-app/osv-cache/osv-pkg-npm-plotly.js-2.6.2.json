@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-wjc4-73q6-gv3m",
+    "aliases": [
+      "CVE-2023-46308"
+    ],
+    "severity": "CRITICAL",
+    "summary": "plotly.js prototype pollution vulnerability"
+  }
+]

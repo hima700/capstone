@@ -1,0 +1,3803 @@
+[
+  {
+    "cve_id": "GHSA-wgrm-67xf-hhpq",
+    "package_name": "pdfjs-dist",
+    "package_version": "3.11.174",
+    "package_purl": "pkg:npm/pdfjs-dist@3.11.174",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-wgrm-67xf-hhpq",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.4.624",
+      "total_versions": 1558,
+      "recent_versions": [
+        "5.4.296",
+        "5.4.394",
+        "5.4.449",
+        "5.4.530",
+        "5.4.624"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "3.11.174",
+      "latest_version": "5.4.624",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 3.11.174 to 5.4.624",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.4.624 available. Verify CVE is fixed in 5.4.624 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-76p3-8jx3-jpfq",
+    "package_name": "loader-utils",
+    "package_version": "1.2.3",
+    "package_purl": "pkg:npm/loader-utils@1.2.3",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "Prototype pollution in webpack loader-utils",
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-76p3-8jx3-jpfq",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.3.1",
+      "total_versions": 50,
+      "recent_versions": [
+        "2.0.4",
+        "1.4.2",
+        "3.2.2",
+        "3.3.0",
+        "3.3.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.2.3",
+      "latest_version": "3.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.2.3 to 3.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-4r6h-8v6p-xvw6",
+    "package_name": "xlsx",
+    "package_version": "0.18.5",
+    "package_purl": "pkg:npm/xlsx@0.18.5",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Prototype Pollution in sheetJS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4r6h-8v6p-xvw6",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.18.5",
+      "total_versions": 108,
+      "recent_versions": [
+        "0.18.1",
+        "0.18.2",
+        "0.18.3",
+        "0.18.4",
+        "0.18.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.18.5",
+      "latest_version": "0.18.5",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-hhq3-ff78-jv3g",
+    "package_name": "loader-utils",
+    "package_version": "1.2.3",
+    "package_purl": "pkg:npm/loader-utils@1.2.3",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-hhq3-ff78-jv3g",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.3.1",
+      "total_versions": 50,
+      "recent_versions": [
+        "2.0.4",
+        "1.4.2",
+        "3.2.2",
+        "3.3.0",
+        "3.3.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.2.3",
+      "latest_version": "3.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.2.3 to 3.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-qwcr-r2fm-qrc7",
+    "package_name": "body-parser",
+    "package_version": "1.20.2",
+    "package_purl": "pkg:npm/body-parser@1.20.2",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "body-parser vulnerable to denial of service when url encoding is enabled",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-qwcr-r2fm-qrc7",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "2.2.2",
+      "total_versions": 81,
+      "recent_versions": [
+        "2.1.0",
+        "2.2.0",
+        "2.2.1",
+        "1.20.4",
+        "2.2.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.20.2",
+      "latest_version": "2.2.2",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.20.2 to 2.2.2",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 2.2.2 available. Verify CVE is fixed in 2.2.2 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-gcx4-mw62-g8wm",
+    "package_name": "rollup",
+    "package_version": "2.79.1",
+    "package_purl": "pkg:npm/rollup@2.79.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-gcx4-mw62-g8wm",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.57.1",
+      "total_versions": 924,
+      "recent_versions": [
+        "4.55.2",
+        "4.55.3",
+        "4.56.0",
+        "4.57.0",
+        "4.57.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "2.79.1",
+      "latest_version": "4.57.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 2.79.1 to 4.57.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.57.1 available. Verify CVE is fixed in 4.57.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-3rfm-jhwj-7488",
+    "package_name": "loader-utils",
+    "package_version": "1.2.3",
+    "package_purl": "pkg:npm/loader-utils@1.2.3",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-3rfm-jhwj-7488",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.3.1",
+      "total_versions": 50,
+      "recent_versions": [
+        "2.0.4",
+        "1.4.2",
+        "3.2.2",
+        "3.3.0",
+        "3.3.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.2.3",
+      "latest_version": "3.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.2.3 to 3.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-c2qf-rxjj-qqgw",
+    "package_name": "semver",
+    "package_version": "7.3.4",
+    "package_purl": "pkg:npm/semver@7.3.4",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "semver vulnerable to Regular Expression Denial of Service",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.7.4",
+      "total_versions": 113,
+      "recent_versions": [
+        "7.7.0",
+        "7.7.1",
+        "7.7.2",
+        "7.7.3",
+        "7.7.4"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "7.3.4",
+      "latest_version": "7.7.4",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 7.3.4 to 7.7.4",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.7.4 available. Verify CVE is fixed in 7.7.4 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-cm22-4g7w-348p",
+    "package_name": "serve-static",
+    "package_version": "1.15.0",
+    "package_purl": "pkg:npm/serve-static@1.15.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "serve-static vulnerable to template injection that can lead to XSS",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-cm22-4g7w-348p",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "2.2.1",
+      "total_versions": 69,
+      "recent_versions": [
+        "1.16.1",
+        "1.16.2",
+        "2.2.0",
+        "1.16.3",
+        "2.2.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.15.0",
+      "latest_version": "2.2.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.15.0 to 2.2.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-c7qv-q95q-8v27",
+    "package_name": "http-proxy-middleware",
+    "package_version": "2.0.6",
+    "package_purl": "pkg:npm/http-proxy-middleware@2.0.6",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Denial of service in http-proxy-middleware",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-c7qv-q95q-8v27",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.0.5",
+      "total_versions": 92,
+      "recent_versions": [
+        "3.0.3",
+        "2.0.8",
+        "3.0.4",
+        "2.0.9",
+        "3.0.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "2.0.6",
+      "latest_version": "3.0.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 2.0.6 to 3.0.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-fjxv-7rqg-78g4",
+    "package_name": "form-data",
+    "package_version": "4.0.0",
+    "package_purl": "pkg:npm/form-data@4.0.0",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "form-data uses unsafe random function in form-data for choosing boundary",
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-fjxv-7rqg-78g4",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.0.5",
+      "total_versions": 50,
+      "recent_versions": [
+        "4.0.4",
+        "3.0.4",
+        "2.5.4",
+        "2.5.5",
+        "4.0.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.0.0",
+      "latest_version": "4.0.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.0.0 to 4.0.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.0.5 available. Verify CVE is fixed in 4.0.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-6rw7-vpxm-498p",
+    "package_name": "qs",
+    "package_version": "6.11.0",
+    "package_purl": "pkg:npm/qs@6.11.0",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-6rw7-vpxm-498p",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "6.14.1",
+      "total_versions": 116,
+      "recent_versions": [
+        "6.12.3",
+        "6.13.0",
+        "6.13.1",
+        "6.14.0",
+        "6.14.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.11.0",
+      "latest_version": "6.14.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.11.0 to 6.14.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 6.14.1 available. Verify CVE is fixed in 6.14.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-rhx6-c78j-4q9w",
+    "package_name": "path-to-regexp",
+    "package_version": "0.1.7",
+    "package_purl": "pkg:npm/path-to-regexp@0.1.7",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "path-to-regexp contains a ReDoS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-rhx6-c78j-4q9w",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "8.3.0",
+      "total_versions": 69,
+      "recent_versions": [
+        "6.3.0",
+        "0.1.11",
+        "8.2.0",
+        "0.1.12",
+        "8.3.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.1.7",
+      "latest_version": "8.3.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.1.7 to 8.3.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-554w-wpv2-vw27",
+    "package_name": "node-forge",
+    "package_version": "1.3.1",
+    "package_purl": "pkg:npm/node-forge@1.3.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-forge has ASN.1 Unbounded Recursion",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-554w-wpv2-vw27",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.3.3",
+      "total_versions": 133,
+      "recent_versions": [
+        "1.2.1",
+        "1.3.0",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.3.1",
+      "latest_version": "1.3.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.3.1 to 1.3.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-4www-5p9h-95mh",
+    "package_name": "http-proxy-middleware",
+    "package_version": "2.0.6",
+    "package_purl": "pkg:npm/http-proxy-middleware@2.0.6",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "http-proxy-middleware can call writeBody twice because \"else if\" is not used",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4www-5p9h-95mh",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.0.5",
+      "total_versions": 92,
+      "recent_versions": [
+        "3.0.3",
+        "2.0.8",
+        "3.0.4",
+        "2.0.9",
+        "3.0.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "2.0.6",
+      "latest_version": "3.0.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 2.0.6 to 3.0.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-968p-4wvh-cqc8",
+    "package_name": "@babel/helpers",
+    "package_version": "7.25.6",
+    "package_purl": "pkg:npm/%40babel/helpers@7.25.6",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-968p-4wvh-cqc8",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.28.6",
+      "total_versions": 170,
+      "recent_versions": [
+        "8.0.0-beta.2",
+        "8.0.0-beta.3",
+        "8.0.0-beta.4",
+        "7.28.6",
+        "8.0.0-rc.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "7.25.6",
+      "latest_version": "7.28.6",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 7.25.6 to 7.28.6",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.28.6 available. Verify CVE is fixed in 7.28.6 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-5pgg-2g8v-p4x9",
+    "package_name": "xlsx",
+    "package_version": "0.18.5",
+    "package_purl": "pkg:npm/xlsx@0.18.5",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "SheetJS Regular Expression Denial of Service (ReDoS)",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-5pgg-2g8v-p4x9",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.18.5",
+      "total_versions": 108,
+      "recent_versions": [
+        "0.18.1",
+        "0.18.2",
+        "0.18.3",
+        "0.18.4",
+        "0.18.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.18.5",
+      "latest_version": "0.18.5",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-c76h-2ccp-4975",
+    "package_name": "undici",
+    "package_version": "6.19.8",
+    "package_purl": "pkg:npm/undici@6.19.8",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Use of Insufficiently Random Values in undici",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-c76h-2ccp-4975",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.21.0",
+      "total_versions": 261,
+      "recent_versions": [
+        "7.19.0",
+        "7.19.1",
+        "7.19.2",
+        "7.20.0",
+        "7.21.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.19.8",
+      "latest_version": "7.21.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.19.8 to 7.21.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-4hjh-wcwx-xvwj",
+    "package_name": "axios",
+    "package_version": "1.7.7",
+    "package_purl": "pkg:npm/axios@1.7.7",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Axios is vulnerable to DoS attack through lack of data size check",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4hjh-wcwx-xvwj",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.13.5",
+      "total_versions": 127,
+      "recent_versions": [
+        "1.13.1",
+        "1.13.2",
+        "1.13.3",
+        "1.13.4",
+        "1.13.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.7.7",
+      "latest_version": "1.13.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.7.7 to 1.13.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-m6fv-jmcg-4jfg",
+    "package_name": "send",
+    "package_version": "0.18.0",
+    "package_purl": "pkg:npm/send@0.18.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "send vulnerable to template injection that can lead to XSS",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-m6fv-jmcg-4jfg",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.2.1",
+      "total_versions": 69,
+      "recent_versions": [
+        "1.1.0",
+        "0.19.1",
+        "1.2.0",
+        "0.19.2",
+        "1.2.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.18.0",
+      "latest_version": "1.2.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.18.0 to 1.2.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.2.1 available. Verify CVE is fixed in 1.2.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-mwcw-c2x4-8c55",
+    "package_name": "nanoid",
+    "package_version": "3.3.7",
+    "package_purl": "pkg:npm/nanoid@3.3.7",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Predictable results in nanoid generation when given non-integer values",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-mwcw-c2x4-8c55",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.1.6",
+      "total_versions": 113,
+      "recent_versions": [
+        "3.3.10",
+        "5.1.4",
+        "3.3.11",
+        "5.1.5",
+        "5.1.6"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "3.3.7",
+      "latest_version": "5.1.6",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 3.3.7 to 5.1.6",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.1.6 available. Verify CVE is fixed in 5.1.6 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-3xgq-45jj-v275",
+    "package_name": "cross-spawn",
+    "package_version": "7.0.3",
+    "package_purl": "pkg:npm/cross-spawn@7.0.3",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-3xgq-45jj-v275",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.0.6",
+      "total_versions": 58,
+      "recent_versions": [
+        "7.0.3",
+        "7.0.4",
+        "7.0.5",
+        "7.0.6",
+        "6.0.6"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "7.0.3",
+      "latest_version": "7.0.6",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 7.0.3 to 7.0.6",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.0.6 available. Verify CVE is fixed in 7.0.6 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-9wv6-86v2-598j",
+    "package_name": "path-to-regexp",
+    "package_version": "0.1.7",
+    "package_purl": "pkg:npm/path-to-regexp@0.1.7",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "path-to-regexp outputs backtracking regular expressions",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9wv6-86v2-598j",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "8.3.0",
+      "total_versions": 69,
+      "recent_versions": [
+        "6.3.0",
+        "0.1.11",
+        "8.2.0",
+        "0.1.12",
+        "8.3.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.1.7",
+      "latest_version": "8.3.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.1.7 to 8.3.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-jr5f-v2jv-69x6",
+    "package_name": "axios",
+    "package_version": "1.7.7",
+    "package_purl": "pkg:npm/axios@1.7.7",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-jr5f-v2jv-69x6",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.13.5",
+      "total_versions": 127,
+      "recent_versions": [
+        "1.13.1",
+        "1.13.2",
+        "1.13.3",
+        "1.13.4",
+        "1.13.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.7.7",
+      "latest_version": "1.13.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.7.7 to 1.13.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-5gfm-wpxj-wjgq",
+    "package_name": "node-forge",
+    "package_version": "1.3.1",
+    "package_purl": "pkg:npm/node-forge@1.3.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-5gfm-wpxj-wjgq",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.3.3",
+      "total_versions": 133,
+      "recent_versions": [
+        "1.2.1",
+        "1.3.0",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.3.1",
+      "latest_version": "1.3.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.3.1 to 1.3.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-829q-m3qg-ph8r",
+    "package_name": "vega-selections",
+    "package_version": "6.1.0",
+    "package_purl": "pkg:npm/vega-selections@6.1.0",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Vega XSS via expression abusing vlSelectionTuples function array map calls in environments with satisfactory function gadgets in the global scope",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-829q-m3qg-ph8r",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "6.1.2",
+      "total_versions": 23,
+      "recent_versions": [
+        "5.6.1",
+        "6.1.1",
+        "5.6.2",
+        "5.6.3",
+        "6.1.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.1.0",
+      "latest_version": "6.1.2",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.1.0 to 6.1.2",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 6.1.2 available. Verify CVE is fixed in 6.1.2 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-pxg6-pf52-xh8x",
+    "package_name": "cookie",
+    "package_version": "0.6.0",
+    "package_purl": "pkg:npm/cookie@0.6.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "cookie accepts cookie name, path, and domain with out of bounds characters",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-pxg6-pf52-xh8x",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.1.1",
+      "total_versions": 33,
+      "recent_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.1.0",
+        "1.1.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.6.0",
+      "latest_version": "1.1.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.6.0 to 1.1.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.1.1 available. Verify CVE is fixed in 1.1.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-7f2v-3qq3-vvjf",
+    "package_name": "vega-interpreter",
+    "package_version": "1.0.5",
+    "package_purl": "pkg:npm/vega-interpreter@1.0.5",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Vega Cross-Site Scripting (XSS) via expressions abusing toString calls in environments using the VEGA_DEBUG global variable",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-7f2v-3qq3-vvjf",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "2.2.1",
+      "total_versions": 13,
+      "recent_versions": [
+        "2.0.0",
+        "2.1.0",
+        "2.2.0",
+        "2.2.1",
+        "1.2.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.0.5",
+      "latest_version": "2.2.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.0.5 to 2.2.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-qw6h-vgh9-j6wx",
+    "package_name": "express",
+    "package_version": "4.19.2",
+    "package_purl": "pkg:npm/express@4.19.2",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "express vulnerable to XSS via response.redirect()",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-qw6h-vgh9-j6wx",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.1",
+      "total_versions": 287,
+      "recent_versions": [
+        "5.1.0",
+        "4.22.0",
+        "5.2.0",
+        "5.2.1",
+        "4.22.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.19.2",
+      "latest_version": "5.2.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.19.2 to 5.2.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.2.1 available. Verify CVE is fixed in 5.2.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-9gqv-wp59-fq42",
+    "package_name": "http-proxy-middleware",
+    "package_version": "2.0.6",
+    "package_purl": "pkg:npm/http-proxy-middleware@2.0.6",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9gqv-wp59-fq42",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.0.5",
+      "total_versions": 92,
+      "recent_versions": [
+        "3.0.3",
+        "2.0.8",
+        "3.0.4",
+        "2.0.9",
+        "3.0.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "2.0.6",
+      "latest_version": "3.0.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 2.0.6 to 3.0.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-xxjr-mmjv-4gpg",
+    "package_name": "lodash",
+    "package_version": "4.17.21",
+    "package_purl": "pkg:npm/lodash@4.17.21",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.17.23",
+      "total_versions": 115,
+      "recent_versions": [
+        "4.17.18",
+        "4.17.19",
+        "4.17.20",
+        "4.17.21",
+        "4.17.23"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.17.21",
+      "latest_version": "4.17.23",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.17.21 to 4.17.23",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-60876",
+    "package_name": "busybox",
+    "package_version": "1.37.0-r30",
+    "package_purl": "pkg:apk/alpine/busybox@1.37.0-r30?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be injected. To preserve the HTTP/1.1 request-line shape METHOD SP request-target SP HTTP/1.1, a raw space (0x20) in the request-target must also be rejected (clients should use %20).",
+      "cvss_v3_score": 6.5,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe_ids": [
+        "CWE-284"
+      ],
+      "references": [
+        {
+          "url": "https://gist.github.com/subyumatest/41554af6a72aedaacaec026adc311092",
+          "source": "cve@mitre.org"
+        },
+        {
+          "url": "https://lists.busybox.net/pipermail/busybox/attachments/20250823/ccdc96ef/attachment-0001.htm",
+          "source": "cve@mitre.org"
+        },
+        {
+          "url": "https://lists.busybox.net/pipermail/busybox/attachments/20250828/e7f90492/attachment.htm",
+          "source": "cve@mitre.org"
+        }
+      ],
+      "published": "2025-11-10T20:15:48.683",
+      "last_modified": "2025-12-31T18:29:41.550"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "1.37.0-r30",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-4v9v-hfq4-rm2v",
+    "package_name": "webpack-dev-server",
+    "package_version": "4.15.2",
+    "package_purl": "pkg:npm/webpack-dev-server@4.15.2",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4v9v-hfq4-rm2v",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.3",
+      "total_versions": 222,
+      "recent_versions": [
+        "5.1.0",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.15.2",
+      "latest_version": "5.2.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.15.2 to 5.2.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-5j98-mcp5-4vw2",
+    "package_name": "glob",
+    "package_version": "10.4.5",
+    "package_purl": "pkg:npm/glob@10.4.5",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "glob CLI: Command injection via -c/--cmd executes matches with shell:true",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-5j98-mcp5-4vw2",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "13.0.1",
+      "total_versions": 163,
+      "recent_versions": [
+        "11.1.0",
+        "12.0.0",
+        "10.5.0",
+        "13.0.0",
+        "13.0.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "10.4.5",
+      "latest_version": "13.0.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 10.4.5 to 13.0.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 13.0.1 available. Verify CVE is fixed in 13.0.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-37769",
+    "package_name": "pixman",
+    "package_version": "0.46.4-r0",
+    "package_purl": "pkg:apk/alpine/pixman@0.46.4-r0?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "stress-test master commit e4c878 was discovered to contain a FPE vulnerability via the component combine_inner at /pixman-combine-float.c.",
+      "cvss_v3_score": 6.5,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-369"
+      ],
+      "references": [
+        {
+          "url": "https://gitlab.freedesktop.org/pixman/pixman/-/issues/76",
+          "source": "cve@mitre.org"
+        },
+        {
+          "url": "https://gitlab.freedesktop.org/pixman/pixman/-/issues/76",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2023-07-17T20:15:13.547",
+      "last_modified": "2024-11-21T08:12:14.547"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "0.46.4-r0",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-m9rg-mr6g-75gm",
+    "package_name": "vega-functions",
+    "package_version": "6.1.0",
+    "package_purl": "pkg:npm/vega-functions@6.1.0",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "`vega-functions` vulnerable to Cross-site Scripting via `setdata` function",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-m9rg-mr6g-75gm",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "6.1.1",
+      "total_versions": 35,
+      "recent_versions": [
+        "5.18.0",
+        "6.0.0",
+        "6.1.0",
+        "5.18.1",
+        "6.1.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.1.0",
+      "latest_version": "6.1.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.1.0 to 6.1.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 6.1.1 available. Verify CVE is fixed in 6.1.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-cxrh-j4jr-qwg3",
+    "package_name": "undici",
+    "package_version": "6.19.8",
+    "package_purl": "pkg:npm/undici@6.19.8",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "undici Denial of Service attack via bad certificate data",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-cxrh-j4jr-qwg3",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.21.0",
+      "total_versions": 261,
+      "recent_versions": [
+        "7.19.0",
+        "7.19.1",
+        "7.19.2",
+        "7.20.0",
+        "7.21.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.19.8",
+      "latest_version": "7.21.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.19.8 to 7.21.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-65ch-62r8-g69g",
+    "package_name": "node-forge",
+    "package_version": "1.3.1",
+    "package_purl": "pkg:npm/node-forge@1.3.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "node-forge is vulnerable to ASN.1 OID Integer Truncation",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-65ch-62r8-g69g",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.3.3",
+      "total_versions": 133,
+      "recent_versions": [
+        "1.2.1",
+        "1.3.0",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.3.1",
+      "latest_version": "1.3.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.3.1 to 1.3.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-52f5-9888-hmc6",
+    "package_name": "tmp",
+    "package_version": "0.0.33",
+    "package_purl": "pkg:npm/tmp@0.0.33",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-52f5-9888-hmc6",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.2.5",
+      "total_versions": 38,
+      "recent_versions": [
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.0.33",
+      "latest_version": "0.2.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.0.33 to 0.2.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 0.2.5 available. Verify CVE is fixed in 0.2.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-14819",
+    "package_name": "curl",
+    "package_version": "8.17.0-r1",
+    "package_purl": "pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When doing TLS related transfers with reused easy or multi handles and\naltering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally\nreuse a CA store cached in memory for which the partial chain option was\nreversed. Contrary to the user's wishes and expectations. This could make\nlibcurl find and accept a trust chain that it otherwise would not.",
+      "cvss_v3_score": 5.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cwe_ids": [
+        "CWE-295"
+      ],
+      "references": [
+        {
+          "url": "https://curl.se/docs/CVE-2025-14819.html",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://curl.se/docs/CVE-2025-14819.json",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2026/01/07/5",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2026-01-08T10:15:46.730",
+      "last_modified": "2026-01-20T14:51:26.263"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "8.17.0-r1",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-34x7-hfp2-rc4v",
+    "package_name": "tar",
+    "package_version": "6.2.1",
+    "package_purl": "pkg:npm/tar@6.2.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-34x7-hfp2-rc4v",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.7",
+      "total_versions": 138,
+      "recent_versions": [
+        "7.5.3",
+        "7.5.4",
+        "7.5.5",
+        "7.5.6",
+        "7.5.7"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.2.1",
+      "latest_version": "7.5.7",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.2.1 to 7.5.7",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-9jgg-88mc-972h",
+    "package_name": "webpack-dev-server",
+    "package_version": "4.15.2",
+    "package_purl": "pkg:npm/webpack-dev-server@4.15.2",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9jgg-88mc-972h",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.3",
+      "total_versions": 222,
+      "recent_versions": [
+        "5.1.0",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.15.2",
+      "latest_version": "5.2.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.15.2 to 5.2.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-9jcx-v3wj-wh4m",
+    "package_name": "react-router",
+    "package_version": "6.30.1",
+    "package_purl": "pkg:npm/react-router@6.30.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "React Router has unexpected external redirect via untrusted paths",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9jcx-v3wj-wh4m",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.13.0",
+      "total_versions": 1114,
+      "recent_versions": [
+        "0.0.0-experimental-f887449bb",
+        "0.0.0-nightly-7ca70609b-20260129",
+        "0.0.0-nightly-b643537e8-20260130",
+        "0.0.0-nightly-6d4e212a9-20260204",
+        "0.0.0-nightly-3f168fb75-20260206"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.30.1",
+      "latest_version": "7.13.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.30.1 to 7.13.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.13.0 available. Verify CVE is fixed in 7.13.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-15224",
+    "package_name": "curl",
+    "package_version": "8.17.0-r1",
+    "package_purl": "pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "When doing SSH-based transfers using either SCP or SFTP, and asked to do\npublic key authentication, curl would wrongly still ask and authenticate using\na locally running SSH agent.",
+      "cvss_v3_score": 3.1,
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "cwe_ids": [
+        "CWE-287"
+      ],
+      "references": [
+        {
+          "url": "https://curl.se/docs/CVE-2025-15224.html",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://curl.se/docs/CVE-2025-15224.json",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://hackerone.com/reports/3480925",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2026/01/07/7",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2026-01-08T10:15:47.207",
+      "last_modified": "2026-01-20T14:47:52.710"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "8.17.0-r1",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-73rr-hh4g-fpgx",
+    "package_name": "diff",
+    "package_version": "4.0.2",
+    "package_purl": "pkg:npm/diff@4.0.2",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-73rr-hh4g-fpgx",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "8.0.3",
+      "total_versions": 54,
+      "recent_versions": [
+        "5.2.1",
+        "5.2.2",
+        "4.0.3",
+        "4.0.4",
+        "3.5.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.0.2",
+      "latest_version": "8.0.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.0.2 to 8.0.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 8.0.3 available. Verify CVE is fixed in 8.0.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-r6q2-hw4h-h46w",
+    "package_name": "tar",
+    "package_version": "6.2.1",
+    "package_purl": "pkg:npm/tar@6.2.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-r6q2-hw4h-h46w",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.7",
+      "total_versions": 138,
+      "recent_versions": [
+        "7.5.3",
+        "7.5.4",
+        "7.5.5",
+        "7.5.6",
+        "7.5.7"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.2.1",
+      "latest_version": "7.5.7",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.2.1 to 7.5.7",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-13034",
+    "package_name": "curl",
+    "package_version": "8.17.0-r1",
+    "package_purl": "pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedpubkey`\nwith the curl tool,curl should check the public key of the server certificate\nto verify the peer.\n\nThis check was skipped in a certain condition that would then make curl allow\nthe connection without performing the proper check, thus not noticing a\npossible impostor. To skip this check, the connection had to be done with QUIC\nwith ngtcp2 built to use GnuTLS and the user had to explicitly disable the\nstandard certificate verification.",
+      "cvss_v3_score": 5.9,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe_ids": [
+        "CWE-295"
+      ],
+      "references": [
+        {
+          "url": "https://curl.se/docs/CVE-2025-13034.html",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://curl.se/docs/CVE-2025-13034.json",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        }
+      ],
+      "published": "2026-01-08T10:15:45.407",
+      "last_modified": "2026-01-20T14:54:02.730"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "8.17.0-r1",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-14524",
+    "package_name": "curl",
+    "package_version": "8.17.0-r1",
+    "package_purl": "pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer\nperforms a cross-protocol redirect to a second URL that uses an IMAP, LDAP,\nPOP3 or SMTP scheme, curl might wrongly pass on the bearer token to the new\ntarget host.",
+      "cvss_v3_score": 5.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cwe_ids": [
+        "CWE-601"
+      ],
+      "references": [
+        {
+          "url": "https://curl.se/docs/CVE-2025-14524.html",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://curl.se/docs/CVE-2025-14524.json",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://hackerone.com/reports/3459417",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2026/01/07/4",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2026-01-08T10:15:46.607",
+      "last_modified": "2026-01-20T14:53:11.017"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "8.17.0-r1",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-15079",
+    "package_name": "curl",
+    "package_version": "8.17.0-r1",
+    "package_purl": "pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When doing SSH-based transfers using either SCP or SFTP, and setting the\nknown_hosts file, libcurl could still mistakenly accept connecting to hosts\n*not present* in the specified file if they were added as recognized in the\nlibssh *global* known_hosts file.",
+      "cvss_v3_score": 5.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cwe_ids": [
+        "CWE-297"
+      ],
+      "references": [
+        {
+          "url": "https://curl.se/docs/CVE-2025-15079.html",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://curl.se/docs/CVE-2025-15079.json",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://hackerone.com/reports/3477116",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2026/01/07/6",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2026-01-08T10:15:47.100",
+      "last_modified": "2026-01-20T14:50:24.330"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "8.17.0-r1",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-mh29-5h37-fv8m",
+    "package_name": "js-yaml",
+    "package_version": "3.14.1",
+    "package_purl": "pkg:npm/js-yaml@3.14.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "js-yaml has prototype pollution in merge (<<)",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-mh29-5h37-fv8m",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.1.1",
+      "total_versions": 74,
+      "recent_versions": [
+        "3.14.1",
+        "4.0.0",
+        "4.1.0",
+        "4.1.1",
+        "3.14.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "3.14.1",
+      "latest_version": "4.1.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 3.14.1 to 4.1.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.1.1 available. Verify CVE is fixed in 4.1.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-2w69-qvjg-hvjx",
+    "package_name": "@remix-run/router",
+    "package_version": "1.23.0",
+    "package_purl": "pkg:npm/%40remix-run/router@1.23.0",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "React Router vulnerable to XSS via Open Redirects",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-2w69-qvjg-hvjx",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.23.2",
+      "total_versions": 234,
+      "recent_versions": [
+        "0.0.0-experimental-f21d91eb3",
+        "1.23.1-pre-v6.0",
+        "1.23.1",
+        "1.23.2-pre-v6.0",
+        "1.23.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.23.0",
+      "latest_version": "1.23.2",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.23.0 to 1.23.2",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.23.2 available. Verify CVE is fixed in 1.23.2 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-g9mf-h72j-4rw9",
+    "package_name": "undici",
+    "package_version": "6.19.8",
+    "package_purl": "pkg:npm/undici@6.19.8",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-g9mf-h72j-4rw9",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.21.0",
+      "total_versions": 261,
+      "recent_versions": [
+        "7.19.0",
+        "7.19.1",
+        "7.19.2",
+        "7.20.0",
+        "7.21.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.19.8",
+      "latest_version": "7.21.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.19.8 to 7.21.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-8qq5-rm4j-mr97",
+    "package_name": "tar",
+    "package_version": "6.2.1",
+    "package_purl": "pkg:npm/tar@6.2.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-8qq5-rm4j-mr97",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.7",
+      "total_versions": 138,
+      "recent_versions": [
+        "7.5.3",
+        "7.5.4",
+        "7.5.5",
+        "7.5.6",
+        "7.5.7"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.2.1",
+      "latest_version": "7.5.7",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.2.1 to 7.5.7",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-869p-cjfg-cm3x",
+    "package_name": "jws",
+    "package_version": "3.2.2",
+    "package_purl": "pkg:npm/jws@3.2.2",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "auth0/node-jws Improperly Verifies HMAC Signature",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-869p-cjfg-cm3x",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.0.1",
+      "total_versions": 25,
+      "recent_versions": [
+        "3.2.1",
+        "3.2.2",
+        "4.0.0",
+        "3.2.3",
+        "4.0.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "3.2.2",
+      "latest_version": "4.0.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 3.2.2 to 4.0.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.0.1 available. Verify CVE is fixed in 4.0.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-v6h2-p8h4-qcjw",
+    "package_name": "brace-expansion",
+    "package_version": "1.1.11",
+    "package_purl": "pkg:npm/brace-expansion@1.1.11",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "brace-expansion Regular Expression Denial of Service vulnerability",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-v6h2-p8h4-qcjw",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.0.1",
+      "total_versions": 23,
+      "recent_versions": [
+        "4.0.0",
+        "4.0.1",
+        "3.0.1",
+        "2.0.2",
+        "1.1.12"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.1.11",
+      "latest_version": "4.0.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.1.11 to 4.0.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.0.1 available. Verify CVE is fixed in 4.0.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-14017",
+    "package_name": "curl",
+    "package_version": "8.17.0-r1",
+    "package_purl": "pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,\nchanging TLS options in one thread would inadvertently change them globally\nand therefore possibly also affect other concurrently setup transfers.\n\nDisabling certificate verification for a specific transfer could\nunintentionally disable the feature for other threads as well.",
+      "cvss_v3_score": 6.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "cwe_ids": [
+        "NVD-CWE-Other"
+      ],
+      "references": [
+        {
+          "url": "https://curl.se/docs/CVE-2025-14017.html",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "https://curl.se/docs/CVE-2025-14017.json",
+          "source": "2499f714-1537-4658-8207-48ae4bb9eae9"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2026/01/07/3",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2026-01-08T10:15:45.667",
+      "last_modified": "2026-01-27T21:29:39.953"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "8.17.0-r1",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-38r7-794h-5758",
+    "package_name": "webpack",
+    "package_version": "5.94.0",
+    "package_purl": "pkg:npm/webpack@5.94.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "webpack buildHttp HttpUriPlugin allowedUris bypass via HTTP redirects \u2192 SSRF + cache persistence",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-38r7-794h-5758",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.105.0",
+      "total_versions": 865,
+      "recent_versions": [
+        "5.102.1",
+        "5.103.0",
+        "5.104.0",
+        "5.104.1",
+        "5.105.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.94.0",
+      "latest_version": "5.105.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.94.0 to 5.105.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.105.0 available. Verify CVE is fixed in 5.105.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-8fgc-7cc6-rx7x",
+    "package_name": "webpack",
+    "package_version": "5.94.0",
+    "package_purl": "pkg:npm/webpack@5.94.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "webpack buildHttp: allowedUris allow-list bypass via URL userinfo (@) leading to build-time SSRF behavior",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-8fgc-7cc6-rx7x",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.105.0",
+      "total_versions": 865,
+      "recent_versions": [
+        "5.102.1",
+        "5.103.0",
+        "5.104.0",
+        "5.104.1",
+        "5.105.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.94.0",
+      "latest_version": "5.105.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.94.0 to 5.105.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.105.0 available. Verify CVE is fixed in 5.105.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-76c9-3jph-rj3q",
+    "package_name": "on-headers",
+    "package_version": "1.0.2",
+    "package_purl": "pkg:npm/on-headers@1.0.2",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "on-headers is vulnerable to http response header manipulation",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-76c9-3jph-rj3q",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.1.0",
+      "total_versions": 5,
+      "recent_versions": [
+        "0.0.0",
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.1.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.0.2",
+      "latest_version": "1.1.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.0.2 to 1.1.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.1.0 available. Verify CVE is fixed in 1.1.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-2jcg-qqmg-46q6",
+    "package_name": "monorepo-symlink-test",
+    "package_version": "0.0.0",
+    "package_purl": "pkg:npm/monorepo-symlink-test@0.0.0",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "Malware in monorepo-symlink-test",
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-2jcg-qqmg-46q6",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.0.1-security",
+      "total_versions": 1,
+      "recent_versions": [
+        "0.0.1-security"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.0.0",
+      "latest_version": "0.0.1-security",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.0.0 to 0.0.1-security",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 0.0.1-security available. Verify CVE is fixed in 0.0.1-security and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-43fc-jf86-j433",
+    "package_name": "axios",
+    "package_version": "1.12.2",
+    "package_purl": "pkg:npm/axios@1.12.2",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-43fc-jf86-j433",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.13.5",
+      "total_versions": 127,
+      "recent_versions": [
+        "1.13.1",
+        "1.13.2",
+        "1.13.3",
+        "1.13.4",
+        "1.13.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.12.2",
+      "latest_version": "1.13.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.12.2 to 1.13.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2022-37601",
+    "package_name": "loader-utils",
+    "package_version": "<1.4.1",
+    "package_purl": "pkg:npm/loader-utils",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "Prototype pollution in webpack loader-utils",
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-76p3-8jx3-jpfq",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.3.1",
+      "total_versions": 50,
+      "recent_versions": [
+        "2.0.4",
+        "1.4.2",
+        "3.2.2",
+        "3.3.0",
+        "3.3.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<1.4.1",
+      "latest_version": "3.3.1",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for loader-utils"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2022-37603",
+    "package_name": "loader-utils",
+    "package_version": ">=1.0.0 <1.4.2",
+    "package_purl": "pkg:npm/loader-utils",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-3rfm-jhwj-7488",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.3.1",
+      "total_versions": 50,
+      "recent_versions": [
+        "2.0.4",
+        "1.4.2",
+        "3.2.2",
+        "3.3.0",
+        "3.3.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": ">=1.0.0 <1.4.2",
+      "latest_version": "3.3.1",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for loader-utils"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2022-37599",
+    "package_name": "loader-utils",
+    "package_version": ">=1.0.0 <1.4.2",
+    "package_purl": "pkg:npm/loader-utils",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-hhq3-ff78-jv3g",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.3.1",
+      "total_versions": 50,
+      "recent_versions": [
+        "2.0.4",
+        "1.4.2",
+        "3.2.2",
+        "3.3.0",
+        "3.3.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": ">=1.0.0 <1.4.2",
+      "latest_version": "3.3.1",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for loader-utils"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-30360",
+    "package_name": "webpack-dev-server",
+    "package_version": "<=5.2.0",
+    "package_purl": "pkg:npm/webpack-dev-server",
+    "grype_severity": "moderate",
+    "nvd_details": {
+      "description": "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+      "cvss_v3_severity": "MODERATE",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9jgg-88mc-972h",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.3",
+      "total_versions": 222,
+      "recent_versions": [
+        "5.1.0",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<=5.2.0",
+      "latest_version": "5.2.3",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for webpack-dev-server"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-30359",
+    "package_name": "webpack-dev-server",
+    "package_version": "<=5.2.0",
+    "package_purl": "pkg:npm/webpack-dev-server",
+    "grype_severity": "moderate",
+    "nvd_details": {
+      "description": "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+      "cvss_v3_severity": "MODERATE",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4v9v-hfq4-rm2v",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.3",
+      "total_versions": 222,
+      "recent_versions": [
+        "5.1.0",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<=5.2.0",
+      "latest_version": "5.2.3",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for webpack-dev-server"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-64718",
+    "package_name": "js-yaml",
+    "package_version": ">=4.0.0 <4.1.1",
+    "package_purl": "pkg:npm/js-yaml",
+    "grype_severity": "moderate",
+    "nvd_details": {
+      "description": "js-yaml has prototype pollution in merge (<<)",
+      "cvss_v3_severity": "MODERATE",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-mh29-5h37-fv8m",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.1.1",
+      "total_versions": 74,
+      "recent_versions": [
+        "3.14.1",
+        "4.0.0",
+        "4.1.0",
+        "4.1.1",
+        "3.14.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": ">=4.0.0 <4.1.1",
+      "latest_version": "4.1.1",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for js-yaml"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2022-25883",
+    "package_name": "semver",
+    "package_version": ">=7.0.0 <7.5.2",
+    "package_purl": "pkg:npm/semver",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "semver vulnerable to Regular Expression Denial of Service",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.7.4",
+      "total_versions": 113,
+      "recent_versions": [
+        "7.7.0",
+        "7.7.1",
+        "7.7.2",
+        "7.7.3",
+        "7.7.4"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": ">=7.0.0 <7.5.2",
+      "latest_version": "7.7.4",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for semver"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-4367",
+    "package_name": "pdfjs-dist",
+    "package_version": "<=4.1.392",
+    "package_purl": "pkg:npm/pdfjs-dist",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-wgrm-67xf-hhpq",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.4.624",
+      "total_versions": 1558,
+      "recent_versions": [
+        "5.4.296",
+        "5.4.394",
+        "5.4.449",
+        "5.4.530",
+        "5.4.624"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<=4.1.392",
+      "latest_version": "5.4.624",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for pdfjs-dist"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2026-23745",
+    "package_name": "tar",
+    "package_version": "<=7.5.2",
+    "package_purl": "pkg:npm/tar",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-8qq5-rm4j-mr97",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.7",
+      "total_versions": 138,
+      "recent_versions": [
+        "7.5.3",
+        "7.5.4",
+        "7.5.5",
+        "7.5.6",
+        "7.5.7"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<=7.5.2",
+      "latest_version": "7.5.7",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for tar"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2026-23950",
+    "package_name": "tar",
+    "package_version": "<=7.5.3",
+    "package_purl": "pkg:npm/tar",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-r6q2-hw4h-h46w",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.7",
+      "total_versions": 138,
+      "recent_versions": [
+        "7.5.3",
+        "7.5.4",
+        "7.5.5",
+        "7.5.6",
+        "7.5.7"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<=7.5.3",
+      "latest_version": "7.5.7",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for tar"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2026-24842",
+    "package_name": "tar",
+    "package_version": "<7.5.7",
+    "package_purl": "pkg:npm/tar",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-34x7-hfp2-rc4v",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.7",
+      "total_versions": 138,
+      "recent_versions": [
+        "7.5.3",
+        "7.5.4",
+        "7.5.5",
+        "7.5.6",
+        "7.5.7"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<7.5.7",
+      "latest_version": "7.5.7",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for tar"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-30533",
+    "package_name": "xlsx",
+    "package_version": "<0.19.3",
+    "package_purl": "pkg:npm/xlsx",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Prototype Pollution in sheetJS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4r6h-8v6p-xvw6",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.18.5",
+      "total_versions": 108,
+      "recent_versions": [
+        "0.18.1",
+        "0.18.2",
+        "0.18.3",
+        "0.18.4",
+        "0.18.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<0.19.3",
+      "latest_version": "0.18.5",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for xlsx"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-22363",
+    "package_name": "xlsx",
+    "package_version": "<0.20.2",
+    "package_purl": "pkg:npm/xlsx",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "SheetJS Regular Expression Denial of Service (ReDoS)",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-5pgg-2g8v-p4x9",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.18.5",
+      "total_versions": 108,
+      "recent_versions": [
+        "0.18.1",
+        "0.18.2",
+        "0.18.3",
+        "0.18.4",
+        "0.18.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<0.20.2",
+      "latest_version": "0.18.5",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for xlsx"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-54798",
+    "package_name": "tmp",
+    "package_version": "<=0.2.3",
+    "package_purl": "pkg:npm/tmp",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-52f5-9888-hmc6",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.2.5",
+      "total_versions": 38,
+      "recent_versions": [
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "<=0.2.3",
+      "latest_version": "0.2.5",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for tmp"
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-13465",
+    "package_name": "lodash",
+    "package_version": ">=4.0.0 <=4.17.22",
+    "package_purl": "pkg:npm/lodash",
+    "grype_severity": "moderate",
+    "nvd_details": {
+      "description": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions",
+      "cvss_v3_severity": "MODERATE",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
+          "source": "npm audit"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.17.23",
+      "total_versions": 115,
+      "recent_versions": [
+        "4.17.18",
+        "4.17.19",
+        "4.17.20",
+        "4.17.21",
+        "4.17.23"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": ">=4.0.0 <=4.17.22",
+      "latest_version": "4.17.23",
+      "upgrade_available": true,
+      "recommendation": "UPGRADE \u2014 fix available per npm audit",
+      "risk_level": "medium",
+      "notes": [
+        "Source: npm audit advisory for lodash"
+      ]
+    }
+  }
+]

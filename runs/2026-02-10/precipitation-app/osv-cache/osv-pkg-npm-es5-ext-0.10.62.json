@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-4gmj-3p3h-gm8h",
+    "aliases": [
+      "CVE-2024-27088"
+    ],
+    "severity": "LOW",
+    "summary": "es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens`"
+  }
+]

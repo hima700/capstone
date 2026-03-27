@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-52f5-9888-hmc6",
+    "aliases": [
+      "CVE-2025-54798"
+    ],
+    "severity": "LOW",
+    "summary": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter"
+  }
+]

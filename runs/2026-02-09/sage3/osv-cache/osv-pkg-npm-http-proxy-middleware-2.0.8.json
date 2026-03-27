@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-9gqv-wp59-fq42",
+    "aliases": [
+      "CVE-2025-32997"
+    ],
+    "severity": "MODERATE",
+    "summary": "http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed"
+  }
+]

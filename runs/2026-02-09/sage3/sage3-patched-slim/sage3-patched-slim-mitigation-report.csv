@@ -1,0 +1,173 @@
+CVE_ID,Package,Current_Version,Latest_Version,CVSS_Score,CVSS_Severity,Grype_Severity,Dep_Type,Depth,Occurrences,Ecosystem,Action,Risk_Level
+GHSA-wgrm-67xf-hhpq,pdfjs-dist,3.11.174,5.4.624,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 3.11.174 to 5.4.624",low
+GHSA-76p3-8jx3-jpfq,loader-utils,1.2.3,3.3.1,None,CRITICAL,critical,unknown,None,0,npm,"UPGRADE — update from 1.2.3 to 3.3.1",low
+GHSA-4r6h-8v6p-xvw6,xlsx,0.18.5,0.18.5,None,HIGH,high,unknown,None,0,npm,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-hhq3-ff78-jv3g,loader-utils,1.2.3,3.3.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.2.3 to 3.3.1",low
+GHSA-qwcr-r2fm-qrc7,body-parser,1.20.2,2.2.2,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.20.2 to 2.2.2",low
+GHSA-gcx4-mw62-g8wm,rollup,2.79.1,4.57.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 2.79.1 to 4.57.1",low
+CVE-2024-56433,login,1:4.13+dfsg1-1+deb12u2,unknown,3.6,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-3rfm-jhwj-7488,loader-utils,1.2.3,3.3.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.2.3 to 3.3.1",low
+CVE-2023-2953,libldap-2.5-0,2.5.13+dfsg-5,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-c2qf-rxjj-qqgw,semver,7.3.4,7.7.4,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 7.3.4 to 7.7.4",low
+GHSA-cm22-4g7w-348p,serve-static,1.15.0,2.2.1,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 1.15.0 to 2.2.1",low
+GHSA-c7qv-q95q-8v27,http-proxy-middleware,2.0.6,3.0.5,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 2.0.6 to 3.0.5",low
+CVE-2011-3389,libgnutls30,3.7.9-2+deb12u5,unknown,None,,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2020-23922,libgif7,5.2.1-2.5,unknown,7.1,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-fjxv-7rqg-78g4,form-data,4.0.0,4.0.5,None,CRITICAL,critical,unknown,None,0,npm,"UPGRADE — update from 4.0.0 to 4.0.5",low
+CVE-2024-38950,libde265-0,1.0.11-1+deb12u2,unknown,6.5,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2015-3276,libldap-2.5-0,2.5.13+dfsg-5,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-6879,libaom3,3.6.0-1+deb12u2,unknown,9.0,CRITICAL,critical,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2005-2541,tar,1.34+dfsg-1.2+deb12u1,unknown,None,,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-6rw7-vpxm-498p,qs,6.11.0,6.14.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 6.11.0 to 6.14.1",low
+CVE-2025-59375,libexpat1,2.5.0-1+deb12u2,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-rhx6-c78j-4q9w,path-to-regexp,0.1.7,8.3.0,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 0.1.7 to 8.3.0",low
+CVE-2025-6297,dpkg,1.21.22,unknown,8.2,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2017-7475,libcairo2,1.16.0-7,unknown,5.5,MEDIUM,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-0990,libxml2,2.9.14+dfsg-1.3~deb12u5,unknown,5.9,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-554w-wpv2-vw27,node-forge,1.3.1,1.3.3,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.3.1 to 1.3.3",low
+GHSA-4www-5p9h-95mh,http-proxy-middleware,2.0.6,3.0.5,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 2.0.6 to 3.0.5",low
+CVE-2025-31344,libgif7,5.2.1-2.5,unknown,7.3,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2017-17740,libldap-2.5-0,2.5.13+dfsg-5,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-968p-4wvh-cqc8,@babel/helpers,7.25.6,7.28.6,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 7.25.6 to 7.28.6",low
+GHSA-5pgg-2g8v-p4x9,xlsx,0.18.5,0.18.5,None,HIGH,high,unknown,None,0,npm,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-c76h-2ccp-4975,undici,6.19.8,7.21.0,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 6.19.8 to 7.21.0",low
+CVE-2011-3374,apt,2.6.1,unknown,3.7,LOW,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2018-20796,libc-bin,2.36-9+deb12u13,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2018-5709,krb5-locales,1.20.1-2+deb12u4,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2019-1010025,libc-bin,2.36-9+deb12u13,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-4hjh-wcwx-xvwj,axios,1.7.7,1.13.5,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.7.7 to 1.13.5",low
+GHSA-m6fv-jmcg-4jfg,send,0.18.0,1.2.1,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 0.18.0 to 1.2.1",low
+CVE-2024-38949,libde265-0,1.0.11-1+deb12u2,unknown,6.5,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-32570,libdav1d6,1.0.0-2+deb12u1,unknown,5.9,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-mwcw-c2x4-8c55,nanoid,3.3.7,5.1.6,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 3.3.7 to 5.1.6",low
+GHSA-3xgq-45jj-v275,cross-spawn,7.0.3,7.0.6,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 7.0.3 to 7.0.6",low
+CVE-2023-39616,libaom3,3.6.0-1+deb12u2,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-9wv6-86v2-598j,path-to-regexp,0.1.7,8.3.0,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 0.1.7 to 8.3.0",low
+GHSA-jr5f-v2jv-69x6,axios,1.7.7,1.13.5,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.7.7 to 1.13.5",low
+GHSA-5gfm-wpxj-wjgq,node-forge,1.3.1,1.3.3,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.3.1 to 1.3.3",low
+GHSA-829q-m3qg-ph8r,vega-selections,6.1.0,6.1.2,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 6.1.0 to 6.1.2",low
+GHSA-pxg6-pf52-xh8x,cookie,0.6.0,1.1.1,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 0.6.0 to 1.1.1",low
+CVE-2025-0725,curl,7.88.1-10+deb12u14,unknown,7.3,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-13151,libtasn1-6,4.19.0-2+deb12u1,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-25193,libharfbuzz0b,6.0.0+dfsg-3,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-28757,libexpat1,2.5.0-1+deb12u2,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-7f2v-3qq3-vvjf,vega-interpreter,1.0.5,2.2.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.0.5 to 2.2.1",low
+CVE-2019-9192,libc-bin,2.36-9+deb12u13,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2021-40633,libgif7,5.2.1-2.5,unknown,8.8,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-qw6h-vgh9-j6wx,express,4.19.2,5.2.1,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 4.19.2 to 5.2.1",low
+CVE-2025-10148,curl,7.88.1-10+deb12u14,unknown,5.3,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-15281,libc-bin,2.36-9+deb12u13,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-9gqv-wp59-fq42,http-proxy-middleware,2.0.6,3.0.5,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 2.0.6 to 3.0.5",low
+GHSA-xxjr-mmjv-4gpg,lodash,4.17.21,4.17.23,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 4.17.21 to 4.17.23",low
+CVE-2019-1010024,libc-bin,2.36-9+deb12u13,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-0915,libc-bin,2.36-9+deb12u13,unknown,7.5,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-4v9v-hfq4-rm2v,webpack-dev-server,4.15.2,5.2.3,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 4.15.2 to 5.2.3",low
+CVE-2023-50495,libtinfo6,6.4-4,unknown,6.5,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-5j98-mcp5-4vw2,glob,10.4.5,13.0.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 10.4.5 to 13.0.1",low
+CVE-2023-31486,libperl5.36,5.36.0-7+deb12u3,unknown,8.1,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-22693,libharfbuzz0b,6.0.0+dfsg-3,unknown,5.3,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2018-6829,libgcrypt20,1.10.1-3,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2018-18064,libcairo2,1.16.0-7,unknown,6.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2016-2781,coreutils,9.1-1,unknown,4.6,MEDIUM,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-m9rg-mr6g-75gm,vega-functions,6.1.0,6.1.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 6.1.0 to 6.1.1",low
+CVE-2012-0039,libglib2.0-0,2.74.6-2+deb12u8,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-cxrh-j4jr-qwg3,undici,6.19.8,7.21.0,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 6.19.8 to 7.21.0",low
+GHSA-65ch-62r8-g69g,node-forge,1.3.1,1.3.3,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 1.3.1 to 1.3.3",low
+CVE-2026-1489,libglib2.0-0,2.74.6-2+deb12u8,unknown,5.4,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-68431,libheif1,1.15.1-1+deb12u1,unknown,6.5,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-1484,libglib2.0-0,2.74.6-2+deb12u8,unknown,4.2,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-52f5-9888-hmc6,tmp,0.0.33,0.2.5,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 0.0.33 to 0.2.5",low
+CVE-2025-14819,curl,7.88.1-10+deb12u14,unknown,5.3,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-0992,libxml2,2.9.14+dfsg-1.3~deb12u5,unknown,2.9,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-0989,libxml2,2.9.14+dfsg-1.3~deb12u5,unknown,3.7,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2010-4756,libc-bin,2.36-9+deb12u13,unknown,None,,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-34x7-hfp2-rc4v,tar,6.2.1,7.5.7,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 6.2.1 to 7.5.7",low
+GHSA-9jgg-88mc-972h,webpack-dev-server,4.15.2,5.2.3,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 4.15.2 to 5.2.3",low
+CVE-2026-0988,libglib2.0-0,2.74.6-2+deb12u8,unknown,3.7,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-9jcx-v3wj-wh4m,react-router,6.30.1,7.13.0,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 6.30.1 to 7.13.0",low
+GHSA-73rr-hh4g-fpgx,diff,4.0.2,8.0.3,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 4.0.2 to 8.0.3",low
+CVE-2019-6461,libcairo2,1.16.0-7,unknown,6.5,MEDIUM,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2019-1010023,libc-bin,2.36-9+deb12u13,unknown,5.4,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2019-6462,libcairo2,1.16.0-7,unknown,6.5,MEDIUM,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-10041,libpam-modules,1.5.2-6+deb12u2,unknown,4.7,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2007-5686,login,1:4.13+dfsg1-1+deb12u2,unknown,None,,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-22695,libpng16-16,1.6.39-2+deb12u1,unknown,6.1,MEDIUM,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-r6q2-hw4h-h46w,tar,6.2.1,7.5.7,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 6.2.1 to 7.5.7",low
+CVE-2025-30258,gpgv,2.2.40-1.1+deb12u2,unknown,2.7,LOW,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-0861,libc-bin,2.36-9+deb12u13,unknown,8.4,HIGH,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-14524,curl,7.88.1-10+deb12u14,unknown,5.3,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2021-4214,libpng16-16,1.6.39-2+deb12u1,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-2236,libgcrypt20,1.10.1-3,unknown,5.9,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2020-15719,libldap-2.5-0,2.5.13+dfsg-5,unknown,4.2,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-22801,libpng16-16,1.6.39-2+deb12u1,unknown,6.8,MEDIUM,high,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-mh29-5h37-fv8m,js-yaml,3.14.1,4.1.1,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 3.14.1 to 4.1.1",low
+CVE-2024-26458,krb5-locales,1.20.1-2+deb12u4,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-2379,curl,7.88.1-10+deb12u14,unknown,6.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-2w69-qvjg-hvjx,@remix-run/router,1.23.0,1.23.2,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.23.0 to 1.23.2",low
+GHSA-g9mf-h72j-4rw9,undici,6.19.8,7.21.0,None,MEDIUM,medium,unknown,None,0,npm,"UPGRADE — update from 6.19.8 to 7.21.0",low
+CVE-2011-4116,libperl5.36,5.36.0-7+deb12u3,unknown,3.3,LOW,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-6141,libtinfo6,6.4-4,unknown,3.3,LOW,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-66382,libexpat1,2.5.0-1+deb12u2,unknown,2.9,LOW,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-14104,bsdutils,1:2.38.1-5+deb12u3,unknown,6.1,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-49463,libheif1,1.15.1-1+deb12u1,unknown,8.8,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-8qq5-rm4j-mr97,tar,6.2.1,7.5.7,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 6.2.1 to 7.5.7",low
+GHSA-869p-cjfg-cm3x,jws,3.2.2,4.0.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 3.2.2 to 4.0.1",low
+CVE-2019-1010022,libc-bin,2.36-9+deb12u13,unknown,9.8,CRITICAL,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2017-15131,xdg-user-dirs,0.18-1,unknown,7.8,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-31437,libsystemd0,252.39-1~deb12u1,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2017-14159,libldap-2.5-0,2.5.13+dfsg-5,unknown,4.7,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-45993,libgif7,5.2.1-2.5,unknown,6.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-51792,libde265-0,1.0.11-1+deb12u2,unknown,3.3,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-50422,libcairo2,1.16.0-7,unknown,2.9,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-31438,libsystemd0,252.39-1~deb12u1,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-v6h2-p8h4-qcjw,brace-expansion,1.1.11,4.0.1,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 1.1.11 to 4.0.1",low
+CVE-2023-31439,libsystemd0,252.39-1~deb12u1,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-9820,libgnutls30,3.7.9-2+deb12u5,unknown,4.0,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-1485,libglib2.0-0,2.74.6-2+deb12u8,unknown,2.8,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-25210,libexpat1,2.5.0-1+deb12u2,unknown,6.9,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2022-28506,libgif7,5.2.1-2.5,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-26461,krb5-locales,1.20.1-2+deb12u4,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-68972,gpgv,2.2.40-1.1+deb12u2,unknown,5.9,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2017-18018,coreutils,9.1-1,unknown,7.1,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-38r7-794h-5758,webpack,5.94.0,5.105.0,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 5.94.0 to 5.105.0",low
+GHSA-8fgc-7cc6-rx7x,webpack,5.94.0,5.105.0,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 5.94.0 to 5.105.0",low
+CVE-2025-15224,curl,7.88.1-10+deb12u14,unknown,3.1,LOW,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2022-27943,gcc-12-base,12.2.0-14+deb12u1,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2024-25269,libheif1,1.15.1-1+deb12u1,unknown,7.5,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-37769,libpixman-1-0,0.42.2-1,unknown,6.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-27587,libssl3,3.0.18-1~deb12u2,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2013-4392,libsystemd0,252.39-1~deb12u1,unknown,5.0,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-76c9-3jph-rj3q,on-headers,1.0.2,1.1.0,None,LOW,low,unknown,None,0,npm,"UPGRADE — update from 1.0.2 to 1.1.0",low
+CVE-2026-24515,libexpat1,2.5.0-1+deb12u2,unknown,2.9,LOW,low,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-48161,libgif7,5.2.1-2.5,unknown,7.1,HIGH,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-15079,curl,7.88.1-10+deb12u14,unknown,5.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-22185,libldap-2.5-0,2.5.13+dfsg-5,unknown,None,,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-5278,coreutils,9.1-1,unknown,4.4,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2022-0563,bsdutils,1:2.38.1-5+deb12u3,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2022-3219,gpgv,2.2.40-1.1+deb12u2,unknown,3.3,LOW,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-39742,libgif7,5.2.1-2.5,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2023-52426,libexpat1,2.5.0-1+deb12u2,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2026-1757,libxml2,2.9.14+dfsg-1.3~deb12u5,unknown,6.2,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-10966,curl,7.88.1-10+deb12u14,unknown,4.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-8732,libxml2,2.9.14+dfsg-1.3~deb12u5,unknown,3.3,LOW,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-28162,libpng16-16,1.6.39-2+deb12u1,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-28164,libpng16-16,1.6.39-2+deb12u1,unknown,5.5,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2025-14017,curl,7.88.1-10+deb12u14,unknown,6.3,MEDIUM,none,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+GHSA-2jcg-qqmg-46q6,monorepo-symlink-test,0.0.0,0.0.1-security,None,CRITICAL,critical,unknown,None,0,npm,"UPGRADE — update from 0.0.0 to 0.0.1-security",low
+GHSA-43fc-jf86-j433,axios,1.12.2,1.13.5,None,HIGH,high,unknown,None,0,npm,"UPGRADE — update from 1.12.2 to 1.13.5",low
+CVE-2025-14831,libgnutls30,3.7.9-2+deb12u5,unknown,5.3,MEDIUM,medium,os-level,None,0,debian,"INVESTIGATE — already on latest version, CVE may be unpatched",medium
+CVE-2022-37601,loader-utils,<1.4.1,3.3.1,None,CRITICAL,critical,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2022-37603,loader-utils,>=1.0.0 <1.4.2,3.3.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2022-37599,loader-utils,>=1.0.0 <1.4.2,3.3.1,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2025-30360,webpack-dev-server,<=5.2.0,5.2.3,None,MODERATE,moderate,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2025-30359,webpack-dev-server,<=5.2.0,5.2.3,None,MODERATE,moderate,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2025-64718,js-yaml,>=4.0.0 <4.1.1,4.1.1,None,MODERATE,moderate,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2022-25883,semver,>=7.0.0 <7.5.2,7.7.4,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2024-4367,pdfjs-dist,<=4.1.392,5.4.624,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2026-23745,tar,<=7.5.2,7.5.7,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2026-23950,tar,<=7.5.3,7.5.7,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2026-24842,tar,<7.5.7,7.5.7,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2023-30533,xlsx,<0.19.3,0.18.5,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2024-22363,xlsx,<0.20.2,0.18.5,None,HIGH,high,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2025-54798,tmp,<=0.2.3,0.2.5,None,LOW,low,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium
+CVE-2025-13465,lodash,>=4.0.0 <=4.17.22,4.17.23,None,MODERATE,moderate,unknown,None,0,npm,"UPGRADE — fix available per npm audit",medium

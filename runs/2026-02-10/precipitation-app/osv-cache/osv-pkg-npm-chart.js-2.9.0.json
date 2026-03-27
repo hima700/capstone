@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-h68q-55jf-x68w",
+    "aliases": [
+      "CVE-2020-7746"
+    ],
+    "severity": "HIGH",
+    "summary": "Prototype pollution in chart.js"
+  }
+]

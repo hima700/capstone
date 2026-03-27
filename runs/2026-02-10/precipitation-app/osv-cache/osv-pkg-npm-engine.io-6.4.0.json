@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-q9mw-68c2-j6m5",
+    "aliases": [
+      "CVE-2023-31125"
+    ],
+    "severity": "MODERATE",
+    "summary": "engine.io Uncaught Exception vulnerability"
+  }
+]

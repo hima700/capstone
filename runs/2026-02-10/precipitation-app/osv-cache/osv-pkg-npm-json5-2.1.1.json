@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-9c47-m6qq-7p4h",
+    "aliases": [
+      "CVE-2022-46175"
+    ],
+    "severity": "HIGH",
+    "summary": "Prototype Pollution in JSON5 via Parse Method"
+  }
+]

@@ -1,0 +1,183 @@
+================================================================================
+  SBOM Remediation Comparison Report -- PRECIPITATION-APP
+  Generated: 2026-02-16 14:42:23
+================================================================================
+
+VARIANT COMPARISON
+--------------------------------------------------------------------------------
+Metric                                baseline precipitation-a precipitation-a 
+--------------------------------------------------------------------------------
+Components                               25109            7969            4993 
+Dependencies                               383              81              13 
+Unique CVEs                               1036             192             156 
+--------------------------------------------------------------------------------
+  critical                                  69              20              20 
+  high                                     286              67              62 
+  medium                                   336              57              50 
+  low                                       78              24              24 
+  none                                     266              24               0 
+--------------------------------------------------------------------------------
+  debian                                   845              39               0 
+  npm                                      145             135             135 
+  alpine                                     0               0               3 
+  unknown                                   46              18              18 
+
+
+DEBIAN CVE URGENCY CLASSIFICATION (Baseline)
+------------------------------------------------------------
+  Source: Debian Security Tracker (security-tracker.debian.org)
+
+  unknown                  : 1036  (No urgency data available)
+
+
+REMEDIATION: precipitation-app-patched-slim
+------------------------------------------------------------
+  CVEs removed:     859
+  CVEs added (new): 15
+  CVEs remaining:   177
+  Net reduction:    844 (81.5%)
+
+  Removed by ecosystem:
+    debian: 820
+    npm: 10
+    unknown: 29
+
+  Removed by severity:
+    critical: 49
+    high: 224
+    medium: 285
+    low: 55
+    none: 245
+
+  Removed by Debian urgency:
+    unknown: 859
+
+  [!] NEWLY INTRODUCED CVEs:
+    CVE-2025-14831 -- libgnutls30@3.7.9-2+deb12u5 (medium, debian)
+    CVE-2025-30258 -- gpgv@2.2.40-1.1+deb12u2 (medium, debian)
+    CVE-2025-68972 -- gpgv@2.2.40-1.1+deb12u2 (medium, debian)
+    CVE-2024-10041 -- libpam-modules@1.5.2-6+deb12u2 (medium, debian)
+    CVE-2025-14104 -- bsdutils@1:2.38.1-5+deb12u3 (medium, debian)
+    CVE-2026-0861 -- libc-bin@2.36-9+deb12u13 (high, debian)
+    CVE-2025-6141 -- libtinfo6@6.4-4 (medium, debian)
+    CVE-2024-56433 -- login@1:4.13+dfsg1-1+deb12u2 (low, debian)
+    CVE-2025-6297 -- dpkg@1.21.22 (high, debian)
+    CVE-2025-15281 -- libc-bin@2.36-9+deb12u13 (high, debian)
+    CVE-2026-0915 -- libc-bin@2.36-9+deb12u13 (high, debian)
+    CVE-2025-13151 -- libtasn1-6@4.19.0-2+deb12u1 (high, debian)
+    CVE-2025-9820 -- libgnutls30@3.7.9-2+deb12u5 (medium, debian)
+    CVE-2022-27943 -- gcc-12-base@12.2.0-14+deb12u1 (none, debian)
+    CVE-2025-5278 -- coreutils@9.1-1 (none, debian)
+
+  Top CVEs removed:
+    [+] CVE-2020-36328 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2018-25013 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2022-37434 -- zlib1g@1:1.2.11.dfsg-1 (critical)
+    [+] CVE-2021-20232 -- libgnutls-dane0@3.6.7-4+deb10u6 (critical)
+    [+] CVE-2020-36331 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2022-3515 -- libksba8@1.3.5-2 (critical)
+    [+] CVE-2021-3177 -- libpython2.7-minimal@2.7.16-2+deb10u1 (critical)
+    [+] CVE-2024-38428 -- wget@1.20.1-1.1 (critical)
+    [+] CVE-2022-22824 -- libexpat1@2.2.6-2+deb10u1 (critical)
+    [+] CVE-2022-47629 -- libksba8@1.3.5-2 (critical)
+    [+] CVE-2018-25014 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2024-32002 -- git@1:2.20.1-2+deb10u3 (critical)
+    [+] CVE-2018-25012 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2018-25010 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2023-38408 -- openssh-client@1:7.9p1-10+deb10u2 (critical)
+    [+] CVE-2022-48565 -- libpython2.7-minimal@2.7.16-2+deb10u1 (critical)
+    [+] CVE-2022-1664 -- dpkg@1.19.7 (critical)
+    [+] CVE-2020-36329 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2021-20231 -- libgnutls-dane0@3.6.7-4+deb10u6 (critical)
+    [+] CVE-2020-35527 -- libsqlite3-0@3.27.2-3+deb10u1 (critical)
+    [+] CVE-2022-25236 -- libexpat1@2.2.6-2+deb10u1 (critical)
+    [+] CVE-2021-31535 -- libx11-6@2:1.6.7-1+deb10u1 (critical)
+    [+] CVE-2018-25009 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2022-25315 -- libexpat1@2.2.6-2+deb10u1 (critical)
+    [+] CVE-2021-46848 -- libtasn1-6@4.13-3 (critical)
+    ... and 834 more
+
+
+REMEDIATION: precipitation-app-alpine
+------------------------------------------------------------
+  CVEs removed:     883
+  CVEs added (new): 3
+  CVEs remaining:   153
+  Net reduction:    880 (84.9%)
+
+  Removed by ecosystem:
+    debian: 844
+    npm: 10
+    unknown: 29
+
+  Removed by severity:
+    critical: 49
+    high: 224
+    medium: 287
+    low: 56
+    none: 266
+
+  Removed by Debian urgency:
+    unknown: 883
+
+  [!] NEWLY INTRODUCED CVEs:
+    CVE-2025-46394 -- busybox@1.36.1-r7 (low, alpine)
+    CVE-2025-60876 -- busybox@1.36.1-r7 (medium, alpine)
+    CVE-2024-58251 -- busybox@1.36.1-r7 (low, alpine)
+
+  Top CVEs removed:
+    [+] CVE-2020-36328 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2018-25013 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2022-37434 -- zlib1g@1:1.2.11.dfsg-1 (critical)
+    [+] CVE-2021-20232 -- libgnutls-dane0@3.6.7-4+deb10u6 (critical)
+    [+] CVE-2020-36331 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2022-3515 -- libksba8@1.3.5-2 (critical)
+    [+] CVE-2021-3177 -- libpython2.7-minimal@2.7.16-2+deb10u1 (critical)
+    [+] CVE-2024-38428 -- wget@1.20.1-1.1 (critical)
+    [+] CVE-2022-22824 -- libexpat1@2.2.6-2+deb10u1 (critical)
+    [+] CVE-2022-47629 -- libksba8@1.3.5-2 (critical)
+    [+] CVE-2018-25014 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2024-32002 -- git@1:2.20.1-2+deb10u3 (critical)
+    [+] CVE-2018-25012 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2018-25010 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2023-38408 -- openssh-client@1:7.9p1-10+deb10u2 (critical)
+    [+] CVE-2022-48565 -- libpython2.7-minimal@2.7.16-2+deb10u1 (critical)
+    [+] CVE-2022-1664 -- dpkg@1.19.7 (critical)
+    [+] CVE-2020-36329 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2021-20231 -- libgnutls-dane0@3.6.7-4+deb10u6 (critical)
+    [+] CVE-2020-35527 -- libsqlite3-0@3.27.2-3+deb10u1 (critical)
+    [+] CVE-2022-25236 -- libexpat1@2.2.6-2+deb10u1 (critical)
+    [+] CVE-2021-31535 -- libx11-6@2:1.6.7-1+deb10u1 (critical)
+    [+] CVE-2018-25009 -- libwebp-dev@0.6.1-2 (critical)
+    [+] CVE-2022-25315 -- libexpat1@2.2.6-2+deb10u1 (critical)
+    [+] CVE-2021-46848 -- libtasn1-6@4.13-3 (critical)
+    ... and 858 more
+
+
+RECOMMENDATIONS
+------------------------------------------------------------
+  Based on this analysis:
+
+  1. BEST VARIANT: precipitation-app-alpine
+     Reduces CVEs from 1036 to 156 (-880, 84.9% reduction)
+
+  2. npm DEPENDENCIES:
+     - Upgrade nodemailer 6.10.1 -> latest (direct dependency, 2 CVEs)
+     - Run npm audit fix for transitive vulnerabilities
+
+  3. DOCKER BASE IMAGE:
+     - Switch to node:22-alpine OR regularly rebuild with latest node:22-slim
+     - Alpine eliminates most Debian CVEs by using musl/apk instead
+
+  4. DEBIAN CVEs (if staying on Debian-based image):
+     - 0 CVEs are 'unimportant' per Debian Security -- accept risk
+     - Remaining: monitor via periodic apt-get upgrade in image rebuilds
+
+  5. ONGOING MAINTENANCE:
+     - Pin base image digest for reproducibility
+     - Re-scan monthly with Syft + Grype
+     - Integrate SBOM generation into CI/CD pipeline
+
+================================================================================
+  END OF COMPARISON REPORT
+================================================================================

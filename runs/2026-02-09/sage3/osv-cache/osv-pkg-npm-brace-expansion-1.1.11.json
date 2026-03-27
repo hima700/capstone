@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-v6h2-p8h4-qcjw",
+    "aliases": [
+      "CVE-2025-5889"
+    ],
+    "severity": "LOW",
+    "summary": "brace-expansion Regular Expression Denial of Service vulnerability"
+  }
+]

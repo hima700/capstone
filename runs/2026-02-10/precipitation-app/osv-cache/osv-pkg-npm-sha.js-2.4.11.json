@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-95m3-7q98-8xr5",
+    "aliases": [
+      "CVE-2025-9288"
+    ],
+    "severity": "CRITICAL",
+    "summary": "sha.js is missing type checks leading to hash rewind and passing on crafted data"
+  }
+]

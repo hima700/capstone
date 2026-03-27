@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-4wf5-vphf-c2xc",
+    "aliases": [
+      "CVE-2022-25858"
+    ],
+    "severity": "HIGH",
+    "summary": "Terser insecure use of regular expressions leads to ReDoS"
+  }
+]

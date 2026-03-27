@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-3rfm-jhwj-7488",
+    "aliases": [
+      "CVE-2022-37603"
+    ],
+    "severity": "HIGH",
+    "summary": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable"
+  },
+  {
+    "id": "GHSA-76p3-8jx3-jpfq",
+    "aliases": [
+      "CVE-2022-37601"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Prototype pollution in webpack loader-utils"
+  },
+  {
+    "id": "GHSA-hhq3-ff78-jv3g",
+    "aliases": [
+      "CVE-2022-37599"
+    ],
+    "severity": "HIGH",
+    "summary": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)"
+  }
+]

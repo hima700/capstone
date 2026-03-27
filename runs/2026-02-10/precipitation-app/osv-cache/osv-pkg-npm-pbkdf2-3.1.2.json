@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-h7cp-r72f-jxh6",
+    "aliases": [
+      "CVE-2025-6545"
+    ],
+    "severity": "CRITICAL",
+    "summary": "pbkdf2 returns predictable uninitialized/zero-filled memory for non-normalized or unimplemented algos"
+  },
+  {
+    "id": "GHSA-v62p-rq8g-8h59",
+    "aliases": [
+      "CVE-2025-6547"
+    ],
+    "severity": "CRITICAL",
+    "summary": "pbkdf2 silently disregards Uint8Array input, returning static keys"
+  }
+]

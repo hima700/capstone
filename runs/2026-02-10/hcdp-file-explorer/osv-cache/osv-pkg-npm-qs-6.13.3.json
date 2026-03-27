@@ -1,0 +1,20 @@
+[
+  {
+    "id": "GHSA-6rw7-vpxm-498p",
+    "aliases": [
+      "CVE-2025-15284"
+    ],
+    "severity": "MODERATE",
+    "summary": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+    "published": "2025-12-30T21:02:54Z"
+  },
+  {
+    "id": "GHSA-w7fw-mjwx-w883",
+    "aliases": [
+      "CVE-2026-2391"
+    ],
+    "severity": "LOW",
+    "summary": "qs's arrayLimit bypass in comma parsing allows denial of service",
+    "published": "2026-02-12T17:04:39Z"
+  }
+]

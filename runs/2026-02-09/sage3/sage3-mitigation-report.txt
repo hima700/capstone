@@ -1,0 +1,2047 @@
+================================================================================
+  SBOM Vulnerability Mitigation Report — SAGE3
+  Generated: 2026-02-10 00:51:20
+================================================================================
+
+SUMMARY
+----------------------------------------
+  Total unique CVEs analyzed:  172
+
+  Mitigation Actions:
+    INVESTIGATE         : 106
+    UPGRADE             : 66
+
+  Severity Distribution (NVD CVSS v3):
+    CRITICAL    : 6
+    HIGH        : 64
+    MEDIUM      : 65
+    LOW         : 28
+    UNKNOWN     : 5
+
+  Ecosystem Distribution:
+    debian      : 104
+    npm         : 68
+
+
+DETAILED CVE ANALYSIS
+----------------------------------------
+
+  [1/172] GHSA-76p3-8jx3-jpfq
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype pollution in webpack loader-utils
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [2/172] GHSA-fjxv-7rqg-78g4
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     form-data@4.0.0
+  Dep Type:    NPM (not in npm tree)
+  Description: form-data uses unsafe random function in form-data for choosing boundary
+  Latest Ver:  4.0.5
+  Action:      UPGRADE — update from 4.0.0 to 4.0.5
+  Risk Level:  low
+  Note:        Newer version 4.0.5 available. Verify CVE is fixed in 4.0.5 and test for breakage.
+
+  [3/172] CVE-2023-6879
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: 9.0)
+  Package:     libaom3@3.6.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Increasing the resolution of video frames, while performing a multi-threaded encode, can result in a heap overflow in av1_loop_restoration_dealloc().
+  CWE:         CWE-20, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [4/172] CVE-2019-1010022
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: 9.8)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may bypass stack guard protection. The component is: nptl. The attack vector is: Exploit stack buffer overflow vulnerability...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [5/172] GHSA-2jcg-qqmg-46q6
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     monorepo-symlink-test@0.0.0
+  Dep Type:    NPM (not in npm tree)
+  Description: Malware in monorepo-symlink-test
+  Latest Ver:  0.0.1-security
+  Action:      UPGRADE — update from 0.0.0 to 0.0.1-security
+  Risk Level:  low
+  Note:        Newer version 0.0.1-security available. Verify CVE is fixed in 0.0.1-security and test for breakage.
+
+  [6/172] CVE-2022-37601
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     loader-utils@<1.4.1
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype pollution in webpack loader-utils
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for loader-utils
+
+  [7/172] GHSA-wgrm-67xf-hhpq
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     pdfjs-dist@3.11.174
+  Dep Type:    NPM (not in npm tree)
+  Description: PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF
+  Latest Ver:  5.4.624
+  Action:      UPGRADE — update from 3.11.174 to 5.4.624
+  Risk Level:  low
+  Note:        Newer version 5.4.624 available. Verify CVE is fixed in 5.4.624 and test for breakage.
+
+  [8/172] GHSA-4r6h-8v6p-xvw6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@0.18.5
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype Pollution in sheetJS
+  Latest Ver:  0.18.5
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [9/172] GHSA-hhq3-ff78-jv3g
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [10/172] GHSA-qwcr-r2fm-qrc7
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     body-parser@1.20.2
+  Dep Type:    NPM (not in npm tree)
+  Description: body-parser vulnerable to denial of service when url encoding is enabled
+  Latest Ver:  2.2.2
+  Action:      UPGRADE — update from 1.20.2 to 2.2.2
+  Risk Level:  low
+  Note:        Newer version 2.2.2 available. Verify CVE is fixed in 2.2.2 and test for breakage.
+
+  [11/172] GHSA-gcx4-mw62-g8wm
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     rollup@2.79.1
+  Dep Type:    NPM (not in npm tree)
+  Description: DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS
+  Latest Ver:  4.57.1
+  Action:      UPGRADE — update from 2.79.1 to 4.57.1
+  Risk Level:  low
+  Note:        Newer version 4.57.1 available. Verify CVE is fixed in 4.57.1 and test for breakage.
+
+  [12/172] GHSA-3rfm-jhwj-7488
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [13/172] CVE-2023-2953
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [14/172] GHSA-c2qf-rxjj-qqgw
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     semver@7.3.4
+  Dep Type:    NPM (not in npm tree)
+  Description: semver vulnerable to Regular Expression Denial of Service
+  Latest Ver:  7.7.4
+  Action:      UPGRADE — update from 7.3.4 to 7.7.4
+  Risk Level:  low
+  Note:        Newer version 7.7.4 available. Verify CVE is fixed in 7.7.4 and test for breakage.
+
+  [15/172] GHSA-c7qv-q95q-8v27
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     http-proxy-middleware@2.0.6
+  Dep Type:    NPM (not in npm tree)
+  Description: Denial of service in http-proxy-middleware
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 2.0.6 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [16/172] CVE-2020-23922
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.1)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in giflib through 5.1.4. DumpScreen2RGB in gif2rgb.c has a heap-based buffer over-read.
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [17/172] CVE-2015-3276
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be u...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [18/172] GHSA-6rw7-vpxm-498p
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     qs@6.11.0
+  Dep Type:    NPM (not in npm tree)
+  Description: qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion
+  Latest Ver:  6.14.1
+  Action:      UPGRADE — update from 6.11.0 to 6.14.1
+  Risk Level:  low
+  Note:        Newer version 6.14.1 available. Verify CVE is fixed in 6.14.1 and test for breakage.
+
+  [19/172] CVE-2025-59375
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
+  CWE:         CWE-770
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [20/172] GHSA-rhx6-c78j-4q9w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     path-to-regexp@0.1.7
+  Dep Type:    NPM (not in npm tree)
+  Description: path-to-regexp contains a ReDoS
+  Latest Ver:  8.3.0
+  Action:      UPGRADE — update from 0.1.7 to 8.3.0
+  Risk Level:  low
+  Note:        Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage.
+
+  [21/172] CVE-2025-6297
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.2)
+  Package:     dpkg@1.21.22
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: It was discovered that dpkg-deb does not properly sanitize directory permissions when extracting a control member into a temporary directory, which is
+documented as being a safe operation even on untr...
+  CWE:         CWE-400, CWE-732
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [22/172] GHSA-554w-wpv2-vw27
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@1.3.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-forge has ASN.1 Unbounded Recursion
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 1.3.1 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [23/172] CVE-2025-31344
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.3)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. This vulnerability is associated with program files gif2rgb.C.
+
+This issue affects giflib: through 5.2.2.
+  CWE:         CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [24/172] CVE-2017-17740
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffer that was allocated on the stack, which allows re...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [25/172] GHSA-5pgg-2g8v-p4x9
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@0.18.5
+  Dep Type:    NPM (not in npm tree)
+  Description: SheetJS Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  0.18.5
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [26/172] CVE-2018-20796
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by '(\227|)(\\1\\1|t1|\\\2537)+' in grep.
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [27/172] CVE-2018-5709
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     krb5-locales@1.20.1-2+deb12u4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable "dbentry->n_key_data" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assign...
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [28/172] GHSA-4hjh-wcwx-xvwj
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     axios@1.7.7
+  Dep Type:    NPM (not in npm tree)
+  Description: Axios is vulnerable to DoS attack through lack of data size check
+  Latest Ver:  1.13.5
+  Action:      UPGRADE — update from 1.7.7 to 1.13.5
+  Risk Level:  low
+  Note:        Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage.
+
+  [29/172] GHSA-3xgq-45jj-v275
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     cross-spawn@7.0.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Regular Expression Denial of Service (ReDoS) in cross-spawn
+  Latest Ver:  7.0.6
+  Action:      UPGRADE — update from 7.0.3 to 7.0.6
+  Risk Level:  low
+  Note:        Newer version 7.0.6 available. Verify CVE is fixed in 7.0.6 and test for breakage.
+
+  [30/172] CVE-2023-39616
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libaom3@3.6.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: AOMedia v3.0.0 to v3.5.0 was discovered to contain an invalid read memory access via the component assign_frame_buffer_p in av1/common/av1_common_int.h.
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [31/172] GHSA-9wv6-86v2-598j
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     path-to-regexp@0.1.7
+  Dep Type:    NPM (not in npm tree)
+  Description: path-to-regexp outputs backtracking regular expressions
+  Latest Ver:  8.3.0
+  Action:      UPGRADE — update from 0.1.7 to 8.3.0
+  Risk Level:  low
+  Note:        Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage.
+
+  [32/172] GHSA-jr5f-v2jv-69x6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     axios@1.7.7
+  Dep Type:    NPM (not in npm tree)
+  Description: axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL
+  Latest Ver:  1.13.5
+  Action:      UPGRADE — update from 1.7.7 to 1.13.5
+  Risk Level:  low
+  Note:        Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage.
+
+  [33/172] GHSA-5gfm-wpxj-wjgq
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@1.3.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 1.3.1 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [34/172] GHSA-829q-m3qg-ph8r
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     vega-selections@6.1.0
+  Dep Type:    NPM (not in npm tree)
+  Description: Vega XSS via expression abusing vlSelectionTuples function array map calls in environments with satisfactory function gadgets in the global scope
+  Latest Ver:  6.1.2
+  Action:      UPGRADE — update from 6.1.0 to 6.1.2
+  Risk Level:  low
+  Note:        Newer version 6.1.2 available. Verify CVE is fixed in 6.1.2 and test for breakage.
+
+  [35/172] CVE-2025-0725
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When libcurl is asked to perform automatic gzip decompression of
+content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
+**using zlib 1.2.0.3 or older**, an attacker-controlled integ...
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [36/172] CVE-2025-13151
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libtasn1-6@4.19.0-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [37/172] CVE-2023-25193
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libharfbuzz0b@6.0.0+dfsg-3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.
+  CWE:         CWE-770
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [38/172] CVE-2024-28757
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreate).
+  CWE:         CWE-776
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [39/172] GHSA-7f2v-3qq3-vvjf
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     vega-interpreter@1.0.5
+  Dep Type:    NPM (not in npm tree)
+  Description: Vega Cross-Site Scripting (XSS) via expressions abusing toString calls in environments using the VEGA_DEBUG global variable
+  Latest Ver:  2.2.1
+  Action:      UPGRADE — update from 1.0.5 to 2.2.1
+  Risk Level:  low
+  Note:        Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage.
+
+  [40/172] CVE-2019-9192
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by '(|)(\\1\\1)*' in grep, a different issue than CVE...
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [41/172] CVE-2021-40633
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.8)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A memory leak (out-of-memory) in gif2rgb in util/gif2rgb.c in giflib 5.1.4 allows remote attackers trigger an out of memory exception or denial of service via a gif format file.
+  CWE:         CWE-401
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [42/172] CVE-2025-15281
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on...
+  CWE:         CWE-908
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [43/172] CVE-2026-0915
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to v...
+  CWE:         CWE-908
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [44/172] GHSA-5j98-mcp5-4vw2
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     glob@10.4.2
+  Dep Type:    NPM (not in npm tree)
+  Description: glob CLI: Command injection via -c/--cmd executes matches with shell:true
+  Latest Ver:  13.0.1
+  Action:      UPGRADE — update from 10.4.2 to 13.0.1
+  Risk Level:  low
+  Note:        Newer version 13.0.1 available. Verify CVE is fixed in 13.0.1 and test for breakage.
+
+  [45/172] CVE-2023-31486
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.1)
+  Package:     libperl5.36@5.36.0-7+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: HTTP::Tiny before 0.083, a Perl core module since 5.13.9 and available standalone on CPAN, has an insecure default TLS configuration where users must opt in to verify certificates.
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [46/172] CVE-2018-6829
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libgcrypt20@1.10.1-3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i...
+  CWE:         CWE-327
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [47/172] GHSA-m9rg-mr6g-75gm
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     vega-functions@6.1.0
+  Dep Type:    NPM (not in npm tree)
+  Description: `vega-functions` vulnerable to Cross-site Scripting via `setdata` function
+  Latest Ver:  6.1.1
+  Action:      UPGRADE — update from 6.1.0 to 6.1.1
+  Risk Level:  low
+  Note:        Newer version 6.1.1 available. Verify CVE is fixed in 6.1.1 and test for breakage.
+
+  [48/172] CVE-2012-0039
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libglib2.0-0@2.74.6-2+deb12u8
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GLib 2.31.8 and earlier, when the g_str_hash function is used, computes hash values without restricting the ability to trigger hash collisions predictably, which allows context-dependent attackers to ...
+  CWE:         CWE-310
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [49/172] GHSA-34x7-hfp2-rc4v
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [50/172] GHSA-r6q2-hw4h-h46w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [51/172] CVE-2026-0861
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.4)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could con...
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [52/172] GHSA-2w69-qvjg-hvjx
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     @remix-run/router@1.23.0
+  Dep Type:    NPM (not in npm tree)
+  Description: React Router vulnerable to XSS via Open Redirects
+  Latest Ver:  1.23.2
+  Action:      UPGRADE — update from 1.23.0 to 1.23.2
+  Risk Level:  low
+  Note:        Newer version 1.23.2 available. Verify CVE is fixed in 1.23.2 and test for breakage.
+
+  [53/172] CVE-2023-49463
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.8)
+  Package:     libheif1@1.15.1-1+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libheif v1.17.5 was discovered to contain a segmentation violation via the function find_exif_tag at /libheif/exif.cc.
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [54/172] GHSA-8qq5-rm4j-mr97
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [55/172] GHSA-869p-cjfg-cm3x
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     jws@3.2.2
+  Dep Type:    NPM (not in npm tree)
+  Description: auth0/node-jws Improperly Verifies HMAC Signature
+  Latest Ver:  4.0.1
+  Action:      UPGRADE — update from 3.2.2 to 4.0.1
+  Risk Level:  low
+  Note:        Newer version 4.0.1 available. Verify CVE is fixed in 4.0.1 and test for breakage.
+
+  [56/172] CVE-2017-15131
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.8)
+  Package:     xdg-user-dirs@0.18-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: It was found that system umask policy is not being honored when creating XDG user directories, since Xsession sources xdg-user-dirs.sh before setting umask policy. This only affects xdg-user-dirs befo...
+  CWE:         CWE-284, CWE-276
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [57/172] CVE-2024-26461
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     krb5-locales@1.20.1-2+deb12u4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
+  CWE:         CWE-770
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [58/172] CVE-2017-18018
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.1)
+  Package:     coreutils@9.1-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In GNU Coreutils through 8.29, chown-core.c in chown and chgrp does not prevent replacement of a plain file with a symlink during use of the POSIX "-R -L" options, which allows local users to modify t...
+  CWE:         CWE-362
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [59/172] CVE-2024-25269
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libheif1@1.15.1-1+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libheif <= 1.17.6 contains a memory leak in the function JpegEncoder::Encode. This flaw allows an attacker to cause a denial of service attack.
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [60/172] CVE-2023-48161
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.1)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in GifLib Project GifLib v.5.2.1 allows a local attacker to obtain sensitive information via the DumpSCreen2RGB function in gif2rgb.c
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [61/172] GHSA-43fc-jf86-j433
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     axios@1.12.2
+  Dep Type:    NPM (not in npm tree)
+  Description: Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig
+  Latest Ver:  1.13.5
+  Action:      UPGRADE — update from 1.12.2 to 1.13.5
+  Risk Level:  low
+  Note:        Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage.
+
+  [62/172] CVE-2022-37603
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@>=1.0.0 <1.4.2
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for loader-utils
+
+  [63/172] CVE-2022-37599
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@>=1.0.0 <1.4.2
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for loader-utils
+
+  [64/172] CVE-2022-25883
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     semver@>=7.0.0 <7.5.2
+  Dep Type:    NPM (not in npm tree)
+  Description: semver vulnerable to Regular Expression Denial of Service
+  Latest Ver:  7.7.4
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for semver
+
+  [65/172] CVE-2024-4367
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     pdfjs-dist@<=4.1.392
+  Dep Type:    NPM (not in npm tree)
+  Description: PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF
+  Latest Ver:  5.4.624
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for pdfjs-dist
+
+  [66/172] CVE-2026-23745
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@<=7.5.2
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tar
+
+  [67/172] CVE-2026-23950
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@<=7.5.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tar
+
+  [68/172] CVE-2026-24842
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@<7.5.7
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tar
+
+  [69/172] CVE-2023-30533
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@<0.19.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype Pollution in sheetJS
+  Latest Ver:  0.18.5
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for xlsx
+
+  [70/172] CVE-2024-22363
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@<0.20.2
+  Dep Type:    NPM (not in npm tree)
+  Description: SheetJS Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  0.18.5
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for xlsx
+
+  [71/172] CVE-2024-38950
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libde265-0@1.0.11-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Heap Buffer Overflow vulnerability in Libde265 v1.0.15 allows attackers to crash the application via crafted payload to __interceptor_memcpy function.
+  CWE:         CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [72/172] CVE-2017-7475
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libcairo2@1.16.0-7
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Cairo version 1.15.4 is vulnerable to a NULL pointer dereference related to the FT_Load_Glyph and FT_Render_Glyph resulting in an application crash.
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [73/172] CVE-2026-0990
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     libxml2@2.9.14+dfsg-1.3~deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in libxml2, an XML parsing library. This uncontrolled recursion vulnerability occurs in the xmlCatalogXMLResolveURI function when an XML catalog contains a delegate URI entry that ref...
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [74/172] GHSA-4www-5p9h-95mh
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     http-proxy-middleware@2.0.6
+  Dep Type:    NPM (not in npm tree)
+  Description: http-proxy-middleware can call writeBody twice because "else if" is not used
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 2.0.6 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [75/172] GHSA-968p-4wvh-cqc8
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     @babel/helpers@7.25.6
+  Dep Type:    NPM (not in npm tree)
+  Description: Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups
+  Latest Ver:  7.28.6
+  Action:      UPGRADE — update from 7.25.6 to 7.28.6
+  Risk Level:  low
+  Note:        Newer version 7.28.6 available. Verify CVE is fixed in 7.28.6 and test for breakage.
+
+  [76/172] GHSA-c76h-2ccp-4975
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     undici@6.19.8
+  Dep Type:    NPM (not in npm tree)
+  Description: Use of Insufficiently Random Values in undici
+  Latest Ver:  7.21.0
+  Action:      UPGRADE — update from 6.19.8 to 7.21.0
+  Risk Level:  low
+  Note:        Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage.
+
+  [77/172] CVE-2019-1010025
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may guess the heap addresses of pthread_created thread. The component is: glibc. NOTE: the vendor's position is "ASLR bypass...
+  CWE:         CWE-330
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [78/172] CVE-2024-38949
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libde265-0@1.0.11-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Heap Buffer Overflow vulnerability in Libde265 v1.0.15 allows attackers to crash the application via crafted payload to display444as420 function at sdl.cc
+  CWE:         CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [79/172] CVE-2023-32570
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     libdav1d6@1.0.0-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: VideoLAN dav1d before 1.2.0 has a thread_task.c race condition that can lead to an application crash, related to dav1d_decode_frame_exit.
+  CWE:         CWE-362
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [80/172] GHSA-mwcw-c2x4-8c55
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     nanoid@3.3.7
+  Dep Type:    NPM (not in npm tree)
+  Description: Predictable results in nanoid generation when given non-integer values
+  Latest Ver:  5.1.6
+  Action:      UPGRADE — update from 3.3.7 to 5.1.6
+  Risk Level:  low
+  Note:        Newer version 5.1.6 available. Verify CVE is fixed in 5.1.6 and test for breakage.
+
+  [81/172] CVE-2025-10148
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: curl's websocket code did not update the 32 bit mask pattern for each new
+ outgoing frame as the specification says. Instead it used a fixed mask that
+persisted and was used throughout the entire conn...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [82/172] GHSA-9gqv-wp59-fq42
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     http-proxy-middleware@2.0.6
+  Dep Type:    NPM (not in npm tree)
+  Description: http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 2.0.6 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [83/172] GHSA-xxjr-mmjv-4gpg
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     lodash@4.17.21
+  Dep Type:    NPM (not in npm tree)
+  Description: Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — update from 4.17.21 to 4.17.23
+  Risk Level:  low
+  Note:        Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage.
+
+  [84/172] CVE-2019-1010024
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may bypass ASLR using cache of thread stack and heap. The component is: glibc. NOTE: Upstream comments indicate "this is bei...
+  CWE:         CWE-200
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [85/172] GHSA-4v9v-hfq4-rm2v
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     webpack-dev-server@4.15.2
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — update from 4.15.2 to 5.2.3
+  Risk Level:  low
+  Note:        Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage.
+
+  [86/172] CVE-2023-50495
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libtinfo6@6.4-4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [87/172] CVE-2026-22693
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libharfbuzz0b@6.0.0+dfsg-3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: HarfBuzz is a text shaping engine. Prior to version 12.3.0, a null pointer dereference vulnerability exists in the SubtableUnicodesCache::create function located in src/hb-ot-cmap-table.hh. The functi...
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [88/172] CVE-2018-18064
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libcairo2@1.16.0-7
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: cairo through 1.15.14 has an out-of-bounds stack-memory write during processing of a crafted document by WebKitGTK+ because of the interaction between cairo-rectangular-scan-converter.c (the generate ...
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [89/172] CVE-2016-2781
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.6)
+  Package:     coreutils@9.1-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.
+  CWE:         CWE-20
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [90/172] GHSA-65ch-62r8-g69g
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     node-forge@1.3.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-forge is vulnerable to ASN.1 OID Integer Truncation
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 1.3.1 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [91/172] CVE-2026-1489
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.4)
+  Package:     libglib2.0-0@2.74.6-2+deb12u8
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in GLib. An integer overflow vulnerability in its Unicode case conversion implementation can lead to memory corruption. By processing specially crafted and extremely large Unicode str...
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [92/172] CVE-2025-68431
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libheif1@1.15.1-1+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libheif is an HEIF and AVIF file format decoder and encoder. Prior to version 1.21.0, a crafted HEIF that exercises the overlay image item path triggers a heap buffer over-read in `HeifPixelImage::ove...
+  CWE:         CWE-125, CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [93/172] CVE-2026-1484
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.2)
+  Package:     libglib2.0-0@2.74.6-2+deb12u8
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in the GLib Base64 encoding routine when processing very large input data. Due to incorrect use of integer types during length calculation, the library may miscalculate buffer boundar...
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [94/172] CVE-2025-14819
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing TLS related transfers with reused easy or multi handles and
+altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+reuse a CA store cached in memory for which the par...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [95/172] GHSA-9jgg-88mc-972h
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     webpack-dev-server@4.15.2
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — update from 4.15.2 to 5.2.3
+  Risk Level:  low
+  Note:        Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage.
+
+  [96/172] GHSA-9jcx-v3wj-wh4m
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     react-router@6.30.1
+  Dep Type:    NPM (not in npm tree)
+  Description: React Router has unexpected external redirect via untrusted paths
+  Latest Ver:  7.13.0
+  Action:      UPGRADE — update from 6.30.1 to 7.13.0
+  Risk Level:  low
+  Note:        Newer version 7.13.0 available. Verify CVE is fixed in 7.13.0 and test for breakage.
+
+  [97/172] CVE-2019-6461
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libcairo2@1.16.0-7
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in cairo 1.16.0. There is an assertion problem in the function _cairo_arc_in_direction in the file cairo-arc.c.
+  CWE:         CWE-617
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [98/172] CVE-2019-1010023
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.4)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Re-mapping current loaded library with malicious ELF file. The impact is: In worst case attacker may evaluate privileges. The component is: libld. The attack vector is...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [99/172] CVE-2019-6462
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libcairo2@1.16.0-7
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in cairo 1.16.0. There is an infinite loop in the function _arc_error_normalized in the file cairo-arc.c, related to _arc_max_angle_for_tolerance_normalized.
+  CWE:         CWE-835
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [100/172] CVE-2024-10041
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.7)
+  Package:     libpam-modules@1.5.2-6+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this ...
+  CWE:         CWE-922, NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [101/172] CVE-2026-22695
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.1)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in t...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [102/172] CVE-2025-14524
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+POP3 or SMTP scheme, curl might wrongly pass ...
+  CWE:         CWE-601
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [103/172] CVE-2021-4214
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A heap overflow flaw was found in libpngs' pngimage.c program. This flaw allows an attacker with local network access to pass a specially crafted PNG file to the pngimage utility, causing an applicati...
+  CWE:         CWE-120, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [104/172] CVE-2024-2236
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     libgcrypt20@1.10.1-3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ...
+  CWE:         CWE-208
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [105/172] CVE-2020-15719
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.2)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It considers CN even when there is a non-matching subjectA...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [106/172] CVE-2026-22801
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.8)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the...
+  CWE:         CWE-125, CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [107/172] GHSA-mh29-5h37-fv8m
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     js-yaml@3.14.1
+  Dep Type:    NPM (not in npm tree)
+  Description: js-yaml has prototype pollution in merge (<<)
+  Latest Ver:  4.1.1
+  Action:      UPGRADE — update from 3.14.1 to 4.1.1
+  Risk Level:  low
+  Note:        Newer version 4.1.1 available. Verify CVE is fixed in 4.1.1 and test for breakage.
+
+  [108/172] CVE-2024-26458
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     krb5-locales@1.20.1-2+deb12u4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
+  CWE:         CWE-401
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [109/172] CVE-2024-2379
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips t...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [110/172] GHSA-g9mf-h72j-4rw9
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     undici@6.19.8
+  Dep Type:    NPM (not in npm tree)
+  Description: Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion
+  Latest Ver:  7.21.0
+  Action:      UPGRADE — update from 6.19.8 to 7.21.0
+  Risk Level:  low
+  Note:        Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage.
+
+  [111/172] CVE-2025-14104
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.1)
+  Package:     bsdutils@1:2.38.1-5+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-u...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [112/172] CVE-2023-31437
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a r...
+  CWE:         CWE-354
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [113/172] CVE-2017-14159
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.7)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: slapd in OpenLDAP 2.4.45 and earlier creates a PID file after dropping privileges to a non-root account, which might allow local users to kill arbitrary processes by leveraging access to this non-root...
+  CWE:         CWE-665
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [114/172] CVE-2024-45993
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Giflib Project v5.2.2 is vulnerable to a heap buffer overflow via gif2rgb.
+  CWE:         CWE-787, CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [115/172] CVE-2023-31438
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor ...
+  CWE:         CWE-354
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [116/172] CVE-2023-31439
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifi...
+  CWE:         CWE-354
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [117/172] CVE-2025-9820
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.0)
+  Package:     libgnutls30@3.7.9-2+deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in the GnuTLS library, specifically in the gnutls_pkcs11_token_init() function that handles PKCS#11 token initialization. When a token label longer than expected is processed, the fun...
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [118/172] CVE-2026-25210
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.9)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [119/172] CVE-2022-28506
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: There is a heap-buffer-overflow in GIFLIB 5.2.1 function DumpScreen2RGB() in gif2rgb.c:298:45.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [120/172] CVE-2025-68972
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     gpgv@2.2.40-1.1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signat...
+  CWE:         CWE-347
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [121/172] CVE-2022-27943
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     gcc-12-base@12.2.0-14+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [122/172] CVE-2023-37769
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libpixman-1-0@0.42.2-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: stress-test master commit e4c878 was discovered to contain a FPE vulnerability via the component combine_inner at /pixman-combine-float.c.
+  CWE:         CWE-369
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [123/172] CVE-2025-27587
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libssl3@3.0.18-1~deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: OpenSSL 3.0.0 through 3.3.2 on the PowerPC architecture is vulnerable to a Minerva attack, exploitable by measuring the time of signing of random messages using the EVP_DigestSign API, and then using ...
+  CWE:         CWE-385
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [124/172] CVE-2013-4392
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: systemd, when updating file permissions, allows local users to change the permissions and SELinux security contexts for arbitrary files via a symlink attack on unspecified files.
+  CWE:         CWE-59
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [125/172] CVE-2025-15079
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing SSH-based transfers using either SCP or SFTP, and setting the
+known_hosts file, libcurl could still mistakenly accept connecting to hosts
+*not present* in the specified file if they were ad...
+  CWE:         CWE-297
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [126/172] CVE-2025-5278
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.4)
+  Package:     coreutils@9.1-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted...
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [127/172] CVE-2022-0563
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     bsdutils@1:2.38.1-5+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in the util-linux chfn and chsh utilities when compiled with Readline support. The Readline library uses an "INPUTRC" environment variable to get a path to the library config file. Wh...
+  CWE:         CWE-209
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [128/172] CVE-2023-39742
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libgif7@5.2.1-2.5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: giflib v5.2.1 was discovered to contain a segmentation fault via the component getarg.c.
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [129/172] CVE-2023-52426
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.
+  CWE:         CWE-776
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [130/172] CVE-2026-1757
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.2)
+  Package:     libxml2@2.9.14+dfsg-1.3~deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was identified in the interactive shell of the xmllint utility, part of the libxml2 project, where memory allocated for user input is not properly released under certain conditions. When a user...
+  CWE:         CWE-401
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [131/172] CVE-2025-10966
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: curl's code for managing SSH connections when SFTP was done using the wolfSSH
+powered backend was flawed and missed host verification mechanisms.
+
+This prevents curl from detecting MITM attackers and ...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [132/172] CVE-2025-28162
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via the pngimage with AddressSanitizer (ASan), the program leaks memory in various locations,...
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [133/172] CVE-2025-28164
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via png_create_read_struct() function.
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [134/172] CVE-2025-14017
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+changing TLS options in one thread would inadvertently change them globally
+and therefore possibly also affect other concurrentl...
+  CWE:         NVD-CWE-Other
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [135/172] CVE-2025-14831
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libgnutls30@3.7.9-2+deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in GnuTLS. This vulnerability allows a denial of service (DoS) by excessive CPU (Central Processing Unit) and memory consumption via specially crafted malicious certificates containin...
+  CWE:         CWE-407
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [136/172] CVE-2024-56433
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.6)
+  Package:     login@1:4.13+dfsg1-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of us...
+  CWE:         CWE-1188
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [137/172] GHSA-cm22-4g7w-348p
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     serve-static@1.15.0
+  Dep Type:    NPM (not in npm tree)
+  Description: serve-static vulnerable to template injection that can lead to XSS
+  Latest Ver:  2.2.1
+  Action:      UPGRADE — update from 1.15.0 to 2.2.1
+  Risk Level:  low
+  Note:        Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage.
+
+  [138/172] CVE-2011-3374
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.7)
+  Package:     apt@2.6.1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: It was found that apt-key in apt, all versions, do not correctly validate gpg keys with the master keyring, leading to a potential man-in-the-middle attack.
+  CWE:         CWE-347
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [139/172] GHSA-m6fv-jmcg-4jfg
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     send@0.18.0
+  Dep Type:    NPM (not in npm tree)
+  Description: send vulnerable to template injection that can lead to XSS
+  Latest Ver:  1.2.1
+  Action:      UPGRADE — update from 0.18.0 to 1.2.1
+  Risk Level:  low
+  Note:        Newer version 1.2.1 available. Verify CVE is fixed in 1.2.1 and test for breakage.
+
+  [140/172] GHSA-pxg6-pf52-xh8x
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     cookie@0.6.0
+  Dep Type:    NPM (not in npm tree)
+  Description: cookie accepts cookie name, path, and domain with out of bounds characters
+  Latest Ver:  1.1.1
+  Action:      UPGRADE — update from 0.6.0 to 1.1.1
+  Risk Level:  low
+  Note:        Newer version 1.1.1 available. Verify CVE is fixed in 1.1.1 and test for breakage.
+
+  [141/172] GHSA-qw6h-vgh9-j6wx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     express@4.19.2
+  Dep Type:    NPM (not in npm tree)
+  Description: express vulnerable to XSS via response.redirect()
+  Latest Ver:  5.2.1
+  Action:      UPGRADE — update from 4.19.2 to 5.2.1
+  Risk Level:  low
+  Note:        Newer version 5.2.1 available. Verify CVE is fixed in 5.2.1 and test for breakage.
+
+  [142/172] GHSA-cxrh-j4jr-qwg3
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     undici@6.19.8
+  Dep Type:    NPM (not in npm tree)
+  Description: undici Denial of Service attack via bad certificate data
+  Latest Ver:  7.21.0
+  Action:      UPGRADE — update from 6.19.8 to 7.21.0
+  Risk Level:  low
+  Note:        Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage.
+
+  [143/172] GHSA-52f5-9888-hmc6
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     tmp@0.0.33
+  Dep Type:    NPM (not in npm tree)
+  Description: tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter
+  Latest Ver:  0.2.5
+  Action:      UPGRADE — update from 0.0.33 to 0.2.5
+  Risk Level:  low
+  Note:        Newer version 0.2.5 available. Verify CVE is fixed in 0.2.5 and test for breakage.
+
+  [144/172] CVE-2026-0992
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.9)
+  Package:     libxml2@2.9.14+dfsg-1.3~deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in the libxml2 library. This uncontrolled resource consumption vulnerability occurs when processing XML catalogs that contain repeated <nextCatalog> elements pointing to the same down...
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [145/172] CVE-2026-0989
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.7)
+  Package:     libxml2@2.9.14+dfsg-1.3~deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was identified in the RelaxNG parser of libxml2 related to how external schema inclusions are handled. The parser does not enforce a limit on inclusion depth when resolving nested <include> dir...
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [146/172] CVE-2026-0988
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.7)
+  Package:     libglib2.0-0@2.74.6-2+deb12u8
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in glib. Missing validation of offset and count parameters in the g_buffered_input_stream_peek() function can lead to an integer overflow during length calculation. When specially cra...
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [147/172] GHSA-73rr-hh4g-fpgx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     diff@4.0.2
+  Dep Type:    NPM (not in npm tree)
+  Description: jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch
+  Latest Ver:  8.0.3
+  Action:      UPGRADE — update from 4.0.2 to 8.0.3
+  Risk Level:  low
+  Note:        Newer version 8.0.3 available. Verify CVE is fixed in 8.0.3 and test for breakage.
+
+  [148/172] CVE-2025-30258
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.7)
+  Package:     gpgv@2.2.40-1.1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify sig...
+  CWE:         CWE-754
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [149/172] CVE-2011-4116
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libperl5.36@5.36.0-7+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: _is_safe in the File::Temp module for Perl does not properly handle symlinks.
+  CWE:         CWE-59
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [150/172] CVE-2025-6141
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libtinfo6@6.4-4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU ncurses up to 6.5-20250322 and classified as problematic. This vulnerability affects the function postprocess_termcap of the file tinfo/parse_entry.c. The manipul...
+  CWE:         CWE-119, CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [151/172] CVE-2025-66382
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.9)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.
+  CWE:         CWE-407
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [152/172] CVE-2023-51792
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libde265-0@1.0.11-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in libde265 v1.0.12 allows a local attacker to cause a denial of service via the allocation size exceeding the maximum supported size of 0x10000000000.
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [153/172] CVE-2025-50422
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.9)
+  Package:     libcairo2@1.16.0-7
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Cairo through 1.18.4, as used in Poppler through 25.08.0, has an "unscaled->face == NULL" assertion failure for _cairo_ft_unscaled_font_fini in cairo-ft-font.c.
+  CWE:         CWE-617
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [154/172] GHSA-v6h2-p8h4-qcjw
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     brace-expansion@1.1.11
+  Dep Type:    NPM (not in npm tree)
+  Description: brace-expansion Regular Expression Denial of Service vulnerability
+  Latest Ver:  4.0.1
+  Action:      UPGRADE — update from 1.1.11 to 4.0.1
+  Risk Level:  low
+  Note:        Newer version 4.0.1 available. Verify CVE is fixed in 4.0.1 and test for breakage.
+
+  [155/172] CVE-2026-1485
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.8)
+  Package:     libglib2.0-0@2.74.6-2+deb12u8
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in Glib's content type parsing logic. This buffer underflow vulnerability occurs because the length of a header line is stored in a signed integer, which can lead to integer wraparoun...
+  CWE:         CWE-124
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [156/172] GHSA-38r7-794h-5758
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     webpack@5.94.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack buildHttp HttpUriPlugin allowedUris bypass via HTTP redirects → SSRF + cache persistence
+  Latest Ver:  5.105.0
+  Action:      UPGRADE — update from 5.94.0 to 5.105.0
+  Risk Level:  low
+  Note:        Newer version 5.105.0 available. Verify CVE is fixed in 5.105.0 and test for breakage.
+
+  [157/172] GHSA-8fgc-7cc6-rx7x
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     webpack@5.94.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack buildHttp: allowedUris allow-list bypass via URL userinfo (@) leading to build-time SSRF behavior
+  Latest Ver:  5.105.0
+  Action:      UPGRADE — update from 5.94.0 to 5.105.0
+  Risk Level:  low
+  Note:        Newer version 5.105.0 available. Verify CVE is fixed in 5.105.0 and test for breakage.
+
+  [158/172] CVE-2025-15224
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing SSH-based transfers using either SCP or SFTP, and asked to do
+public key authentication, curl would wrongly still ask and authenticate using
+a locally running SSH agent.
+  CWE:         CWE-287
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [159/172] GHSA-76c9-3jph-rj3q
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     on-headers@1.0.2
+  Dep Type:    NPM (not in npm tree)
+  Description: on-headers is vulnerable to http response header manipulation
+  Latest Ver:  1.1.0
+  Action:      UPGRADE — update from 1.0.2 to 1.1.0
+  Risk Level:  low
+  Note:        Newer version 1.1.0 available. Verify CVE is fixed in 1.1.0 and test for breakage.
+
+  [160/172] CVE-2026-24515
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.9)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [161/172] CVE-2022-3219
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     gpgv@2.2.40-1.1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [162/172] CVE-2025-8732
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libxml2@2.9.14+dfsg-1.3~deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in libxml2 up to 2.14.5. It has been declared as problematic. This vulnerability affects the function xmlParseSGMLCatalog of the component xmlcatalog. The manipulation leads ...
+  CWE:         CWE-404, CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [163/172] CVE-2025-54798
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     tmp@<=0.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter
+  Latest Ver:  0.2.5
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tmp
+
+  [164/172] CVE-2011-3389
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     libgnutls30@3.7.9-2+deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode wit...
+  CWE:         CWE-326
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [165/172] CVE-2005-2541
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     tar@1.34+dfsg-1.2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Tar 1.15.1 does not properly warn the user when extracting setuid or setgid files, which may allow local users or remote attackers to gain privileges.
+  CWE:         NVD-CWE-Other
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [166/172] CVE-2010-4756
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not m...
+  CWE:         CWE-399
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [167/172] CVE-2007-5686
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     login@1:4.13+dfsg1-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: initscripts in rPath Linux 1 sets insecure permissions for the /var/log/btmp file, which allows local users to obtain sensitive information regarding authentication attempts.  NOTE: because sshd detec...
+  CWE:         CWE-264
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [168/172] CVE-2026-22185
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: OpenLDAP Lightning Memory-Mapped Database (LMDB) versions up to and including 0.9.14, prior to commit 8e1fda8, contain a heap buffer underflow in the readline() function of mdb_load. When processing m...
+  CWE:         CWE-125, CWE-191
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [169/172] CVE-2025-30360
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     webpack-dev-server@<=5.2.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for webpack-dev-server
+
+  [170/172] CVE-2025-30359
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     webpack-dev-server@<=5.2.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for webpack-dev-server
+
+  [171/172] CVE-2025-64718
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     js-yaml@>=4.0.0 <4.1.1
+  Dep Type:    NPM (not in npm tree)
+  Description: js-yaml has prototype pollution in merge (<<)
+  Latest Ver:  4.1.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for js-yaml
+
+  [172/172] CVE-2025-13465
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     lodash@>=4.0.0 <=4.17.22
+  Dep Type:    NPM (not in npm tree)
+  Description: Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for lodash
+
+================================================================================
+  END OF REPORT
+================================================================================

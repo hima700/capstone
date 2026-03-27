@@ -1,0 +1,10 @@
+[
+  {
+    "id": "MAL-2022-2913",
+    "aliases": [
+      "GHSA-j2hj-f22c-chm4"
+    ],
+    "severity": "UNKNOWN",
+    "summary": "Malicious code in example-typescript (npm)"
+  }
+]

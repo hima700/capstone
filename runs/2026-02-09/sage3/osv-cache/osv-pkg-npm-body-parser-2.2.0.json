@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-wqch-xfxh-vrr4",
+    "aliases": [
+      "CVE-2025-13466"
+    ],
+    "severity": "MODERATE",
+    "summary": "body-parser is vulnerable to denial of service when url encoding is used"
+  }
+]

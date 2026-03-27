@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-4fc4-chg7-h8gh",
+    "aliases": [
+      "CVE-2020-15262"
+    ],
+    "severity": "LOW",
+    "summary": "Unprotected dynamically loaded chunks"
+  }
+]

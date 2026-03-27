@@ -1,0 +1,1622 @@
+================================================================================
+  SBOM Migration Analysis v2 — SAGE3
+  Generated: 2026-02-10 00:57:11
+  Databases: OSV (osv.dev), Debian Security Tracker, NVD, npm Registry
+================================================================================
+
+OVERALL SUMMARY
+------------------------------------------------------------
+  Vulnerable packages:         84
+  Total CVEs (current):        172
+  CVEs fixable by upgrade:     53
+  CVEs still open (no fix):    106
+  CVEs with unknown status:    13
+  New CVEs in latest versions: 2
+  Net CVE change if upgraded:  51 reduction
+  Fix rate:                    30.8%
+
+  Debian Security Urgency:
+    unimportant              :   55  Negligible risk — Debian will not fix
+    low                      :    4  Low priority — may be fixed eventually
+    not yet assigned         :   38  Awaiting triage by Debian team
+    unknown                  :    7  
+
+
+PER-PACKAGE ANALYSIS
+------------------------------------------------------------
+
+  📦 http-proxy-middleware@2.0.6
+     Ecosystem:         npm
+     Latest version:    3.0.5
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-c7qv-q95q-8v27 (HIGH)
+        Fix version: 2.0.7
+        Range: introduced: 0, fixed: 2.0.7
+        Sources: OSV
+     ✅ GHSA-4www-5p9h-95mh (MEDIUM)
+        Fix version: 2.0.8
+        Range: introduced: 1.3.0, fixed: 2.0.8
+        Sources: OSV
+     ✅ GHSA-9gqv-wp59-fq42 (MEDIUM)
+        Fix version: 2.0.9
+        Range: introduced: 1.3.0, fixed: 2.0.9
+        Sources: OSV
+
+  📦 loader-utils@1.2.3
+     Ecosystem:         npm
+     Latest version:    3.3.1
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-76p3-8jx3-jpfq (CRITICAL)
+        Fix version: 2.0.3
+        Range: introduced: 2.0.0, fixed: 2.0.3
+        Sources: OSV
+     ✅ GHSA-hhq3-ff78-jv3g (HIGH)
+        Fix version: 1.4.2
+        Range: introduced: 1.0.0, fixed: 1.4.2
+        Sources: OSV
+     ✅ GHSA-3rfm-jhwj-7488 (HIGH)
+        Fix version: 1.4.2
+        Range: introduced: 1.0.0, fixed: 1.4.2
+        Sources: OSV
+
+  📦 node-forge@1.3.1
+     Ecosystem:         npm
+     Latest version:    1.3.3
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-554w-wpv2-vw27 (HIGH)
+        Fix version: 1.3.2
+        Range: introduced: 0, fixed: 1.3.2
+        Sources: OSV
+     ✅ GHSA-5gfm-wpxj-wjgq (HIGH)
+        Fix version: 1.3.2
+        Range: introduced: 0, fixed: 1.3.2
+        Sources: OSV
+     ✅ GHSA-65ch-62r8-g69g (MEDIUM)
+        Fix version: 1.3.2
+        Range: introduced: 0, fixed: 1.3.2
+        Sources: OSV
+
+  📦 tar@6.2.1
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-34x7-hfp2-rc4v (HIGH)
+        Fix version: 7.5.7
+        Range: introduced: 0, fixed: 7.5.7
+        Sources: OSV
+     ✅ GHSA-r6q2-hw4h-h46w (HIGH)
+        Fix version: 7.5.4
+        Range: introduced: 0, fixed: 7.5.4
+        Sources: OSV
+     ✅ GHSA-8qq5-rm4j-mr97 (HIGH)
+        Fix version: 7.5.3
+        Range: introduced: 0, fixed: 7.5.3
+        Sources: OSV
+
+  📦 undici@6.19.8
+     Ecosystem:         npm
+     Latest version:    7.21.0
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-c76h-2ccp-4975 (MEDIUM)
+        Fix version: 5.28.5
+        Range: introduced: 4.5.0, fixed: 5.28.5
+        Sources: OSV
+     ✅ GHSA-cxrh-j4jr-qwg3 (LOW)
+        Fix version: 5.29.0
+        Range: introduced: 0, fixed: 5.29.0
+        Sources: OSV
+     ✅ GHSA-g9mf-h72j-4rw9 (MEDIUM)
+        Fix version: 7.18.2
+        Range: introduced: 7.0.0, fixed: 7.18.2
+        Sources: OSV
+
+  📦 axios@1.7.7
+     Ecosystem:         npm
+     Latest version:    1.13.5
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-4hjh-wcwx-xvwj (HIGH)
+        Fix version: 1.12.0
+        Range: introduced: 1.0.0, fixed: 1.12.0
+        Sources: OSV
+     ✅ GHSA-jr5f-v2jv-69x6 (HIGH)
+        Fix version: 1.8.2
+        Range: introduced: 1.0.0, fixed: 1.8.2
+        Sources: OSV
+
+  📦 path-to-regexp@0.1.7
+     Ecosystem:         npm
+     Latest version:    8.3.0
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-rhx6-c78j-4q9w (HIGH)
+        Fix version: 0.1.12
+        Range: introduced: 0, fixed: 0.1.12
+        Sources: OSV
+     ✅ GHSA-9wv6-86v2-598j (HIGH)
+        Fix version: 1.9.0
+        Range: introduced: 0.2.0, fixed: 1.9.0
+        Sources: OSV
+
+  📦 webpack-dev-server@4.15.2
+     Ecosystem:         npm
+     Latest version:    5.2.3
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-4v9v-hfq4-rm2v (MEDIUM)
+        Fix version: 5.2.1
+        Range: introduced: 0, fixed: 5.2.1
+        Sources: OSV
+     ✅ GHSA-9jgg-88mc-972h (MEDIUM)
+        Fix version: 5.2.1
+        Range: introduced: 0, fixed: 5.2.1
+        Sources: OSV
+
+  📦 webpack-dev-server@<=5.2.0
+     Ecosystem:         npm
+     Latest version:    5.2.3
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ CVE-2025-30360 (MODERATE)
+        Fix version: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Range: introduced: 0, fixed: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Sources: OSV
+     ✅ CVE-2025-30359 (MODERATE)
+        Fix version: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Range: introduced: 0, fixed: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Sources: OSV
+
+  📦 webpack@5.94.0
+     Ecosystem:         npm
+     Latest version:    5.105.0
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-38r7-794h-5758 (LOW)
+        Fix version: 5.104.0
+        Range: introduced: 5.49.0, fixed: 5.104.0
+        Sources: OSV
+     ✅ GHSA-8fgc-7cc6-rx7x (LOW)
+        Fix version: 5.104.1
+        Range: introduced: 5.49.0, fixed: 5.104.1
+        Sources: OSV
+
+  📦 @babel/helpers@7.25.6
+     Ecosystem:         npm
+     Latest version:    7.28.6
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-968p-4wvh-cqc8 (MEDIUM)
+        Fix version: 7.26.10
+        Range: introduced: 0, fixed: 7.26.10
+        Sources: OSV
+
+  📦 axios@1.12.2
+     Ecosystem:         npm
+     Latest version:    1.13.5
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-43fc-jf86-j433 (HIGH)
+        Fix version: 1.13.5
+        Range: introduced: 0, fixed: 1.13.5
+        Sources: OSV
+
+  📦 body-parser@1.20.2
+     Ecosystem:         npm
+     Latest version:    2.2.2
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-qwcr-r2fm-qrc7 (HIGH)
+        Fix version: 1.20.3
+        Range: introduced: 0, fixed: 1.20.3
+        Sources: OSV
+
+  📦 brace-expansion@1.1.11
+     Ecosystem:         npm
+     Latest version:    4.0.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-v6h2-p8h4-qcjw (LOW)
+        Fix version: 2.0.2
+        Range: introduced: 2.0.0, fixed: 2.0.2
+        Sources: OSV
+
+  📦 cookie@0.6.0
+     Ecosystem:         npm
+     Latest version:    1.1.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-pxg6-pf52-xh8x (LOW)
+        Fix version: 0.7.0
+        Range: introduced: 0, fixed: 0.7.0
+        Sources: OSV
+
+  📦 cross-spawn@7.0.3
+     Ecosystem:         npm
+     Latest version:    7.0.6
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-3xgq-45jj-v275 (HIGH)
+        Fix version: 7.0.5
+        Range: introduced: 7.0.0, fixed: 7.0.5
+        Sources: OSV
+
+  📦 diff@4.0.2
+     Ecosystem:         npm
+     Latest version:    8.0.3
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-73rr-hh4g-fpgx (LOW)
+        Fix version: 8.0.3
+        Range: introduced: 6.0.0, fixed: 8.0.3
+        Sources: OSV
+
+  📦 express@4.19.2
+     Ecosystem:         npm
+     Latest version:    5.2.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-qw6h-vgh9-j6wx (LOW)
+        Fix version: 4.20.0
+        Range: introduced: 0, fixed: 4.20.0
+        Sources: OSV
+
+  📦 form-data@4.0.0
+     Ecosystem:         npm
+     Latest version:    4.0.5
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-fjxv-7rqg-78g4 (CRITICAL)
+        Fix version: 2.5.4
+        Range: introduced: 0, fixed: 2.5.4
+        Sources: OSV
+
+  📦 glob@10.4.2
+     Ecosystem:         npm
+     Latest version:    13.0.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-5j98-mcp5-4vw2 (HIGH)
+        Fix version: 11.1.0
+        Range: introduced: 11.0.0, fixed: 11.1.0
+        Sources: OSV
+
+  📦 js-yaml@3.14.1
+     Ecosystem:         npm
+     Latest version:    4.1.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-mh29-5h37-fv8m (MEDIUM)
+        Fix version: 4.1.1
+        Range: introduced: 4.0.0, fixed: 4.1.1
+        Sources: OSV
+
+  📦 jws@3.2.2
+     Ecosystem:         npm
+     Latest version:    4.0.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-869p-cjfg-cm3x (HIGH)
+        Fix version: 3.2.3
+        Range: introduced: 0, fixed: 3.2.3
+        Sources: OSV
+
+  📦 lodash@4.17.21
+     Ecosystem:         npm
+     Latest version:    4.17.23
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-xxjr-mmjv-4gpg (MEDIUM)
+        Fix version: 4.17.23
+        Range: introduced: 4.0.0, fixed: 4.17.23
+        Sources: OSV
+
+  📦 nanoid@3.3.7
+     Ecosystem:         npm
+     Latest version:    5.1.6
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-mwcw-c2x4-8c55 (MEDIUM)
+        Fix version: 5.0.9
+        Range: introduced: 4.0.0, fixed: 5.0.9
+        Sources: OSV
+
+  📦 on-headers@1.0.2
+     Ecosystem:         npm
+     Latest version:    1.1.0
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-76c9-3jph-rj3q (LOW)
+        Fix version: 1.1.0
+        Range: introduced: 0, fixed: 1.1.0
+        Sources: OSV
+
+  📦 pdfjs-dist@3.11.174
+     Ecosystem:         npm
+     Latest version:    5.4.624
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-wgrm-67xf-hhpq (HIGH)
+        Fix version: 4.2.67
+        Range: introduced: 0, fixed: 4.2.67
+        Sources: OSV
+
+  📦 pdfjs-dist@<=4.1.392
+     Ecosystem:         npm
+     Latest version:    5.4.624
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ CVE-2024-4367 (HIGH)
+        Fix version: 49b388101a53f1ff81390fab8336d02acf06a582
+        Range: introduced: 0, fixed: 49b388101a53f1ff81390fab8336d02acf06a582
+        Sources: OSV
+
+  📦 qs@6.11.0
+     Ecosystem:         npm
+     Latest version:    6.14.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-6rw7-vpxm-498p (HIGH)
+        Fix version: 6.14.1
+        Range: introduced: 0, fixed: 6.14.1
+        Sources: OSV
+
+  📦 react-router@6.30.1
+     Ecosystem:         npm
+     Latest version:    7.13.0
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-9jcx-v3wj-wh4m (MEDIUM)
+        Fix version: 6.30.2
+        Range: introduced: 6.0.0, fixed: 6.30.2
+        Sources: OSV
+
+  📦 rollup@2.79.1
+     Ecosystem:         npm
+     Latest version:    4.57.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-gcx4-mw62-g8wm (HIGH)
+        Fix version: 3.29.5
+        Range: introduced: 3.0.0, fixed: 3.29.5
+        Sources: OSV
+
+  📦 semver@7.3.4
+     Ecosystem:         npm
+     Latest version:    7.7.4
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-c2qf-rxjj-qqgw (HIGH)
+        Fix version: 7.5.2
+        Range: introduced: 7.0.0, fixed: 7.5.2
+        Sources: OSV
+
+  📦 send@0.18.0
+     Ecosystem:         npm
+     Latest version:    1.2.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-m6fv-jmcg-4jfg (LOW)
+        Fix version: 0.19.0
+        Range: introduced: 0, fixed: 0.19.0
+        Sources: OSV
+
+  📦 serve-static@1.15.0
+     Ecosystem:         npm
+     Latest version:    2.2.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-cm22-4g7w-348p (LOW)
+        Fix version: 1.16.0
+        Range: introduced: 0, fixed: 1.16.0
+        Sources: OSV
+
+  📦 tar@<7.5.7
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ CVE-2026-24842 (HIGH)
+        Fix version: 4a37eb9a1cf1137df4eb70c5c7f849f412ff3cdb
+        Range: introduced: 0, fixed: 4a37eb9a1cf1137df4eb70c5c7f849f412ff3cdb
+        Sources: OSV
+
+  📦 tar@<=7.5.2
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ CVE-2026-23745 (HIGH)
+        Fix version: 03138441b238f48070fb22824b2529c445bc70c7
+        Range: introduced: 0, fixed: 03138441b238f48070fb22824b2529c445bc70c7
+        Sources: OSV
+
+  📦 tmp@0.0.33
+     Ecosystem:         npm
+     Latest version:    0.2.5
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-52f5-9888-hmc6 (LOW)
+        Fix version: 0.2.4
+        Range: introduced: 0, fixed: 0.2.4
+        Sources: OSV
+
+  📦 vega-functions@6.1.0
+     Ecosystem:         npm
+     Latest version:    6.1.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-m9rg-mr6g-75gm (HIGH)
+        Fix version: 6.1.1
+        Range: introduced: 0, fixed: 6.1.1
+        Sources: OSV
+
+  📦 vega-selections@6.1.0
+     Ecosystem:         npm
+     Latest version:    6.1.2
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-829q-m3qg-ph8r (HIGH)
+        Fix version: 5.6.3
+        Range: introduced: 0, fixed: 5.6.3
+        Sources: OSV
+
+  📦 libc-bin@2.36-9+deb12u13
+     Ecosystem:         debian
+     Source package:     glibc
+     Latest version:    unknown
+     CVEs (current):    10
+     Fixable:           0
+     Still open:        10
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 10 CVEs still open
+
+     ❌ CVE-2018-20796 (HIGH CVSS:7.5)
+        Range: 0..56c86f5dd516284558e106d04b92875d5b623b7a+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-1010025 (MEDIUM CVSS:5.3)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-9192 (HIGH CVSS:7.5)
+        Range: 0..e7c9e41bb2407b0150997b382b49a5f3bb579bf9+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-15281 (HIGH CVSS:7.5)
+        Fix version: f762ccf84f122d1354f103a151cba8bde797d521
+        Range: introduced: 7434ccadbb6897d366d2377f84efe1e2cd61b02b, fixed: f762ccf84f122d1354f103a151cba8bde797d521
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-1010024 (MEDIUM CVSS:5.3)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-0915 (HIGH CVSS:7.5)
+        Range: 7434ccadbb6897d366d2377f84efe1e2cd61b02b..d2097651cc57834dbfcaa102ddfacae0d86cfb66+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2010-4756 (UNKNOWN)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-1010023 (MEDIUM CVSS:5.4)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-0861 (HIGH CVSS:8.4)
+        Range: 0a8262a1b269f8f1602933248e69dfb041aab7a2..d2097651cc57834dbfcaa102ddfacae0d86cfb66+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-1010022 (CRITICAL CVSS:9.8)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 curl@7.88.1-10+deb12u14
+     Ecosystem:         debian
+     Source package:     curl
+     Latest version:    unknown
+     CVEs (current):    9
+     Fixable:           0
+     Still open:        9
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 9 CVEs still open
+
+     ❌ CVE-2025-0725 (HIGH CVSS:7.3)
+        Fix version: 76f83f0db23846e254d940ec7
+        Range: introduced: 95a4b8db680beeca879f39c161296d29e22138f1, fixed: 76f83f0db23846e254d940ec7
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-10148 (MEDIUM CVSS:5.3)
+        Fix version: 11b991232fbcaa88e2b1faecac224416b0001e35
+        Range: introduced: b1ef0e1a01c0bb6ee5367bd9c186a603bde3615a, fixed: 11b991232fbcaa88e2b1faecac224416b0001e35
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-14819 (MEDIUM CVSS:5.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: c12fb3ddaf48e709a7a4deaa55ec485e4df163ee, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-14524 (MEDIUM CVSS:5.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: f77e89c5d20db09eaebf378ec036a7e796932810, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-2379 (MEDIUM CVSS:6.3)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-15224 (LOW CVSS:3.1)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: d6c21c8eec597a925d2b647cff3d58ac69de01a0, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-15079 (MEDIUM CVSS:5.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: d6c21c8eec597a925d2b647cff3d58ac69de01a0, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-10966 (MEDIUM CVSS:4.3)
+        Fix version: 400fffa90f30c7a2dc762fa33009d24851bd2016
+        Range: introduced: b8d1366852fd0034374c5de1e4968c7a224f77cc, fixed: 400fffa90f30c7a2dc762fa33009d24851bd2016
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-14017 (MEDIUM CVSS:6.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: b238e0b1b4e8f3e5c4e9c0d7d8c565e3776b0999, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libgif7@5.2.1-2.5
+     Ecosystem:         debian
+     Source package:     giflib
+     Latest version:    unknown
+     CVEs (current):    7
+     Fixable:           0
+     Still open:        7
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 7 CVEs still open
+
+     ❌ CVE-2020-23922 (HIGH CVSS:7.1)
+        Range: 0..4d8a5efe57d847ab2adb59ad026ddca076c60ca1+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-31344 (HIGH CVSS:7.3)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2021-40633 (HIGH CVSS:8.8)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-45993 (MEDIUM CVSS:6.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2022-28506 (MEDIUM CVSS:5.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-48161 (HIGH CVSS:7.1)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-39742 (MEDIUM CVSS:5.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libexpat1@2.5.0-1+deb12u2
+     Ecosystem:         debian
+     Source package:     expat
+     Latest version:    unknown
+     CVEs (current):    6
+     Fixable:           0
+     Still open:        6
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 6 CVEs still open
+
+     ❌ CVE-2025-59375 (HIGH CVSS:7.5)
+        Fix version: 7643f96bd5b9f5d3b26ea112519e05e17ef91cfb
+        Range: introduced: 0, fixed: 7643f96bd5b9f5d3b26ea112519e05e17ef91cfb
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-28757 (HIGH CVSS:7.5)
+        Fix version: fa75b96546c069d17b8f80d91e0f4ef0cde3790d
+        Range: introduced: 0, fixed: fa75b96546c069d17b8f80d91e0f4ef0cde3790d
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-66382 (LOW CVSS:2.9)
+        Range: 0..4575e52f83e0d6d7bd24939eab8952bbc7bc358f+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-25210 (MEDIUM CVSS:6.9)
+        Fix version: f5c2890d8ff91f88a018173d293a9bd02f76389e
+        Range: introduced: 0, fixed: f5c2890d8ff91f88a018173d293a9bd02f76389e
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-24515 (LOW CVSS:2.9)
+        Fix version: f5c2890d8ff91f88a018173d293a9bd02f76389e
+        Range: introduced: 0, fixed: f5c2890d8ff91f88a018173d293a9bd02f76389e
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-52426 (MEDIUM CVSS:5.5)
+        Fix version: 0f075ec8ecb5e43f8fdca5182f8cca4703da0404
+        Range: introduced: 0, fixed: 0f075ec8ecb5e43f8fdca5182f8cca4703da0404
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libldap-2.5-0@2.5.13+dfsg-5
+     Ecosystem:         debian
+     Source package:     openldap
+     Latest version:    unknown
+     CVEs (current):    6
+     Fixable:           0
+     Still open:        6
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 6 CVEs still open
+
+     ❌ CVE-2023-2953 (HIGH CVSS:7.5)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2015-3276 (HIGH CVSS:7.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2017-17740 (HIGH CVSS:7.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2020-15719 (MEDIUM CVSS:4.2)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2017-14159 (MEDIUM CVSS:4.7)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-22185 (UNKNOWN)
+        Debian urgency: unimportant (open)
+        Sources: Debian-Tracker
+
+  📦 libcairo2@1.16.0-7
+     Ecosystem:         debian
+     Source package:     cairo
+     Latest version:    unknown
+     CVEs (current):    5
+     Fixable:           0
+     Still open:        5
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 5 CVEs still open
+
+     ❌ CVE-2017-7475 (MEDIUM CVSS:5.5)
+        Debian urgency: low (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2018-18064 (MEDIUM CVSS:6.5)
+        Range: 0..d9aaea0c1e1484c632e1a6735c6ecc961c4b032b+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-6461 (MEDIUM CVSS:6.5)
+        Range: 0..3ad43122b21a3299dd729dc8462d6b8f7f01142d+
+        Debian urgency: low (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2019-6462 (MEDIUM CVSS:6.5)
+        Range: 0..3ad43122b21a3299dd729dc8462d6b8f7f01142d+
+        Debian urgency: low (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-50422 (LOW CVSS:2.9)
+        Range: 0..5861d7d69584ab90e8ed79236ba0cd935d15b2f3+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libglib2.0-0@2.74.6-2+deb12u8
+     Ecosystem:         debian
+     Source package:     glib2.0
+     Latest version:    unknown
+     CVEs (current):    5
+     Fixable:           0
+     Still open:        5
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 5 CVEs still open
+
+     ❌ CVE-2012-0039 (HIGH CVSS:7.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-1489 (MEDIUM CVSS:5.4)
+        Debian urgency: not yet assigned (open)
+        Sources: Debian-Tracker
+     ❌ CVE-2026-1484 (MEDIUM CVSS:4.2)
+        Debian urgency: not yet assigned (open)
+        Sources: Debian-Tracker
+     ❌ CVE-2026-0988 (LOW CVSS:3.7)
+        Debian urgency: not yet assigned (open)
+        Sources: Debian-Tracker
+     ❌ CVE-2026-1485 (LOW CVSS:2.8)
+        Debian urgency: not yet assigned (open)
+        Sources: Debian-Tracker
+
+  📦 libpng16-16@1.6.39-2+deb12u1
+     Ecosystem:         debian
+     Source package:     libpng1.6
+     Latest version:    unknown
+     CVEs (current):    5
+     Fixable:           0
+     Still open:        5
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 5 CVEs still open
+
+     ❌ CVE-2026-22695 (MEDIUM CVSS:6.1)
+        Fix version: 02f2b4f4699f0ef9111a6534f093b53732df4452
+        Range: introduced: 49363adcfaf098748d7a4c8c624ad8c45a8c3a86, fixed: 02f2b4f4699f0ef9111a6534f093b53732df4452
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2021-4214 (MEDIUM CVSS:5.5)
+        Range: 0..c53778ff53a73ad2d676602f5dc7019566be5058+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-22801 (MEDIUM CVSS:6.8)
+        Fix version: 02f2b4f4699f0ef9111a6534f093b53732df4452
+        Range: introduced: 0c440812db5f3f8929db87ff840bc51fd09a8af3, fixed: 02f2b4f4699f0ef9111a6534f093b53732df4452
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-28162 (MEDIUM CVSS:5.5)
+        Range: f53af5cf2e148b13ccb183af6053b82c96c58e13..1ee2e0d1295c0a0acd4898e418284040da65d13f+; ed217e3e601d8e462f7fd1e04bed43ac42212429..0024abd279d3a06435c0309a3f4172eed7c7a19a+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-28164 (MEDIUM CVSS:5.5)
+        Range: f53af5cf2e148b13ccb183af6053b82c96c58e13..1ee2e0d1295c0a0acd4898e418284040da65d13f+; ed217e3e601d8e462f7fd1e04bed43ac42212429..0024abd279d3a06435c0309a3f4172eed7c7a19a+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libxml2@2.9.14+dfsg-1.3~deb12u5
+     Ecosystem:         debian
+     Source package:     libxml
+     Latest version:    unknown
+     CVEs (current):    5
+     Fixable:           0
+     Still open:        0
+     Unknown:           5
+     ➤ INVESTIGATE — fix status unknown for all 5 CVEs
+
+     ❓ CVE-2026-0990 (MEDIUM CVSS:5.9)
+        Debian urgency: unknown (not_found)
+        Sources: Debian-Tracker
+     ❓ CVE-2026-0992 (LOW CVSS:2.9)
+        Debian urgency: unknown (not_found)
+        Sources: Debian-Tracker
+     ❓ CVE-2026-0989 (LOW CVSS:3.7)
+        Debian urgency: unknown (not_found)
+        Sources: Debian-Tracker
+     ❓ CVE-2026-1757 (MEDIUM CVSS:6.2)
+        Debian urgency: unknown (not_found)
+        Sources: Debian-Tracker
+     ❓ CVE-2025-8732 (LOW CVSS:3.3)
+        Debian urgency: unknown (not_found)
+        Sources: OSV, Debian-Tracker
+
+  📦 libsystemd0@252.39-1~deb12u1
+     Ecosystem:         debian
+     Source package:     systemd
+     Latest version:    unknown
+     CVEs (current):    4
+     Fixable:           0
+     Still open:        4
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 4 CVEs still open
+
+     ❌ CVE-2023-31437 (MEDIUM CVSS:5.3)
+        Range: 0..477fdc5afed0457c43d01f3d7ace7209f81d3995+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-31438 (MEDIUM CVSS:5.3)
+        Range: 0..477fdc5afed0457c43d01f3d7ace7209f81d3995+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-31439 (MEDIUM CVSS:5.3)
+        Range: 0..477fdc5afed0457c43d01f3d7ace7209f81d3995+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2013-4392 (MEDIUM CVSS:5.0)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 coreutils@9.1-1
+     Ecosystem:         debian
+     Source package:     coreutils
+     Latest version:    unknown
+     CVEs (current):    3
+     Fixable:           0
+     Still open:        3
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 3 CVEs still open
+
+     ❌ CVE-2016-2781 (MEDIUM CVSS:4.6)
+        Debian urgency: low (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2017-18018 (HIGH CVSS:7.1)
+        Range: 0..27b2b19aa8d8b30b8cb4198b2f4b54568e10a35e+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-5278 (MEDIUM CVSS:4.4)
+        Fix version: 8c9602e3a145e9596dc1a63c6ed67865814b6633
+        Range: introduced: 0, fixed: 8c9602e3a145e9596dc1a63c6ed67865814b6633
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 gpgv@2.2.40-1.1+deb12u2
+     Ecosystem:         debian
+     Source package:     gnupg2
+     Latest version:    unknown
+     CVEs (current):    3
+     Fixable:           0
+     Still open:        3
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 3 CVEs still open
+
+     ❌ CVE-2025-30258 (LOW CVSS:2.7)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-68972 (MEDIUM CVSS:5.9)
+        Debian urgency: not yet assigned (open)
+        Sources: Debian-Tracker
+     ❌ CVE-2022-3219 (LOW CVSS:3.3)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 krb5-locales@1.20.1-2+deb12u4
+     Ecosystem:         debian
+     Source package:     krb5
+     Latest version:    unknown
+     CVEs (current):    3
+     Fixable:           0
+     Still open:        3
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 3 CVEs still open
+
+     ❌ CVE-2018-5709 (HIGH CVSS:7.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-26458 (MEDIUM CVSS:5.3)
+        Range: 0..835f6e3d819beb7ee1046f01afb284b54ad54c5f+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-26461 (HIGH CVSS:7.5)
+        Range: 0..835f6e3d819beb7ee1046f01afb284b54ad54c5f+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libde265-0@1.0.11-1+deb12u2
+     Ecosystem:         debian
+     Source package:     libde265
+     Latest version:    unknown
+     CVEs (current):    3
+     Fixable:           0
+     Still open:        3
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 3 CVEs still open
+
+     ❌ CVE-2024-38950 (MEDIUM CVSS:6.5)
+        Range: 0..17bb8d9fcea62db8cdeb0fc7ef8d15dbd19a22e4+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-38949 (MEDIUM CVSS:6.5)
+        Range: 0..17bb8d9fcea62db8cdeb0fc7ef8d15dbd19a22e4+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-51792 (LOW CVSS:3.3)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libgnutls30@3.7.9-2+deb12u5
+     Ecosystem:         debian
+     Source package:     gnutls28
+     Latest version:    unknown
+     CVEs (current):    3
+     Fixable:           0
+     Still open:        3
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 3 CVEs still open
+
+     ❌ CVE-2011-3389 (UNKNOWN)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-9820 (MEDIUM CVSS:4.0)
+        Fix version: 1d56f96f6ab5034d677136b9d50b5a75dff0faf5
+        Range: introduced: 0, fixed: 1d56f96f6ab5034d677136b9d50b5a75dff0faf5
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-14831 (MEDIUM CVSS:5.3)
+        Debian urgency: not yet assigned (open)
+        Sources: Debian-Tracker
+
+  📦 libheif1@1.15.1-1+deb12u1
+     Ecosystem:         debian
+     Source package:     libheif
+     Latest version:    unknown
+     CVEs (current):    3
+     Fixable:           0
+     Still open:        3
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 3 CVEs still open
+
+     ❌ CVE-2025-68431 (MEDIUM CVSS:6.5)
+        Fix version: 81b09baa38ac8654d34d0f8b7780c44addfc7893
+        Range: introduced: 0, fixed: 81b09baa38ac8654d34d0f8b7780c44addfc7893
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-49463 (HIGH CVSS:8.8)
+        Range: 0..82219b903001305fd916874a29dd372d92927d48+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-25269 (HIGH CVSS:7.5)
+        Range: 0..59b58566de0d8e2e9fea958abeba1d3346bda9de+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 bsdutils@1:2.38.1-5+deb12u3
+     Ecosystem:         debian
+     Source package:     util-linux@2.38.1-5+deb12u3
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        0
+     Unknown:           2
+     ➤ INVESTIGATE — fix status unknown for all 2 CVEs
+
+     ❓ CVE-2025-14104 (MEDIUM CVSS:6.1)
+        Debian urgency: unknown (not_found)
+        Sources: Debian-Tracker
+     ❓ CVE-2022-0563 (MEDIUM CVSS:5.5)
+        Fix version: 12f5423fc2ed08e1945fac95f3bdeb39bb915ea7
+        Range: introduced: 0, fixed: 12f5423fc2ed08e1945fac95f3bdeb39bb915ea7
+        Debian urgency: unknown (not_found)
+        Sources: OSV, Debian-Tracker
+
+  📦 libaom3@3.6.0-1+deb12u2
+     Ecosystem:         debian
+     Source package:     aom
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2023-6879 (CRITICAL CVSS:9.0)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2023-39616 (HIGH CVSS:7.5)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libgcrypt20@1.10.1-3
+     Ecosystem:         debian
+     Source package:     libgcrypt20
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2018-6829 (HIGH CVSS:7.5)
+        Range: 0..eb84e429950b6a61c00112e70a584940c1d352e4+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2024-2236 (MEDIUM CVSS:5.9)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libharfbuzz0b@6.0.0+dfsg-3
+     Ecosystem:         debian
+     Source package:     harfbuzz
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2023-25193 (HIGH CVSS:7.5)
+        Fix version: 85be877925ddbf34f74a1229f3ca1716bb6170dc
+        Range: introduced: 0, fixed: 85be877925ddbf34f74a1229f3ca1716bb6170dc
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2026-22693 (MEDIUM CVSS:5.3)
+        Fix version: b0af59229cc233a66106c696534ac39be56093d8
+        Range: introduced: 0, fixed: b0af59229cc233a66106c696534ac39be56093d8
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libperl5.36@5.36.0-7+deb12u3
+     Ecosystem:         debian
+     Source package:     perl
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2023-31486 (HIGH CVSS:8.1)
+        Fix version: d7705dc05a0f64dfeaeca46c8a49b19656f4f3d3
+        Range: introduced: 0, fixed: d7705dc05a0f64dfeaeca46c8a49b19656f4f3d3
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2011-4116 (LOW CVSS:3.3)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libtinfo6@6.4-4
+     Ecosystem:         debian
+     Source package:     ncurses
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2023-50495 (MEDIUM CVSS:6.5)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2025-6141 (LOW CVSS:3.3)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 loader-utils@>=1.0.0 <1.4.2
+     Ecosystem:         npm
+     Latest version:    3.3.1
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2022-37603 (HIGH)
+        Fix version: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Range: introduced: e1e9f895df7802a859a0e627081fc8fb5ddd7c86, fixed: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Sources: OSV
+     ❌ CVE-2022-37599 (HIGH)
+        Fix version: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Range: introduced: e1e9f895df7802a859a0e627081fc8fb5ddd7c86, fixed: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Sources: OSV
+
+  📦 login@1:4.13+dfsg1-1+deb12u2
+     Ecosystem:         debian
+     Source package:     shadow
+     Latest version:    unknown
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2024-56433 (LOW CVSS:3.6)
+        Fix version: 68061f2059124f5aa450dfbf6bbad3e7a6f65f9f
+        Range: introduced: 0, fixed: 68061f2059124f5aa450dfbf6bbad3e7a6f65f9f
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+     ❌ CVE-2007-5686 (UNKNOWN)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 xlsx@0.18.5
+     Ecosystem:         npm
+     Latest version:    0.18.5
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        0
+     Unknown:           2
+     ➤ INVESTIGATE — fix status unknown for all 2 CVEs
+
+     ❓ GHSA-4r6h-8v6p-xvw6 (HIGH)
+        Range: >=0
+        Sources: OSV
+     ❓ GHSA-5pgg-2g8v-p4x9 (HIGH)
+        Range: >=0
+        Sources: OSV
+
+  📦 @remix-run/router@1.23.0
+     Ecosystem:         npm
+     Latest version:    1.23.2
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ GHSA-2w69-qvjg-hvjx (HIGH)
+        Fix version: 7.12.0
+        Range: introduced: 7.0.0, fixed: 7.12.0
+        Sources: OSV
+
+  📦 apt@2.6.1
+     Ecosystem:         debian
+     Source package:     apt
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2011-3374 (LOW CVSS:3.7)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 dpkg@1.21.22
+     Ecosystem:         debian
+     Source package:     dpkg
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-6297 (HIGH CVSS:8.2)
+        Fix version: ed6bbd445dd8800308c67236ba35d08004c98e82
+        Range: introduced: 0, fixed: ed6bbd445dd8800308c67236ba35d08004c98e82
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 gcc-12-base@12.2.0-14+deb12u1
+     Ecosystem:         debian
+     Source package:     gcc-12
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2022-27943 (MEDIUM CVSS:5.5)
+        Range: 0..7ca388565af176bd4efd4f8db1e5e9e11e98ef45+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 js-yaml@>=4.0.0 <4.1.1
+     Ecosystem:         npm
+     Latest version:    4.1.1
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-64718 (MODERATE)
+        Fix version: cc482e775913e6625137572a3712d2826170e53a
+        Range: introduced: ee74ce4b4800282b2f23b776be7dc95dfe34db1c, fixed: cc482e775913e6625137572a3712d2826170e53a
+        Sources: OSV
+
+  📦 libdav1d6@1.0.0-2+deb12u1
+     Ecosystem:         debian
+     Source package:     dav1d
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2023-32570 (MEDIUM CVSS:5.9)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libpam-modules@1.5.2-6+deb12u2
+     Ecosystem:         debian
+     Source package:     pam
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2024-10041 (MEDIUM CVSS:4.7)
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libpixman-1-0@0.42.2-1
+     Ecosystem:         debian
+     Source package:     pixman
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2023-37769 (MEDIUM CVSS:6.5)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libssl3@3.0.18-1~deb12u2
+     Ecosystem:         debian
+     Source package:     openssl
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-27587 (MEDIUM CVSS:5.3)
+        Range: 89cd17a031e022211684eb7eb41190cf1910f9fa..fb7fab9fa6f4869eaa8fbb97e0d593159f03ffe4+
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 libtasn1-6@4.19.0-2+deb12u1
+     Ecosystem:         debian
+     Source package:     libtasn1-6
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-13151 (HIGH CVSS:7.5)
+        Range: 0..6b45b25e94ea538192cc0f97e9ad57171d1c6374+
+        Debian urgency: not yet assigned (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 loader-utils@<1.4.1
+     Ecosystem:         npm
+     Latest version:    3.3.1
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2022-37601 (CRITICAL)
+        Fix version: 8f082b39f6903929f30fe29dab34f4d9c7ef070a
+        Range: introduced: d9f4e23cf411d8556f8bac2d3bf05a6e0103b568, fixed: 8f082b39f6903929f30fe29dab34f4d9c7ef070a
+        Sources: OSV
+
+  📦 lodash@>=4.0.0 <=4.17.22
+     Ecosystem:         npm
+     Latest version:    4.17.23
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2025-13465 (MODERATE)
+        Range: d35a9c40beb594d09814ba7f7673b81d4d67a816..5feb6b9b0359eaa1dbae68dd981e7267da188a03+
+        Sources: OSV
+
+  📦 monorepo-symlink-test@0.0.0
+     Ecosystem:         npm
+     Latest version:    0.0.1-security
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ GHSA-2jcg-qqmg-46q6 (CRITICAL)
+        Sources: 
+
+  📦 semver@>=7.0.0 <7.5.2
+     Ecosystem:         npm
+     Latest version:    7.7.4
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2022-25883 (HIGH)
+        Fix version: f8cc313550691a50d9662d8c94f0c033717efd7d
+        Range: introduced: f56505b1c08856a7e6139f6ee5d4580f5f2feed8, fixed: f8cc313550691a50d9662d8c94f0c033717efd7d
+        Sources: OSV
+
+  📦 tar@1.34+dfsg-1.2+deb12u1
+     Ecosystem:         debian
+     Source package:     tar
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2005-2541 (UNKNOWN)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 tar@<=7.5.3
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2026-23950 (HIGH)
+        Fix version: 911c886bb170a6ee3db05fd3709221752213ec8a
+        Range: introduced: 0, fixed: 911c886bb170a6ee3db05fd3709221752213ec8a
+        Sources: OSV
+
+  📦 tmp@<=0.2.3
+     Ecosystem:         npm
+     Latest version:    0.2.5
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-54798 (LOW)
+        Fix version: 08fa3abac32b621506512724b28b56b9c4a95846
+        Range: introduced: 0, fixed: 08fa3abac32b621506512724b28b56b9c4a95846
+        Sources: OSV
+
+  📦 vega-interpreter@1.0.5
+     Ecosystem:         npm
+     Latest version:    2.2.1
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ GHSA-7f2v-3qq3-vvjf (HIGH)
+        Fix version: 6.2.0
+        Range: introduced: 0, fixed: 6.2.0
+        Sources: OSV
+
+  📦 xdg-user-dirs@0.18-1
+     Ecosystem:         debian
+     Source package:     xdg-user-dirs
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2017-15131 (HIGH CVSS:7.8)
+        Debian urgency: unimportant (open)
+        Sources: OSV, Debian-Tracker
+
+  📦 xlsx@<0.19.3
+     Ecosystem:         npm
+     Latest version:    0.18.5
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ⚠️  New in latest:  1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2023-30533 (HIGH)
+        Sources: 
+
+     ⚠️  New CVEs in latest version (0.18.5):
+        GHSA-5pgg-2g8v-p4x9: SheetJS Regular Expression Denial of Service (ReDoS)
+
+  📦 xlsx@<0.20.2
+     Ecosystem:         npm
+     Latest version:    0.18.5
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ⚠️  New in latest:  1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2024-22363 (HIGH)
+        Sources: 
+
+     ⚠️  New CVEs in latest version (0.18.5):
+        GHSA-4r6h-8v6p-xvw6: Prototype Pollution in sheetJS
+
+
+MITIGATION RECOMMENDATIONS
+------------------------------------------------------------
+
+  1. npm Dependencies (directly actionable):
+     - Upgrade @babel/helpers 7.25.6 → 7.28.6 (fixes 1 CVEs)
+     - Upgrade axios 1.12.2 → 1.13.5 (fixes 1 CVEs)
+     - Upgrade axios 1.7.7 → 1.13.5 (fixes 2 CVEs)
+     - Upgrade body-parser 1.20.2 → 2.2.2 (fixes 1 CVEs)
+     - Upgrade brace-expansion 1.1.11 → 4.0.1 (fixes 1 CVEs)
+     - Upgrade cookie 0.6.0 → 1.1.1 (fixes 1 CVEs)
+     - Upgrade cross-spawn 7.0.3 → 7.0.6 (fixes 1 CVEs)
+     - Upgrade diff 4.0.2 → 8.0.3 (fixes 1 CVEs)
+     - Upgrade express 4.19.2 → 5.2.1 (fixes 1 CVEs)
+     - Upgrade form-data 4.0.0 → 4.0.5 (fixes 1 CVEs)
+     - Upgrade glob 10.4.2 → 13.0.1 (fixes 1 CVEs)
+     - Upgrade http-proxy-middleware 2.0.6 → 3.0.5 (fixes 3 CVEs)
+     - Upgrade js-yaml 3.14.1 → 4.1.1 (fixes 1 CVEs)
+     - Upgrade jws 3.2.2 → 4.0.1 (fixes 1 CVEs)
+     - Upgrade loader-utils 1.2.3 → 3.3.1 (fixes 3 CVEs)
+     - Upgrade lodash 4.17.21 → 4.17.23 (fixes 1 CVEs)
+     - Upgrade nanoid 3.3.7 → 5.1.6 (fixes 1 CVEs)
+     - Upgrade node-forge 1.3.1 → 1.3.3 (fixes 3 CVEs)
+     - Upgrade on-headers 1.0.2 → 1.1.0 (fixes 1 CVEs)
+     - Upgrade path-to-regexp 0.1.7 → 8.3.0 (fixes 2 CVEs)
+     - Upgrade pdfjs-dist 3.11.174 → 5.4.624 (fixes 1 CVEs)
+     - Upgrade pdfjs-dist <=4.1.392 → 5.4.624 (fixes 1 CVEs)
+     - Upgrade qs 6.11.0 → 6.14.1 (fixes 1 CVEs)
+     - Upgrade react-router 6.30.1 → 7.13.0 (fixes 1 CVEs)
+     - Upgrade rollup 2.79.1 → 4.57.1 (fixes 1 CVEs)
+     - Upgrade semver 7.3.4 → 7.7.4 (fixes 1 CVEs)
+     - Upgrade send 0.18.0 → 1.2.1 (fixes 1 CVEs)
+     - Upgrade serve-static 1.15.0 → 2.2.1 (fixes 1 CVEs)
+     - Upgrade tar 6.2.1 → 7.5.7 (fixes 3 CVEs)
+     - Upgrade tar <7.5.7 → 7.5.7 (fixes 1 CVEs)
+     - Upgrade tar <=7.5.2 → 7.5.7 (fixes 1 CVEs)
+     - Upgrade tmp 0.0.33 → 0.2.5 (fixes 1 CVEs)
+     - Upgrade undici 6.19.8 → 7.21.0 (fixes 3 CVEs)
+     - Upgrade vega-functions 6.1.0 → 6.1.1 (fixes 1 CVEs)
+     - Upgrade vega-selections 6.1.0 → 6.1.2 (fixes 1 CVEs)
+     - Upgrade webpack-dev-server 4.15.2 → 5.2.3 (fixes 2 CVEs)
+     - Upgrade webpack-dev-server <=5.2.0 → 5.2.3 (fixes 2 CVEs)
+     - Upgrade webpack 5.94.0 → 5.105.0 (fixes 2 CVEs)
+
+  2. Docker Base Image (reduces Debian CVEs):
+     - Option A: Rebuild with latest node:22-slim (picks up Debian patches)
+     - Option B: Switch to node:22-alpine (eliminates Debian CVEs entirely)
+     - Option C: Periodically run apt-get upgrade in Dockerfile
+
+  3. Accept Risk (Debian 'unimportant' CVEs):
+     - 55 CVEs classified as unimportant by Debian Security
+     - These are known, triaged, and deemed negligible risk
+     - Document as 'accepted risk' with Debian urgency as justification
+
+  4. Ongoing Monitoring:
+     - Re-scan with Syft + Grype on each image rebuild
+     - Monitor OSV/NVD for status changes on open CVEs
+     - Integrate SBOM + vulnerability scanning into CI/CD
+
+================================================================================
+  END OF REPORT
+================================================================================

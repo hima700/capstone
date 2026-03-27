@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-qm95-pgcg-qqfq",
+    "aliases": [
+      "CVE-2022-2421"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Insufficient validation when decoding a Socket.IO packet"
+  }
+]

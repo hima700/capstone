@@ -1,0 +1,1820 @@
+================================================================================
+  SBOM Vulnerability Mitigation Report — HCDP-API
+  Generated: 2026-02-09 19:25:40
+================================================================================
+
+SUMMARY
+----------------------------------------
+  Total unique CVEs analyzed:  148
+
+  Mitigation Actions:
+    INVESTIGATE         : 141
+    UPGRADE             : 7
+
+  Severity Distribution (NVD CVSS v3):
+    CRITICAL    : 3
+    HIGH        : 34
+    MEDIUM      : 68
+    LOW         : 38
+    UNKNOWN     : 5
+
+  Ecosystem Distribution:
+    debian      : 141
+    npm         : 7
+
+
+DETAILED CVE ANALYSIS
+----------------------------------------
+
+  [1/148] CVE-2018-13410
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: 9.8)
+  Package:     zip@3.0-13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Info-ZIP Zip 3.0, when the -T and -TT command-line options are used, allows attackers to cause a denial of service (invalid free and application crash) or possibly have unspecified other impact becaus...
+  CWE:         CWE-416
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [2/148] CVE-2023-6879
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: 9.0)
+  Package:     libaom3@3.6.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Increasing the resolution of video frames, while performing a multi-threaded encode, can result in a heap overflow in av1_loop_restoration_dealloc().
+  CWE:         CWE-20, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [3/148] CVE-2019-1010022
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: 9.8)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may bypass stack guard protection. The component is: nptl. The attack vector is: Exploit stack buffer overflow vulnerability...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [4/148] CVE-2023-2953
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [5/148] CVE-2023-52355
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An out-of-memory flaw was found in libtiff that could be triggered by passing a crafted tiff file to the TIFFRasterScanlineSize64() API. This flaw allows a remote attacker to cause a denial of service...
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [6/148] CVE-2015-3276
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be u...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [7/148] CVE-2025-59375
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
+  CWE:         CWE-770
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [8/148] CVE-2025-6297
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.2)
+  Package:     dpkg@1.21.22
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: It was discovered that dpkg-deb does not properly sanitize directory permissions when extracting a control member into a temporary directory, which is
+documented as being a safe operation even on untr...
+  CWE:         CWE-400, CWE-732
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [9/148] CVE-2017-16232
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: LibTIFF 4.0.8 has multiple memory leak vulnerabilities, which allow attackers to cause a denial of service (memory consumption), as demonstrated by tif_open.c, tif_lzw.c, and tif_aux.c. NOTE: Third pa...
+  CWE:         CWE-772
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [10/148] CVE-2017-17740
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffer that was allocated on the stack, which allows re...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [11/148] CVE-2018-20796
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by '(\227|)(\\1\\1|t1|\\\2537)+' in grep.
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [12/148] CVE-2018-5709
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     krb5-locales@1.20.1-2+deb12u4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable "dbentry->n_key_data" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assign...
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [13/148] CVE-2023-39616
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libaom3@3.6.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: AOMedia v3.0.0 to v3.5.0 was discovered to contain an invalid read memory access via the component assign_frame_buffer_p in av1/common/av1_common_int.h.
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [14/148] CVE-2025-0725
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When libcurl is asked to perform automatic gzip decompression of
+content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
+**using zlib 1.2.0.3 or older**, an attacker-controlled integ...
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [15/148] CVE-2025-13151
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libtasn1-6@4.19.0-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [16/148] CVE-2024-28757
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreate).
+  CWE:         CWE-776
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [17/148] CVE-2019-9192
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by '(|)(\\1\\1)*' in grep, a different issue than CVE...
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [18/148] CVE-2025-15281
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on...
+  CWE:         CWE-908
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [19/148] CVE-2026-0915
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to v...
+  CWE:         CWE-908
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [20/148] GHSA-5j98-mcp5-4vw2
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     glob@10.4.5
+  Dep Type:    NPM (not in npm tree)
+  Description: glob CLI: Command injection via -c/--cmd executes matches with shell:true
+  Latest Ver:  13.0.1
+  Action:      UPGRADE — update from 10.4.5 to 13.0.1
+  Risk Level:  low
+  Note:        Newer version 13.0.1 available. Verify CVE is fixed in 13.0.1 and test for breakage.
+
+  [21/148] CVE-2023-31486
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.1)
+  Package:     perl-base@5.36.0-7+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: HTTP::Tiny before 0.083, a Perl core module since 5.13.9 and available standalone on CPAN, has an insecure default TLS configuration where users must opt in to verify certificates.
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [22/148] CVE-2018-6829
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libgcrypt20@1.10.1-3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i...
+  CWE:         CWE-327
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [23/148] GHSA-34x7-hfp2-rc4v
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [24/148] CVE-2020-36325
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libjansson4@2.14-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in Jansson through 2.13.1. Due to a parsing error in json_loads, there's an out-of-bounds read-access bug. NOTE: the vendor reports that this only occurs when a programmer fail...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [25/148] GHSA-r6q2-hw4h-h46w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [26/148] CVE-2026-0861
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.4)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could con...
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [27/148] CVE-2024-53589
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.4)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU objdump 2.43 is vulnerable to Buffer Overflow in the BFD (Binary File Descriptor) library's handling of tekhex format files.
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [28/148] CVE-2023-49463
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.8)
+  Package:     libheif1@1.15.1-1+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libheif v1.17.5 was discovered to contain a segmentation violation via the function find_exif_tag at /libheif/exif.cc.
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [29/148] GHSA-8qq5-rm4j-mr97
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [30/148] CVE-2024-26461
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     krb5-locales@1.20.1-2+deb12u4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
+  CWE:         CWE-770
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [31/148] CVE-2017-18018
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.1)
+  Package:     coreutils@9.1-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In GNU Coreutils through 8.29, chown-core.c in chown and chgrp does not prevent replacement of a plain file with a symlink during use of the POSIX "-R -L" options, which allows local users to modify t...
+  CWE:         CWE-362
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [32/148] CVE-2025-66862
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A buffer overflow vulnerability in function gnu_special in file cplus-dem.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted PE file.
+  CWE:         CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [33/148] CVE-2025-66863
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in function d_discriminator in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted PE file.
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [34/148] CVE-2025-66865
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in function d_print_comp_inner in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted PE file.
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [35/148] CVE-2024-25269
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     libheif1@1.15.1-1+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libheif <= 1.17.6 contains a memory leak in the function JpegEncoder::Encode. This flaw allows an attacker to cause a denial of service attack.
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [36/148] CVE-2025-66864
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in function d_print_comp_inner in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted PE file.
+  CWE:         NVD-CWE-noinfo, CWE-20
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [37/148] CVE-2025-66866
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in function d_abi_tags in file cp-demangle.c in BinUtils 2.26 allows attackers to cause a denial of service via crafted PE file.
+  CWE:         NVD-CWE-noinfo, CWE-20
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [38/148] CVE-2023-6277
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An out-of-memory flaw was found in libtiff. Passing a crafted tiff file to TIFFOpen() API may allow a remote attacker to cause a denial of service via a craft input with size smaller than 379 KB.
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [39/148] CVE-2024-38950
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libde265-0@1.0.11-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Heap Buffer Overflow vulnerability in Libde265 v1.0.15 allows attackers to crash the application via crafted payload to __interceptor_memcpy function.
+  CWE:         CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [40/148] CVE-2019-1010025
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may guess the heap addresses of pthread_created thread. The component is: glibc. NOTE: the vendor's position is "ASLR bypass...
+  CWE:         CWE-330
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [41/148] CVE-2024-38949
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libde265-0@1.0.11-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Heap Buffer Overflow vulnerability in Libde265 v1.0.15 allows attackers to crash the application via crafted payload to display444as420 function at sdl.cc
+  CWE:         CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [42/148] CVE-2023-32570
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     libdav1d6@1.0.0-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: VideoLAN dav1d before 1.2.0 has a thread_task.c race condition that can lead to an application crash, related to dav1d_decode_frame_exit.
+  CWE:         CWE-362
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [43/148] CVE-2017-9937
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libjbig0@2.1-6.1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In LibTIFF 4.0.8, there is a memory malloc failure in tif_jbig.c. A crafted TIFF document can lead to an abort resulting in a remote denial of service attack.
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [44/148] CVE-2025-10148
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: curl's websocket code did not update the 32 bit mask pattern for each new
+ outgoing frame as the specification says. Instead it used a fixed mask that
+persisted and was used throughout the entire conn...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [45/148] CVE-2018-20712
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A heap-based buffer over-read exists in the function d_expression_1 in cp-demangle.c in GNU libiberty, as distributed in GNU Binutils 2.31.1. A crafted input can cause segmentation faults, leading to ...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [46/148] GHSA-mm7p-fcc7-pg87
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     nodemailer@6.10.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 1)
+  Path:        nodemailer
+  Description: Nodemailer: Email to an unintended domain can occur due to Interpretation Conflict
+  Latest Ver:  8.0.1
+  Action:      UPGRADE — update from 6.10.1 to 8.0.1
+  Risk Level:  low
+  Note:        Newer version 8.0.1 available. Verify CVE is fixed in 8.0.1 and test for breakage.
+
+  [47/148] CVE-2019-1010024
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Mitigation bypass. The impact is: Attacker may bypass ASLR using cache of thread stack and heap. The component is: glibc. NOTE: Upstream comments indicate "this is bei...
+  CWE:         CWE-200
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [48/148] CVE-2023-50495
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libtinfo6@6.4-4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [49/148] CVE-2016-2781
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.6)
+  Package:     coreutils@9.1-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.
+  CWE:         CWE-20
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [50/148] CVE-2018-10126
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: ijg-libjpeg before 9d, as used in tiff2pdf (from LibTIFF) and other products, does not check for a NULL pointer at a certain place in jpeg_fdct_16x16 in jfdctint.c.
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [51/148] CVE-2025-0840
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability, which was classified as problematic, was found in GNU Binutils up to 2.43. This affects the function disassemble_bytes of the file binutils/objdump.c. The manipulation of the argument...
+  CWE:         CWE-119, CWE-121, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [52/148] CVE-2025-68431
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     libheif1@1.15.1-1+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libheif is an HEIF and AVIF file format decoder and encoder. Prior to version 1.21.0, a crafted HEIF that exercises the overlay image item path triggers a heap buffer over-read in `HeifPixelImage::ove...
+  CWE:         CWE-125, CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [53/148] CVE-2025-1181
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as critical was found in GNU Binutils 2.43. This vulnerability affects the function _bfd_elf_gc_mark_rsec of the file bfd/elflink.c of the component ld. The manipulation lea...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [54/148] CVE-2018-9996
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.30. Stack Exhaustion occurs in the C++ demangling functions provided by libiberty, and there are recursive sta...
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [55/148] CVE-2025-14819
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing TLS related transfers with reused easy or multi handles and
+altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+reuse a CA store cached in memory for which the par...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [56/148] CVE-2025-1178
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.6)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43. It has been declared as problematic. Affected by this vulnerability is the function bfd_putl64 of the file libbfd.c of the component ld. The manipulatio...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [57/148] CVE-2025-1176
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43 and classified as critical. This issue affects the function _bfd_elf_gc_mark_rsec of the file elflink.c of the component ld. The manipulation leads to he...
+  CWE:         CWE-119, CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [58/148] CVE-2025-1179
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43. It has been rated as critical. Affected by this issue is the function bfd_putl64 of the file bfd/libbfd.c of the component ld. The manipulation leads to...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [59/148] CVE-2019-1010023
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.4)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GNU Libc current is affected by: Re-mapping current loaded library with malicious ELF file. The impact is: In worst case attacker may evaluate privileges. The component is: libld. The attack vector is...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [60/148] CVE-2025-1182
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability, which was classified as critical, was found in GNU Binutils 2.43. Affected is the function bfd_elf_reloc_symbol_deleted_p of the file bfd/elflink.c of the component ld. The manipulati...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [61/148] CVE-2024-10041
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.7)
+  Package:     libpam-modules@1.5.2-6+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this ...
+  CWE:         CWE-922, NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [62/148] CVE-2026-22695
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.1)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in t...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [63/148] CVE-2017-13716
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The C++ symbol demangler routine in cplus-dem.c in libiberty, as distributed in GNU Binutils 2.29, allows remote attackers to cause a denial of service (excessive memory allocation and application cra...
+  CWE:         CWE-770
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [64/148] CVE-2021-4214
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A heap overflow flaw was found in libpngs' pngimage.c program. This flaw allows an attacker with local network access to pass a specially crafted PNG file to the pngimage utility, causing an applicati...
+  CWE:         CWE-120, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [65/148] CVE-2024-2236
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     libgcrypt20@1.10.1-3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ...
+  CWE:         CWE-208
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [66/148] CVE-2025-14524
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+POP3 or SMTP scheme, curl might wrongly pass ...
+  CWE:         CWE-601
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [67/148] CVE-2020-15719
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.2)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It considers CN even when there is a non-matching subjectA...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [68/148] CVE-2026-22801
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.8)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the...
+  CWE:         CWE-125, CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [69/148] CVE-2024-26458
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     krb5-locales@1.20.1-2+deb12u4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
+  CWE:         CWE-401
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [70/148] CVE-2024-2379
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips t...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [71/148] CVE-2025-14104
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.1)
+  Package:     bsdutils@1:2.38.1-5+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-u...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [72/148] CVE-2023-31437
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a r...
+  CWE:         CWE-354
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [73/148] CVE-2017-14159
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.7)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: slapd in OpenLDAP 2.4.45 and earlier creates a PID file after dropping privileges to a non-root account, which might allow local users to kill arbitrary processes by leveraging access to this non-root...
+  CWE:         CWE-665
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [74/148] CVE-2018-20673
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The demangle_template function in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.31.1, contains an integer overflow vulnerability (for "Create an array for saving the template argument...
+  CWE:         CWE-190, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [75/148] CVE-2021-32256
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in GNU libiberty, as distributed in GNU Binutils 2.36. It is a stack-overflow issue in demangle_type in rust-demangle.c.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [76/148] CVE-2023-31438
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor ...
+  CWE:         CWE-354
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [77/148] CVE-2023-31439
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifi...
+  CWE:         CWE-354
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [78/148] CVE-2025-9820
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.0)
+  Package:     libgnutls30@3.7.9-2+deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in the GnuTLS library, specifically in the gnutls_pkcs11_token_init() function that handles PKCS#11 token initialization. When a token label longer than expected is processed, the fun...
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [79/148] CVE-2026-25210
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.9)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+  CWE:         CWE-190
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [80/148] CVE-2025-68972
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     gpgv@2.2.40-1.1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signat...
+  CWE:         CWE-347
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [81/148] CVE-2022-1210
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.3)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as problematic was found in LibTIFF 4.3.0. Affected by this vulnerability is the TIFF File Handler of tiff2ps. Opening a malicious file leads to a denial of service. The att...
+  CWE:         CWE-400, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [82/148] CVE-2022-27943
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     cpp-12@12.2.0-14+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
+  CWE:         CWE-674
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [83/148] CVE-2025-27587
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libssl3@3.0.18-1~deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: OpenSSL 3.0.0 through 3.3.2 on the PowerPC architecture is vulnerable to a Minerva attack, exploitable by measuring the time of signing of random messages using the EVP_DigestSign API, and then using ...
+  CWE:         CWE-385
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [84/148] CVE-2023-1972
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A potential heap based buffer overflow was found in _bfd_elf_slurp_version_tables() in bfd/elf.c. This may lead to loss of availability.
+  CWE:         CWE-119, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [85/148] CVE-2013-4392
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.0)
+  Package:     libsystemd0@252.39-1~deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: systemd, when updating file permissions, allows local users to change the permissions and SELinux security contexts for arbitrary files via a symlink attack on unspecified files.
+  CWE:         CWE-59
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [86/148] CVE-2025-11083
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU Binutils 2.45. The affected element is the function elf_swap_shdr in the library bfd/elfcode.h of the component Linker. The manipulation leads to heap-based buffe...
+  CWE:         CWE-119, CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [87/148] CVE-2025-11082
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw has been found in GNU Binutils 2.45. Impacted is the function _bfd_elf_parse_eh_frame of the file bfd/elf-eh-frame.c of the component Linker. Executing manipulation can lead to heap-based buffe...
+  CWE:         CWE-119, CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [88/148] CVE-2024-57360
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: https://www.gnu.org/software/binutils/ nm >=2.43 is affected by: Incorrect Access Control. The type of exploitation is: local. The component is: `nm --without-symbol-version` function.
+  CWE:         CWE-284
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [89/148] CVE-2025-5245
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as critical has been found in GNU Binutils up to 2.44. This affects the function debug_type_samep of the file /binutils/debug.c of the component objdump. The manipulation le...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [90/148] CVE-2025-5244
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils up to 2.44. It has been rated as critical. Affected by this issue is the function elf_gc_sweep of the file bfd/elflink.c of the component ld. The manipulation...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [91/148] CVE-2025-15079
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing SSH-based transfers using either SCP or SFTP, and setting the
+known_hosts file, libcurl could still mistakenly accept connecting to hosts
+*not present* in the specified file if they were ad...
+  CWE:         CWE-297
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [92/148] CVE-2025-5278
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.4)
+  Package:     coreutils@9.1-1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted...
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [93/148] CVE-2022-0563
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     bsdutils@1:2.38.1-5+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in the util-linux chfn and chsh utilities when compiled with Readline support. The Readline library uses an "INPUTRC" environment variable to get a path to the library config file. Wh...
+  CWE:         CWE-209
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [94/148] CVE-2023-52426
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.
+  CWE:         CWE-776
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [95/148] CVE-2023-1916
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.1)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in tiffcrop, a program distributed by the libtiff package. A specially crafted tiff file can lead to an out-of-bounds read in the extractImageSection function in tools/tiffcrop.c, res...
+  CWE:         CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [96/148] CVE-2025-8851
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was determined in LibTIFF up to 4.5.1. Affected by this issue is the function readSeparateStripsetoBuffer of the file tools/tiffcrop.c of the component tiffcrop. The manipulation leads...
+  CWE:         CWE-119, CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [97/148] CVE-2025-7545
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as problematic was found in GNU Binutils 2.45. Affected by this vulnerability is the function copy_section of the file binutils/objcopy.c. The manipulation leads to heap-bas...
+  CWE:         CWE-119, CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [98/148] CVE-2025-7546
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability, which was classified as problematic, has been found in GNU Binutils 2.45. Affected by this issue is the function bfd_elf_set_group_contents of the file bfd/elf.c. The manipulation lea...
+  CWE:         CWE-119, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [99/148] CVE-2025-8177
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in LibTIFF up to 4.7.0. It has been rated as critical. This issue affects the function setrow of the file tools/thumbnail.c. The manipulation leads to buffer overflow. An att...
+  CWE:         CWE-119, CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [100/148] CVE-2025-8176
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in LibTIFF up to 4.7.0. It has been declared as critical. This vulnerability affects the function get_histogram of the file tools/tiffmedian.c. The manipulation leads to use ...
+  CWE:         CWE-119, CWE-416
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [101/148] CVE-2025-10966
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 4.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: curl's code for managing SSH connections when SFTP was done using the wolfSSH
+powered backend was flawed and missed host verification mechanisms.
+
+This prevents curl from detecting MITM attackers and ...
+  CWE:         NVD-CWE-noinfo
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [102/148] CVE-2025-28162
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via the pngimage with AddressSanitizer (ASan), the program leaks memory in various locations,...
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [103/148] CVE-2025-28164
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libpng16-16@1.6.39-2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via png_create_read_struct() function.
+  CWE:         CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [104/148] CVE-2023-3164
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A heap-buffer-overflow vulnerability was found in LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916 and tools/tiffcrop.c:7801. This flaw allows attackers to cause a denial of service via a cr...
+  CWE:         CWE-120, CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [105/148] CVE-2025-14017
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.3)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+changing TLS options in one thread would inadvertently change them globally
+and therefore possibly also affect other concurrentl...
+  CWE:         NVD-CWE-Other
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [106/148] CVE-2024-56433
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.6)
+  Package:     login@1:4.13+dfsg1-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of us...
+  CWE:         CWE-1188
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [107/148] CVE-2011-3374
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.7)
+  Package:     apt@2.6.1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: It was found that apt-key in apt, all versions, do not correctly validate gpg keys with the master keyring, leading to a potential man-in-the-middle attack.
+  CWE:         CWE-347
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [108/148] CVE-2025-1153
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as problematic was found in GNU Binutils 2.43/2.44. Affected by this vulnerability is the function bfd_set_format of the file format.c. The manipulation leads to memory corr...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [109/148] GHSA-rcmh-qjqh-p98v
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     nodemailer@6.10.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 1)
+  Path:        nodemailer
+  Description: Nodemailer’s addressparser is vulnerable to DoS caused by recursive calls
+  Latest Ver:  8.0.1
+  Action:      UPGRADE — update from 6.10.1 to 8.0.1
+  Risk Level:  low
+  Note:        Newer version 8.0.1 available. Verify CVE is fixed in 8.0.1 and test for breakage.
+
+  [110/148] CVE-2025-1148
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43 and classified as problematic. Affected by this issue is the function link_order_scan of the file ld/ldelfgen.c of the component ld. The manipulation lea...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [111/148] CVE-2025-1147
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU Binutils 2.43 and classified as problematic. Affected by this vulnerability is the function __sanitizer::internal_strlen of the file binutils/nm.c of the componen...
+  CWE:         CWE-119, CWE-120
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [112/148] GHSA-73rr-hh4g-fpgx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     diff@5.2.0
+  Dep Type:    NPM (not in npm tree)
+  Description: jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch
+  Latest Ver:  8.0.3
+  Action:      UPGRADE — update from 5.2.0 to 8.0.3
+  Risk Level:  low
+  Note:        Newer version 8.0.3 available. Verify CVE is fixed in 8.0.3 and test for breakage.
+
+  [113/148] CVE-2025-1180
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as problematic has been found in GNU Binutils 2.43. This affects the function _bfd_elf_write_section_eh_frame of the file bfd/elf-eh-frame.c of the component ld. The manipul...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [114/148] CVE-2025-30258
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.7)
+  Package:     gpgv@2.2.40-1.1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify sig...
+  CWE:         CWE-754
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [115/148] CVE-2011-4116
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     perl-base@5.36.0-7+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: _is_safe in the File::Temp module for Perl does not properly handle symlinks.
+  CWE:         CWE-59
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [116/148] CVE-2021-4217
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     unzip@6.0-28
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw was found in unzip. The vulnerability occurs due to improper handling of Unicode strings, which can lead to a null pointer dereference. This flaw allows an attacker to input a specially crafted...
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [117/148] CVE-2025-1149
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43. It has been classified as problematic. This affects the function xstrdup of the file libiberty/xmalloc.c of the component ld. The manipulation leads to ...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [118/148] CVE-2025-1150
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43. It has been declared as problematic. This vulnerability affects the function bfd_malloc of the file libbfd.c of the component ld. The manipulation leads...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [119/148] CVE-2025-1152
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as problematic has been found in GNU Binutils 2.43. Affected is the function xstrdup of the file xstrdup.c of the component ld. The manipulation leads to memory leak. It is ...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [120/148] CVE-2025-6141
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libtinfo6@6.4-4
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU ncurses up to 6.5-20250322 and classified as problematic. This vulnerability affects the function postprocess_termcap of the file tinfo/parse_entry.c. The manipul...
+  CWE:         CWE-119, CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [121/148] CVE-2025-66382
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.9)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.
+  CWE:         CWE-407
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [122/148] CVE-2025-1151
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.43. It has been rated as problematic. This issue affects the function xmemdup of the file xmemdup.c of the component ld. The manipulation leads to memory le...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [123/148] CVE-2024-13978
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in LibTIFF up to 4.7.0. It has been declared as problematic. Affected by this vulnerability is the function t2p_read_tiff_init of the file tools/tiff2pdf.c of the component f...
+  CWE:         CWE-404, CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [124/148] CVE-2023-51792
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libde265-0@1.0.11-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Buffer Overflow vulnerability in libde265 v1.0.12 allows a local attacker to cause a denial of service via the allocation size exceeding the maximum supported size of 0x10000000000.
+  CWE:         CWE-121
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [125/148] CVE-2025-3198
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU Binutils 2.43/2.44 and classified as problematic. Affected by this vulnerability is the function display_info of the file binutils/bucomm.c of the component objdu...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [126/148] CVE-2025-15224
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     curl@7.88.1-10+deb12u14
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: When doing SSH-based transfers using either SCP or SFTP, and asked to do
+public key authentication, curl would wrongly still ask and authenticate using
+a locally running SSH agent.
+  CWE:         CWE-287
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [127/148] CVE-2025-11081
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was detected in GNU Binutils 2.45. This issue affects the function dump_dwarf_section of the file binutils/objdump.c. Performing manipulation results in out-of-bounds read. The attack ...
+  CWE:         CWE-119, CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [128/148] CVE-2025-11412
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU Binutils 2.45. This impacts the function bfd_elf_gc_record_vtentry of the file bfd/elflink.c of the component Linker. The manipulation leads to out-of-bounds read...
+  CWE:         CWE-119, CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [129/148] CVE-2025-11413
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.45. Affected is the function elf_link_add_object_symbols of the file bfd/elflink.c of the component Linker. The manipulation results in out-of-bounds read. ...
+  CWE:         CWE-119, CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [130/148] CVE-2025-11414
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was determined in GNU Binutils 2.45. Affected by this vulnerability is the function get_link_hash_entry of the file bfd/elflink.c of the component Linker. This manipulation causes out-...
+  CWE:         CWE-119, CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [131/148] CVE-2025-11494
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.45. Impacted is the function _bfd_x86_elf_late_size_sections of the file bfd/elfxx-x86.c of the component Linker. The manipulation results in out-of-bounds ...
+  CWE:         CWE-119, CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [132/148] CVE-2025-11495
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was determined in GNU Binutils 2.45. The affected element is the function elf_x86_64_relocate_section of the file elf64-x86-64.c of the component Linker. This manipulation causes heap-...
+  CWE:         CWE-119, CWE-122
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [133/148] CVE-2025-8961
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A weakness has been identified in LibTIFF 4.7.0. This affects the function main of the file tiffcrop.c of the component tiffcrop. Executing manipulation can lead to memory corruption. The attack can o...
+  CWE:         CWE-119
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [134/148] CVE-2025-8534
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability classified as problematic was found in libtiff 4.6.0. This vulnerability affects the function PS_Lvl2page of the file tools/tiff2ps.c of the component tiff2ps. The manipulation leads t...
+  CWE:         CWE-404, CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [135/148] CVE-2026-24515
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.9)
+  Package:     libexpat1@2.5.0-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+  CWE:         CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [136/148] CVE-2025-11840
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A weakness has been identified in GNU Binutils 2.45. The affected element is the function vfinfo of the file ldmisc.c. Executing manipulation can lead to out-of-bounds read. The attack can only be exe...
+  CWE:         CWE-119, CWE-125
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [137/148] CVE-2025-8224
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability has been found in GNU Binutils 2.44 and classified as problematic. This vulnerability affects the function bfd_elf_get_str_section of the file bfd/elf.c of the component BFD Library. T...
+  CWE:         CWE-404, CWE-476
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [138/148] CVE-2025-9165
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.5)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A flaw has been found in LibTIFF 4.7.0. This affects the function _TIFFmallocExt/_TIFFCheckRealloc/TIFFHashSetNew/InitCCITTFax3 of the file tools/tiffcmp.c of the component tiffcmp. Executing manipula...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [139/148] CVE-2025-66861
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.5)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was discovered in function d_unqualified_name in file cp-demangle.c in BinUtils 2.26 allowing attackers to cause a denial of service via crafted PE file.
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [140/148] CVE-2025-8225
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A vulnerability was found in GNU Binutils 2.44 and classified as problematic. This issue affects the function process_debug_info of the file binutils/dwarf.c of the component DWARF Section Handler. Th...
+  CWE:         CWE-401, CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [141/148] CVE-2022-3219
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     gpgv@2.2.40-1.1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [142/148] CVE-2025-11839
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     binutils@2.40-2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: A security flaw has been discovered in GNU Binutils 2.45. Impacted is the function tg_tag_type of the file prdbg.c. Performing manipulation results in unchecked return value. The attack needs to be ap...
+  CWE:         CWE-252, CWE-253
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [143/148] CVE-2023-6228
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.3)
+  Package:     libtiff6@4.5.0-6+deb12u3
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: An issue was found in the tiffcp utility distributed by the libtiff package where a crafted TIFF file on processing may cause a heap-based buffer overflow leads to an application crash.
+  CWE:         CWE-787
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [144/148] CVE-2011-3389
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     libgnutls30@3.7.9-2+deb12u5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode wit...
+  CWE:         CWE-326
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [145/148] CVE-2005-2541
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     tar@1.34+dfsg-1.2+deb12u1
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: Tar 1.15.1 does not properly warn the user when extracting setuid or setgid files, which may allow local users or remote attackers to gain privileges.
+  CWE:         NVD-CWE-Other
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [146/148] CVE-2010-4756
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     libc-bin@2.36-9+deb12u13
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not m...
+  CWE:         CWE-399
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [147/148] CVE-2007-5686
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     login@1:4.13+dfsg1-1+deb12u2
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: initscripts in rPath Linux 1 sets insecure permissions for the /var/log/btmp file, which allows local users to obtain sensitive information regarding authentication attempts.  NOTE: because sshd detec...
+  CWE:         CWE-264
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [148/148] CVE-2026-22185
+  ——————————————————————————————————————————————————
+  Severity:    UNKNOWN (CVSS: None)
+  Package:     libldap-2.5-0@2.5.13+dfsg-5
+  Dep Type:    DEBIAN (not in npm tree)
+  Description: OpenLDAP Lightning Memory-Mapped Database (LMDB) versions up to and including 0.9.14, prior to commit 8e1fda8, contain a heap buffer underflow in the readline() function of mdb_load. When processing m...
+  CWE:         CWE-125, CWE-191
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+================================================================================
+  END OF REPORT
+================================================================================

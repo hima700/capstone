@@ -1,0 +1,888 @@
+================================================================================
+  SBOM Vulnerability Mitigation Report — SAGE3-ALPINE
+  Generated: 2026-02-10 00:55:12
+================================================================================
+
+SUMMARY
+----------------------------------------
+  Total unique CVEs analyzed:  76
+
+  Mitigation Actions:
+    INVESTIGATE         : 10
+    UPGRADE             : 66
+
+  Severity Distribution (NVD CVSS v3):
+    CRITICAL    : 4
+    HIGH        : 36
+    MEDIUM      : 19
+    LOW         : 13
+
+  Ecosystem Distribution:
+    alpine      : 8
+    npm         : 68
+
+
+DETAILED CVE ANALYSIS
+----------------------------------------
+
+  [1/76] GHSA-76p3-8jx3-jpfq
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype pollution in webpack loader-utils
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [2/76] GHSA-fjxv-7rqg-78g4
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     form-data@4.0.0
+  Dep Type:    NPM (not in npm tree)
+  Description: form-data uses unsafe random function in form-data for choosing boundary
+  Latest Ver:  4.0.5
+  Action:      UPGRADE — update from 4.0.0 to 4.0.5
+  Risk Level:  low
+  Note:        Newer version 4.0.5 available. Verify CVE is fixed in 4.0.5 and test for breakage.
+
+  [3/76] GHSA-2jcg-qqmg-46q6
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     monorepo-symlink-test@0.0.0
+  Dep Type:    NPM (not in npm tree)
+  Description: Malware in monorepo-symlink-test
+  Latest Ver:  0.0.1-security
+  Action:      UPGRADE — update from 0.0.0 to 0.0.1-security
+  Risk Level:  low
+  Note:        Newer version 0.0.1-security available. Verify CVE is fixed in 0.0.1-security and test for breakage.
+
+  [4/76] CVE-2022-37601
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     loader-utils@<1.4.1
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype pollution in webpack loader-utils
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for loader-utils
+
+  [5/76] GHSA-wgrm-67xf-hhpq
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     pdfjs-dist@3.11.174
+  Dep Type:    NPM (not in npm tree)
+  Description: PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF
+  Latest Ver:  5.4.624
+  Action:      UPGRADE — update from 3.11.174 to 5.4.624
+  Risk Level:  low
+  Note:        Newer version 5.4.624 available. Verify CVE is fixed in 5.4.624 and test for breakage.
+
+  [6/76] GHSA-4r6h-8v6p-xvw6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@0.18.5
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype Pollution in sheetJS
+  Latest Ver:  0.18.5
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [7/76] GHSA-hhq3-ff78-jv3g
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [8/76] GHSA-qwcr-r2fm-qrc7
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     body-parser@1.20.2
+  Dep Type:    NPM (not in npm tree)
+  Description: body-parser vulnerable to denial of service when url encoding is enabled
+  Latest Ver:  2.2.2
+  Action:      UPGRADE — update from 1.20.2 to 2.2.2
+  Risk Level:  low
+  Note:        Newer version 2.2.2 available. Verify CVE is fixed in 2.2.2 and test for breakage.
+
+  [9/76] GHSA-gcx4-mw62-g8wm
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     rollup@2.79.1
+  Dep Type:    NPM (not in npm tree)
+  Description: DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS
+  Latest Ver:  4.57.1
+  Action:      UPGRADE — update from 2.79.1 to 4.57.1
+  Risk Level:  low
+  Note:        Newer version 4.57.1 available. Verify CVE is fixed in 4.57.1 and test for breakage.
+
+  [10/76] GHSA-3rfm-jhwj-7488
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [11/76] GHSA-c2qf-rxjj-qqgw
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     semver@7.3.4
+  Dep Type:    NPM (not in npm tree)
+  Description: semver vulnerable to Regular Expression Denial of Service
+  Latest Ver:  7.7.4
+  Action:      UPGRADE — update from 7.3.4 to 7.7.4
+  Risk Level:  low
+  Note:        Newer version 7.7.4 available. Verify CVE is fixed in 7.7.4 and test for breakage.
+
+  [12/76] GHSA-c7qv-q95q-8v27
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     http-proxy-middleware@2.0.6
+  Dep Type:    NPM (not in npm tree)
+  Description: Denial of service in http-proxy-middleware
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 2.0.6 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [13/76] GHSA-6rw7-vpxm-498p
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     qs@6.11.0
+  Dep Type:    NPM (not in npm tree)
+  Description: qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion
+  Latest Ver:  6.14.1
+  Action:      UPGRADE — update from 6.11.0 to 6.14.1
+  Risk Level:  low
+  Note:        Newer version 6.14.1 available. Verify CVE is fixed in 6.14.1 and test for breakage.
+
+  [14/76] GHSA-rhx6-c78j-4q9w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     path-to-regexp@0.1.7
+  Dep Type:    NPM (not in npm tree)
+  Description: path-to-regexp contains a ReDoS
+  Latest Ver:  8.3.0
+  Action:      UPGRADE — update from 0.1.7 to 8.3.0
+  Risk Level:  low
+  Note:        Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage.
+
+  [15/76] GHSA-554w-wpv2-vw27
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@1.3.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-forge has ASN.1 Unbounded Recursion
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 1.3.1 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [16/76] GHSA-5pgg-2g8v-p4x9
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@0.18.5
+  Dep Type:    NPM (not in npm tree)
+  Description: SheetJS Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  0.18.5
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [17/76] GHSA-4hjh-wcwx-xvwj
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     axios@1.7.7
+  Dep Type:    NPM (not in npm tree)
+  Description: Axios is vulnerable to DoS attack through lack of data size check
+  Latest Ver:  1.13.5
+  Action:      UPGRADE — update from 1.7.7 to 1.13.5
+  Risk Level:  low
+  Note:        Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage.
+
+  [18/76] GHSA-3xgq-45jj-v275
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     cross-spawn@7.0.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Regular Expression Denial of Service (ReDoS) in cross-spawn
+  Latest Ver:  7.0.6
+  Action:      UPGRADE — update from 7.0.3 to 7.0.6
+  Risk Level:  low
+  Note:        Newer version 7.0.6 available. Verify CVE is fixed in 7.0.6 and test for breakage.
+
+  [19/76] GHSA-9wv6-86v2-598j
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     path-to-regexp@0.1.7
+  Dep Type:    NPM (not in npm tree)
+  Description: path-to-regexp outputs backtracking regular expressions
+  Latest Ver:  8.3.0
+  Action:      UPGRADE — update from 0.1.7 to 8.3.0
+  Risk Level:  low
+  Note:        Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage.
+
+  [20/76] GHSA-jr5f-v2jv-69x6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     axios@1.7.7
+  Dep Type:    NPM (not in npm tree)
+  Description: axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL
+  Latest Ver:  1.13.5
+  Action:      UPGRADE — update from 1.7.7 to 1.13.5
+  Risk Level:  low
+  Note:        Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage.
+
+  [21/76] GHSA-5gfm-wpxj-wjgq
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@1.3.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 1.3.1 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [22/76] GHSA-829q-m3qg-ph8r
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     vega-selections@6.1.0
+  Dep Type:    NPM (not in npm tree)
+  Description: Vega XSS via expression abusing vlSelectionTuples function array map calls in environments with satisfactory function gadgets in the global scope
+  Latest Ver:  6.1.2
+  Action:      UPGRADE — update from 6.1.0 to 6.1.2
+  Risk Level:  low
+  Note:        Newer version 6.1.2 available. Verify CVE is fixed in 6.1.2 and test for breakage.
+
+  [23/76] GHSA-7f2v-3qq3-vvjf
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     vega-interpreter@1.0.5
+  Dep Type:    NPM (not in npm tree)
+  Description: Vega Cross-Site Scripting (XSS) via expressions abusing toString calls in environments using the VEGA_DEBUG global variable
+  Latest Ver:  2.2.1
+  Action:      UPGRADE — update from 1.0.5 to 2.2.1
+  Risk Level:  low
+  Note:        Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage.
+
+  [24/76] GHSA-5j98-mcp5-4vw2
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     glob@10.4.5
+  Dep Type:    NPM (not in npm tree)
+  Description: glob CLI: Command injection via -c/--cmd executes matches with shell:true
+  Latest Ver:  13.0.1
+  Action:      UPGRADE — update from 10.4.5 to 13.0.1
+  Risk Level:  low
+  Note:        Newer version 13.0.1 available. Verify CVE is fixed in 13.0.1 and test for breakage.
+
+  [25/76] GHSA-m9rg-mr6g-75gm
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     vega-functions@6.1.0
+  Dep Type:    NPM (not in npm tree)
+  Description: `vega-functions` vulnerable to Cross-site Scripting via `setdata` function
+  Latest Ver:  6.1.1
+  Action:      UPGRADE — update from 6.1.0 to 6.1.1
+  Risk Level:  low
+  Note:        Newer version 6.1.1 available. Verify CVE is fixed in 6.1.1 and test for breakage.
+
+  [26/76] GHSA-34x7-hfp2-rc4v
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [27/76] GHSA-r6q2-hw4h-h46w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [28/76] GHSA-2w69-qvjg-hvjx
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     @remix-run/router@1.23.0
+  Dep Type:    NPM (not in npm tree)
+  Description: React Router vulnerable to XSS via Open Redirects
+  Latest Ver:  1.23.2
+  Action:      UPGRADE — update from 1.23.0 to 1.23.2
+  Risk Level:  low
+  Note:        Newer version 1.23.2 available. Verify CVE is fixed in 1.23.2 and test for breakage.
+
+  [29/76] GHSA-8qq5-rm4j-mr97
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@6.2.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — update from 6.2.1 to 7.5.7
+  Risk Level:  low
+  Note:        Newer version 7.5.7 available. Verify CVE is fixed in 7.5.7 and test for breakage.
+
+  [30/76] GHSA-869p-cjfg-cm3x
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     jws@3.2.2
+  Dep Type:    NPM (not in npm tree)
+  Description: auth0/node-jws Improperly Verifies HMAC Signature
+  Latest Ver:  4.0.1
+  Action:      UPGRADE — update from 3.2.2 to 4.0.1
+  Risk Level:  low
+  Note:        Newer version 4.0.1 available. Verify CVE is fixed in 4.0.1 and test for breakage.
+
+  [31/76] GHSA-43fc-jf86-j433
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     axios@1.12.2
+  Dep Type:    NPM (not in npm tree)
+  Description: Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig
+  Latest Ver:  1.13.5
+  Action:      UPGRADE — update from 1.12.2 to 1.13.5
+  Risk Level:  low
+  Note:        Newer version 1.13.5 available. Verify CVE is fixed in 1.13.5 and test for breakage.
+
+  [32/76] CVE-2022-37603
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@>=1.0.0 <1.4.2
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for loader-utils
+
+  [33/76] CVE-2022-37599
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@>=1.0.0 <1.4.2
+  Dep Type:    NPM (not in npm tree)
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for loader-utils
+
+  [34/76] CVE-2022-25883
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     semver@>=7.0.0 <7.5.2
+  Dep Type:    NPM (not in npm tree)
+  Description: semver vulnerable to Regular Expression Denial of Service
+  Latest Ver:  7.7.4
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for semver
+
+  [35/76] CVE-2024-4367
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     pdfjs-dist@<=4.1.392
+  Dep Type:    NPM (not in npm tree)
+  Description: PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF
+  Latest Ver:  5.4.624
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for pdfjs-dist
+
+  [36/76] CVE-2026-23745
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@<=7.5.2
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tar
+
+  [37/76] CVE-2026-23950
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@<=7.5.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tar
+
+  [38/76] CVE-2026-24842
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@<7.5.7
+  Dep Type:    NPM (not in npm tree)
+  Description: node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal
+  Latest Ver:  7.5.7
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tar
+
+  [39/76] CVE-2023-30533
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@<0.19.3
+  Dep Type:    NPM (not in npm tree)
+  Description: Prototype Pollution in sheetJS
+  Latest Ver:  0.18.5
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for xlsx
+
+  [40/76] CVE-2024-22363
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     xlsx@<0.20.2
+  Dep Type:    NPM (not in npm tree)
+  Description: SheetJS Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  0.18.5
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for xlsx
+
+  [41/76] GHSA-4www-5p9h-95mh
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     http-proxy-middleware@2.0.6
+  Dep Type:    NPM (not in npm tree)
+  Description: http-proxy-middleware can call writeBody twice because "else if" is not used
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 2.0.6 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [42/76] GHSA-968p-4wvh-cqc8
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     @babel/helpers@7.25.6
+  Dep Type:    NPM (not in npm tree)
+  Description: Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups
+  Latest Ver:  7.28.6
+  Action:      UPGRADE — update from 7.25.6 to 7.28.6
+  Risk Level:  low
+  Note:        Newer version 7.28.6 available. Verify CVE is fixed in 7.28.6 and test for breakage.
+
+  [43/76] GHSA-c76h-2ccp-4975
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     undici@6.19.8
+  Dep Type:    NPM (not in npm tree)
+  Description: Use of Insufficiently Random Values in undici
+  Latest Ver:  7.21.0
+  Action:      UPGRADE — update from 6.19.8 to 7.21.0
+  Risk Level:  low
+  Note:        Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage.
+
+  [44/76] GHSA-mwcw-c2x4-8c55
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     nanoid@3.3.7
+  Dep Type:    NPM (not in npm tree)
+  Description: Predictable results in nanoid generation when given non-integer values
+  Latest Ver:  5.1.6
+  Action:      UPGRADE — update from 3.3.7 to 5.1.6
+  Risk Level:  low
+  Note:        Newer version 5.1.6 available. Verify CVE is fixed in 5.1.6 and test for breakage.
+
+  [45/76] GHSA-9gqv-wp59-fq42
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     http-proxy-middleware@2.0.6
+  Dep Type:    NPM (not in npm tree)
+  Description: http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 2.0.6 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [46/76] GHSA-xxjr-mmjv-4gpg
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     lodash@4.17.21
+  Dep Type:    NPM (not in npm tree)
+  Description: Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — update from 4.17.21 to 4.17.23
+  Risk Level:  low
+  Note:        Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage.
+
+  [47/76] CVE-2025-60876
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     busybox@1.37.0-r30
+  Dep Type:    ALPINE (not in npm tree)
+  Description: BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be...
+  CWE:         CWE-284
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [48/76] GHSA-4v9v-hfq4-rm2v
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     webpack-dev-server@4.15.2
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — update from 4.15.2 to 5.2.3
+  Risk Level:  low
+  Note:        Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage.
+
+  [49/76] CVE-2023-37769
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     pixman@0.46.4-r0
+  Dep Type:    ALPINE (not in npm tree)
+  Description: stress-test master commit e4c878 was discovered to contain a FPE vulnerability via the component combine_inner at /pixman-combine-float.c.
+  CWE:         CWE-369
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [50/76] GHSA-65ch-62r8-g69g
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     node-forge@1.3.1
+  Dep Type:    NPM (not in npm tree)
+  Description: node-forge is vulnerable to ASN.1 OID Integer Truncation
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 1.3.1 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [51/76] CVE-2025-14819
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@8.17.0-r1
+  Dep Type:    ALPINE (not in npm tree)
+  Description: When doing TLS related transfers with reused easy or multi handles and
+altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+reuse a CA store cached in memory for which the par...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [52/76] GHSA-9jgg-88mc-972h
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     webpack-dev-server@4.15.2
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — update from 4.15.2 to 5.2.3
+  Risk Level:  low
+  Note:        Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage.
+
+  [53/76] GHSA-9jcx-v3wj-wh4m
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     react-router@6.30.1
+  Dep Type:    NPM (not in npm tree)
+  Description: React Router has unexpected external redirect via untrusted paths
+  Latest Ver:  7.13.0
+  Action:      UPGRADE — update from 6.30.1 to 7.13.0
+  Risk Level:  low
+  Note:        Newer version 7.13.0 available. Verify CVE is fixed in 7.13.0 and test for breakage.
+
+  [54/76] CVE-2025-13034
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.9)
+  Package:     curl@8.17.0-r1
+  Dep Type:    ALPINE (not in npm tree)
+  Description: When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedpubkey`
+with the curl tool,curl should check the public key of the server certificate
+to verify the peer.
+
+This check was skipped i...
+  CWE:         CWE-295
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [55/76] CVE-2025-14524
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@8.17.0-r1
+  Dep Type:    ALPINE (not in npm tree)
+  Description: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+POP3 or SMTP scheme, curl might wrongly pass ...
+  CWE:         CWE-601
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [56/76] CVE-2025-15079
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     curl@8.17.0-r1
+  Dep Type:    ALPINE (not in npm tree)
+  Description: When doing SSH-based transfers using either SCP or SFTP, and setting the
+known_hosts file, libcurl could still mistakenly accept connecting to hosts
+*not present* in the specified file if they were ad...
+  CWE:         CWE-297
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [57/76] GHSA-mh29-5h37-fv8m
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     js-yaml@3.14.1
+  Dep Type:    NPM (not in npm tree)
+  Description: js-yaml has prototype pollution in merge (<<)
+  Latest Ver:  4.1.1
+  Action:      UPGRADE — update from 3.14.1 to 4.1.1
+  Risk Level:  low
+  Note:        Newer version 4.1.1 available. Verify CVE is fixed in 4.1.1 and test for breakage.
+
+  [58/76] GHSA-g9mf-h72j-4rw9
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     undici@6.19.8
+  Dep Type:    NPM (not in npm tree)
+  Description: Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion
+  Latest Ver:  7.21.0
+  Action:      UPGRADE — update from 6.19.8 to 7.21.0
+  Risk Level:  low
+  Note:        Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage.
+
+  [59/76] CVE-2025-14017
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.3)
+  Package:     curl@8.17.0-r1
+  Dep Type:    ALPINE (not in npm tree)
+  Description: When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+changing TLS options in one thread would inadvertently change them globally
+and therefore possibly also affect other concurrentl...
+  CWE:         NVD-CWE-Other
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [60/76] GHSA-cm22-4g7w-348p
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     serve-static@1.15.0
+  Dep Type:    NPM (not in npm tree)
+  Description: serve-static vulnerable to template injection that can lead to XSS
+  Latest Ver:  2.2.1
+  Action:      UPGRADE — update from 1.15.0 to 2.2.1
+  Risk Level:  low
+  Note:        Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage.
+
+  [61/76] GHSA-m6fv-jmcg-4jfg
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     send@0.18.0
+  Dep Type:    NPM (not in npm tree)
+  Description: send vulnerable to template injection that can lead to XSS
+  Latest Ver:  1.2.1
+  Action:      UPGRADE — update from 0.18.0 to 1.2.1
+  Risk Level:  low
+  Note:        Newer version 1.2.1 available. Verify CVE is fixed in 1.2.1 and test for breakage.
+
+  [62/76] GHSA-pxg6-pf52-xh8x
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     cookie@0.6.0
+  Dep Type:    NPM (not in npm tree)
+  Description: cookie accepts cookie name, path, and domain with out of bounds characters
+  Latest Ver:  1.1.1
+  Action:      UPGRADE — update from 0.6.0 to 1.1.1
+  Risk Level:  low
+  Note:        Newer version 1.1.1 available. Verify CVE is fixed in 1.1.1 and test for breakage.
+
+  [63/76] GHSA-qw6h-vgh9-j6wx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     express@4.19.2
+  Dep Type:    NPM (not in npm tree)
+  Description: express vulnerable to XSS via response.redirect()
+  Latest Ver:  5.2.1
+  Action:      UPGRADE — update from 4.19.2 to 5.2.1
+  Risk Level:  low
+  Note:        Newer version 5.2.1 available. Verify CVE is fixed in 5.2.1 and test for breakage.
+
+  [64/76] GHSA-cxrh-j4jr-qwg3
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     undici@6.19.8
+  Dep Type:    NPM (not in npm tree)
+  Description: undici Denial of Service attack via bad certificate data
+  Latest Ver:  7.21.0
+  Action:      UPGRADE — update from 6.19.8 to 7.21.0
+  Risk Level:  low
+  Note:        Newer version 7.21.0 available. Verify CVE is fixed in 7.21.0 and test for breakage.
+
+  [65/76] GHSA-52f5-9888-hmc6
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     tmp@0.0.33
+  Dep Type:    NPM (not in npm tree)
+  Description: tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter
+  Latest Ver:  0.2.5
+  Action:      UPGRADE — update from 0.0.33 to 0.2.5
+  Risk Level:  low
+  Note:        Newer version 0.2.5 available. Verify CVE is fixed in 0.2.5 and test for breakage.
+
+  [66/76] CVE-2025-15224
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.1)
+  Package:     curl@8.17.0-r1
+  Dep Type:    ALPINE (not in npm tree)
+  Description: When doing SSH-based transfers using either SCP or SFTP, and asked to do
+public key authentication, curl would wrongly still ask and authenticate using
+a locally running SSH agent.
+  CWE:         CWE-287
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [67/76] GHSA-73rr-hh4g-fpgx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     diff@4.0.2
+  Dep Type:    NPM (not in npm tree)
+  Description: jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch
+  Latest Ver:  8.0.3
+  Action:      UPGRADE — update from 4.0.2 to 8.0.3
+  Risk Level:  low
+  Note:        Newer version 8.0.3 available. Verify CVE is fixed in 8.0.3 and test for breakage.
+
+  [68/76] GHSA-v6h2-p8h4-qcjw
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     brace-expansion@1.1.11
+  Dep Type:    NPM (not in npm tree)
+  Description: brace-expansion Regular Expression Denial of Service vulnerability
+  Latest Ver:  4.0.1
+  Action:      UPGRADE — update from 1.1.11 to 4.0.1
+  Risk Level:  low
+  Note:        Newer version 4.0.1 available. Verify CVE is fixed in 4.0.1 and test for breakage.
+
+  [69/76] GHSA-38r7-794h-5758
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     webpack@5.94.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack buildHttp HttpUriPlugin allowedUris bypass via HTTP redirects → SSRF + cache persistence
+  Latest Ver:  5.105.0
+  Action:      UPGRADE — update from 5.94.0 to 5.105.0
+  Risk Level:  low
+  Note:        Newer version 5.105.0 available. Verify CVE is fixed in 5.105.0 and test for breakage.
+
+  [70/76] GHSA-8fgc-7cc6-rx7x
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     webpack@5.94.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack buildHttp: allowedUris allow-list bypass via URL userinfo (@) leading to build-time SSRF behavior
+  Latest Ver:  5.105.0
+  Action:      UPGRADE — update from 5.94.0 to 5.105.0
+  Risk Level:  low
+  Note:        Newer version 5.105.0 available. Verify CVE is fixed in 5.105.0 and test for breakage.
+
+  [71/76] GHSA-76c9-3jph-rj3q
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     on-headers@1.0.2
+  Dep Type:    NPM (not in npm tree)
+  Description: on-headers is vulnerable to http response header manipulation
+  Latest Ver:  1.1.0
+  Action:      UPGRADE — update from 1.0.2 to 1.1.0
+  Risk Level:  low
+  Note:        Newer version 1.1.0 available. Verify CVE is fixed in 1.1.0 and test for breakage.
+
+  [72/76] CVE-2025-54798
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     tmp@<=0.2.3
+  Dep Type:    NPM (not in npm tree)
+  Description: tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter
+  Latest Ver:  0.2.5
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for tmp
+
+  [73/76] CVE-2025-30360
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     webpack-dev-server@<=5.2.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for webpack-dev-server
+
+  [74/76] CVE-2025-30359
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     webpack-dev-server@<=5.2.0
+  Dep Type:    NPM (not in npm tree)
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for webpack-dev-server
+
+  [75/76] CVE-2025-64718
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     js-yaml@>=4.0.0 <4.1.1
+  Dep Type:    NPM (not in npm tree)
+  Description: js-yaml has prototype pollution in merge (<<)
+  Latest Ver:  4.1.1
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for js-yaml
+
+  [76/76] CVE-2025-13465
+  ——————————————————————————————————————————————————
+  Severity:    MODERATE (CVSS: None)
+  Package:     lodash@>=4.0.0 <=4.17.22
+  Dep Type:    NPM (not in npm tree)
+  Description: Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — fix available per npm audit
+  Risk Level:  medium
+  Note:        Source: npm audit advisory for lodash
+
+================================================================================
+  END OF REPORT
+================================================================================

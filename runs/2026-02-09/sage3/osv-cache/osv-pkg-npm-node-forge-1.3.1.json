@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-554w-wpv2-vw27",
+    "aliases": [
+      "CVE-2025-66031"
+    ],
+    "severity": "HIGH",
+    "summary": "node-forge has ASN.1 Unbounded Recursion"
+  },
+  {
+    "id": "GHSA-5gfm-wpxj-wjgq",
+    "aliases": [
+      "CVE-2025-12816"
+    ],
+    "severity": "HIGH",
+    "summary": "node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization"
+  },
+  {
+    "id": "GHSA-65ch-62r8-g69g",
+    "aliases": [
+      "CVE-2025-66030"
+    ],
+    "severity": "MODERATE",
+    "summary": "node-forge is vulnerable to ASN.1 OID Integer Truncation"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-884p-74jh-xrg2",
+    "aliases": [
+      "CVE-2019-15599"
+    ],
+    "severity": "HIGH",
+    "summary": "Command Injection in tree-kill"
+  },
+  {
+    "id": "GHSA-j7fq-p9q7-5wfv",
+    "aliases": [
+      "CVE-2019-15598"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Treekill Enables OS Command Injection"
+  }
+]

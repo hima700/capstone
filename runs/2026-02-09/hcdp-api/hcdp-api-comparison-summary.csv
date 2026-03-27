@@ -1,0 +1,4 @@
+Variant,Components,Dependencies,Unique_CVEs,Critical,High,Medium,Low,None,Debian_CVEs,npm_CVEs,CVEs_Removed,CVEs_Added,Net_Reduction,Reduction_Pct
+baseline,7400,170,148,1,15,18,7,107,141,7,0,0,0,0
+patched-slim,7400,170,146,1,15,17,6,107,141,5,2,0,2,1.4
+patched-alpine,3240,77,14,0,4,8,2,0,0,14,138,4,134,90.5

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-896r-f27r-55mw",
+    "aliases": [
+      "CVE-2021-3918"
+    ],
+    "severity": "CRITICAL",
+    "summary": "json-schema is vulnerable to Prototype Pollution"
+  }
+]

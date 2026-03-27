@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-2p57-rm9w-gvfp",
+    "aliases": [
+      "CVE-2024-29415"
+    ],
+    "severity": "HIGH",
+    "summary": "ip SSRF improper categorization in isPublic"
+  },
+  {
+    "id": "GHSA-78xj-cgh5-2h22",
+    "aliases": [
+      "CVE-2023-42282"
+    ],
+    "severity": "LOW",
+    "summary": "NPM IP package incorrectly identifies some private IP addresses as public"
+  }
+]

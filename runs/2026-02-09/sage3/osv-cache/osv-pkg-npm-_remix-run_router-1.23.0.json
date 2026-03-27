@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-2w69-qvjg-hvjx",
+    "aliases": [
+      "CVE-2026-22029"
+    ],
+    "severity": "HIGH",
+    "summary": "React Router vulnerable to XSS via Open Redirects"
+  }
+]

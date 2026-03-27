@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-mwcw-c2x4-8c55",
+    "aliases": [
+      "CVE-2024-55565"
+    ],
+    "severity": "MODERATE",
+    "summary": "Predictable results in nanoid generation when given non-integer values"
+  }
+]

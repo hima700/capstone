@@ -1,0 +1,144 @@
+================================================================================
+  SBOM Remediation Comparison Report — HCDP-API
+  Generated: 2026-02-09 20:09:18
+================================================================================
+
+VARIANT COMPARISON
+--------------------------------------------------------------------------------
+Metric                                baseline    patched-slim  patched-alpine 
+--------------------------------------------------------------------------------
+Components                                7400            7400            3240 
+Dependencies                               170             170              77 
+Unique CVEs                                148             146              14 
+--------------------------------------------------------------------------------
+  critical                                   1               1               0 
+  high                                      15              15               4 
+  medium                                    18              17               8 
+  low                                        7               6               2 
+  none                                     107             107               0 
+--------------------------------------------------------------------------------
+  debian                                   141             141               0 
+  npm                                        7               5               5 
+  alpine                                     0               0               9 
+
+
+DEBIAN CVE URGENCY CLASSIFICATION (Baseline)
+------------------------------------------------------------
+  Source: Debian Security Tracker (security-tracker.debian.org)
+
+  unimportant              :  106  (Negligible risk, Debian wont fix)
+  low                      :    1  (Low priority, may get fixed eventually)
+  not yet assigned         :   32  (Not yet triaged by Debian security)
+  unknown                  :    9  (No urgency data available)
+
+
+REMEDIATION: Patched Slim (node:22-slim, upgraded npm)
+------------------------------------------------------------
+  CVEs removed:     2
+  CVEs added (new): 0
+  CVEs remaining:   146
+  Net reduction:    2 (1.4%)
+
+  Removed by ecosystem:
+    npm: 2
+
+  Removed by severity:
+    medium: 1
+    low: 1
+
+  Removed by Debian urgency:
+    unknown: 2
+
+  ✅ No new CVEs introduced by this remediation
+
+  Top CVEs removed:
+    ✅ GHSA-mm7p-fcc7-pg87 — nodemailer@6.10.1 (medium)
+    ✅ GHSA-rcmh-qjqh-p98v — nodemailer@6.10.1 (low)
+
+
+REMEDIATION: Alpine (node:22-alpine, upgraded npm)
+------------------------------------------------------------
+  CVEs removed:     138
+  CVEs added (new): 4
+  CVEs remaining:   10
+  Net reduction:    134 (90.5%)
+
+  Removed by ecosystem:
+    debian: 136
+    npm: 2
+
+  Removed by severity:
+    critical: 1
+    high: 11
+    medium: 16
+    low: 6
+    none: 104
+
+  Removed by Debian urgency:
+    low: 1
+    not yet assigned: 30
+    unimportant: 103
+    unknown: 4
+
+  ⚠️  NEWLY INTRODUCED CVEs:
+    CVE-2010-1236 — flock@2.41.2-r0 (medium, alpine)
+    CVE-2010-3262 — flock@2.41.2-r0 (medium, alpine)
+    CVE-2025-60876 — busybox@1.37.0-r30 (medium, alpine)
+    CVE-2025-13034 — curl@8.17.0-r1 (medium, alpine)
+
+  Top CVEs removed:
+    ✅ CVE-2023-6879 — libaom3@3.6.0-1+deb12u2 (critical)
+    ✅ CVE-2023-52355 — libtiff6@4.5.0-6+deb12u3 (high)
+    ✅ CVE-2025-59375 — libexpat1@2.5.0-1+deb12u2 (high)
+    ✅ CVE-2026-22695 — libpng16-16@1.6.39-2+deb12u1 (high)
+    ✅ CVE-2025-13151 — libtasn1-6@4.19.0-2+deb12u1 (high)
+    ✅ CVE-2023-2953 — libldap-2.5-0@2.5.13+dfsg-5 (high)
+    ✅ CVE-2025-15281 — libc-bin@2.36-9+deb12u13 (high)
+    ✅ CVE-2026-0915 — libc-bin@2.36-9+deb12u13 (high)
+    ✅ CVE-2023-39616 — libaom3@3.6.0-1+deb12u2 (high)
+    ✅ CVE-2026-0861 — libc-bin@2.36-9+deb12u13 (high)
+    ✅ CVE-2025-6297 — dpkg@1.21.22 (high)
+    ✅ CVE-2026-22801 — libpng16-16@1.6.39-2+deb12u1 (high)
+    ✅ CVE-2025-9820 — libgnutls30@3.7.9-2+deb12u5 (medium)
+    ✅ CVE-2023-6277 — libtiff6@4.5.0-6+deb12u3 (medium)
+    ✅ CVE-2023-50495 — libtinfo6@6.4-4 (medium)
+    ✅ CVE-2024-38950 — libde265-0@1.0.11-1+deb12u2 (medium)
+    ✅ CVE-2024-38949 — libde265-0@1.0.11-1+deb12u2 (medium)
+    ✅ CVE-2023-32570 — libdav1d6@1.0.0-2+deb12u1 (medium)
+    ✅ CVE-2025-6141 — libtinfo6@6.4-4 (medium)
+    ✅ CVE-2025-10148 — curl@7.88.1-10+deb12u14 (medium)
+    ✅ CVE-2026-25210 — libexpat1@2.5.0-1+deb12u2 (medium)
+    ✅ CVE-2025-30258 — gpgv@2.2.40-1.1+deb12u2 (medium)
+    ✅ CVE-2025-68972 — gpgv@2.2.40-1.1+deb12u2 (medium)
+    ✅ CVE-2025-14104 — bsdutils@1:2.38.1-5+deb12u3 (medium)
+    ✅ CVE-2025-68431 — libheif1@1.15.1-1+deb12u1 (medium)
+    ... and 113 more
+
+
+RECOMMENDATIONS
+------------------------------------------------------------
+  Based on this analysis:
+
+  1. BEST VARIANT: patched-alpine
+     Reduces CVEs from 148 to 14 (-134, 90.5% reduction)
+
+  2. npm DEPENDENCIES:
+     - Upgrade nodemailer 6.10.1 → latest (direct dependency, 2 CVEs)
+     - Run npm audit fix for transitive vulnerabilities
+
+  3. DOCKER BASE IMAGE:
+     - Switch to node:22-alpine OR regularly rebuild with latest node:22-slim
+     - Alpine eliminates most Debian CVEs by using musl/apk instead
+
+  4. DEBIAN CVEs (if staying on Debian-based image):
+     - 106 CVEs are 'unimportant' per Debian Security — accept risk
+     - Remaining: monitor via periodic apt-get upgrade in image rebuilds
+
+  5. ONGOING MAINTENANCE:
+     - Pin base image digest for reproducibility
+     - Re-scan monthly with Syft + Grype
+     - Integrate SBOM generation into CI/CD pipeline
+
+================================================================================
+  END OF COMPARISON REPORT
+================================================================================

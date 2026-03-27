@@ -1,0 +1,1015 @@
+{
+  "project": "hcdp-api",
+  "generated": "2026-02-09T20:09:18.418234",
+  "variants": {
+    "baseline": {
+      "label": "Baseline (node:22-slim, original deps)",
+      "components": 7400,
+      "dependencies": 170,
+      "component_types": {
+        "library": 578,
+        "application": 1,
+        "operating-system": 1,
+        "file": 6820
+      },
+      "total_unique_cves": 148,
+      "severity": {
+        "low": 7,
+        "high": 15,
+        "none": 107,
+        "medium": 18,
+        "critical": 1
+      },
+      "ecosystem": {
+        "debian": 141,
+        "npm": 7
+      },
+      "debian_urgency": {
+        "not yet assigned": 32,
+        "unimportant": 106,
+        "unknown": 9,
+        "low": 1
+      }
+    },
+    "patched-slim": {
+      "label": "Patched Slim (node:22-slim, upgraded npm)",
+      "components": 7400,
+      "dependencies": 170,
+      "component_types": {
+        "library": 578,
+        "application": 1,
+        "operating-system": 1,
+        "file": 6820
+      },
+      "total_unique_cves": 146,
+      "severity": {
+        "low": 6,
+        "high": 15,
+        "none": 107,
+        "medium": 17,
+        "critical": 1
+      },
+      "ecosystem": {
+        "debian": 141,
+        "npm": 5
+      },
+      "debian_urgency": {
+        "not yet assigned": 32,
+        "unimportant": 106,
+        "unknown": 7,
+        "low": 1
+      }
+    },
+    "patched-alpine": {
+      "label": "Alpine (node:22-alpine, upgraded npm)",
+      "components": 3240,
+      "dependencies": 77,
+      "component_types": {
+        "library": 476,
+        "application": 1,
+        "operating-system": 1,
+        "file": 2762
+      },
+      "total_unique_cves": 14,
+      "severity": {
+        "medium": 8,
+        "high": 4,
+        "low": 2
+      },
+      "ecosystem": {
+        "alpine": 9,
+        "npm": 5
+      },
+      "debian_urgency": {
+        "not_classified": 4,
+        "unknown": 5,
+        "not yet assigned": 2,
+        "unimportant": 3
+      }
+    }
+  },
+  "comparison": {
+    "patched-slim": {
+      "cves_removed": 2,
+      "cves_added": 0,
+      "cves_remaining": 146,
+      "net_reduction": 2,
+      "reduction_pct": 1.4,
+      "removed_by_ecosystem": {
+        "npm": 2
+      },
+      "removed_by_severity": {
+        "low": 1,
+        "medium": 1
+      },
+      "removed_by_urgency": {
+        "unknown": 2
+      },
+      "removed_details": {
+        "npm": [
+          {
+            "cve_id": "GHSA-rcmh-qjqh-p98v",
+            "severity": "low",
+            "package": "nodemailer",
+            "version": "6.10.1"
+          },
+          {
+            "cve_id": "GHSA-mm7p-fcc7-pg87",
+            "severity": "medium",
+            "package": "nodemailer",
+            "version": "6.10.1"
+          }
+        ]
+      },
+      "added_details": []
+    },
+    "patched-alpine": {
+      "cves_removed": 138,
+      "cves_added": 4,
+      "cves_remaining": 10,
+      "net_reduction": 134,
+      "reduction_pct": 90.5,
+      "removed_by_ecosystem": {
+        "debian": 136,
+        "npm": 2
+      },
+      "removed_by_severity": {
+        "none": 104,
+        "low": 6,
+        "medium": 16,
+        "high": 11,
+        "critical": 1
+      },
+      "removed_by_urgency": {
+        "unimportant": 103,
+        "low": 1,
+        "unknown": 4,
+        "not yet assigned": 30
+      },
+      "removed_details": {
+        "debian": [
+          {
+            "cve_id": "CVE-2025-5244",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2016-2781",
+            "severity": "low",
+            "package": "coreutils",
+            "version": "9.1-1"
+          },
+          {
+            "cve_id": "CVE-2025-1148",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-8177",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-11495",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2023-31437",
+            "severity": "none",
+            "package": "libsystemd0",
+            "version": "252.39-1~deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-1149",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-1152",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2019-1010023",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2024-26461",
+            "severity": "none",
+            "package": "krb5-locales",
+            "version": "1.20.1-2+deb12u4"
+          },
+          {
+            "cve_id": "CVE-2026-22185",
+            "severity": "none",
+            "package": "libldap-2.5-0",
+            "version": "2.5.13+dfsg-5"
+          },
+          {
+            "cve_id": "CVE-2025-9820",
+            "severity": "medium",
+            "package": "libgnutls30",
+            "version": "3.7.9-2+deb12u5"
+          },
+          {
+            "cve_id": "CVE-2025-8534",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2023-52355",
+            "severity": "high",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-66863",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-59375",
+            "severity": "high",
+            "package": "libexpat1",
+            "version": "2.5.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2023-52426",
+            "severity": "none",
+            "package": "libexpat1",
+            "version": "2.5.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2025-8961",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-66861",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2022-27943",
+            "severity": "none",
+            "package": "cpp-12",
+            "version": "12.2.0-14+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2026-22695",
+            "severity": "high",
+            "package": "libpng16-16",
+            "version": "1.6.39-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-13151",
+            "severity": "high",
+            "package": "libtasn1-6",
+            "version": "4.19.0-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2023-2953",
+            "severity": "high",
+            "package": "libldap-2.5-0",
+            "version": "2.5.13+dfsg-5"
+          },
+          {
+            "cve_id": "CVE-2025-1153",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2023-6277",
+            "severity": "medium",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2019-1010024",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2023-50495",
+            "severity": "medium",
+            "package": "libtinfo6",
+            "version": "6.4-4"
+          },
+          {
+            "cve_id": "CVE-2025-7545",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-1176",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-1150",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-11082",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-8225",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2019-9192",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2023-6879",
+            "severity": "critical",
+            "package": "libaom3",
+            "version": "3.6.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2023-31439",
+            "severity": "none",
+            "package": "libsystemd0",
+            "version": "252.39-1~deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-11494",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2018-20712",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2017-18018",
+            "severity": "none",
+            "package": "coreutils",
+            "version": "9.1-1"
+          },
+          {
+            "cve_id": "CVE-2021-4214",
+            "severity": "none",
+            "package": "libpng16-16",
+            "version": "1.6.39-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-11412",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-11839",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2013-4392",
+            "severity": "none",
+            "package": "libsystemd0",
+            "version": "252.39-1~deb12u1"
+          },
+          {
+            "cve_id": "CVE-2018-20673",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2018-5709",
+            "severity": "none",
+            "package": "krb5-locales",
+            "version": "1.20.1-2+deb12u4"
+          },
+          {
+            "cve_id": "CVE-2018-20796",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2022-0563",
+            "severity": "none",
+            "package": "bsdutils",
+            "version": "1:2.38.1-5+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-1182",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2024-56433",
+            "severity": "low",
+            "package": "login",
+            "version": "1:4.13+dfsg1-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2024-38950",
+            "severity": "medium",
+            "package": "libde265-0",
+            "version": "1.0.11-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2021-32256",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2024-38949",
+            "severity": "medium",
+            "package": "libde265-0",
+            "version": "1.0.11-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2015-3276",
+            "severity": "none",
+            "package": "libldap-2.5-0",
+            "version": "2.5.13+dfsg-5"
+          },
+          {
+            "cve_id": "CVE-2023-32570",
+            "severity": "medium",
+            "package": "libdav1d6",
+            "version": "1.0.0-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-6141",
+            "severity": "medium",
+            "package": "libtinfo6",
+            "version": "6.4-4"
+          },
+          {
+            "cve_id": "CVE-2018-10126",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-15281",
+            "severity": "high",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2025-8851",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-5278",
+            "severity": "none",
+            "package": "coreutils",
+            "version": "9.1-1"
+          },
+          {
+            "cve_id": "CVE-2025-1151",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2017-17740",
+            "severity": "none",
+            "package": "libldap-2.5-0",
+            "version": "2.5.13+dfsg-5"
+          },
+          {
+            "cve_id": "CVE-2026-24515",
+            "severity": "low",
+            "package": "libexpat1",
+            "version": "2.5.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2010-4756",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2025-8224",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-1179",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-28164",
+            "severity": "none",
+            "package": "libpng16-16",
+            "version": "1.6.39-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2023-51792",
+            "severity": "low",
+            "package": "libde265-0",
+            "version": "1.0.11-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2023-31438",
+            "severity": "none",
+            "package": "libsystemd0",
+            "version": "252.39-1~deb12u1"
+          },
+          {
+            "cve_id": "CVE-2005-2541",
+            "severity": "none",
+            "package": "tar",
+            "version": "1.34+dfsg-1.2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2023-1916",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2026-0915",
+            "severity": "high",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2025-11081",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2023-39616",
+            "severity": "high",
+            "package": "libaom3",
+            "version": "3.6.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2025-66865",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-3198",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2017-13716",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2026-0861",
+            "severity": "high",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2019-1010022",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2025-7546",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-5245",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2022-1210",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-0725",
+            "severity": "none",
+            "package": "curl",
+            "version": "7.88.1-10+deb12u14"
+          },
+          {
+            "cve_id": "CVE-2024-2236",
+            "severity": "none",
+            "package": "libgcrypt20",
+            "version": "1.10.1-3"
+          },
+          {
+            "cve_id": "CVE-2018-6829",
+            "severity": "none",
+            "package": "libgcrypt20",
+            "version": "1.10.1-3"
+          },
+          {
+            "cve_id": "CVE-2017-16232",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-11083",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-10148",
+            "severity": "medium",
+            "package": "curl",
+            "version": "7.88.1-10+deb12u14"
+          },
+          {
+            "cve_id": "CVE-2017-14159",
+            "severity": "none",
+            "package": "libldap-2.5-0",
+            "version": "2.5.13+dfsg-5"
+          },
+          {
+            "cve_id": "CVE-2011-4116",
+            "severity": "none",
+            "package": "perl-base",
+            "version": "5.36.0-7+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-11413",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2007-5686",
+            "severity": "none",
+            "package": "login",
+            "version": "1:4.13+dfsg1-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2025-0840",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2017-9937",
+            "severity": "none",
+            "package": "libjbig0",
+            "version": "2.1-6.1"
+          },
+          {
+            "cve_id": "CVE-2021-4217",
+            "severity": "none",
+            "package": "unzip",
+            "version": "6.0-28"
+          },
+          {
+            "cve_id": "CVE-2026-25210",
+            "severity": "medium",
+            "package": "libexpat1",
+            "version": "2.5.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2023-6228",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2023-3164",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-30258",
+            "severity": "medium",
+            "package": "gpgv",
+            "version": "2.2.40-1.1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2025-11840",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-68972",
+            "severity": "medium",
+            "package": "gpgv",
+            "version": "2.2.40-1.1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2024-28757",
+            "severity": "none",
+            "package": "libexpat1",
+            "version": "2.5.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2020-15719",
+            "severity": "none",
+            "package": "libldap-2.5-0",
+            "version": "2.5.13+dfsg-5"
+          },
+          {
+            "cve_id": "CVE-2023-1972",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2011-3389",
+            "severity": "none",
+            "package": "libgnutls30",
+            "version": "3.7.9-2+deb12u5"
+          },
+          {
+            "cve_id": "CVE-2023-31486",
+            "severity": "none",
+            "package": "perl-base",
+            "version": "5.36.0-7+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2011-3374",
+            "severity": "none",
+            "package": "apt",
+            "version": "2.6.1"
+          },
+          {
+            "cve_id": "CVE-2025-14104",
+            "severity": "medium",
+            "package": "bsdutils",
+            "version": "1:2.38.1-5+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-66866",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2024-25269",
+            "severity": "none",
+            "package": "libheif1",
+            "version": "1.15.1-1+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2024-2379",
+            "severity": "none",
+            "package": "curl",
+            "version": "7.88.1-10+deb12u14"
+          },
+          {
+            "cve_id": "CVE-2020-36325",
+            "severity": "none",
+            "package": "libjansson4",
+            "version": "2.14-2"
+          },
+          {
+            "cve_id": "CVE-2025-11414",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2023-49463",
+            "severity": "none",
+            "package": "libheif1",
+            "version": "1.15.1-1+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2024-13978",
+            "severity": "low",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2022-3219",
+            "severity": "none",
+            "package": "gpgv",
+            "version": "2.2.40-1.1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2025-28162",
+            "severity": "none",
+            "package": "libpng16-16",
+            "version": "1.6.39-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-6297",
+            "severity": "high",
+            "package": "dpkg",
+            "version": "1.21.22"
+          },
+          {
+            "cve_id": "CVE-2018-9996",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-1181",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-66864",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2026-22801",
+            "severity": "high",
+            "package": "libpng16-16",
+            "version": "1.6.39-2+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2025-1180",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-27587",
+            "severity": "none",
+            "package": "libssl3",
+            "version": "3.0.18-1~deb12u2"
+          },
+          {
+            "cve_id": "CVE-2025-1178",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-10966",
+            "severity": "none",
+            "package": "curl",
+            "version": "7.88.1-10+deb12u14"
+          },
+          {
+            "cve_id": "CVE-2025-68431",
+            "severity": "medium",
+            "package": "libheif1",
+            "version": "1.15.1-1+deb12u1"
+          },
+          {
+            "cve_id": "CVE-2024-10041",
+            "severity": "medium",
+            "package": "libpam-modules",
+            "version": "1.5.2-6+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2024-26458",
+            "severity": "none",
+            "package": "krb5-locales",
+            "version": "1.20.1-2+deb12u4"
+          },
+          {
+            "cve_id": "CVE-2019-1010025",
+            "severity": "none",
+            "package": "libc-bin",
+            "version": "2.36-9+deb12u13"
+          },
+          {
+            "cve_id": "CVE-2025-8176",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2024-57360",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2024-53589",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-9165",
+            "severity": "none",
+            "package": "libtiff6",
+            "version": "4.5.0-6+deb12u3"
+          },
+          {
+            "cve_id": "CVE-2025-66862",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-1147",
+            "severity": "none",
+            "package": "binutils",
+            "version": "2.40-2"
+          },
+          {
+            "cve_id": "CVE-2025-66382",
+            "severity": "medium",
+            "package": "libexpat1",
+            "version": "2.5.0-1+deb12u2"
+          },
+          {
+            "cve_id": "CVE-2018-13410",
+            "severity": "none",
+            "package": "zip",
+            "version": "3.0-13"
+          }
+        ],
+        "npm": [
+          {
+            "cve_id": "GHSA-rcmh-qjqh-p98v",
+            "severity": "low",
+            "package": "nodemailer",
+            "version": "6.10.1"
+          },
+          {
+            "cve_id": "GHSA-mm7p-fcc7-pg87",
+            "severity": "medium",
+            "package": "nodemailer",
+            "version": "6.10.1"
+          }
+        ]
+      },
+      "added_details": [
+        {
+          "cve_id": "CVE-2010-1236",
+          "severity": "medium",
+          "ecosystem": "alpine",
+          "package": "flock",
+          "version": "2.41.2-r0"
+        },
+        {
+          "cve_id": "CVE-2010-3262",
+          "severity": "medium",
+          "ecosystem": "alpine",
+          "package": "flock",
+          "version": "2.41.2-r0"
+        },
+        {
+          "cve_id": "CVE-2025-60876",
+          "severity": "medium",
+          "ecosystem": "alpine",
+          "package": "busybox",
+          "version": "1.37.0-r30"
+        },
+        {
+          "cve_id": "CVE-2025-13034",
+          "severity": "medium",
+          "ecosystem": "alpine",
+          "package": "curl",
+          "version": "8.17.0-r1"
+        }
+      ]
+    }
+  }
+}

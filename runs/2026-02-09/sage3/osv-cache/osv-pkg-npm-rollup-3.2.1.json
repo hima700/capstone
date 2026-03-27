@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-gcx4-mw62-g8wm",
+    "aliases": [
+      "CVE-2024-47068"
+    ],
+    "severity": "HIGH",
+    "summary": "DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS"
+  },
+  {
+    "id": "GHSA-mw96-cpmx-2vgc",
+    "aliases": [
+      "CVE-2026-27606"
+    ],
+    "severity": "HIGH",
+    "summary": "Rollup 4 has Arbitrary File Write via Path Traversal"
+  }
+]

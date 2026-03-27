@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-952p-6rrq-rcjv",
+    "aliases": [
+      "CVE-2024-4067"
+    ],
+    "severity": "MODERATE",
+    "summary": "Regular Expression Denial of Service (ReDoS) in micromatch"
+  }
+]

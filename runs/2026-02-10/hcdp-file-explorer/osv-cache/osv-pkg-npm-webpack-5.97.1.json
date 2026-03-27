@@ -1,0 +1,20 @@
+[
+  {
+    "id": "GHSA-38r7-794h-5758",
+    "aliases": [
+      "CVE-2025-68157"
+    ],
+    "severity": "LOW",
+    "summary": "webpack buildHttp HttpUriPlugin allowedUris bypass via HTTP redirects \u2192 SSRF + cache persistence",
+    "published": "2026-02-05T18:35:28Z"
+  },
+  {
+    "id": "GHSA-8fgc-7cc6-rx7x",
+    "aliases": [
+      "CVE-2025-68458"
+    ],
+    "severity": "LOW",
+    "summary": "webpack buildHttp: allowedUris allow-list bypass via URL userinfo (@) leading to build-time SSRF behavior",
+    "published": "2026-02-05T18:38:10Z"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-6fx8-h7jm-663j",
+    "aliases": [
+      "CVE-2024-36751"
+    ],
+    "severity": "MODERATE",
+    "summary": "parse-uri Regular expression Denial of Service (ReDoS)"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-cqmj-92xf-r6r9",
+    "aliases": [
+      "CVE-2023-32695"
+    ],
+    "severity": "MODERATE",
+    "summary": "Insufficient validation when decoding a Socket.IO packet"
+  }
+]

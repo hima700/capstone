@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-gxpj-cx7g-858c",
+    "aliases": [
+      "CVE-2017-16137"
+    ],
+    "severity": "LOW",
+    "summary": "Regular Expression Denial of Service in debug"
+  }
+]

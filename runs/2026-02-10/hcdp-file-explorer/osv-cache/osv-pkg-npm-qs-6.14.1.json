@@ -1,0 +1,11 @@
+[
+  {
+    "id": "GHSA-w7fw-mjwx-w883",
+    "aliases": [
+      "CVE-2026-2391"
+    ],
+    "severity": "LOW",
+    "summary": "qs's arrayLimit bypass in comma parsing allows denial of service",
+    "published": "2026-02-12T17:04:39Z"
+  }
+]

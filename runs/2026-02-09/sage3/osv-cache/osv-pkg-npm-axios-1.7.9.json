@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GHSA-43fc-jf86-j433",
+    "aliases": [
+      "CVE-2026-25639"
+    ],
+    "severity": "HIGH",
+    "summary": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig"
+  },
+  {
+    "id": "GHSA-4hjh-wcwx-xvwj",
+    "aliases": [
+      "CVE-2025-58754"
+    ],
+    "severity": "HIGH",
+    "summary": "Axios is vulnerable to DoS attack through lack of data size check"
+  },
+  {
+    "id": "GHSA-jr5f-v2jv-69x6",
+    "aliases": [
+      "CVE-2025-27152"
+    ],
+    "severity": "HIGH",
+    "summary": "axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-qw6h-vgh9-j6wx",
+    "aliases": [
+      "CVE-2024-43796"
+    ],
+    "severity": "LOW",
+    "summary": "express vulnerable to XSS via response.redirect()"
+  },
+  {
+    "id": "GHSA-rv95-896h-c2vc",
+    "aliases": [
+      "CVE-2024-29041"
+    ],
+    "severity": "MODERATE",
+    "summary": "Express.js Open Redirect in malformed URLs"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "merged": "runs/2026-02-03/hcdp-api/sbom/merged.cdx.json",
+  "total_vulnerability_objects": 539,
+  "total_vuln_instances": 539,
+  "unique_vulnerable_components": 88,
+  "ecosystem_breakdown": {
+    "deb": 81,
+    "npm": 7
+  }
+}

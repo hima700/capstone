@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-72xf-g2v4-qvf3",
+    "aliases": [
+      "CVE-2023-26136"
+    ],
+    "severity": "MODERATE",
+    "summary": "tough-cookie Prototype Pollution vulnerability"
+  }
+]

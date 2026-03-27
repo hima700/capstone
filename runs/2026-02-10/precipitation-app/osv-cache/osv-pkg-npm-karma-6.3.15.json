@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-rc3x-jf5g-xvc5",
+    "aliases": [
+      "CVE-2021-23495"
+    ],
+    "severity": "MODERATE",
+    "summary": "Open redirect in karma"
+  }
+]

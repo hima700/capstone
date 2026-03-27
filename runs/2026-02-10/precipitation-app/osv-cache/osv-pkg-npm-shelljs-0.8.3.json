@@ -1,0 +1,16 @@
+[
+  {
+    "id": "GHSA-4rq4-32rv-6wp6",
+    "aliases": [
+      "CVE-2022-0144"
+    ],
+    "severity": "HIGH",
+    "summary": "Improper Privilege Management in shelljs"
+  },
+  {
+    "id": "GHSA-64g7-mvw6-v9qj",
+    "aliases": [],
+    "severity": "MODERATE",
+    "summary": "Improper Privilege Management in shelljs"
+  }
+]

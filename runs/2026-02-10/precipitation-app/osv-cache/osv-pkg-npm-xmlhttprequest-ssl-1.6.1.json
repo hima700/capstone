@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-h4j5-c7cj-74xg",
+    "aliases": [
+      "CVE-2020-28502"
+    ],
+    "severity": "CRITICAL",
+    "summary": "xmlhttprequest and xmlhttprequest-ssl vulnerable to Arbitrary Code Injection"
+  }
+]

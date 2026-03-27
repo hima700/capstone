@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-qw6h-vgh9-j6wx",
+    "aliases": [
+      "CVE-2024-43796"
+    ],
+    "severity": "LOW",
+    "summary": "express vulnerable to XSS via response.redirect()"
+  }
+]

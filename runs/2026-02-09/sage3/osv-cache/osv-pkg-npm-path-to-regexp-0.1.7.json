@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-9wv6-86v2-598j",
+    "aliases": [
+      "CVE-2024-45296"
+    ],
+    "severity": "HIGH",
+    "summary": "path-to-regexp outputs backtracking regular expressions"
+  },
+  {
+    "id": "GHSA-rhx6-c78j-4q9w",
+    "aliases": [
+      "CVE-2024-52798"
+    ],
+    "severity": "HIGH",
+    "summary": "path-to-regexp contains a ReDoS"
+  }
+]

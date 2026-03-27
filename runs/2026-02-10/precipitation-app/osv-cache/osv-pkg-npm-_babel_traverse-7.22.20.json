@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-67hx-6x53-jw92",
+    "aliases": [
+      "CVE-2023-45133"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code"
+  }
+]

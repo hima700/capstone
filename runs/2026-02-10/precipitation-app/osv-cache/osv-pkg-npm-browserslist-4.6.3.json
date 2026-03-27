@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-w8qv-6jwh-64r5",
+    "aliases": [
+      "CVE-2021-23364"
+    ],
+    "severity": "MODERATE",
+    "summary": "Regular Expression Denial of Service in browserslist"
+  }
+]

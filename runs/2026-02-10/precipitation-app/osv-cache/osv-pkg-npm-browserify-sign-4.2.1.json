@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-x9w5-v3q2-3rhw",
+    "aliases": [
+      "CVE-2023-46234"
+    ],
+    "severity": "HIGH",
+    "summary": "browserify-sign upper bound check issue in `dsaVerify` leads to a signature forgery attack"
+  }
+]

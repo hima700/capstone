@@ -1,0 +1,65 @@
+[
+  {
+    "id": "GHSA-2mjp-6q6p-2qxm",
+    "aliases": [
+      "CVE-2026-1525"
+    ],
+    "severity": "MODERATE",
+    "summary": "Undici has an HTTP Request/Response Smuggling issue",
+    "published": "2026-03-13T20:07:03Z"
+  },
+  {
+    "id": "GHSA-4992-7rv2-5pvq",
+    "aliases": [
+      "CVE-2026-1527"
+    ],
+    "severity": "MODERATE",
+    "summary": "Undici has CRLF Injection in undici via `upgrade` option",
+    "published": "2026-03-13T20:41:26Z"
+  },
+  {
+    "id": "GHSA-f269-vfmq-vjvj",
+    "aliases": [
+      "CVE-2026-1528"
+    ],
+    "severity": "HIGH",
+    "summary": "Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client",
+    "published": "2026-03-13T20:07:26Z"
+  },
+  {
+    "id": "GHSA-g9mf-h72j-4rw9",
+    "aliases": [
+      "CVE-2026-22036"
+    ],
+    "severity": "MODERATE",
+    "summary": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resourc",
+    "published": "2026-01-14T21:06:08Z"
+  },
+  {
+    "id": "GHSA-phc3-fgpg-7m6h",
+    "aliases": [
+      "CVE-2026-2581"
+    ],
+    "severity": "MODERATE",
+    "summary": "Undici has Unbounded Memory Consumption in its DeduplicationHandler via Response Buffering that leads to DoS",
+    "published": "2026-03-13T20:37:58Z"
+  },
+  {
+    "id": "GHSA-v9p9-hfj2-hcw8",
+    "aliases": [
+      "CVE-2026-2229"
+    ],
+    "severity": "HIGH",
+    "summary": "Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation",
+    "published": "2026-03-13T20:41:41Z"
+  },
+  {
+    "id": "GHSA-vrm6-8vpv-qv8q",
+    "aliases": [
+      "CVE-2026-1526"
+    ],
+    "severity": "HIGH",
+    "summary": "Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression",
+    "published": "2026-03-13T20:41:56Z"
+  }
+]

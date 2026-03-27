@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-2p57-rm9w-gvfp",
+    "aliases": [
+      "CVE-2024-29415"
+    ],
+    "severity": "HIGH",
+    "summary": "ip SSRF improper categorization in isPublic"
+  }
+]

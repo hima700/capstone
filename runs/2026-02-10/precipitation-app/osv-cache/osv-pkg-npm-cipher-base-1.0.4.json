@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-cpq7-6gpm-g9rc",
+    "aliases": [
+      "CVE-2025-9287"
+    ],
+    "severity": "CRITICAL",
+    "summary": "cipher-base is missing type checks, leading to hash rewind and passing on crafted data"
+  }
+]

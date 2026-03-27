@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-hj9c-8jmm-8c52",
+    "aliases": [
+      "CVE-2022-29244"
+    ],
+    "severity": "HIGH",
+    "summary": "Packing does not respect root-level ignore files in workspaces"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-j4f2-536g-r55m",
+    "aliases": [
+      "CVE-2020-36048"
+    ],
+    "severity": "HIGH",
+    "summary": "Resource exhaustion in engine.io"
+  },
+  {
+    "id": "GHSA-r7qp-cfhv-p84w",
+    "aliases": [
+      "CVE-2022-41940"
+    ],
+    "severity": "MODERATE",
+    "summary": "Uncaught exception in engine.io"
+  }
+]

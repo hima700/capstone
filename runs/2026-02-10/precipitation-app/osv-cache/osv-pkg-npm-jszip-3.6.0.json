@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-36fh-84j7-cv5h",
+    "aliases": [
+      "CVE-2022-48285"
+    ],
+    "severity": "MODERATE",
+    "summary": "JSZip contains Path Traversal via loadAsync"
+  },
+  {
+    "id": "GHSA-jg8v-48h5-wgxg",
+    "aliases": [
+      "CVE-2021-23413"
+    ],
+    "severity": "MODERATE",
+    "summary": "jszip Vulnerable to Prototype Pollution"
+  }
+]

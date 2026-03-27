@@ -1,0 +1,127 @@
+================================================================================
+  SBOM Remediation Comparison Report -- SAGE3
+  Generated: 2026-02-10 01:18:30
+================================================================================
+
+VARIANT COMPARISON
+--------------------------------------------------------------------------------
+Metric                                baseline sage3-patched-s    sage3-alpine 
+--------------------------------------------------------------------------------
+Components                               11247           11265            7774 
+Dependencies                               147             147              60 
+Unique CVEs                                157             157              61 
+--------------------------------------------------------------------------------
+  critical                                   4               4               3 
+  high                                      39              39              27 
+  medium                                    33              33              19 
+  low                                       23              23              12 
+  none                                      58              58               0 
+--------------------------------------------------------------------------------
+  debian                                   104             104               0 
+  npm                                       53              53              53 
+  alpine                                     0               0               8 
+
+
+DEBIAN CVE URGENCY CLASSIFICATION (Baseline)
+------------------------------------------------------------
+  Source: Debian Security Tracker (security-tracker.debian.org)
+
+  unknown                  :  157  (No urgency data available)
+
+
+REMEDIATION: sage3-patched-slim
+------------------------------------------------------------
+  CVEs removed:     0
+  CVEs added (new): 0
+  CVEs remaining:   157
+  Net reduction:    0 (0.0%)
+
+  Removed by ecosystem:
+
+  Removed by severity:
+
+  [OK] No new CVEs introduced by this remediation
+
+  Top CVEs removed:
+
+
+REMEDIATION: sage3-alpine
+------------------------------------------------------------
+  CVEs removed:     98
+  CVEs added (new): 2
+  CVEs remaining:   59
+  Net reduction:    96 (61.1%)
+
+  Removed by ecosystem:
+    debian: 98
+
+  Removed by severity:
+    critical: 1
+    high: 12
+    medium: 19
+    low: 12
+    none: 54
+
+  Removed by Debian urgency:
+    unknown: 98
+
+  [!] NEWLY INTRODUCED CVEs:
+    CVE-2025-13034 -- curl@8.17.0-r1 (medium, alpine)
+    CVE-2025-60876 -- busybox@1.37.0-r30 (medium, alpine)
+
+  Top CVEs removed:
+    [+] CVE-2023-6879 -- libaom3@3.6.0-1+deb12u2 (critical)
+    [+] CVE-2025-6297 -- dpkg@1.21.22 (high)
+    [+] CVE-2025-15281 -- libc-bin@2.36-9+deb12u13 (high)
+    [+] CVE-2026-0915 -- libc-bin@2.36-9+deb12u13 (high)
+    [+] CVE-2026-22695 -- libpng16-16@1.6.39-2+deb12u1 (high)
+    [+] CVE-2023-39616 -- libaom3@3.6.0-1+deb12u2 (high)
+    [+] CVE-2026-22801 -- libpng16-16@1.6.39-2+deb12u1 (high)
+    [+] CVE-2023-25193 -- libharfbuzz0b@6.0.0+dfsg-3 (high)
+    [+] CVE-2025-31344 -- libgif7@5.2.1-2.5 (high)
+    [+] CVE-2025-59375 -- libexpat1@2.5.0-1+deb12u2 (high)
+    [+] CVE-2025-13151 -- libtasn1-6@4.19.0-2+deb12u1 (high)
+    [+] CVE-2026-0861 -- libc-bin@2.36-9+deb12u13 (high)
+    [+] CVE-2023-2953 -- libldap-2.5-0@2.5.13+dfsg-5 (high)
+    [+] CVE-2026-1489 -- libglib2.0-0@2.74.6-2+deb12u8 (medium)
+    [+] CVE-2025-68431 -- libheif1@1.15.1-1+deb12u1 (medium)
+    [+] CVE-2026-1484 -- libglib2.0-0@2.74.6-2+deb12u8 (medium)
+    [+] CVE-2025-66382 -- libexpat1@2.5.0-1+deb12u2 (medium)
+    [+] CVE-2025-68972 -- gpgv@2.2.40-1.1+deb12u2 (medium)
+    [+] CVE-2025-10148 -- curl@7.88.1-10+deb12u14 (medium)
+    [+] CVE-2024-10041 -- libpam-modules@1.5.2-6+deb12u2 (medium)
+    [+] CVE-2025-6141 -- libtinfo6@6.4-4 (medium)
+    [+] CVE-2024-38949 -- libde265-0@1.0.11-1+deb12u2 (medium)
+    [+] CVE-2026-25210 -- libexpat1@2.5.0-1+deb12u2 (medium)
+    [+] CVE-2025-14104 -- bsdutils@1:2.38.1-5+deb12u3 (medium)
+    [+] CVE-2023-50495 -- libtinfo6@6.4-4 (medium)
+    ... and 73 more
+
+
+RECOMMENDATIONS
+------------------------------------------------------------
+  Based on this analysis:
+
+  1. BEST VARIANT: sage3-alpine
+     Reduces CVEs from 157 to 61 (-96, 61.1% reduction)
+
+  2. npm DEPENDENCIES:
+     - Upgrade nodemailer 6.10.1 -> latest (direct dependency, 2 CVEs)
+     - Run npm audit fix for transitive vulnerabilities
+
+  3. DOCKER BASE IMAGE:
+     - Switch to node:22-alpine OR regularly rebuild with latest node:22-slim
+     - Alpine eliminates most Debian CVEs by using musl/apk instead
+
+  4. DEBIAN CVEs (if staying on Debian-based image):
+     - 0 CVEs are 'unimportant' per Debian Security -- accept risk
+     - Remaining: monitor via periodic apt-get upgrade in image rebuilds
+
+  5. ONGOING MAINTENANCE:
+     - Pin base image digest for reproducibility
+     - Re-scan monthly with Syft + Grype
+     - Integrate SBOM generation into CI/CD pipeline
+
+================================================================================
+  END OF COMPARISON REPORT
+================================================================================

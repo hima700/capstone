@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-848j-6mx2-7j84",
+    "aliases": [
+      "CVE-2025-14505"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic Uses a Cryptographic Primitive with a Risky Implementation"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-cm22-4g7w-348p",
+    "aliases": [
+      "CVE-2024-43800"
+    ],
+    "severity": "LOW",
+    "summary": "serve-static vulnerable to template injection that can lead to XSS"
+  }
+]

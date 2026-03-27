@@ -1,0 +1,56 @@
+[
+  {
+    "id": "GHSA-34x7-hfp2-rc4v",
+    "aliases": [
+      "CVE-2026-24842"
+    ],
+    "severity": "HIGH",
+    "summary": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal",
+    "published": "2026-01-28T16:35:31Z"
+  },
+  {
+    "id": "GHSA-83g3-92jg-28cx",
+    "aliases": [
+      "CVE-2026-26960"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction",
+    "published": "2026-02-18T00:57:13Z"
+  },
+  {
+    "id": "GHSA-8qq5-rm4j-mr97",
+    "aliases": [
+      "CVE-2026-23745"
+    ],
+    "severity": "HIGH",
+    "summary": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization",
+    "published": "2026-01-16T21:16:20Z"
+  },
+  {
+    "id": "GHSA-9ppj-qmqm-q256",
+    "aliases": [
+      "CVE-2026-31802"
+    ],
+    "severity": "HIGH",
+    "summary": "node-tar Symlink Path Traversal via Drive-Relative Linkpath",
+    "published": "2026-03-10T23:44:58Z"
+  },
+  {
+    "id": "GHSA-qffp-2rhf-9h96",
+    "aliases": [
+      "CVE-2026-29786"
+    ],
+    "severity": "HIGH",
+    "summary": "tar has Hardlink Path Traversal via Drive-Relative Linkpath",
+    "published": "2026-03-05T00:52:32Z"
+  },
+  {
+    "id": "GHSA-r6q2-hw4h-h46w",
+    "aliases": [
+      "CVE-2026-23950"
+    ],
+    "severity": "HIGH",
+    "summary": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS",
+    "published": "2026-01-21T01:05:49Z"
+  }
+]

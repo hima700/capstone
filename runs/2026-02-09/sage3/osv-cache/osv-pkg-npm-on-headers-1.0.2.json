@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-76c9-3jph-rj3q",
+    "aliases": [
+      "CVE-2025-7339"
+    ],
+    "severity": "LOW",
+    "summary": "on-headers is vulnerable to http response header manipulation"
+  }
+]

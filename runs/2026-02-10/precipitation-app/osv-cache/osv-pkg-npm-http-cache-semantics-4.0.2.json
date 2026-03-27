@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-rc47-6667-2j5j",
+    "aliases": [
+      "CVE-2022-25881"
+    ],
+    "severity": "HIGH",
+    "summary": "http-cache-semantics vulnerable to Regular Expression Denial of Service"
+  }
+]

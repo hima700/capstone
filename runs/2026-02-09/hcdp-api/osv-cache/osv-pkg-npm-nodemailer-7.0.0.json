@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-mm7p-fcc7-pg87",
+    "aliases": [
+      "CVE-2025-13033"
+    ],
+    "severity": "MODERATE",
+    "summary": "Nodemailer: Email to an unintended domain can occur due to Interpretation Conflict"
+  },
+  {
+    "id": "GHSA-rcmh-qjqh-p98v",
+    "aliases": [
+      "CVE-2025-14874"
+    ],
+    "severity": "HIGH",
+    "summary": "Nodemailer\u2019s addressparser is vulnerable to DoS caused by recursive calls"
+  }
+]

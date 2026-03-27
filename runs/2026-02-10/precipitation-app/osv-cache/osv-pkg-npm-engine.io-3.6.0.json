@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-r7qp-cfhv-p84w",
+    "aliases": [
+      "CVE-2022-41940"
+    ],
+    "severity": "MODERATE",
+    "summary": "Uncaught exception in engine.io"
+  }
+]

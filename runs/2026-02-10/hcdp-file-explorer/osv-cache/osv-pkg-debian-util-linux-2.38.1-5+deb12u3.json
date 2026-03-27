@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DEBIAN-CVE-2022-0563",
+    "aliases": [],
+    "severity": "UNKNOWN",
+    "summary": ""
+  },
+  {
+    "id": "DEBIAN-CVE-2025-14104",
+    "aliases": [],
+    "severity": "UNKNOWN",
+    "summary": ""
+  },
+  {
+    "id": "DEBIAN-CVE-2026-3184",
+    "aliases": [],
+    "severity": "UNKNOWN",
+    "summary": ""
+  }
+]

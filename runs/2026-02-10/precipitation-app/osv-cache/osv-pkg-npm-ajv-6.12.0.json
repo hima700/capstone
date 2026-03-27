@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-2g4f-4pwh-qvx6",
+    "aliases": [
+      "CVE-2025-69873"
+    ],
+    "severity": "MODERATE",
+    "summary": "ajv has ReDoS when using `$data` option"
+  },
+  {
+    "id": "GHSA-v88g-cgmw-v5xw",
+    "aliases": [
+      "CVE-2020-15366"
+    ],
+    "severity": "MODERATE",
+    "summary": "Prototype Pollution in Ajv"
+  }
+]

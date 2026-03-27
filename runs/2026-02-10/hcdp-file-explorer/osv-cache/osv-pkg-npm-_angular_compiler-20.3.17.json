@@ -1,0 +1,11 @@
+[
+  {
+    "id": "GHSA-g93w-mfhg-p222",
+    "aliases": [
+      "CVE-2026-32635"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular vulnerable to XSS in i18n attribute bindings",
+    "published": "2026-03-13T20:56:18Z"
+  }
+]

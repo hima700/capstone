@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-hj48-42vr-x3v9",
+    "aliases": [
+      "CVE-2021-23343"
+    ],
+    "severity": "MODERATE",
+    "summary": "Regular Expression Denial of Service in path-parse"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-mh29-5h37-fv8m",
+    "aliases": [
+      "CVE-2025-64718"
+    ],
+    "severity": "MODERATE",
+    "summary": "js-yaml has prototype pollution in merge (<<)"
+  }
+]

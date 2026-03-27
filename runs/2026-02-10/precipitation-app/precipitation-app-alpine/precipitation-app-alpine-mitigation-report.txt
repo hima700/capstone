@@ -1,0 +1,1904 @@
+================================================================================
+  SBOM Vulnerability Mitigation Report — PRECIPITATION-APP-ALPINE
+  Generated: 2026-02-16 14:37:29
+================================================================================
+
+SUMMARY
+----------------------------------------
+  Total unique CVEs analyzed:  156
+
+  Mitigation Actions:
+    INVESTIGATE         : 23
+    UPGRADE             : 133
+
+  Severity Distribution (NVD CVSS v3):
+    CRITICAL    : 20
+    HIGH        : 62
+    MEDIUM      : 50
+    LOW         : 24
+
+  Ecosystem Distribution:
+    alpine      : 3
+    npm         : 135
+    unknown     : 18
+
+
+DETAILED CVE ANALYSIS
+----------------------------------------
+
+  [1/156] GHSA-76p3-8jx3-jpfq
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 15)
+  Path:        @angular-devkit/build-angular → @angular-devkit/build-optimizer → loader-utils
+  Description: Prototype pollution in webpack loader-utils
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [2/156] GHSA-h4j5-c7cj-74xg
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     xmlhttprequest-ssl@1.5.5
+  Dep Type:    TRANSITIVE (depth: 5, occurrences: 1)
+  Path:        karma → socket.io → socket.io-client → engine.io-client → xmlhttprequest-ssl
+  Description: xmlhttprequest and xmlhttprequest-ssl vulnerable to Arbitrary Code Injection
+  Latest Ver:  4.0.0
+  Action:      UPGRADE — update from 1.5.5 to 4.0.0
+  Risk Level:  low
+  Note:        Newer version 4.0.0 available. Verify CVE is fixed in 4.0.0 and test for breakage.
+
+  [3/156] GHSA-j7fq-p9q7-5wfv
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     tree-kill@1.2.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 2)
+  Path:        @angular-devkit/build-angular → @ngtools/webpack → tree-kill
+  Description: Treekill Enables OS Command Injection
+  Latest Ver:  1.2.2
+  Action:      UPGRADE — update from 1.2.1 to 1.2.2
+  Risk Level:  low
+  Note:        Newer version 1.2.2 available. Verify CVE is fixed in 1.2.2 and test for breakage.
+
+  [4/156] GHSA-765h-qjxv-5f44
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Prototype Pollution in handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [5/156] GHSA-f2jv-r9rf-7988
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Remote code execution in handlebars when compiling templates
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [6/156] GHSA-crh6-fp67-6883
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     xmldom@0.1.27
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        geotiff → xmldom
+  Description: xmldom allows multiple root nodes in a DOM
+  Latest Ver:  0.6.0
+  Action:      UPGRADE — update from 0.1.27 to 0.6.0
+  Risk Level:  low
+  Note:        Newer version 0.6.0 available. Verify CVE is fixed in 0.6.0 and test for breakage.
+
+  [7/156] GHSA-896r-f27r-55mw
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     json-schema@0.2.3
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 1)
+  Path:        @angular-devkit/build-angular → less → request → http-signature → jsprim → json-schema
+  Description: json-schema is vulnerable to Prototype Pollution
+  Latest Ver:  0.4.0
+  Action:      UPGRADE — update from 0.2.3 to 0.4.0
+  Risk Level:  low
+  Note:        Newer version 0.4.0 available. Verify CVE is fixed in 0.4.0 and test for breakage.
+
+  [8/156] GHSA-qm95-pgcg-qqfq
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     socket.io-parser@3.2.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        karma → socket.io → socket.io-client → socket.io-parser
+  Description: Insufficient validation when decoding a Socket.IO packet
+  Latest Ver:  4.2.5
+  Action:      UPGRADE — update from 3.2.0 to 4.2.5
+  Risk Level:  low
+  Note:        Newer version 4.2.5 available. Verify CVE is fixed in 4.2.5 and test for breakage.
+
+  [9/156] GHSA-xvch-5gv4-984h
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     minimist@0.0.10
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 11)
+  Path:        @angular-devkit/build-angular → loader-utils → json5 → minimist
+  Description: Prototype Pollution in minimist
+  Latest Ver:  1.2.8
+  Action:      UPGRADE — update from 0.0.10 to 1.2.8
+  Risk Level:  low
+  Note:        Newer version 1.2.8 available. Verify CVE is fixed in 1.2.8 and test for breakage.
+
+  [10/156] GHSA-72mh-269x-7mh5
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     xmlhttprequest-ssl@1.5.5
+  Dep Type:    TRANSITIVE (depth: 5, occurrences: 1)
+  Path:        karma → socket.io → socket.io-client → engine.io-client → xmlhttprequest-ssl
+  Description: Improper Certificate Validation in xmlhttprequest-ssl
+  Latest Ver:  4.0.0
+  Action:      UPGRADE — update from 1.5.5 to 4.0.0
+  Risk Level:  low
+  Note:        Newer version 4.0.0 available. Verify CVE is fixed in 4.0.0 and test for breakage.
+
+  [11/156] GHSA-wjc4-73q6-gv3m
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     plotly.js@1.58.5
+  Dep Type:    DIRECT (depth: 1, occurrences: 1)
+  Path:        plotly.js
+  Description: plotly.js prototype pollution vulnerability
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.58.5 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [12/156] GHSA-cpq7-6gpm-g9rc
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     cipher-base@1.0.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 4)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-cipher → browserify-aes → cipher-base
+  Description: cipher-base is missing type checks, leading to hash rewind and passing on crafted data
+  Latest Ver:  1.0.7
+  Action:      UPGRADE — update from 1.0.4 to 1.0.7
+  Risk Level:  low
+  Note:        Newer version 1.0.7 available. Verify CVE is fixed in 1.0.7 and test for breakage.
+
+  [13/156] GHSA-h7cp-r72f-jxh6
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     pbkdf2@3.1.2
+  Dep Type:    TRANSITIVE (depth: 5, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → parse-asn1 → pbkdf2
+  Description: pbkdf2 returns predictable uninitialized/zero-filled memory for non-normalized or unimplemented algos
+  Latest Ver:  3.1.5
+  Action:      UPGRADE — update from 3.1.2 to 3.1.5
+  Risk Level:  low
+  Note:        Newer version 3.1.5 available. Verify CVE is fixed in 3.1.5 and test for breakage.
+
+  [14/156] GHSA-67hx-6x53-jw92
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     @babel/traverse@7.6.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-lib-instrument → @babel/traverse
+  Description: Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code
+  Latest Ver:  7.29.0
+  Action:      UPGRADE — update from 7.6.0 to 7.29.0
+  Risk Level:  low
+  Note:        Newer version 7.29.0 available. Verify CVE is fixed in 7.29.0 and test for breakage.
+
+  [15/156] GHSA-v62p-rq8g-8h59
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     pbkdf2@3.1.2
+  Dep Type:    TRANSITIVE (depth: 5, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → parse-asn1 → pbkdf2
+  Description: pbkdf2 silently disregards Uint8Array input, returning static keys
+  Latest Ver:  3.1.5
+  Action:      UPGRADE — update from 3.1.2 to 3.1.5
+  Risk Level:  low
+  Note:        Newer version 3.1.5 available. Verify CVE is fixed in 3.1.5 and test for breakage.
+
+  [16/156] GHSA-fjxv-7rqg-78g4
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     form-data@2.3.3
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → less → request → form-data
+  Description: form-data uses unsafe random function in form-data for choosing boundary
+  Latest Ver:  4.0.5
+  Action:      UPGRADE — update from 2.3.3 to 4.0.5
+  Risk Level:  low
+  Note:        Newer version 4.0.5 available. Verify CVE is fixed in 4.0.5 and test for breakage.
+
+  [17/156] GHSA-95m3-7q98-8xr5
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     sha.js@2.4.11
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 3)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → create-hash → sha.js
+  Description: sha.js is missing type checks leading to hash rewind and passing on crafted data
+  Latest Ver:  2.4.12
+  Action:      UPGRADE — update from 2.4.11 to 2.4.12
+  Risk Level:  low
+  Note:        Newer version 2.4.12 available. Verify CVE is fixed in 2.4.12 and test for breakage.
+
+  [18/156] GHSA-vjh7-7g9h-fjfh
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Elliptic's private key extraction in ECDSA upon signing a malformed input (e.g. a string)
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [19/156] GHSA-j2hj-f22c-chm4
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     example-typescript@1.0.0
+  Dep Type:    NPM (not in npm tree)
+  Description: Malware in example-typescript
+  Latest Ver:  0.0.1-security
+  Action:      UPGRADE — update from 1.0.0 to 0.0.1-security
+  Risk Level:  low
+  Note:        Newer version 0.0.1-security available. Verify CVE is fixed in 0.0.1-security and test for breakage.
+
+  [20/156] GHSA-2jcg-qqmg-46q6
+  ——————————————————————————————————————————————————
+  Severity:    CRITICAL (CVSS: None)
+  Package:     monorepo-symlink-test@0.0.0
+  Dep Type:    NPM (not in npm tree)
+  Description: Malware in monorepo-symlink-test
+  Latest Ver:  0.0.1-security
+  Action:      UPGRADE — update from 0.0.0 to 0.0.1-security
+  Risk Level:  low
+  Note:        Newer version 0.0.1-security available. Verify CVE is fixed in 0.0.1-security and test for breakage.
+
+  [21/156] CVE-2023-44487
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+  CWE:         NVD-CWE-noinfo, CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [22/156] GHSA-2p57-rm9w-gvfp
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     ip@1.1.5
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 3)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → bonjour → multicast-dns → dns-packet → ip
+  Description: ip SSRF improper categorization in isPublic
+  Latest Ver:  2.0.1
+  Action:      UPGRADE — update from 1.1.5 to 2.0.1
+  Risk Level:  low
+  Note:        Newer version 2.0.1 available. Verify CVE is fixed in 2.0.1 and test for breakage.
+
+  [23/156] CVE-2024-27983
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 8.2)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 m...
+  CWE:         CWE-362
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [24/156] GHSA-9c47-m6qq-7p4h
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     json5@1.0.1
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → loader-utils → json5
+  Description: Prototype Pollution in JSON5 via Parse Method
+  Latest Ver:  2.2.3
+  Action:      UPGRADE — update from 1.0.1 to 2.2.3
+  Risk Level:  low
+  Note:        Newer version 2.2.3 available. Verify CVE is fixed in 2.2.3 and test for breakage.
+
+  [25/156] GHSA-884p-74jh-xrg2
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tree-kill@1.2.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 2)
+  Path:        @angular-devkit/build-angular → @ngtools/webpack → tree-kill
+  Description: Command Injection in tree-kill
+  Latest Ver:  1.2.2
+  Action:      UPGRADE — update from 1.2.1 to 1.2.2
+  Risk Level:  low
+  Note:        Newer version 1.2.2 available. Verify CVE is fixed in 1.2.2 and test for breakage.
+
+  [26/156] GHSA-4wf5-vphf-c2xc
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     terser@3.17.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → terser-webpack-plugin → terser
+  Description: Terser insecure use of regular expressions leads to ReDoS
+  Latest Ver:  5.46.0
+  Action:      UPGRADE — update from 3.17.0 to 5.46.0
+  Risk Level:  low
+  Note:        Newer version 5.46.0 available. Verify CVE is fixed in 5.46.0 and test for breakage.
+
+  [27/156] GHSA-qwcr-r2fm-qrc7
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     body-parser@1.20.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express → body-parser
+  Description: body-parser vulnerable to denial of service when url encoding is enabled
+  Latest Ver:  2.2.2
+  Action:      UPGRADE — update from 1.20.1 to 2.2.2
+  Risk Level:  low
+  Note:        Newer version 2.2.2 available. Verify CVE is fixed in 2.2.2 and test for breakage.
+
+  [28/156] GHSA-wc69-rhjr-hc9g
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     moment@2.18.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 7)
+  Path:        @types/moment-round → moment
+  Description: Moment.js vulnerable to Inefficient Regular Expression Complexity
+  Latest Ver:  2.30.1
+  Action:      UPGRADE — update from 2.18.1 to 2.30.1
+  Risk Level:  low
+  Note:        Newer version 2.30.1 available. Verify CVE is fixed in 2.30.1 and test for breakage.
+
+  [29/156] GHSA-hhq3-ff78-jv3g
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 15)
+  Path:        @angular-devkit/build-angular → @angular-devkit/build-optimizer → loader-utils
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [30/156] GHSA-p6mc-m468-83gw
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     lodash@4.17.15
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 14)
+  Path:        @angular-devkit/build-angular → istanbul-instrumenter-loader → istanbul-lib-instrument → babel-generator → lodash
+  Description: Prototype Pollution in lodash
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — update from 4.17.15 to 4.17.23
+  Risk Level:  low
+  Note:        Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage.
+
+  [31/156] GHSA-wr3j-pwj9-hqq6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     webpack-dev-middleware@3.6.2
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack-dev-middleware
+  Description: Path traversal in webpack-dev-middleware
+  Latest Ver:  7.4.5
+  Action:      UPGRADE — update from 3.6.2 to 7.4.5
+  Risk Level:  low
+  Note:        Newer version 7.4.5 available. Verify CVE is fixed in 7.4.5 and test for breakage.
+
+  [32/156] GHSA-hxcc-f52p-wc94
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     serialize-javascript@1.9.1
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        @angular-devkit/build-angular → copy-webpack-plugin → serialize-javascript
+  Description: Insecure serialization leading to RCE in serialize-javascript
+  Latest Ver:  7.0.2
+  Action:      UPGRADE — update from 1.9.1 to 7.0.2
+  Risk Level:  low
+  Note:        Newer version 7.0.2 available. Verify CVE is fixed in 7.0.2 and test for breakage.
+
+  [33/156] GHSA-8hfj-j24r-96c4
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     moment@2.18.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 7)
+  Path:        @types/moment-round → moment
+  Description: Path Traversal: 'dir/../../filename' in moment.locale
+  Latest Ver:  2.30.1
+  Action:      UPGRADE — update from 2.18.1 to 2.30.1
+  Risk Level:  low
+  Note:        Newer version 2.30.1 available. Verify CVE is fixed in 2.30.1 and test for breakage.
+
+  [34/156] GHSA-hrpp-h998-j3pp
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     qs@6.5.2
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 3)
+  Path:        @angular-devkit/build-angular → less → request → qs
+  Description: qs vulnerable to Prototype Pollution
+  Latest Ver:  6.15.0
+  Action:      UPGRADE — update from 6.5.2 to 6.15.0
+  Risk Level:  low
+  Note:        Newer version 6.15.0 available. Verify CVE is fixed in 6.15.0 and test for breakage.
+
+  [35/156] CVE-2023-46809
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.4)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: Node.js versions which bundle an unpatched version of OpenSSL or run against a dynamically linked version of OpenSSL which are unpatched are vulnerable to the Marvin Attack - https://people.redhat.com...
+  CWE:         CWE-385
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [36/156] GHSA-3rfm-jhwj-7488
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     loader-utils@1.2.3
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 15)
+  Path:        @angular-devkit/build-angular → @angular-devkit/build-optimizer → loader-utils
+  Description: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable
+  Latest Ver:  3.3.1
+  Action:      UPGRADE — update from 1.2.3 to 3.3.1
+  Risk Level:  low
+  Note:        Newer version 3.3.1 available. Verify CVE is fixed in 3.3.1 and test for breakage.
+
+  [37/156] GHSA-74fj-2j2h-c42q
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     follow-redirects@1.9.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        karma → http-proxy → follow-redirects
+  Description: Exposure of sensitive information in follow-redirects
+  Latest Ver:  1.15.11
+  Action:      UPGRADE — update from 1.9.0 to 1.15.11
+  Risk Level:  low
+  Note:        Newer version 1.15.11 available. Verify CVE is fixed in 1.15.11 and test for breakage.
+
+  [38/156] GHSA-j4f2-536g-r55m
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     engine.io@3.2.1
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        karma → socket.io → engine.io
+  Description: Resource exhaustion in engine.io
+  Latest Ver:  6.6.5
+  Action:      UPGRADE — update from 3.2.1 to 6.6.5
+  Risk Level:  low
+  Note:        Newer version 6.6.5 available. Verify CVE is fixed in 6.6.5 and test for breakage.
+
+  [39/156] GHSA-35jh-r3h4-6jhm
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     lodash@4.17.15
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 14)
+  Path:        @angular-devkit/build-angular → istanbul-instrumenter-loader → istanbul-lib-instrument → babel-generator → lodash
+  Description: Command Injection in lodash
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — update from 4.17.15 to 4.17.23
+  Risk Level:  low
+  Note:        Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage.
+
+  [40/156] GHSA-c2qf-rxjj-qqgw
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     semver@5.6.0
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 19)
+  Path:        @angular-devkit/build-angular → istanbul-instrumenter-loader → istanbul-lib-instrument → semver
+  Description: semver vulnerable to Regular Expression Denial of Service
+  Latest Ver:  7.7.4
+  Action:      UPGRADE — update from 5.6.0 to 7.7.4
+  Risk Level:  low
+  Note:        Newer version 7.7.4 available. Verify CVE is fixed in 7.7.4 and test for breakage.
+
+  [41/156] GHSA-3h5v-q93c-6h6q
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     ws@3.3.3
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 2)
+  Path:        karma → socket.io → engine.io → ws
+  Description: ws affected by a DoS when handling a request with many HTTP headers
+  Latest Ver:  8.19.0
+  Action:      UPGRADE — update from 3.3.3 to 8.19.0
+  Risk Level:  low
+  Note:        Newer version 8.19.0 available. Verify CVE is fixed in 8.19.0 and test for breakage.
+
+  [42/156] GHSA-xfhh-g9f5-x4m4
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     socket.io-parser@3.2.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        karma → socket.io → socket.io-client → socket.io-parser
+  Description: Resource exhaustion in socket.io-parser
+  Latest Ver:  4.2.5
+  Action:      UPGRADE — update from 3.2.0 to 4.2.5
+  Risk Level:  low
+  Note:        Newer version 4.2.5 available. Verify CVE is fixed in 4.2.5 and test for breakage.
+
+  [43/156] GHSA-x9w5-v3q2-3rhw
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     browserify-sign@4.2.1
+  Dep Type:    TRANSITIVE (depth: 5, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign
+  Description: browserify-sign upper bound check issue in `dsaVerify` leads to a signature forgery attack
+  Latest Ver:  4.2.5
+  Action:      UPGRADE — update from 4.2.1 to 4.2.5
+  Risk Level:  low
+  Note:        Newer version 4.2.5 available. Verify CVE is fixed in 4.2.5 and test for breakage.
+
+  [44/156] GHSA-w573-4hg7-7wgq
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     decode-uri-component@0.2.0
+  Dep Type:    TRANSITIVE (depth: 5, occurrences: 2)
+  Path:        @angular-devkit/build-angular → mini-css-extract-plugin → normalize-url → query-string → decode-uri-component
+  Description: decode-uri-component vulnerable to Denial of Service (DoS)
+  Latest Ver:  0.4.1
+  Action:      UPGRADE — update from 0.2.0 to 0.4.1
+  Risk Level:  low
+  Note:        Newer version 0.4.1 available. Verify CVE is fixed in 0.4.1 and test for breakage.
+
+  [45/156] GHSA-f8q6-p94x-37v3
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     minimatch@3.0.4
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 14)
+  Path:        @angular-devkit/build-angular → copy-webpack-plugin → cacache → glob → minimatch
+  Description: minimatch ReDoS vulnerability
+  Latest Ver:  10.2.0
+  Action:      UPGRADE — update from 3.0.4 to 10.2.0
+  Risk Level:  low
+  Note:        Newer version 10.2.0 available. Verify CVE is fixed in 10.2.0 and test for breakage.
+
+  [46/156] CVE-2023-38552
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: When the Node.js policy feature checks the integrity of a resource against a trusted manifest, the application can intercept the operation and return a forged checksum to the node's policy implementat...
+  CWE:         CWE-345
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [47/156] GHSA-3cqr-58rm-57f8
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Arbitrary Code Execution in Handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [48/156] GHSA-c7qv-q95q-8v27
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     http-proxy-middleware@0.19.2
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → http-proxy-middleware
+  Description: Denial of service in http-proxy-middleware
+  Latest Ver:  3.0.5
+  Action:      UPGRADE — update from 0.19.2 to 3.0.5
+  Risk Level:  low
+  Note:        Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage.
+
+  [49/156] GHSA-446m-mv8f-q348
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     moment@2.18.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 7)
+  Path:        @types/moment-round → moment
+  Description: Regular Expression Denial of Service in moment
+  Latest Ver:  2.30.1
+  Action:      UPGRADE — update from 2.18.1 to 2.30.1
+  Risk Level:  low
+  Note:        Newer version 2.30.1 available. Verify CVE is fixed in 2.30.1 and test for breakage.
+
+  [50/156] GHSA-62gr-4qp9-h98f
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Regular Expression Denial of Service in Handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [51/156] GHSA-qqgx-2p2h-9c37
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     ini@1.3.5
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 3)
+  Path:        @angular/cli → @schematics/update → ini
+  Description: ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse
+  Latest Ver:  6.0.0
+  Action:      UPGRADE — update from 1.3.5 to 6.0.0
+  Risk Level:  low
+  Note:        Newer version 6.0.0 available. Verify CVE is fixed in 6.0.0 and test for breakage.
+
+  [52/156] CVE-2024-21892
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.8)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: On Linux, Node.js ignores certain environment variables if those may have been set by an unprivileged user while the process is running with elevated privileges with the only exception of CAP_NET_BIND...
+  CWE:         CWE-94, CWE-269
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [53/156] GHSA-grv7-fg5c-xmjg
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     braces@2.3.2
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 4)
+  Path:        @angular-devkit/build-angular → webpack → micromatch → braces
+  Description: Uncontrolled resource consumption in braces
+  Latest Ver:  3.0.3
+  Action:      UPGRADE — update from 2.3.2 to 3.0.3
+  Risk Level:  low
+  Note:        Newer version 3.0.3 available. Verify CVE is fixed in 3.0.3 and test for breakage.
+
+  [54/156] GHSA-whgm-jr23-g3j9
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     ansi-html@0.0.7
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → ansi-html
+  Description: Uncontrolled Resource Consumption in ansi-html
+  Latest Ver:  0.0.9
+  Action:      UPGRADE — update from 0.0.7 to 0.0.9
+  Risk Level:  low
+  Note:        Newer version 0.0.9 available. Verify CVE is fixed in 0.0.9 and test for breakage.
+
+  [55/156] CVE-2024-22019
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A vulnerability in Node.js HTTP servers allows an attacker to send a specially crafted HTTP request with chunked encoding, leading to resource exhaustion and denial of service (DoS). The server reads ...
+  CWE:         CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [56/156] GHSA-6c8f-qphg-qjgp
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     kind-of@6.0.2
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 24)
+  Path:        @angular-devkit/build-angular → sass-loader → clone-deep → kind-of
+  Description: Validation Bypass in kind-of
+  Latest Ver:  6.0.3
+  Action:      UPGRADE — update from 6.0.2 to 6.0.3
+  Risk Level:  low
+  Note:        Newer version 6.0.3 available. Verify CVE is fixed in 6.0.3 and test for breakage.
+
+  [57/156] GHSA-4rq4-32rv-6wp6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     shelljs@0.8.3
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        @angular/compiler-cli → shelljs
+  Description: Improper Privilege Management in shelljs
+  Latest Ver:  0.10.0
+  Action:      UPGRADE — update from 0.8.3 to 0.10.0
+  Risk Level:  low
+  Note:        Newer version 0.10.0 available. Verify CVE is fixed in 0.10.0 and test for breakage.
+
+  [58/156] GHSA-rc47-6667-2j5j
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     http-cache-semantics@3.8.1
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular/cli → pacote → make-fetch-happen → http-cache-semantics
+  Description: http-cache-semantics vulnerable to Regular Expression Denial of Service
+  Latest Ver:  4.2.0
+  Action:      UPGRADE — update from 3.8.1 to 4.2.0
+  Risk Level:  low
+  Note:        Newer version 4.2.0 available. Verify CVE is fixed in 4.2.0 and test for breakage.
+
+  [59/156] GHSA-rhx6-c78j-4q9w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     path-to-regexp@0.1.7
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express → path-to-regexp
+  Description: path-to-regexp contains a ReDoS
+  Latest Ver:  8.3.0
+  Action:      UPGRADE — update from 0.1.7 to 8.3.0
+  Risk Level:  low
+  Note:        Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage.
+
+  [60/156] GHSA-x4jg-mjrx-434g
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: Improper Verification of Cryptographic Signature in node-forge
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [61/156] GHSA-h68q-55jf-x68w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     chart.js@2.5.0
+  Dep Type:    DIRECT (depth: 1, occurrences: 1)
+  Path:        chart.js
+  Description: Prototype pollution in chart.js
+  Latest Ver:  4.5.1
+  Action:      UPGRADE — update from 2.5.0 to 4.5.1
+  Risk Level:  low
+  Note:        Newer version 4.5.1 available. Verify CVE is fixed in 4.5.1 and test for breakage.
+
+  [62/156] GHSA-cfm4-qjh2-4765
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: Improper Verification of Cryptographic Signature in node-forge
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [63/156] GHSA-554w-wpv2-vw27
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: node-forge has ASN.1 Unbounded Recursion
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [64/156] CVE-2025-23166
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: The C++ method SignTraits::DeriveBits() may incorrectly call ThrowException() based on user-supplied inputs when executing in a background thread, crashing the Node.js process. Such cryptographic oper...
+  CWE:         CWE-248
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [65/156] GHSA-6rw7-vpxm-498p
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     qs@6.11.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 3)
+  Path:        @angular-devkit/build-angular → less → request → qs
+  Description: qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion
+  Latest Ver:  6.15.0
+  Action:      UPGRADE — update from 6.11.0 to 6.15.0
+  Risk Level:  low
+  Note:        Newer version 6.15.0 available. Verify CVE is fixed in 6.15.0 and test for breakage.
+
+  [66/156] GHSA-58c5-g7wp-6w37
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     @angular/common@8.2.14
+  Dep Type:    DIRECT (depth: 1, occurrences: 2)
+  Path:        @angular/common
+  Description: Angular is Vulnerable to XSRF Token Leakage via Protocol-Relative URLs in Angular HTTP Client
+  Latest Ver:  21.1.4
+  Action:      UPGRADE — update from 8.2.14 to 21.1.4
+  Risk Level:  low
+  Note:        Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage.
+
+  [67/156] GHSA-v4hv-rgfq-gp49
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     @angular/compiler@8.2.14
+  Dep Type:    DIRECT (depth: 1, occurrences: 2)
+  Path:        @angular/compiler
+  Description: Angular Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes
+  Latest Ver:  21.1.4
+  Action:      UPGRADE — update from 8.2.14 to 21.1.4
+  Risk Level:  low
+  Note:        Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage.
+
+  [68/156] GHSA-3xgq-45jj-v275
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     cross-spawn@6.0.5
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 2)
+  Path:        @angular/compiler-cli → yargs → os-locale → execa → cross-spawn
+  Description: Regular Expression Denial of Service (ReDoS) in cross-spawn
+  Latest Ver:  7.0.6
+  Action:      UPGRADE — update from 6.0.5 to 7.0.6
+  Risk Level:  low
+  Note:        Newer version 7.0.6 available. Verify CVE is fixed in 7.0.6 and test for breakage.
+
+  [69/156] GHSA-9wv6-86v2-598j
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     path-to-regexp@0.1.7
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express → path-to-regexp
+  Description: path-to-regexp outputs backtracking regular expressions
+  Latest Ver:  8.3.0
+  Action:      UPGRADE — update from 0.1.7 to 8.3.0
+  Risk Level:  low
+  Note:        Newer version 8.3.0 available. Verify CVE is fixed in 8.3.0 and test for breakage.
+
+  [70/156] GHSA-5gfm-wpxj-wjgq
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [71/156] CVE-2025-59465
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A malformed `HTTP/2 HEADERS` frame with oversized, invalid `HPACK` data can cause Node.js to crash by triggering an unhandled `TLSSocket` error `ECONNRESET`. Instead of safely closing the connection, ...
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [72/156] CVE-2026-21637
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A flaw in Node.js TLS error handling allows remote attackers to crash or exhaust resources of a TLS server when `pskCallback` or `ALPNCallback` are in use. Synchronous exceptions thrown during these c...
+  CWE:         CWE-400
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [73/156] GHSA-34x7-hfp2-rc4v
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@4.4.19
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular/cli → pacote → tar
+  Description: node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal
+  Latest Ver:  7.5.9
+  Action:      UPGRADE — update from 4.4.19 to 7.5.9
+  Risk Level:  low
+  Note:        Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage.
+
+  [74/156] GHSA-jrmj-c5cx-3cw6
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     @angular/compiler@8.2.14
+  Dep Type:    DIRECT (depth: 1, occurrences: 2)
+  Path:        @angular/compiler
+  Description: Angular has XSS Vulnerability via Unsanitized SVG Script Attributes
+  Latest Ver:  21.1.4
+  Action:      UPGRADE — update from 8.2.14 to 21.1.4
+  Risk Level:  low
+  Note:        Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage.
+
+  [75/156] CVE-2025-55131
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.1)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A flaw in Node.js's buffer allocation logic can expose uninitialized memory when allocations are interrupted, when using the `vm` module with the timeout option. Under specific timing conditions, buff...
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [76/156] CVE-2025-59466
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: 7.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: We have identified a bug in Node.js error handling where "Maximum call stack size exceeded" errors become uncatchable when `async_hooks.createHook()` is enabled. Instead of reaching `process.on('uncau...
+  CWE:         CWE-248
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [77/156] GHSA-r6q2-hw4h-h46w
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@4.4.19
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular/cli → pacote → tar
+  Description: Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS
+  Latest Ver:  7.5.9
+  Action:      UPGRADE — update from 4.4.19 to 7.5.9
+  Risk Level:  low
+  Note:        Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage.
+
+  [78/156] GHSA-8qq5-rm4j-mr97
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     tar@4.4.19
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular/cli → pacote → tar
+  Description: node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization
+  Latest Ver:  7.5.9
+  Action:      UPGRADE — update from 4.4.19 to 7.5.9
+  Risk Level:  low
+  Note:        Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage.
+
+  [79/156] GHSA-36jr-mh4h-2g58
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     d3-color@1.4.0
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 4)
+  Path:        d3 → d3-color
+  Description: d3-color vulnerable to ReDoS
+  Latest Ver:  3.1.0
+  Action:      UPGRADE — update from 1.4.0 to 3.1.0
+  Risk Level:  low
+  Note:        Newer version 3.1.0 available. Verify CVE is fixed in 3.1.0 and test for breakage.
+
+  [80/156] GHSA-2cf5-4w76-r9qv
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Arbitrary Code Execution in handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [81/156] GHSA-g9r4-xpmj-mj65
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Prototype Pollution in handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [82/156] GHSA-q2c6-c6pm-g3gh
+  ——————————————————————————————————————————————————
+  Severity:    HIGH (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Arbitrary Code Execution in handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [83/156] GHSA-7x7c-qm48-pq9c
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     karma@4.0.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 1)
+  Path:        karma
+  Description: Cross-site Scripting in karma
+  Latest Ver:  6.4.4
+  Action:      UPGRADE — update from 4.0.1 to 6.4.4
+  Risk Level:  low
+  Note:        Newer version 6.4.4 available. Verify CVE is fixed in 6.4.4 and test for breakage.
+
+  [84/156] GHSA-c9g6-9335-x697
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     sockjs@0.3.19
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → sockjs
+  Description: Improper Input Validation in SocksJS-Node
+  Latest Ver:  0.3.24
+  Action:      UPGRADE — update from 0.3.19 to 0.3.24
+  Risk Level:  low
+  Note:        Newer version 0.3.24 available. Verify CVE is fixed in 0.3.24 and test for breakage.
+
+  [85/156] GHSA-72xf-g2v4-qvf3
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     tough-cookie@2.5.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → less → request → tough-cookie
+  Description: tough-cookie Prototype Pollution vulnerability
+  Latest Ver:  6.0.0
+  Action:      UPGRADE — update from 2.5.0 to 6.0.0
+  Risk Level:  low
+  Note:        Newer version 6.0.0 available. Verify CVE is fixed in 6.0.0 and test for breakage.
+
+  [86/156] GHSA-r7qp-cfhv-p84w
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     engine.io@3.2.1
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        karma → socket.io → engine.io
+  Description: Uncaught exception in engine.io
+  Latest Ver:  6.6.5
+  Action:      UPGRADE — update from 3.2.1 to 6.6.5
+  Risk Level:  low
+  Note:        Newer version 6.6.5 available. Verify CVE is fixed in 6.6.5 and test for breakage.
+
+  [87/156] GHSA-36fh-84j7-cv5h
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     jszip@3.6.0
+  Dep Type:    DIRECT (depth: 1, occurrences: 2)
+  Path:        jszip
+  Description: JSZip contains Path Traversal via loadAsync
+  Latest Ver:  3.10.1
+  Action:      UPGRADE — update from 3.6.0 to 3.10.1
+  Risk Level:  low
+  Note:        Newer version 3.10.1 available. Verify CVE is fixed in 3.10.1 and test for breakage.
+
+  [88/156] GHSA-c75v-2vq8-878f
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     @angular/core@8.2.14
+  Dep Type:    DIRECT (depth: 1, occurrences: 2)
+  Path:        @angular/core
+  Description: Angular vulnerable to Cross-site Scripting
+  Latest Ver:  21.1.4
+  Action:      UPGRADE — update from 8.2.14 to 21.1.4
+  Risk Level:  low
+  Note:        Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage.
+
+  [89/156] GHSA-cxjh-pqwp-8mfp
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     follow-redirects@1.9.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        karma → http-proxy → follow-redirects
+  Description: follow-redirects' Proxy-Authorization header kept across hosts
+  Latest Ver:  1.15.11
+  Action:      UPGRADE — update from 1.9.0 to 1.15.11
+  Risk Level:  low
+  Note:        Newer version 1.15.11 available. Verify CVE is fixed in 1.15.11 and test for breakage.
+
+  [90/156] GHSA-p8p7-x288-28g6
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     request@2.88.2
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 3)
+  Path:        @angular-devkit/build-angular → less → request
+  Description: Server-Side Request Forgery in Request
+  Latest Ver:  2.88.2
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [91/156] GHSA-5fg8-2547-mr8q
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     xmldom@0.1.27
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        geotiff → xmldom
+  Description: Misinterpretation of malicious XML input
+  Latest Ver:  0.6.0
+  Action:      UPGRADE — update from 0.1.27 to 0.6.0
+  Risk Level:  low
+  Note:        Newer version 0.6.0 available. Verify CVE is fixed in 0.6.0 and test for breakage.
+
+  [92/156] GHSA-f5x3-32g6-xq36
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     tar@4.4.19
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular/cli → pacote → tar
+  Description: Denial of service while parsing a tar file due to lack of folders count validation
+  Latest Ver:  7.5.9
+  Action:      UPGRADE — update from 4.4.19 to 7.5.9
+  Risk Level:  low
+  Note:        Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage.
+
+  [93/156] GHSA-h6q6-9hqw-rwfv
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     xmldom@0.1.27
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        geotiff → xmldom
+  Description: Misinterpretation of malicious XML input
+  Latest Ver:  0.6.0
+  Action:      UPGRADE — update from 0.1.27 to 0.6.0
+  Risk Level:  low
+  Note:        Newer version 0.6.0 available. Verify CVE is fixed in 0.6.0 and test for breakage.
+
+  [94/156] CVE-2024-22025
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A vulnerability in Node.js has been identified, allowing for a Denial of Service (DoS) attack through resource exhaustion when using the fetch() function to retrieve content from an untrusted URL.
+The...
+  CWE:         CWE-404
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [95/156] CVE-2024-27982
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed b...
+  CWE:         CWE-444
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [96/156] GHSA-h9rv-jmmf-4pgx
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     serialize-javascript@1.9.1
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        @angular-devkit/build-angular → copy-webpack-plugin → serialize-javascript
+  Description: Cross-Site Scripting in serialize-javascript
+  Latest Ver:  7.0.2
+  Action:      UPGRADE — update from 1.9.1 to 7.0.2
+  Risk Level:  low
+  Note:        Newer version 7.0.2 available. Verify CVE is fixed in 7.0.2 and test for breakage.
+
+  [97/156] GHSA-v88g-cgmw-v5xw
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     ajv@5.5.2
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 10)
+  Path:        @angular-devkit/build-angular → @angular-devkit/core → ajv
+  Description: Prototype Pollution in Ajv
+  Latest Ver:  8.18.0
+  Action:      UPGRADE — update from 5.5.2 to 8.18.0
+  Risk Level:  low
+  Note:        Newer version 8.18.0 available. Verify CVE is fixed in 8.18.0 and test for breakage.
+
+  [98/156] GHSA-hj48-42vr-x3v9
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     path-parse@1.0.6
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        tslint → resolve → path-parse
+  Description: Regular Expression Denial of Service in path-parse
+  Latest Ver:  1.0.7
+  Action:      UPGRADE — update from 1.0.6 to 1.0.7
+  Risk Level:  low
+  Note:        Newer version 1.0.7 available. Verify CVE is fixed in 1.0.7 and test for breakage.
+
+  [99/156] GHSA-w8qv-6jwh-64r5
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     browserslist@4.5.5
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 3)
+  Path:        @angular-devkit/build-angular → autoprefixer → browserslist
+  Description: Regular Expression Denial of Service in browserslist
+  Latest Ver:  4.28.1
+  Action:      UPGRADE — update from 4.5.5 to 4.28.1
+  Risk Level:  low
+  Note:        Newer version 4.28.1 available. Verify CVE is fixed in 4.28.1 and test for breakage.
+
+  [100/156] GHSA-hwj9-h5mp-3pm3
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     postcss@7.0.14
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 4)
+  Path:        @angular-devkit/build-angular → autoprefixer → postcss
+  Description: Regular Expression Denial of Service in postcss
+  Latest Ver:  8.5.6
+  Action:      UPGRADE — update from 7.0.14 to 8.5.6
+  Risk Level:  low
+  Note:        Newer version 8.5.6 available. Verify CVE is fixed in 8.5.6 and test for breakage.
+
+  [101/156] GHSA-vh95-rmgr-6w4m
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     minimist@0.0.10
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 11)
+  Path:        @angular-devkit/build-angular → loader-utils → json5 → minimist
+  Description: Prototype Pollution in minimist
+  Latest Ver:  1.2.8
+  Action:      UPGRADE — update from 0.0.10 to 1.2.8
+  Risk Level:  low
+  Note:        Newer version 1.2.8 available. Verify CVE is fixed in 1.2.8 and test for breakage.
+
+  [102/156] GHSA-rc3x-jf5g-xvc5
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     karma@4.0.1
+  Dep Type:    DIRECT (depth: 1, occurrences: 1)
+  Path:        karma
+  Description: Open redirect in karma
+  Latest Ver:  6.4.4
+  Action:      UPGRADE — update from 4.0.1 to 6.4.4
+  Risk Level:  low
+  Note:        Newer version 6.4.4 available. Verify CVE is fixed in 6.4.4 and test for breakage.
+
+  [103/156] GHSA-29mw-wpgm-hmr9
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     lodash@4.17.15
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 14)
+  Path:        @angular-devkit/build-angular → istanbul-instrumenter-loader → istanbul-lib-instrument → babel-generator → lodash
+  Description: Regular Expression Denial of Service (ReDoS) in lodash
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — update from 4.17.15 to 4.17.23
+  Risk Level:  low
+  Note:        Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage.
+
+  [104/156] GHSA-776f-qx25-q3cc
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     xml2js@0.4.22
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        protractor → selenium-webdriver → xml2js
+  Description: xml2js is vulnerable to prototype pollution
+  Latest Ver:  0.6.2
+  Action:      UPGRADE — update from 0.4.22 to 0.6.2
+  Risk Level:  low
+  Note:        Newer version 0.6.2 available. Verify CVE is fixed in 0.6.2 and test for breakage.
+
+  [105/156] GHSA-cqmj-92xf-r6r9
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     socket.io-parser@3.2.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        karma → socket.io → socket.io-client → socket.io-parser
+  Description: Insufficient validation when decoding a Socket.IO packet
+  Latest Ver:  4.2.5
+  Action:      UPGRADE — update from 3.2.0 to 4.2.5
+  Risk Level:  low
+  Note:        Newer version 4.2.5 available. Verify CVE is fixed in 4.2.5 and test for breakage.
+
+  [106/156] GHSA-7fh5-64p2-3v2j
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     postcss@7.0.14
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 4)
+  Path:        @angular-devkit/build-angular → autoprefixer → postcss
+  Description: PostCSS line return parsing error
+  Latest Ver:  8.5.6
+  Action:      UPGRADE — update from 7.0.14 to 8.5.6
+  Risk Level:  low
+  Note:        Newer version 8.5.6 available. Verify CVE is fixed in 8.5.6 and test for breakage.
+
+  [107/156] GHSA-fxwf-4rqh-v8g3
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     socket.io@2.1.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        karma → socket.io
+  Description: CORS misconfiguration in socket.io
+  Latest Ver:  4.8.3
+  Action:      UPGRADE — update from 2.1.1 to 4.8.3
+  Risk Level:  low
+  Note:        Newer version 4.8.3 available. Verify CVE is fixed in 4.8.3 and test for breakage.
+
+  [108/156] GHSA-8fr3-hfg3-gpgp
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: Open Redirect in node-forge
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [109/156] GHSA-25hc-qcg6-38wj
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     socket.io@2.1.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        karma → socket.io
+  Description: socket.io has an unhandled 'error' event
+  Latest Ver:  4.8.3
+  Action:      UPGRADE — update from 2.1.1 to 4.8.3
+  Risk Level:  low
+  Note:        Newer version 4.8.3 available. Verify CVE is fixed in 4.8.3 and test for breakage.
+
+  [110/156] GHSA-82v2-mx6x-wq7q
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     log4js@4.5.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        karma → log4js
+  Description: Incorrect Default Permissions in log4js
+  Latest Ver:  6.9.1
+  Action:      UPGRADE — update from 4.5.1 to 6.9.1
+  Risk Level:  low
+  Note:        Newer version 6.9.1 available. Verify CVE is fixed in 6.9.1 and test for breakage.
+
+  [111/156] GHSA-mgfv-m47x-4wqp
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     useragent@2.3.0
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        karma → useragent
+  Description: useragent Regular Expression Denial of Service vulnerability
+  Latest Ver:  2.3.0
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [112/156] GHSA-jg8v-48h5-wgxg
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     jszip@3.6.0
+  Dep Type:    DIRECT (depth: 1, occurrences: 2)
+  Path:        jszip
+  Description: jszip Vulnerable to Prototype Pollution
+  Latest Ver:  3.10.1
+  Action:      UPGRADE — update from 3.6.0 to 3.10.1
+  Risk Level:  low
+  Note:        Newer version 3.10.1 available. Verify CVE is fixed in 3.10.1 and test for breakage.
+
+  [113/156] CVE-2024-22020
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A security flaw in Node.js  allows a bypass of network import restrictions.
+By embedding non-network imports in data URLs, an attacker can execute arbitrary code, compromising system security.
+Verifie...
+  CWE:         CWE-94
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [114/156] GHSA-p9pc-299p-vxgp
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     yargs-parser@11.1.1
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → yargs → yargs-parser
+  Description: yargs-parser Vulnerable to Prototype Pollution
+  Latest Ver:  22.0.0
+  Action:      UPGRADE — update from 11.1.1 to 22.0.0
+  Risk Level:  low
+  Note:        Newer version 22.0.0 available. Verify CVE is fixed in 22.0.0 and test for breakage.
+
+  [115/156] GHSA-2r2c-g63r-vccr
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: Improper Verification of Cryptographic Signature in `node-forge`
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [116/156] GHSA-952p-6rrq-rcjv
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     micromatch@3.1.10
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 5)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → http-proxy-middleware → micromatch
+  Description: Regular Expression Denial of Service (ReDoS) in micromatch
+  Latest Ver:  4.0.8
+  Action:      UPGRADE — update from 3.1.10 to 4.0.8
+  Risk Level:  low
+  Note:        Newer version 4.0.8 available. Verify CVE is fixed in 4.0.8 and test for breakage.
+
+  [117/156] GHSA-jchw-25xp-jwwc
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     follow-redirects@1.9.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        karma → http-proxy → follow-redirects
+  Description: Follow Redirects improperly handles URLs in the url.parse() function
+  Latest Ver:  1.15.11
+  Action:      UPGRADE — update from 1.9.0 to 1.15.11
+  Risk Level:  low
+  Note:        Newer version 1.15.11 available. Verify CVE is fixed in 1.15.11 and test for breakage.
+
+  [118/156] CVE-2025-23085
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A memory leak could occur when a remote peer abruptly closes the socket without sending a GOAWAY notification. Additionally, if an invalid header was detected by nghttp2, causing the connection to be ...
+  CWE:         CWE-401
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [119/156] GHSA-rv95-896h-c2vc
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     express@4.18.2
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express
+  Description: Express.js Open Redirect in malformed URLs
+  Latest Ver:  5.2.1
+  Action:      UPGRADE — update from 4.18.2 to 5.2.1
+  Risk Level:  low
+  Note:        Newer version 5.2.1 available. Verify CVE is fixed in 5.2.1 and test for breakage.
+
+  [120/156] CVE-2023-39333
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 5.3)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: Maliciously crafted export names in an imported WebAssembly module can inject JavaScript code. The injected code may be able to access data and functions that the WebAssembly module itself does not ha...
+  CWE:         CWE-94
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [121/156] GHSA-566m-qj78-rww5
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     postcss@7.0.14
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 4)
+  Path:        @angular-devkit/build-angular → autoprefixer → postcss
+  Description: Regular Expression Denial of Service in postcss
+  Latest Ver:  8.5.6
+  Action:      UPGRADE — update from 7.0.14 to 8.5.6
+  Risk Level:  low
+  Note:        Newer version 8.5.6 available. Verify CVE is fixed in 8.5.6 and test for breakage.
+
+  [122/156] GHSA-6fx8-h7jm-663j
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     parseuri@0.0.5
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 2)
+  Path:        karma → socket.io → socket.io-client → engine.io-client → parseuri
+  Description: parse-uri Regular expression Denial of Service (ReDoS)
+  Latest Ver:  3.0.2
+  Action:      UPGRADE — update from 0.0.5 to 3.0.2
+  Risk Level:  low
+  Note:        Newer version 3.0.2 available. Verify CVE is fixed in 3.0.2 and test for breakage.
+
+  [123/156] GHSA-xxjr-mmjv-4gpg
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     lodash@4.17.15
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 14)
+  Path:        @angular-devkit/build-angular → istanbul-instrumenter-loader → istanbul-lib-instrument → babel-generator → lodash
+  Description: Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions
+  Latest Ver:  4.17.23
+  Action:      UPGRADE — update from 4.17.15 to 4.17.23
+  Risk Level:  low
+  Note:        Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage.
+
+  [124/156] GHSA-pw2r-vq6v-hr8c
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     follow-redirects@1.9.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        karma → http-proxy → follow-redirects
+  Description: Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects
+  Latest Ver:  1.15.11
+  Action:      UPGRADE — update from 1.9.0 to 1.15.11
+  Risk Level:  low
+  Note:        Newer version 1.15.11 available. Verify CVE is fixed in 1.15.11 and test for breakage.
+
+  [125/156] CVE-2025-60876
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     busybox@1.36.1-r7
+  Dep Type:    ALPINE (not in npm tree)
+  Description: BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be...
+  CWE:         CWE-284
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [126/156] GHSA-4v9v-hfq4-rm2v
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     webpack-dev-server@3.3.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — update from 3.3.1 to 5.2.3
+  Risk Level:  low
+  Note:        Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage.
+
+  [127/156] GHSA-65ch-62r8-g69g
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: node-forge is vulnerable to ASN.1 OID Integer Truncation
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [128/156] GHSA-9jgg-88mc-972h
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     webpack-dev-server@3.3.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server
+  Description: webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser
+  Latest Ver:  5.2.3
+  Action:      UPGRADE — update from 3.3.1 to 5.2.3
+  Risk Level:  low
+  Note:        Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage.
+
+  [129/156] CVE-2025-23167
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: 6.5)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: A flaw in Node.js 20's HTTP parser allows improper termination of HTTP/1 headers using `\r\n\rX` instead of the required `\r\n\r\n`.
+This inconsistency enables request smuggling, allowing attackers to...
+  CWE:         CWE-444
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [130/156] GHSA-mh29-5h37-fv8m
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     js-yaml@3.13.1
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 3)
+  Path:        @angular-devkit/build-angular → postcss-loader → postcss-load-config → cosmiconfig → js-yaml
+  Description: js-yaml has prototype pollution in merge (<<)
+  Latest Ver:  4.1.1
+  Action:      UPGRADE — update from 3.13.1 to 4.1.1
+  Risk Level:  low
+  Note:        Newer version 4.1.1 available. Verify CVE is fixed in 4.1.1 and test for breakage.
+
+  [131/156] GHSA-f52g-6jhx-586p
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     handlebars@4.4.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        karma-coverage-istanbul-reporter → istanbul-api → istanbul-reports → handlebars
+  Description: Denial of Service in handlebars
+  Latest Ver:  4.7.8
+  Action:      UPGRADE — update from 4.4.0 to 4.7.8
+  Risk Level:  low
+  Note:        Newer version 4.7.8 available. Verify CVE is fixed in 4.7.8 and test for breakage.
+
+  [132/156] GHSA-64g7-mvw6-v9qj
+  ——————————————————————————————————————————————————
+  Severity:    MEDIUM (CVSS: None)
+  Package:     shelljs@0.8.3
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        @angular/compiler-cli → shelljs
+  Description: Improper Privilege Management in shelljs
+  Latest Ver:  0.10.0
+  Action:      UPGRADE — update from 0.8.3 to 0.10.0
+  Risk Level:  low
+  Note:        Newer version 0.10.0 available. Verify CVE is fixed in 0.10.0 and test for breakage.
+
+  [133/156] GHSA-49q7-c7j4-3p7m
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Elliptic allows BER-encoded signatures
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [134/156] GHSA-4gmj-3p3h-gm8h
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     es5-ext@0.10.62
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 3)
+  Path:        plotly.js → gl-text → es6-weak-map → d → es5-ext
+  Description: es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens`
+  Latest Ver:  0.10.64
+  Action:      UPGRADE — update from 0.10.62 to 0.10.64
+  Risk Level:  low
+  Note:        Newer version 0.10.64 available. Verify CVE is fixed in 0.10.64 and test for breakage.
+
+  [135/156] GHSA-cm22-4g7w-348p
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     serve-static@1.15.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express → serve-static
+  Description: serve-static vulnerable to template injection that can lead to XSS
+  Latest Ver:  2.2.1
+  Action:      UPGRADE — update from 1.15.0 to 2.2.1
+  Risk Level:  low
+  Note:        Newer version 2.2.1 available. Verify CVE is fixed in 2.2.1 and test for breakage.
+
+  [136/156] GHSA-78xj-cgh5-2h22
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     ip@1.1.5
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 3)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → bonjour → multicast-dns → dns-packet → ip
+  Description: NPM IP package incorrectly identifies some private IP addresses as public
+  Latest Ver:  2.0.1
+  Action:      UPGRADE — update from 1.1.5 to 2.0.1
+  Risk Level:  low
+  Note:        Newer version 2.0.1 available. Verify CVE is fixed in 2.0.1 and test for breakage.
+
+  [137/156] GHSA-977x-g7h5-7qgw
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Elliptic's ECDSA missing check for whether leading bit of r and s is zero
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [138/156] GHSA-m6fv-jmcg-4jfg
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     send@0.18.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express → send
+  Description: send vulnerable to template injection that can lead to XSS
+  Latest Ver:  1.2.1
+  Action:      UPGRADE — update from 0.18.0 to 1.2.1
+  Risk Level:  low
+  Note:        Newer version 1.2.1 available. Verify CVE is fixed in 1.2.1 and test for breakage.
+
+  [139/156] GHSA-434g-2637-qmqr
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Elliptic's verify function omits uniqueness validation
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [140/156] GHSA-4fc4-chg7-h8gh
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     webpack-subresource-integrity@1.1.0-rc.6
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-subresource-integrity
+  Description: Unprotected dynamically loaded chunks
+  Latest Ver:  5.2.0-rc.1
+  Action:      UPGRADE — update from 1.1.0-rc.6 to 5.2.0-rc.1
+  Risk Level:  low
+  Note:        Newer version 5.2.0-rc.1 available. Verify CVE is fixed in 5.2.0-rc.1 and test for breakage.
+
+  [141/156] GHSA-f7q4-pwc6-w24p
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Elliptic's EDDSA missing signature length check
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [142/156] GHSA-pxg6-pf52-xh8x
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     cookie@0.3.1
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express → cookie
+  Description: cookie accepts cookie name, path, and domain with out of bounds characters
+  Latest Ver:  1.1.1
+  Action:      UPGRADE — update from 0.3.1 to 1.1.1
+  Risk Level:  low
+  Note:        Newer version 1.1.1 available. Verify CVE is fixed in 1.1.1 and test for breakage.
+
+  [143/156] GHSA-qw6h-vgh9-j6wx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     express@4.18.2
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → express
+  Description: express vulnerable to XSS via response.redirect()
+  Latest Ver:  5.2.1
+  Action:      UPGRADE — update from 4.18.2 to 5.2.1
+  Risk Level:  low
+  Note:        Newer version 5.2.1 available. Verify CVE is fixed in 5.2.1 and test for breakage.
+
+  [144/156] CVE-2025-23165
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.7)
+  Package:     node@16.20.2
+  Dep Type:    UNKNOWN (not in npm tree)
+  Description: In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is se...
+  CWE:         CWE-401
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [145/156] GHSA-fc9h-whq2-v747
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Valid ECDSA signatures erroneously rejected in Elliptic
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [146/156] GHSA-gxpj-cx7g-858c
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     debug@3.2.6
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 31)
+  Path:        @angular-devkit/build-angular → istanbul-instrumenter-loader → istanbul-lib-instrument → babel-traverse → debug
+  Description: Regular Expression Denial of Service in debug
+  Latest Ver:  4.4.3
+  Action:      UPGRADE — update from 3.2.6 to 4.4.3
+  Risk Level:  low
+  Note:        Newer version 4.4.3 available. Verify CVE is fixed in 4.4.3 and test for breakage.
+
+  [147/156] GHSA-52f5-9888-hmc6
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     tmp@0.0.30
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 5)
+  Path:        @angular/cli → inquirer → external-editor → tmp
+  Description: tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter
+  Latest Ver:  0.2.5
+  Action:      UPGRADE — update from 0.0.30 to 0.2.5
+  Risk Level:  low
+  Note:        Newer version 0.2.5 available. Verify CVE is fixed in 0.2.5 and test for breakage.
+
+  [148/156] GHSA-w7fw-mjwx-w883
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     qs@6.11.0
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 3)
+  Path:        @angular-devkit/build-angular → less → request → qs
+  Description: qs's arrayLimit bypass in comma parsing allows denial of service
+  Latest Ver:  6.15.0
+  Action:      UPGRADE — update from 6.11.0 to 6.15.0
+  Risk Level:  low
+  Note:        Newer version 6.15.0 available. Verify CVE is fixed in 6.15.0 and test for breakage.
+
+  [149/156] GHSA-73rr-hh4g-fpgx
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     diff@3.5.0
+  Dep Type:    TRANSITIVE (depth: 2, occurrences: 2)
+  Path:        ts-node → diff
+  Description: jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch
+  Latest Ver:  8.0.3
+  Action:      UPGRADE — update from 3.5.0 to 8.0.3
+  Risk Level:  low
+  Note:        Newer version 8.0.3 available. Verify CVE is fixed in 8.0.3 and test for breakage.
+
+  [150/156] CVE-2025-46394
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 3.2)
+  Package:     busybox@1.36.1-r7
+  Dep Type:    ALPINE (not in npm tree)
+  Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
+  CWE:         CWE-451
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [151/156] CVE-2024-58251
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: 2.5)
+  Package:     busybox@1.36.1-r7
+  Dep Type:    ALPINE (not in npm tree)
+  Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) whe...
+  CWE:         CWE-150
+  Latest Ver:  unknown
+  Action:      INVESTIGATE — already on latest version, CVE may be unpatched
+  Risk Level:  medium
+  Note:        Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed.
+
+  [152/156] GHSA-v6h2-p8h4-qcjw
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     brace-expansion@1.1.11
+  Dep Type:    TRANSITIVE (depth: 3, occurrences: 4)
+  Path:        @angular-devkit/build-angular → copy-webpack-plugin → cacache → glob → minimatch → brace-expansion
+  Description: brace-expansion Regular Expression Denial of Service vulnerability
+  Latest Ver:  5.0.2
+  Action:      UPGRADE — update from 1.1.11 to 5.0.2
+  Risk Level:  low
+  Note:        Newer version 5.0.2 available. Verify CVE is fixed in 5.0.2 and test for breakage.
+
+  [153/156] GHSA-848j-6mx2-7j84
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     elliptic@6.5.4
+  Dep Type:    TRANSITIVE (depth: 6, occurrences: 2)
+  Path:        @angular-devkit/build-angular → webpack → node-libs-browser → crypto-browserify → browserify-sign → elliptic
+  Description: Elliptic Uses a Cryptographic Primitive with a Risky Implementation
+  Latest Ver:  6.6.1
+  Action:      UPGRADE — update from 6.5.4 to 6.6.1
+  Risk Level:  low
+  Note:        Newer version 6.6.1 available. Verify CVE is fixed in 6.6.1 and test for breakage.
+
+  [154/156] GHSA-76c9-3jph-rj3q
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     on-headers@1.0.2
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → compression → on-headers
+  Description: on-headers is vulnerable to http response header manipulation
+  Latest Ver:  1.1.0
+  Action:      UPGRADE — update from 1.0.2 to 1.1.0
+  Risk Level:  low
+  Note:        Newer version 1.1.0 available. Verify CVE is fixed in 1.1.0 and test for breakage.
+
+  [155/156] GHSA-5rrq-pxf6-6jx5
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: Prototype Pollution in node-forge debug API.
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+  [156/156] GHSA-gf8q-jrpm-jvxq
+  ——————————————————————————————————————————————————
+  Severity:    LOW (CVSS: None)
+  Package:     node-forge@0.10.0
+  Dep Type:    TRANSITIVE (depth: 4, occurrences: 1)
+  Path:        @angular-devkit/build-angular → webpack-dev-server → selfsigned → node-forge
+  Description: URL parsing in node-forge could lead to undesired behavior.
+  Latest Ver:  1.3.3
+  Action:      UPGRADE — update from 0.10.0 to 1.3.3
+  Risk Level:  low
+  Note:        Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage.
+
+================================================================================
+  END OF REPORT
+================================================================================

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-m9rg-mr6g-75gm",
+    "aliases": [
+      "CVE-2025-66648"
+    ],
+    "severity": "HIGH",
+    "summary": "`vega-functions` vulnerable to Cross-site Scripting via `setdata` function"
+  }
+]

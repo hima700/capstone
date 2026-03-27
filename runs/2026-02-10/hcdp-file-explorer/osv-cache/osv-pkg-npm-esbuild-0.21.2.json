@@ -1,0 +1,9 @@
+[
+  {
+    "id": "GHSA-67mh-4wv8-2f99",
+    "aliases": [],
+    "severity": "MODERATE",
+    "summary": "esbuild enables any website to send any requests to the development server and read the response",
+    "published": "2025-02-10T17:48:07Z"
+  }
+]

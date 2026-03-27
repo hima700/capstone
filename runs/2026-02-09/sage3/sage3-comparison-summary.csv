@@ -1,0 +1,4 @@
+Variant,Components,Dependencies,Unique_CVEs,Critical,High,Medium,Low,None,Debian_CVEs,npm_CVEs,CVEs_Removed,CVEs_Added,Net_Reduction,Reduction_Pct
+baseline,11247,147,157,4,39,33,23,58,104,53,0,0,0,0
+sage3-patched-slim,11265,147,157,4,39,33,23,58,104,53,0,0,0,0.0
+sage3-alpine,7774,60,61,3,27,19,12,0,0,61,98,2,96,61.1

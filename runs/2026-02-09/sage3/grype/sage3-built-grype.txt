@@ -1,0 +1,249 @@
+NAME                   INSTALLED                FIXED IN     TYPE  VULNERABILITY        SEVERITY    EPSS           RISK   
+pdfjs-dist             3.11.174                 4.2.67       npm   GHSA-wgrm-67xf-hhpq  High        34.6% (96th)   28.2   
+loader-utils           1.2.3                    1.4.1        npm   GHSA-76p3-8jx3-jpfq  Critical    19.3% (95th)   18.1   
+xlsx                   0.18.5                                npm   GHSA-4r6h-8v6p-xvw6  High        4.3% (88th)    3.3    
+loader-utils           1.2.3                    1.4.2        npm   GHSA-hhq3-ff78-jv3g  High        4.1% (88th)    3.1    
+body-parser            1.20.2                   1.20.3       npm   GHSA-qwcr-r2fm-qrc7  High        3.4% (87th)    2.7    
+rollup                 2.79.1                   2.79.2       npm   GHSA-gcx4-mw62-g8wm  High        2.1% (83rd)    1.6    
+login                  1:4.13+dfsg1-1+deb12u2   (won't fix)  deb   CVE-2024-56433       Low         4.5% (88th)    1.5    
+passwd                 1:4.13+dfsg1-1+deb12u2   (won't fix)  deb   CVE-2024-56433       Low         4.5% (88th)    1.5    
+loader-utils           1.2.3                    1.4.2        npm   GHSA-3rfm-jhwj-7488  High        1.7% (82nd)    1.3    
+libldap-2.5-0          2.5.13+dfsg-5            (won't fix)  deb   CVE-2023-2953        High        1.5% (80th)    1.1    
+libldap-common         2.5.13+dfsg-5            (won't fix)  deb   CVE-2023-2953        High        1.5% (80th)    1.1    
+semver                 7.3.4                    7.5.2        npm   GHSA-c2qf-rxjj-qqgw  High        0.6% (68th)    0.4    
+serve-static           1.15.0                   1.16.0       npm   GHSA-cm22-4g7w-348p  Low         0.9% (75th)    0.3    
+http-proxy-middleware  2.0.6                    2.0.7        npm   GHSA-c7qv-q95q-8v27  High        0.4% (57th)    0.3    
+libgnutls30            3.7.9-2+deb12u5                       deb   CVE-2011-3389        Negligible  3.8% (87th)    0.2    
+libgif7                5.2.1-2.5                             deb   CVE-2020-23922       Negligible  3.8% (87th)    0.2    
+form-data              4.0.0                    4.0.4        npm   GHSA-fjxv-7rqg-78g4  Critical    0.2% (38th)    0.2    
+form-data              4.0.1                    4.0.4        npm   GHSA-fjxv-7rqg-78g4  Critical    0.2% (38th)    0.2    
+libde265-0             1.0.11-1+deb12u2         (won't fix)  deb   CVE-2024-38950       Medium      0.3% (49th)    0.2    
+libldap-2.5-0          2.5.13+dfsg-5                         deb   CVE-2015-3276        Negligible  2.9% (86th)    0.1    
+libldap-common         2.5.13+dfsg-5                         deb   CVE-2015-3276        Negligible  2.9% (86th)    0.1    
+libaom3                3.6.0-1+deb12u2          (won't fix)  deb   CVE-2023-6879        Critical    0.2% (36th)    0.1    
+tar                    1.34+dfsg-1.2+deb12u1                 deb   CVE-2005-2541        Negligible  2.8% (85th)    0.1    
+qs                     6.11.0                   6.14.1       npm   GHSA-6rw7-vpxm-498p  High        0.2% (37th)    0.1    
+qs                     6.13.0                   6.14.1       npm   GHSA-6rw7-vpxm-498p  High        0.2% (37th)    0.1    
+qs                     6.14.0                   6.14.1       npm   GHSA-6rw7-vpxm-498p  High        0.2% (37th)    0.1    
+libexpat1              2.5.0-1+deb12u2          (won't fix)  deb   CVE-2025-59375       High        0.2% (38th)    0.1    
+path-to-regexp         0.1.7                    0.1.12       npm   GHSA-rhx6-c78j-4q9w  High        0.2% (37th)    0.1    
+dpkg                   1.21.22                  (won't fix)  deb   CVE-2025-6297        High        0.1% (33rd)    0.1    
+libcairo2              1.16.0-7                 (won't fix)  deb   CVE-2017-7475        Low         0.3% (56th)    0.1    
+libxml2                2.9.14+dfsg-1.3~deb12u5  (won't fix)  deb   CVE-2026-0990        Medium      0.2% (39th)    < 0.1  
+node-forge             1.3.1                    1.3.2        npm   GHSA-554w-wpv2-vw27  High        0.1% (30th)    < 0.1  
+http-proxy-middleware  2.0.6                    2.0.8        npm   GHSA-4www-5p9h-95mh  Medium      0.2% (42nd)    < 0.1  
+libgif7                5.2.1-2.5                (won't fix)  deb   CVE-2025-31344       High        0.1% (31st)    < 0.1  
+libldap-2.5-0          2.5.13+dfsg-5                         deb   CVE-2017-17740       Negligible  1.6% (81st)    < 0.1  
+libldap-common         2.5.13+dfsg-5                         deb   CVE-2017-17740       Negligible  1.6% (81st)    < 0.1  
+@babel/helpers         7.25.6                   7.26.10      npm   GHSA-968p-4wvh-cqc8  Medium      0.1% (34th)    < 0.1  
+@babel/runtime         7.25.6                   7.26.10      npm   GHSA-968p-4wvh-cqc8  Medium      0.1% (34th)    < 0.1  
+xlsx                   0.18.5                                npm   GHSA-5pgg-2g8v-p4x9  High        0.1% (28th)    < 0.1  
+undici                 6.19.8                   6.21.1       npm   GHSA-c76h-2ccp-4975  Medium      0.1% (32nd)    < 0.1  
+apt                    2.6.1                                 deb   CVE-2011-3374        Negligible  1.5% (80th)    < 0.1  
+libapt-pkg6.0          2.6.1                                 deb   CVE-2011-3374        Negligible  1.5% (80th)    < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2018-20796       Negligible  1.5% (80th)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2018-20796       Negligible  1.5% (80th)    < 0.1  
+krb5-locales           1.20.1-2+deb12u4                      deb   CVE-2018-5709        Negligible  1.5% (80th)    < 0.1  
+libgssapi-krb5-2       1.20.1-2+deb12u4                      deb   CVE-2018-5709        Negligible  1.5% (80th)    < 0.1  
+libk5crypto3           1.20.1-2+deb12u4                      deb   CVE-2018-5709        Negligible  1.5% (80th)    < 0.1  
+libkrb5-3              1.20.1-2+deb12u4                      deb   CVE-2018-5709        Negligible  1.5% (80th)    < 0.1  
+libkrb5support0        1.20.1-2+deb12u4                      deb   CVE-2018-5709        Negligible  1.5% (80th)    < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2019-1010025     Negligible  1.2% (78th)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2019-1010025     Negligible  1.2% (78th)    < 0.1  
+axios                  1.7.7                    1.12.0       npm   GHSA-4hjh-wcwx-xvwj  High        < 0.1% (23rd)  < 0.1  
+axios                  1.8.3                    1.12.0       npm   GHSA-4hjh-wcwx-xvwj  High        < 0.1% (23rd)  < 0.1  
+send                   0.18.0                   0.19.0       npm   GHSA-m6fv-jmcg-4jfg  Low         0.2% (38th)    < 0.1  
+libde265-0             1.0.11-1+deb12u2         (won't fix)  deb   CVE-2024-38949       Medium      0.1% (28th)    < 0.1  
+libdav1d6              1.0.0-2+deb12u1          (won't fix)  deb   CVE-2023-32570       Medium      0.1% (28th)    < 0.1  
+nanoid                 3.3.7                    3.3.8        npm   GHSA-mwcw-c2x4-8c55  Medium      0.1% (30th)    < 0.1  
+cross-spawn            7.0.3                    7.0.5        npm   GHSA-3xgq-45jj-v275  High        < 0.1% (21st)  < 0.1  
+libaom3                3.6.0-1+deb12u2          (won't fix)  deb   CVE-2023-39616       High        < 0.1% (20th)  < 0.1  
+path-to-regexp         0.1.7                    0.1.10       npm   GHSA-9wv6-86v2-598j  High        < 0.1% (20th)  < 0.1  
+axios                  1.7.7                    1.8.2        npm   GHSA-jr5f-v2jv-69x6  High        < 0.1% (20th)  < 0.1  
+node-forge             1.3.1                    1.3.2        npm   GHSA-5gfm-wpxj-wjgq  High        < 0.1% (18th)  < 0.1  
+vega-selections        6.1.0                    6.1.2        npm   GHSA-829q-m3qg-ph8r  High        < 0.1% (18th)  < 0.1  
+cookie                 0.6.0                    0.7.0        npm   GHSA-pxg6-pf52-xh8x  Low         0.2% (35th)    < 0.1  
+curl                   7.88.1-10+deb12u14                    deb   CVE-2025-0725        Negligible  0.9% (75th)    < 0.1  
+libcurl4               7.88.1-10+deb12u14                    deb   CVE-2025-0725        Negligible  0.9% (75th)    < 0.1  
+libtasn1-6             4.19.0-2+deb12u1         (won't fix)  deb   CVE-2025-13151       High        < 0.1% (18th)  < 0.1  
+libharfbuzz0b          6.0.0+dfsg-3             (won't fix)  deb   CVE-2023-25193       High        < 0.1% (18th)  < 0.1  
+libexpat1              2.5.0-1+deb12u2                       deb   CVE-2024-28757       Negligible  0.9% (75th)    < 0.1  
+vega-interpreter       1.0.5                    1.2.1        npm   GHSA-7f2v-3qq3-vvjf  High        < 0.1% (17th)  < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2019-9192        Negligible  0.8% (74th)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2019-9192        Negligible  0.8% (74th)    < 0.1  
+libgif7                5.2.1-2.5                             deb   CVE-2021-40633       Negligible  0.8% (73rd)    < 0.1  
+express                4.19.2                   4.20.0       npm   GHSA-qw6h-vgh9-j6wx  Low         0.1% (31st)    < 0.1  
+curl                   7.88.1-10+deb12u14       (won't fix)  deb   CVE-2025-10148       Medium      < 0.1% (22nd)  < 0.1  
+libcurl4               7.88.1-10+deb12u14       (won't fix)  deb   CVE-2025-10148       Medium      < 0.1% (22nd)  < 0.1  
+libc-bin               2.36-9+deb12u13          (won't fix)  deb   CVE-2025-15281       High        < 0.1% (15th)  < 0.1  
+libc6                  2.36-9+deb12u13          (won't fix)  deb   CVE-2025-15281       High        < 0.1% (15th)  < 0.1  
+http-proxy-middleware  2.0.6                    2.0.9        npm   GHSA-9gqv-wp59-fq42  Medium      < 0.1% (23rd)  < 0.1  
+lodash                 4.17.21                  4.17.23      npm   GHSA-xxjr-mmjv-4gpg  Medium      < 0.1% (18th)  < 0.1  
+lodash-es              4.17.21                  4.17.23      npm   GHSA-xxjr-mmjv-4gpg  Medium      < 0.1% (18th)  < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2019-1010024     Negligible  0.6% (70th)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2019-1010024     Negligible  0.6% (70th)    < 0.1  
+libc-bin               2.36-9+deb12u13          (won't fix)  deb   CVE-2026-0915        High        < 0.1% (12th)  < 0.1  
+libc6                  2.36-9+deb12u13          (won't fix)  deb   CVE-2026-0915        High        < 0.1% (12th)  < 0.1  
+webpack-dev-server     4.15.2                   5.2.1        npm   GHSA-4v9v-hfq4-rm2v  Medium      < 0.1% (18th)  < 0.1  
+libtinfo6              6.4-4                    (won't fix)  deb   CVE-2023-50495       Medium      < 0.1% (15th)  < 0.1  
+ncurses-base           6.4-4                    (won't fix)  deb   CVE-2023-50495       Medium      < 0.1% (15th)  < 0.1  
+ncurses-bin            6.4-4                    (won't fix)  deb   CVE-2023-50495       Medium      < 0.1% (15th)  < 0.1  
+glob                   10.4.2                   10.5.0       npm   GHSA-5j98-mcp5-4vw2  High        < 0.1% (11th)  < 0.1  
+libperl5.36            5.36.0-7+deb12u3                      deb   CVE-2023-31486       Negligible  0.6% (67th)    < 0.1  
+perl                   5.36.0-7+deb12u3                      deb   CVE-2023-31486       Negligible  0.6% (67th)    < 0.1  
+perl-base              5.36.0-7+deb12u3                      deb   CVE-2023-31486       Negligible  0.6% (67th)    < 0.1  
+perl-modules-5.36      5.36.0-7+deb12u3                      deb   CVE-2023-31486       Negligible  0.6% (67th)    < 0.1  
+libharfbuzz0b          6.0.0+dfsg-3             (won't fix)  deb   CVE-2026-22693       Medium      < 0.1% (16th)  < 0.1  
+libgcrypt20            1.10.1-3                              deb   CVE-2018-6829        Negligible  0.5% (66th)    < 0.1  
+libcairo2              1.16.0-7                              deb   CVE-2018-18064       Negligible  0.5% (65th)    < 0.1  
+coreutils              9.1-1                    (won't fix)  deb   CVE-2016-2781        Low         < 0.1% (24th)  < 0.1  
+vega-functions         6.1.0                    6.1.1        npm   GHSA-m9rg-mr6g-75gm  High        < 0.1% (9th)   < 0.1  
+libglib2.0-0           2.74.6-2+deb12u8                      deb   CVE-2012-0039        Negligible  0.5% (65th)    < 0.1  
+libglib2.0-data        2.74.6-2+deb12u8                      deb   CVE-2012-0039        Negligible  0.5% (65th)    < 0.1  
+undici                 6.19.8                   6.21.2       npm   GHSA-cxrh-j4jr-qwg3  Low         < 0.1% (23rd)  < 0.1  
+node-forge             1.3.1                    1.3.2        npm   GHSA-65ch-62r8-g69g  Medium      < 0.1% (12th)  < 0.1  
+libglib2.0-0           2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-1489        Medium      < 0.1% (13th)  < 0.1  
+libglib2.0-data        2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-1489        Medium      < 0.1% (13th)  < 0.1  
+libheif1               1.15.1-1+deb12u1         (won't fix)  deb   CVE-2025-68431       Medium      < 0.1% (11th)  < 0.1  
+libglib2.0-0           2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-1484        Medium      < 0.1% (13th)  < 0.1  
+libglib2.0-data        2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-1484        Medium      < 0.1% (13th)  < 0.1  
+tmp                    0.0.33                   0.2.4        npm   GHSA-52f5-9888-hmc6  Low         < 0.1% (22nd)  < 0.1  
+tmp                    0.2.3                    0.2.4        npm   GHSA-52f5-9888-hmc6  Low         < 0.1% (22nd)  < 0.1  
+curl                   7.88.1-10+deb12u14       (won't fix)  deb   CVE-2025-14819       Medium      < 0.1% (11th)  < 0.1  
+libcurl4               7.88.1-10+deb12u14       (won't fix)  deb   CVE-2025-14819       Medium      < 0.1% (11th)  < 0.1  
+libxml2                2.9.14+dfsg-1.3~deb12u5  (won't fix)  deb   CVE-2026-0992        Low         < 0.1% (20th)  < 0.1  
+libxml2                2.9.14+dfsg-1.3~deb12u5  (won't fix)  deb   CVE-2026-0989        Low         < 0.1% (18th)  < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2010-4756        Negligible  0.4% (59th)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2010-4756        Negligible  0.4% (59th)    < 0.1  
+tar                    6.2.1                    7.5.7        npm   GHSA-34x7-hfp2-rc4v  High        < 0.1% (6th)   < 0.1  
+webpack-dev-server     4.15.2                   5.2.1        npm   GHSA-9jgg-88mc-972h  Medium      < 0.1% (9th)   < 0.1  
+libglib2.0-0           2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-0988        Low         < 0.1% (15th)  < 0.1  
+libglib2.0-data        2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-0988        Low         < 0.1% (15th)  < 0.1  
+react-router           6.30.1                   6.30.2       npm   GHSA-9jcx-v3wj-wh4m  Medium      < 0.1% (7th)   < 0.1  
+diff                   4.0.2                    4.0.4        npm   GHSA-73rr-hh4g-fpgx  Low         < 0.1% (17th)  < 0.1  
+diff                   5.2.0                    5.2.2        npm   GHSA-73rr-hh4g-fpgx  Low         < 0.1% (17th)  < 0.1  
+libcairo2              1.16.0-7                 (won't fix)  deb   CVE-2019-6461        Low         < 0.1% (16th)  < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2019-1010023     Negligible  0.3% (54th)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2019-1010023     Negligible  0.3% (54th)    < 0.1  
+libcairo2              1.16.0-7                 (won't fix)  deb   CVE-2019-6462        Low         < 0.1% (15th)  < 0.1  
+libpam-modules         1.5.2-6+deb12u2          (won't fix)  deb   CVE-2024-10041       Medium      < 0.1% (8th)   < 0.1  
+libpam-modules-bin     1.5.2-6+deb12u2          (won't fix)  deb   CVE-2024-10041       Medium      < 0.1% (8th)   < 0.1  
+libpam-runtime         1.5.2-6+deb12u2          (won't fix)  deb   CVE-2024-10041       Medium      < 0.1% (8th)   < 0.1  
+libpam0g               1.5.2-6+deb12u2          (won't fix)  deb   CVE-2024-10041       Medium      < 0.1% (8th)   < 0.1  
+login                  1:4.13+dfsg1-1+deb12u2                deb   CVE-2007-5686        Negligible  0.3% (49th)    < 0.1  
+passwd                 1:4.13+dfsg1-1+deb12u2                deb   CVE-2007-5686        Negligible  0.3% (49th)    < 0.1  
+libpng16-16            1.6.39-2+deb12u1         (won't fix)  deb   CVE-2026-22695       High        < 0.1% (3rd)   < 0.1  
+tar                    6.2.1                    7.5.4        npm   GHSA-r6q2-hw4h-h46w  High        < 0.1% (2nd)   < 0.1  
+gpgv                   2.2.40-1.1+deb12u2       (won't fix)  deb   CVE-2025-30258       Medium      < 0.1% (6th)   < 0.1  
+libc-bin               2.36-9+deb12u13          (won't fix)  deb   CVE-2026-0861        High        < 0.1% (2nd)   < 0.1  
+libc6                  2.36-9+deb12u13          (won't fix)  deb   CVE-2026-0861        High        < 0.1% (2nd)   < 0.1  
+curl                   7.88.1-10+deb12u14       (won't fix)  deb   CVE-2025-14524       Medium      < 0.1% (5th)   < 0.1  
+libcurl4               7.88.1-10+deb12u14       (won't fix)  deb   CVE-2025-14524       Medium      < 0.1% (5th)   < 0.1  
+libpng16-16            1.6.39-2+deb12u1                      deb   CVE-2021-4214        Negligible  0.2% (44th)    < 0.1  
+libgcrypt20            1.10.1-3                              deb   CVE-2024-2236        Negligible  0.2% (44th)    < 0.1  
+libldap-2.5-0          2.5.13+dfsg-5                         deb   CVE-2020-15719       Negligible  0.2% (43rd)    < 0.1  
+libldap-common         2.5.13+dfsg-5                         deb   CVE-2020-15719       Negligible  0.2% (43rd)    < 0.1  
+libpng16-16            1.6.39-2+deb12u1         (won't fix)  deb   CVE-2026-22801       High        < 0.1% (2nd)   < 0.1  
+js-yaml                3.14.1                   3.14.2       npm   GHSA-mh29-5h37-fv8m  Medium      < 0.1% (4th)   < 0.1  
+js-yaml                4.1.0                    4.1.1        npm   GHSA-mh29-5h37-fv8m  Medium      < 0.1% (4th)   < 0.1  
+krb5-locales           1.20.1-2+deb12u4                      deb   CVE-2024-26458       Negligible  0.2% (42nd)    < 0.1  
+libgssapi-krb5-2       1.20.1-2+deb12u4                      deb   CVE-2024-26458       Negligible  0.2% (42nd)    < 0.1  
+libk5crypto3           1.20.1-2+deb12u4                      deb   CVE-2024-26458       Negligible  0.2% (42nd)    < 0.1  
+libkrb5-3              1.20.1-2+deb12u4                      deb   CVE-2024-26458       Negligible  0.2% (42nd)    < 0.1  
+libkrb5support0        1.20.1-2+deb12u4                      deb   CVE-2024-26458       Negligible  0.2% (42nd)    < 0.1  
+curl                   7.88.1-10+deb12u14                    deb   CVE-2024-2379        Negligible  0.2% (42nd)    < 0.1  
+libcurl4               7.88.1-10+deb12u14                    deb   CVE-2024-2379        Negligible  0.2% (42nd)    < 0.1  
+@remix-run/router      1.23.0                   1.23.2       npm   GHSA-2w69-qvjg-hvjx  High        < 0.1% (1st)   < 0.1  
+undici                 6.19.8                   6.23.0       npm   GHSA-g9mf-h72j-4rw9  Medium      < 0.1% (3rd)   < 0.1  
+libperl5.36            5.36.0-7+deb12u3                      deb   CVE-2011-4116        Negligible  0.2% (41st)    < 0.1  
+perl                   5.36.0-7+deb12u3                      deb   CVE-2011-4116        Negligible  0.2% (41st)    < 0.1  
+perl-base              5.36.0-7+deb12u3                      deb   CVE-2011-4116        Negligible  0.2% (41st)    < 0.1  
+perl-modules-5.36      5.36.0-7+deb12u3                      deb   CVE-2011-4116        Negligible  0.2% (41st)    < 0.1  
+libtinfo6              6.4-4                    (won't fix)  deb   CVE-2025-6141        Medium      < 0.1% (3rd)   < 0.1  
+ncurses-base           6.4-4                    (won't fix)  deb   CVE-2025-6141        Medium      < 0.1% (3rd)   < 0.1  
+ncurses-bin            6.4-4                    (won't fix)  deb   CVE-2025-6141        Medium      < 0.1% (3rd)   < 0.1  
+libexpat1              2.5.0-1+deb12u2          (won't fix)  deb   CVE-2025-66382       Medium      < 0.1% (3rd)   < 0.1  
+bsdutils               1:2.38.1-5+deb12u3       (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+libblkid1              2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+libmount1              2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+libsmartcols1          2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+libuuid1               2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+mount                  2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+util-linux             2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+util-linux-extra       2.38.1-5+deb12u3         (won't fix)  deb   CVE-2025-14104       Medium      < 0.1% (2nd)   < 0.1  
+libheif1               1.15.1-1+deb12u1                      deb   CVE-2023-49463       Negligible  0.1% (35th)    < 0.1  
+tar                    6.2.1                    7.5.3        npm   GHSA-8qq5-rm4j-mr97  High        < 0.1% (0th)   < 0.1  
+jws                    3.2.2                    3.2.3        npm   GHSA-869p-cjfg-cm3x  High        < 0.1% (0th)   < 0.1  
+libc-bin               2.36-9+deb12u13                       deb   CVE-2019-1010022     Negligible  0.1% (32nd)    < 0.1  
+libc6                  2.36-9+deb12u13                       deb   CVE-2019-1010022     Negligible  0.1% (32nd)    < 0.1  
+xdg-user-dirs          0.18-1                                deb   CVE-2017-15131       Negligible  0.1% (32nd)    < 0.1  
+libsystemd0            252.39-1~deb12u1                      deb   CVE-2023-31437       Negligible  0.1% (32nd)    < 0.1  
+libudev1               252.39-1~deb12u1                      deb   CVE-2023-31437       Negligible  0.1% (32nd)    < 0.1  
+libldap-2.5-0          2.5.13+dfsg-5                         deb   CVE-2017-14159       Negligible  0.1% (31st)    < 0.1  
+libldap-common         2.5.13+dfsg-5                         deb   CVE-2017-14159       Negligible  0.1% (31st)    < 0.1  
+libgif7                5.2.1-2.5                             deb   CVE-2024-45993       Negligible  0.1% (31st)    < 0.1  
+libde265-0             1.0.11-1+deb12u2         (won't fix)  deb   CVE-2023-51792       Low         < 0.1% (2nd)   < 0.1  
+libcairo2              1.16.0-7                 (won't fix)  deb   CVE-2025-50422       Low         < 0.1% (3rd)   < 0.1  
+libsystemd0            252.39-1~deb12u1                      deb   CVE-2023-31438       Negligible  0.1% (28th)    < 0.1  
+libudev1               252.39-1~deb12u1                      deb   CVE-2023-31438       Negligible  0.1% (28th)    < 0.1  
+brace-expansion        1.1.11                   1.1.12       npm   GHSA-v6h2-p8h4-qcjw  Low         < 0.1% (4th)   < 0.1  
+brace-expansion        2.0.1                    2.0.2        npm   GHSA-v6h2-p8h4-qcjw  Low         < 0.1% (4th)   < 0.1  
+libsystemd0            252.39-1~deb12u1                      deb   CVE-2023-31439       Negligible  < 0.1% (26th)  < 0.1  
+libudev1               252.39-1~deb12u1                      deb   CVE-2023-31439       Negligible  < 0.1% (26th)  < 0.1  
+libgnutls30            3.7.9-2+deb12u5          (won't fix)  deb   CVE-2025-9820        Medium      < 0.1% (0th)   < 0.1  
+libglib2.0-0           2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-1485        Low         < 0.1% (1st)   < 0.1  
+libglib2.0-data        2.74.6-2+deb12u8         (won't fix)  deb   CVE-2026-1485        Low         < 0.1% (1st)   < 0.1  
+libexpat1              2.5.0-1+deb12u2          (won't fix)  deb   CVE-2026-25210       Medium      < 0.1% (0th)   < 0.1  
+libgif7                5.2.1-2.5                             deb   CVE-2022-28506       Negligible  < 0.1% (21st)  < 0.1  
+krb5-locales           1.20.1-2+deb12u4                      deb   CVE-2024-26461       Negligible  < 0.1% (19th)  < 0.1  
+libgssapi-krb5-2       1.20.1-2+deb12u4                      deb   CVE-2024-26461       Negligible  < 0.1% (19th)  < 0.1  
+libk5crypto3           1.20.1-2+deb12u4                      deb   CVE-2024-26461       Negligible  < 0.1% (19th)  < 0.1  
+libkrb5-3              1.20.1-2+deb12u4                      deb   CVE-2024-26461       Negligible  < 0.1% (19th)  < 0.1  
+libkrb5support0        1.20.1-2+deb12u4                      deb   CVE-2024-26461       Negligible  < 0.1% (19th)  < 0.1  
+gpgv                   2.2.40-1.1+deb12u2       (won't fix)  deb   CVE-2025-68972       Medium      < 0.1% (0th)   < 0.1  
+coreutils              9.1-1                                 deb   CVE-2017-18018       Negligible  < 0.1% (17th)  < 0.1  
+webpack                5.94.0                   5.104.0      npm   GHSA-38r7-794h-5758  Low         < 0.1% (0th)   < 0.1  
+webpack                5.94.0                   5.104.1      npm   GHSA-8fgc-7cc6-rx7x  Low         < 0.1% (0th)   < 0.1  
+curl                   7.88.1-10+deb12u14                    deb   CVE-2025-15224       Negligible  < 0.1% (16th)  < 0.1  
+libcurl4               7.88.1-10+deb12u14                    deb   CVE-2025-15224       Negligible  < 0.1% (16th)  < 0.1  
+gcc-12-base            12.2.0-14+deb12u1                     deb   CVE-2022-27943       Negligible  < 0.1% (15th)  < 0.1  
+libgcc-s1              12.2.0-14+deb12u1                     deb   CVE-2022-27943       Negligible  < 0.1% (15th)  < 0.1  
+libstdc++6             12.2.0-14+deb12u1                     deb   CVE-2022-27943       Negligible  < 0.1% (15th)  < 0.1  
+libheif1               1.15.1-1+deb12u1                      deb   CVE-2024-25269       Negligible  < 0.1% (15th)  < 0.1  
+libpixman-1-0          0.42.2-1                              deb   CVE-2023-37769       Negligible  < 0.1% (14th)  < 0.1  
+libssl3                3.0.18-1~deb12u2                      deb   CVE-2025-27587       Negligible  < 0.1% (13th)  < 0.1  
+openssl                3.0.18-1~deb12u2                      deb   CVE-2025-27587       Negligible  < 0.1% (13th)  < 0.1  
+libsystemd0            252.39-1~deb12u1                      deb   CVE-2013-4392        Negligible  < 0.1% (12th)  < 0.1  
+libudev1               252.39-1~deb12u1                      deb   CVE-2013-4392        Negligible  < 0.1% (12th)  < 0.1  
+on-headers             1.0.2                    1.1.0        npm   GHSA-76c9-3jph-rj3q  Low         < 0.1% (0th)   < 0.1  
+libexpat1              2.5.0-1+deb12u2          (won't fix)  deb   CVE-2026-24515       Low         < 0.1% (0th)   < 0.1  
+libgif7                5.2.1-2.5                             deb   CVE-2023-48161       Negligible  < 0.1% (6th)   < 0.1  
+curl                   7.88.1-10+deb12u14                    deb   CVE-2025-15079       Negligible  < 0.1% (5th)   < 0.1  
+libcurl4               7.88.1-10+deb12u14                    deb   CVE-2025-15079       Negligible  < 0.1% (5th)   < 0.1  
+libldap-2.5-0          2.5.13+dfsg-5                         deb   CVE-2026-22185       Negligible  < 0.1% (4th)   < 0.1  
+libldap-common         2.5.13+dfsg-5                         deb   CVE-2026-22185       Negligible  < 0.1% (4th)   < 0.1  
+coreutils              9.1-1                                 deb   CVE-2025-5278        Negligible  < 0.1% (4th)   < 0.1  
+bsdutils               1:2.38.1-5+deb12u3                    deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+libblkid1              2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+libmount1              2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+libsmartcols1          2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+libuuid1               2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+mount                  2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+util-linux             2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+util-linux-extra       2.38.1-5+deb12u3                      deb   CVE-2022-0563        Negligible  < 0.1% (4th)   < 0.1  
+gpgv                   2.2.40-1.1+deb12u2                    deb   CVE-2022-3219        Negligible  < 0.1% (4th)   < 0.1  
+libgif7                5.2.1-2.5                             deb   CVE-2023-39742       Negligible  < 0.1% (4th)   < 0.1  
+libexpat1              2.5.0-1+deb12u2                       deb   CVE-2023-52426       Negligible  < 0.1% (3rd)   < 0.1  
+libxml2                2.9.14+dfsg-1.3~deb12u5               deb   CVE-2026-1757        Negligible  < 0.1% (3rd)   < 0.1  
+curl                   7.88.1-10+deb12u14                    deb   CVE-2025-10966       Negligible  < 0.1% (2nd)   < 0.1  
+libcurl4               7.88.1-10+deb12u14                    deb   CVE-2025-10966       Negligible  < 0.1% (2nd)   < 0.1  
+libxml2                2.9.14+dfsg-1.3~deb12u5               deb   CVE-2025-8732        Negligible  < 0.1% (1st)   < 0.1  
+libpng16-16            1.6.39-2+deb12u1         (won't fix)  deb   CVE-2025-28162       Negligible  < 0.1% (1st)   < 0.1  
+libpng16-16            1.6.39-2+deb12u1                      deb   CVE-2025-28164       Negligible  < 0.1% (1st)   < 0.1  
+curl                   7.88.1-10+deb12u14                    deb   CVE-2025-14017       Negligible  < 0.1% (0th)   < 0.1  
+libcurl4               7.88.1-10+deb12u14                    deb   CVE-2025-14017       Negligible  < 0.1% (0th)   < 0.1  
+monorepo-symlink-test  0.0.0                                 npm   GHSA-2jcg-qqmg-46q6  Critical    N/A            N/A    
+axios                  1.12.2                   1.13.5       npm   GHSA-43fc-jf86-j433  High        N/A            N/A    
+axios                  1.7.7                    1.13.5       npm   GHSA-43fc-jf86-j433  High        N/A            N/A    
+axios                  1.8.3                    1.13.5       npm   GHSA-43fc-jf86-j433  High        N/A            N/A    
+libgnutls30            3.7.9-2+deb12u5                       deb   CVE-2025-14831       Medium      N/A            N/A

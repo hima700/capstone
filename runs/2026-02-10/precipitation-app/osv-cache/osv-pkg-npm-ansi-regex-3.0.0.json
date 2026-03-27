@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-93q8-gq69-wqmw",
+    "aliases": [
+      "CVE-2021-3807"
+    ],
+    "severity": "HIGH",
+    "summary": "Inefficient Regular Expression Complexity in chalk/ansi-regex"
+  }
+]

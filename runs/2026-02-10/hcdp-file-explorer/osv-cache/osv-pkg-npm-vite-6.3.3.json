@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GHSA-859w-5945-r5v3",
+    "aliases": [
+      "CVE-2025-46565"
+    ],
+    "severity": "MODERATE",
+    "summary": "Vite's server.fs.deny bypassed with /. for files under project root",
+    "published": "2025-04-30T17:40:27Z"
+  },
+  {
+    "id": "GHSA-93m4-6634-74q7",
+    "aliases": [
+      "CVE-2025-62522"
+    ],
+    "severity": "MODERATE",
+    "summary": "vite allows server.fs.deny bypass via backslash on Windows",
+    "published": "2025-10-20T19:54:28Z"
+  },
+  {
+    "id": "GHSA-g4jq-h2w9-997c",
+    "aliases": [
+      "CVE-2025-58751"
+    ],
+    "severity": "LOW",
+    "summary": "Vite middleware may serve files starting with the same name with the public directory",
+    "published": "2025-09-09T20:55:56Z"
+  },
+  {
+    "id": "GHSA-jqfw-vq24-v9c3",
+    "aliases": [
+      "CVE-2025-58752"
+    ],
+    "severity": "LOW",
+    "summary": "Vite's `server.fs` settings were not applied to HTML files",
+    "published": "2025-09-09T20:54:42Z"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "GHSA-848j-6mx2-7j84",
+    "aliases": [
+      "CVE-2025-14505"
+    ],
+    "severity": "LOW",
+    "summary": "Elliptic Uses a Cryptographic Primitive with a Risky Implementation"
+  },
+  {
+    "id": "GHSA-vjh7-7g9h-fjfh",
+    "aliases": [],
+    "severity": "CRITICAL",
+    "summary": "Elliptic's private key extraction in ECDSA upon signing a malformed input (e.g. a string)"
+  }
+]

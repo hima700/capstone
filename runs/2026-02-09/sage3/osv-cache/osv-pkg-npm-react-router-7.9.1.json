@@ -1,0 +1,34 @@
+[
+  {
+    "id": "GHSA-2w69-qvjg-hvjx",
+    "aliases": [
+      "CVE-2026-22029"
+    ],
+    "severity": "HIGH",
+    "summary": "React Router vulnerable to XSS via Open Redirects"
+  },
+  {
+    "id": "GHSA-8v8x-cx79-35w7",
+    "aliases": [
+      "CVE-2026-21884"
+    ],
+    "severity": "HIGH",
+    "summary": "React Router SSR XSS in ScrollRestoration"
+  },
+  {
+    "id": "GHSA-9jcx-v3wj-wh4m",
+    "aliases": [
+      "CVE-2025-68470"
+    ],
+    "severity": "MODERATE",
+    "summary": "React Router has unexpected external redirect via untrusted paths"
+  },
+  {
+    "id": "GHSA-h5cw-625j-3rxh",
+    "aliases": [
+      "CVE-2026-22030"
+    ],
+    "severity": "MODERATE",
+    "summary": "React Router has CSRF issue in Action/Server Action Request Processing"
+  }
+]

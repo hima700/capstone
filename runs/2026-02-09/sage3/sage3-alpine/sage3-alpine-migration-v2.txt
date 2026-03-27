@@ -1,0 +1,923 @@
+================================================================================
+  SBOM Migration Analysis v2 — SAGE3-ALPINE
+  Generated: 2026-02-10 01:04:17
+  Databases: OSV (osv.dev), Debian Security Tracker, NVD, npm Registry
+================================================================================
+
+OVERALL SUMMARY
+------------------------------------------------------------
+  Vulnerable packages:         54
+  Total CVEs (current):        76
+  CVEs fixable by upgrade:     53
+  CVEs still open (no fix):    9
+  CVEs with unknown status:    14
+  New CVEs in latest versions: 2
+  Net CVE change if upgraded:  51 reduction
+  Fix rate:                    69.7%
+
+
+
+PER-PACKAGE ANALYSIS
+------------------------------------------------------------
+
+  📦 http-proxy-middleware@2.0.6
+     Ecosystem:         npm
+     Latest version:    3.0.5
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-c7qv-q95q-8v27 (HIGH)
+        Fix version: 2.0.7
+        Range: introduced: 0, fixed: 2.0.7
+        Sources: OSV
+     ✅ GHSA-4www-5p9h-95mh (MEDIUM)
+        Fix version: 2.0.8
+        Range: introduced: 1.3.0, fixed: 2.0.8
+        Sources: OSV
+     ✅ GHSA-9gqv-wp59-fq42 (MEDIUM)
+        Fix version: 2.0.9
+        Range: introduced: 1.3.0, fixed: 2.0.9
+        Sources: OSV
+
+  📦 loader-utils@1.2.3
+     Ecosystem:         npm
+     Latest version:    3.3.1
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-76p3-8jx3-jpfq (CRITICAL)
+        Fix version: 2.0.3
+        Range: introduced: 2.0.0, fixed: 2.0.3
+        Sources: OSV
+     ✅ GHSA-hhq3-ff78-jv3g (HIGH)
+        Fix version: 1.4.2
+        Range: introduced: 1.0.0, fixed: 1.4.2
+        Sources: OSV
+     ✅ GHSA-3rfm-jhwj-7488 (HIGH)
+        Fix version: 1.4.2
+        Range: introduced: 1.0.0, fixed: 1.4.2
+        Sources: OSV
+
+  📦 node-forge@1.3.1
+     Ecosystem:         npm
+     Latest version:    1.3.3
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-554w-wpv2-vw27 (HIGH)
+        Fix version: 1.3.2
+        Range: introduced: 0, fixed: 1.3.2
+        Sources: OSV
+     ✅ GHSA-5gfm-wpxj-wjgq (HIGH)
+        Fix version: 1.3.2
+        Range: introduced: 0, fixed: 1.3.2
+        Sources: OSV
+     ✅ GHSA-65ch-62r8-g69g (MEDIUM)
+        Fix version: 1.3.2
+        Range: introduced: 0, fixed: 1.3.2
+        Sources: OSV
+
+  📦 tar@6.2.1
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-34x7-hfp2-rc4v (HIGH)
+        Fix version: 7.5.7
+        Range: introduced: 0, fixed: 7.5.7
+        Sources: OSV
+     ✅ GHSA-r6q2-hw4h-h46w (HIGH)
+        Fix version: 7.5.4
+        Range: introduced: 0, fixed: 7.5.4
+        Sources: OSV
+     ✅ GHSA-8qq5-rm4j-mr97 (HIGH)
+        Fix version: 7.5.3
+        Range: introduced: 0, fixed: 7.5.3
+        Sources: OSV
+
+  📦 undici@6.19.8
+     Ecosystem:         npm
+     Latest version:    7.21.0
+     CVEs (current):    3
+     Fixable:           3
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 3 CVEs fixed, no new CVEs
+
+     ✅ GHSA-c76h-2ccp-4975 (MEDIUM)
+        Fix version: 5.28.5
+        Range: introduced: 4.5.0, fixed: 5.28.5
+        Sources: OSV
+     ✅ GHSA-cxrh-j4jr-qwg3 (LOW)
+        Fix version: 5.29.0
+        Range: introduced: 0, fixed: 5.29.0
+        Sources: OSV
+     ✅ GHSA-g9mf-h72j-4rw9 (MEDIUM)
+        Fix version: 7.18.2
+        Range: introduced: 7.0.0, fixed: 7.18.2
+        Sources: OSV
+
+  📦 axios@1.7.7
+     Ecosystem:         npm
+     Latest version:    1.13.5
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-4hjh-wcwx-xvwj (HIGH)
+        Fix version: 1.12.0
+        Range: introduced: 1.0.0, fixed: 1.12.0
+        Sources: OSV
+     ✅ GHSA-jr5f-v2jv-69x6 (HIGH)
+        Fix version: 1.8.2
+        Range: introduced: 1.0.0, fixed: 1.8.2
+        Sources: OSV
+
+  📦 path-to-regexp@0.1.7
+     Ecosystem:         npm
+     Latest version:    8.3.0
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-rhx6-c78j-4q9w (HIGH)
+        Fix version: 0.1.12
+        Range: introduced: 0, fixed: 0.1.12
+        Sources: OSV
+     ✅ GHSA-9wv6-86v2-598j (HIGH)
+        Fix version: 1.9.0
+        Range: introduced: 0.2.0, fixed: 1.9.0
+        Sources: OSV
+
+  📦 webpack-dev-server@4.15.2
+     Ecosystem:         npm
+     Latest version:    5.2.3
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-4v9v-hfq4-rm2v (MEDIUM)
+        Fix version: 5.2.1
+        Range: introduced: 0, fixed: 5.2.1
+        Sources: OSV
+     ✅ GHSA-9jgg-88mc-972h (MEDIUM)
+        Fix version: 5.2.1
+        Range: introduced: 0, fixed: 5.2.1
+        Sources: OSV
+
+  📦 webpack-dev-server@<=5.2.0
+     Ecosystem:         npm
+     Latest version:    5.2.3
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ CVE-2025-30360 (MODERATE)
+        Fix version: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Range: introduced: 0, fixed: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Sources: OSV
+     ✅ CVE-2025-30359 (MODERATE)
+        Fix version: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Range: introduced: 0, fixed: 0d22a08cc96deeb4421251ff41a915dcda1b59c5
+        Sources: OSV
+
+  📦 webpack@5.94.0
+     Ecosystem:         npm
+     Latest version:    5.105.0
+     CVEs (current):    2
+     Fixable:           2
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 2 CVEs fixed, no new CVEs
+
+     ✅ GHSA-38r7-794h-5758 (LOW)
+        Fix version: 5.104.0
+        Range: introduced: 5.49.0, fixed: 5.104.0
+        Sources: OSV
+     ✅ GHSA-8fgc-7cc6-rx7x (LOW)
+        Fix version: 5.104.1
+        Range: introduced: 5.49.0, fixed: 5.104.1
+        Sources: OSV
+
+  📦 @babel/helpers@7.25.6
+     Ecosystem:         npm
+     Latest version:    7.28.6
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-968p-4wvh-cqc8 (MEDIUM)
+        Fix version: 7.26.10
+        Range: introduced: 0, fixed: 7.26.10
+        Sources: OSV
+
+  📦 axios@1.12.2
+     Ecosystem:         npm
+     Latest version:    1.13.5
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-43fc-jf86-j433 (HIGH)
+        Fix version: 1.13.5
+        Range: introduced: 0, fixed: 1.13.5
+        Sources: OSV
+
+  📦 body-parser@1.20.2
+     Ecosystem:         npm
+     Latest version:    2.2.2
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-qwcr-r2fm-qrc7 (HIGH)
+        Fix version: 1.20.3
+        Range: introduced: 0, fixed: 1.20.3
+        Sources: OSV
+
+  📦 brace-expansion@1.1.11
+     Ecosystem:         npm
+     Latest version:    4.0.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-v6h2-p8h4-qcjw (LOW)
+        Fix version: 2.0.2
+        Range: introduced: 2.0.0, fixed: 2.0.2
+        Sources: OSV
+
+  📦 cookie@0.6.0
+     Ecosystem:         npm
+     Latest version:    1.1.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-pxg6-pf52-xh8x (LOW)
+        Fix version: 0.7.0
+        Range: introduced: 0, fixed: 0.7.0
+        Sources: OSV
+
+  📦 cross-spawn@7.0.3
+     Ecosystem:         npm
+     Latest version:    7.0.6
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-3xgq-45jj-v275 (HIGH)
+        Fix version: 7.0.5
+        Range: introduced: 7.0.0, fixed: 7.0.5
+        Sources: OSV
+
+  📦 diff@4.0.2
+     Ecosystem:         npm
+     Latest version:    8.0.3
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-73rr-hh4g-fpgx (LOW)
+        Fix version: 8.0.3
+        Range: introduced: 6.0.0, fixed: 8.0.3
+        Sources: OSV
+
+  📦 express@4.19.2
+     Ecosystem:         npm
+     Latest version:    5.2.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-qw6h-vgh9-j6wx (LOW)
+        Fix version: 4.20.0
+        Range: introduced: 0, fixed: 4.20.0
+        Sources: OSV
+
+  📦 form-data@4.0.0
+     Ecosystem:         npm
+     Latest version:    4.0.5
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-fjxv-7rqg-78g4 (CRITICAL)
+        Fix version: 2.5.4
+        Range: introduced: 0, fixed: 2.5.4
+        Sources: OSV
+
+  📦 glob@10.4.5
+     Ecosystem:         npm
+     Latest version:    13.0.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-5j98-mcp5-4vw2 (HIGH)
+        Fix version: 11.1.0
+        Range: introduced: 11.0.0, fixed: 11.1.0
+        Sources: OSV
+
+  📦 js-yaml@3.14.1
+     Ecosystem:         npm
+     Latest version:    4.1.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-mh29-5h37-fv8m (MEDIUM)
+        Fix version: 4.1.1
+        Range: introduced: 4.0.0, fixed: 4.1.1
+        Sources: OSV
+
+  📦 jws@3.2.2
+     Ecosystem:         npm
+     Latest version:    4.0.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-869p-cjfg-cm3x (HIGH)
+        Fix version: 3.2.3
+        Range: introduced: 0, fixed: 3.2.3
+        Sources: OSV
+
+  📦 lodash@4.17.21
+     Ecosystem:         npm
+     Latest version:    4.17.23
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-xxjr-mmjv-4gpg (MEDIUM)
+        Fix version: 4.17.23
+        Range: introduced: 4.0.0, fixed: 4.17.23
+        Sources: OSV
+
+  📦 nanoid@3.3.7
+     Ecosystem:         npm
+     Latest version:    5.1.6
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-mwcw-c2x4-8c55 (MEDIUM)
+        Fix version: 5.0.9
+        Range: introduced: 4.0.0, fixed: 5.0.9
+        Sources: OSV
+
+  📦 on-headers@1.0.2
+     Ecosystem:         npm
+     Latest version:    1.1.0
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-76c9-3jph-rj3q (LOW)
+        Fix version: 1.1.0
+        Range: introduced: 0, fixed: 1.1.0
+        Sources: OSV
+
+  📦 pdfjs-dist@3.11.174
+     Ecosystem:         npm
+     Latest version:    5.4.624
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-wgrm-67xf-hhpq (HIGH)
+        Fix version: 4.2.67
+        Range: introduced: 0, fixed: 4.2.67
+        Sources: OSV
+
+  📦 pdfjs-dist@<=4.1.392
+     Ecosystem:         npm
+     Latest version:    5.4.624
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ CVE-2024-4367 (HIGH)
+        Fix version: 49b388101a53f1ff81390fab8336d02acf06a582
+        Range: introduced: 0, fixed: 49b388101a53f1ff81390fab8336d02acf06a582
+        Sources: OSV
+
+  📦 qs@6.11.0
+     Ecosystem:         npm
+     Latest version:    6.14.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-6rw7-vpxm-498p (HIGH)
+        Fix version: 6.14.1
+        Range: introduced: 0, fixed: 6.14.1
+        Sources: OSV
+
+  📦 react-router@6.30.1
+     Ecosystem:         npm
+     Latest version:    7.13.0
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-9jcx-v3wj-wh4m (MEDIUM)
+        Fix version: 6.30.2
+        Range: introduced: 6.0.0, fixed: 6.30.2
+        Sources: OSV
+
+  📦 rollup@2.79.1
+     Ecosystem:         npm
+     Latest version:    4.57.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-gcx4-mw62-g8wm (HIGH)
+        Fix version: 3.29.5
+        Range: introduced: 3.0.0, fixed: 3.29.5
+        Sources: OSV
+
+  📦 semver@7.3.4
+     Ecosystem:         npm
+     Latest version:    7.7.4
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-c2qf-rxjj-qqgw (HIGH)
+        Fix version: 7.5.2
+        Range: introduced: 7.0.0, fixed: 7.5.2
+        Sources: OSV
+
+  📦 send@0.18.0
+     Ecosystem:         npm
+     Latest version:    1.2.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-m6fv-jmcg-4jfg (LOW)
+        Fix version: 0.19.0
+        Range: introduced: 0, fixed: 0.19.0
+        Sources: OSV
+
+  📦 serve-static@1.15.0
+     Ecosystem:         npm
+     Latest version:    2.2.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-cm22-4g7w-348p (LOW)
+        Fix version: 1.16.0
+        Range: introduced: 0, fixed: 1.16.0
+        Sources: OSV
+
+  📦 tar@<7.5.7
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ CVE-2026-24842 (HIGH)
+        Fix version: 4a37eb9a1cf1137df4eb70c5c7f849f412ff3cdb
+        Range: introduced: 0, fixed: 4a37eb9a1cf1137df4eb70c5c7f849f412ff3cdb
+        Sources: OSV
+
+  📦 tar@<=7.5.2
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ CVE-2026-23745 (HIGH)
+        Fix version: 03138441b238f48070fb22824b2529c445bc70c7
+        Range: introduced: 0, fixed: 03138441b238f48070fb22824b2529c445bc70c7
+        Sources: OSV
+
+  📦 tmp@0.0.33
+     Ecosystem:         npm
+     Latest version:    0.2.5
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-52f5-9888-hmc6 (LOW)
+        Fix version: 0.2.4
+        Range: introduced: 0, fixed: 0.2.4
+        Sources: OSV
+
+  📦 vega-functions@6.1.0
+     Ecosystem:         npm
+     Latest version:    6.1.1
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-m9rg-mr6g-75gm (HIGH)
+        Fix version: 6.1.1
+        Range: introduced: 0, fixed: 6.1.1
+        Sources: OSV
+
+  📦 vega-selections@6.1.0
+     Ecosystem:         npm
+     Latest version:    6.1.2
+     CVEs (current):    1
+     Fixable:           1
+     Still open:        0
+     Unknown:           0
+     ➤ UPGRADE — all 1 CVEs fixed, no new CVEs
+
+     ✅ GHSA-829q-m3qg-ph8r (HIGH)
+        Fix version: 5.6.3
+        Range: introduced: 0, fixed: 5.6.3
+        Sources: OSV
+
+  📦 curl@8.17.0-r1
+     Ecosystem:         alpine
+     Latest version:    unknown
+     CVEs (current):    6
+     Fixable:           0
+     Still open:        0
+     Unknown:           6
+     ➤ INVESTIGATE — fix status unknown for all 6 CVEs
+
+     ❓ CVE-2025-14819 (MEDIUM CVSS:5.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: c12fb3ddaf48e709a7a4deaa55ec485e4df163ee, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Sources: OSV
+     ❓ CVE-2025-15224 (LOW CVSS:3.1)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: d6c21c8eec597a925d2b647cff3d58ac69de01a0, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Sources: OSV
+     ❓ CVE-2025-13034 (MEDIUM CVSS:5.9)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: fd567d4f06857f4fc8e2f64ea727b1318f76ad33, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Sources: OSV
+     ❓ CVE-2025-14524 (MEDIUM CVSS:5.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: f77e89c5d20db09eaebf378ec036a7e796932810, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Sources: OSV
+     ❓ CVE-2025-15079 (MEDIUM CVSS:5.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: d6c21c8eec597a925d2b647cff3d58ac69de01a0, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Sources: OSV
+     ❓ CVE-2025-14017 (MEDIUM CVSS:6.3)
+        Fix version: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Range: introduced: b238e0b1b4e8f3e5c4e9c0d7d8c565e3776b0999, fixed: 2eebc58c4b8d68c98c8344381a9f6df4cca838fd
+        Sources: OSV
+
+  📦 loader-utils@>=1.0.0 <1.4.2
+     Ecosystem:         npm
+     Latest version:    3.3.1
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        2
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 2 CVEs still open
+
+     ❌ CVE-2022-37603 (HIGH)
+        Fix version: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Range: introduced: e1e9f895df7802a859a0e627081fc8fb5ddd7c86, fixed: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Sources: OSV
+     ❌ CVE-2022-37599 (HIGH)
+        Fix version: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Range: introduced: e1e9f895df7802a859a0e627081fc8fb5ddd7c86, fixed: a3fd3ca1a5287d217a2370b0902997544e6b9aa9
+        Sources: OSV
+
+  📦 xlsx@0.18.5
+     Ecosystem:         npm
+     Latest version:    0.18.5
+     CVEs (current):    2
+     Fixable:           0
+     Still open:        0
+     Unknown:           2
+     ➤ INVESTIGATE — fix status unknown for all 2 CVEs
+
+     ❓ GHSA-4r6h-8v6p-xvw6 (HIGH)
+        Range: >=0
+        Sources: OSV
+     ❓ GHSA-5pgg-2g8v-p4x9 (HIGH)
+        Range: >=0
+        Sources: OSV
+
+  📦 @remix-run/router@1.23.0
+     Ecosystem:         npm
+     Latest version:    1.23.2
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ GHSA-2w69-qvjg-hvjx (HIGH)
+        Fix version: 7.12.0
+        Range: introduced: 7.0.0, fixed: 7.12.0
+        Sources: OSV
+
+  📦 busybox@1.37.0-r30
+     Ecosystem:         alpine
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2025-60876 (MEDIUM CVSS:6.5)
+        Sources: 
+
+  📦 js-yaml@>=4.0.0 <4.1.1
+     Ecosystem:         npm
+     Latest version:    4.1.1
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-64718 (MODERATE)
+        Fix version: cc482e775913e6625137572a3712d2826170e53a
+        Range: introduced: ee74ce4b4800282b2f23b776be7dc95dfe34db1c, fixed: cc482e775913e6625137572a3712d2826170e53a
+        Sources: OSV
+
+  📦 loader-utils@<1.4.1
+     Ecosystem:         npm
+     Latest version:    3.3.1
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2022-37601 (CRITICAL)
+        Fix version: 8f082b39f6903929f30fe29dab34f4d9c7ef070a
+        Range: introduced: d9f4e23cf411d8556f8bac2d3bf05a6e0103b568, fixed: 8f082b39f6903929f30fe29dab34f4d9c7ef070a
+        Sources: OSV
+
+  📦 lodash@>=4.0.0 <=4.17.22
+     Ecosystem:         npm
+     Latest version:    4.17.23
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2025-13465 (MODERATE)
+        Range: d35a9c40beb594d09814ba7f7673b81d4d67a816..5feb6b9b0359eaa1dbae68dd981e7267da188a03+
+        Sources: OSV
+
+  📦 monorepo-symlink-test@0.0.0
+     Ecosystem:         npm
+     Latest version:    0.0.1-security
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ GHSA-2jcg-qqmg-46q6 (CRITICAL)
+        Sources: 
+
+  📦 pixman@0.46.4-r0
+     Ecosystem:         alpine
+     Latest version:    unknown
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2023-37769 (MEDIUM CVSS:6.5)
+        Sources: OSV
+
+  📦 semver@>=7.0.0 <7.5.2
+     Ecosystem:         npm
+     Latest version:    7.7.4
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2022-25883 (HIGH)
+        Fix version: f8cc313550691a50d9662d8c94f0c033717efd7d
+        Range: introduced: f56505b1c08856a7e6139f6ee5d4580f5f2feed8, fixed: f8cc313550691a50d9662d8c94f0c033717efd7d
+        Sources: OSV
+
+  📦 tar@<=7.5.3
+     Ecosystem:         npm
+     Latest version:    7.5.7
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2026-23950 (HIGH)
+        Fix version: 911c886bb170a6ee3db05fd3709221752213ec8a
+        Range: introduced: 0, fixed: 911c886bb170a6ee3db05fd3709221752213ec8a
+        Sources: OSV
+
+  📦 tmp@<=0.2.3
+     Ecosystem:         npm
+     Latest version:    0.2.5
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ CVE-2025-54798 (LOW)
+        Fix version: 08fa3abac32b621506512724b28b56b9c4a95846
+        Range: introduced: 0, fixed: 08fa3abac32b621506512724b28b56b9c4a95846
+        Sources: OSV
+
+  📦 vega-interpreter@1.0.5
+     Ecosystem:         npm
+     Latest version:    2.2.1
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        1
+     Unknown:           0
+     ➤ NO FIX AVAILABLE — all 1 CVEs still open
+
+     ❌ GHSA-7f2v-3qq3-vvjf (HIGH)
+        Fix version: 6.2.0
+        Range: introduced: 0, fixed: 6.2.0
+        Sources: OSV
+
+  📦 xlsx@<0.19.3
+     Ecosystem:         npm
+     Latest version:    0.18.5
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ⚠️  New in latest:  1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2023-30533 (HIGH)
+        Sources: 
+
+     ⚠️  New CVEs in latest version (0.18.5):
+        GHSA-5pgg-2g8v-p4x9: SheetJS Regular Expression Denial of Service (ReDoS)
+
+  📦 xlsx@<0.20.2
+     Ecosystem:         npm
+     Latest version:    0.18.5
+     CVEs (current):    1
+     Fixable:           0
+     Still open:        0
+     Unknown:           1
+     ⚠️  New in latest:  1
+     ➤ INVESTIGATE — fix status unknown for all 1 CVEs
+
+     ❓ CVE-2024-22363 (HIGH)
+        Sources: 
+
+     ⚠️  New CVEs in latest version (0.18.5):
+        GHSA-4r6h-8v6p-xvw6: Prototype Pollution in sheetJS
+
+
+MITIGATION RECOMMENDATIONS
+------------------------------------------------------------
+
+  1. npm Dependencies (directly actionable):
+     - Upgrade @babel/helpers 7.25.6 → 7.28.6 (fixes 1 CVEs)
+     - Upgrade axios 1.12.2 → 1.13.5 (fixes 1 CVEs)
+     - Upgrade axios 1.7.7 → 1.13.5 (fixes 2 CVEs)
+     - Upgrade body-parser 1.20.2 → 2.2.2 (fixes 1 CVEs)
+     - Upgrade brace-expansion 1.1.11 → 4.0.1 (fixes 1 CVEs)
+     - Upgrade cookie 0.6.0 → 1.1.1 (fixes 1 CVEs)
+     - Upgrade cross-spawn 7.0.3 → 7.0.6 (fixes 1 CVEs)
+     - Upgrade diff 4.0.2 → 8.0.3 (fixes 1 CVEs)
+     - Upgrade express 4.19.2 → 5.2.1 (fixes 1 CVEs)
+     - Upgrade form-data 4.0.0 → 4.0.5 (fixes 1 CVEs)
+     - Upgrade glob 10.4.5 → 13.0.1 (fixes 1 CVEs)
+     - Upgrade http-proxy-middleware 2.0.6 → 3.0.5 (fixes 3 CVEs)
+     - Upgrade js-yaml 3.14.1 → 4.1.1 (fixes 1 CVEs)
+     - Upgrade jws 3.2.2 → 4.0.1 (fixes 1 CVEs)
+     - Upgrade loader-utils 1.2.3 → 3.3.1 (fixes 3 CVEs)
+     - Upgrade lodash 4.17.21 → 4.17.23 (fixes 1 CVEs)
+     - Upgrade nanoid 3.3.7 → 5.1.6 (fixes 1 CVEs)
+     - Upgrade node-forge 1.3.1 → 1.3.3 (fixes 3 CVEs)
+     - Upgrade on-headers 1.0.2 → 1.1.0 (fixes 1 CVEs)
+     - Upgrade path-to-regexp 0.1.7 → 8.3.0 (fixes 2 CVEs)
+     - Upgrade pdfjs-dist 3.11.174 → 5.4.624 (fixes 1 CVEs)
+     - Upgrade pdfjs-dist <=4.1.392 → 5.4.624 (fixes 1 CVEs)
+     - Upgrade qs 6.11.0 → 6.14.1 (fixes 1 CVEs)
+     - Upgrade react-router 6.30.1 → 7.13.0 (fixes 1 CVEs)
+     - Upgrade rollup 2.79.1 → 4.57.1 (fixes 1 CVEs)
+     - Upgrade semver 7.3.4 → 7.7.4 (fixes 1 CVEs)
+     - Upgrade send 0.18.0 → 1.2.1 (fixes 1 CVEs)
+     - Upgrade serve-static 1.15.0 → 2.2.1 (fixes 1 CVEs)
+     - Upgrade tar 6.2.1 → 7.5.7 (fixes 3 CVEs)
+     - Upgrade tar <7.5.7 → 7.5.7 (fixes 1 CVEs)
+     - Upgrade tar <=7.5.2 → 7.5.7 (fixes 1 CVEs)
+     - Upgrade tmp 0.0.33 → 0.2.5 (fixes 1 CVEs)
+     - Upgrade undici 6.19.8 → 7.21.0 (fixes 3 CVEs)
+     - Upgrade vega-functions 6.1.0 → 6.1.1 (fixes 1 CVEs)
+     - Upgrade vega-selections 6.1.0 → 6.1.2 (fixes 1 CVEs)
+     - Upgrade webpack-dev-server 4.15.2 → 5.2.3 (fixes 2 CVEs)
+     - Upgrade webpack-dev-server <=5.2.0 → 5.2.3 (fixes 2 CVEs)
+     - Upgrade webpack 5.94.0 → 5.105.0 (fixes 2 CVEs)
+
+  2. Docker Base Image (reduces Debian CVEs):
+     - Option A: Rebuild with latest node:22-slim (picks up Debian patches)
+     - Option B: Switch to node:22-alpine (eliminates Debian CVEs entirely)
+     - Option C: Periodically run apt-get upgrade in Dockerfile
+
+  3. Accept Risk (Debian 'unimportant' CVEs):
+     - 0 CVEs classified as unimportant by Debian Security
+     - These are known, triaged, and deemed negligible risk
+     - Document as 'accepted risk' with Debian urgency as justification
+
+  4. Ongoing Monitoring:
+     - Re-scan with Syft + Grype on each image rebuild
+     - Monitor OSV/NVD for status changes on open CVEs
+     - Integrate SBOM + vulnerability scanning into CI/CD
+
+================================================================================
+  END OF REPORT
+================================================================================

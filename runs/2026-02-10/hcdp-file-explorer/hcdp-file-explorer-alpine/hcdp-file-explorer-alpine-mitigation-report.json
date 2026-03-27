@@ -1,0 +1,4102 @@
+[
+  {
+    "cve_id": "GHSA-4r4m-qw57-chr8",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Vite has a `server.fs.deny` bypassed for `inline` and `raw` with `?import` query",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4r4m-qw57-chr8",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-45288",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/576155",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/65051",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-04-04T21:15:16.113",
+      "last_modified": "2025-11-04T19:16:01.263"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-x574-m823-4x7w",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Vite bypasses server.fs.deny when using ?raw??",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-x574-m823-4x7w",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-xcj6-pq6g-qj4x",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Vite allows server.fs.deny to be bypassed with .svg or relative paths",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-xcj6-pq6g-qj4x",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24787",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a \"#cgo LDFLAGS\" directive.",
+      "cvss_v3_score": 6.4,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/05/08/3",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/583815",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/67119",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/wkkO4P9stm0",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2825",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-05-08T16:15:08.183",
+      "last_modified": "2024-11-21T08:59:42.297"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-93m4-6634-74q7",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "vite allows server.fs.deny bypass via backslash on Windows",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-93m4-6634-74q7",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24784",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/555596",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/65083",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2609",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-03-05T23:15:07.733",
+      "last_modified": "2024-11-21T08:59:41.820"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24791",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an \"Expect: 100-continue\" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending \"Expect: 100-continue\" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/591255",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/67555",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2963",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/591255",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2024-07-02T22:15:04.833",
+      "last_modified": "2024-11-21T08:59:43.013"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-24531",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "Command go env is documented as outputting a shell script containing the Go environment. However, go env doesn't sanitize values, so executing its output as a shell script can cause various bad bahaviors, including executing arbitrary commands or inserting new environment variables. This issue is relatively minor because, in general, if an attacker can set arbitrary environment variables on a system, they have better attack vectors than making \"go env\" print them out.",
+      "cvss_v3_score": 9.8,
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/488375",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/493535",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/58508",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/ixHOFpSbajE/m/8EjlbKVWAwAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2962",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-07-02T20:15:05.270",
+      "last_modified": "2025-03-28T15:15:43.630"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-g4jq-h2w9-997c",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "Vite middleware may serve files starting with the same name with the public directory",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-g4jq-h2w9-997c",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24783",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.",
+      "cvss_v3_score": 5.9,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe_ids": [
+        "CWE-476"
+      ],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/569339",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/65390",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2598",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-03-05T23:15:07.683",
+      "last_modified": "2024-11-21T08:59:41.620"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-34156",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/611239",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/69139",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/S9POB9NCTdk",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-3106",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://security.netapp.com/advisory/ntap-20240926-0004/",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2024-09-06T21:15:12.020",
+      "last_modified": "2024-11-21T09:18:12.853"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-45289",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as \"Authorization\" or \"Cookie\". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.",
+      "cvss_v3_score": 4.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/569340",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/65065",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2600",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-03-05T23:15:07.137",
+      "last_modified": "2024-11-21T08:26:42.620"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-45290",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.",
+      "cvss_v3_score": 6.5,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-770"
+      ],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/569341",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/65383",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2599",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-03-05T23:15:07.210",
+      "last_modified": "2024-11-21T08:26:42.853"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-22871",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.",
+      "cvss_v3_score": 9.1,
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/652998",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/71988",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-3563",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/04/4",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-04-08T20:15:20.183",
+      "last_modified": "2025-04-18T15:15:57.923"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24785",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.",
+      "cvss_v3_score": 5.4,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/564196",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/65697",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2610",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-03-05T23:15:07.777",
+      "last_modified": "2025-03-14T02:15:13.167"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-34158",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Calling Parse on a \"// +build\" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-674"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/611240",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/69141",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/S9POB9NCTdk",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-3107",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://security.netapp.com/advisory/ntap-20241004-0003/",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2024-09-06T21:15:12.083",
+      "last_modified": "2024-11-21T09:18:13.030"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-859w-5945-r5v3",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Vite's server.fs.deny bypassed with /. for files under project root",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-859w-5945-r5v3",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-554w-wpv2-vw27",
+    "package_name": "node-forge",
+    "package_version": "1.3.1",
+    "package_purl": "pkg:npm/node-forge@1.3.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-forge has ASN.1 Unbounded Recursion",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-554w-wpv2-vw27",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 4,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 selfsigned \u2192 node-forge"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.3.3",
+      "total_versions": 133,
+      "recent_versions": [
+        "1.2.1",
+        "1.3.0",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.3.1",
+      "latest_version": "1.3.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.3.1 to 1.3.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-356w-63v5-8wf4",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Vite has an `server.fs.deny` bypass with an invalid `request-target`",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-356w-63v5-8wf4",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-4www-5p9h-95mh",
+    "package_name": "http-proxy-middleware",
+    "package_version": "2.0.7",
+    "package_purl": "pkg:npm/http-proxy-middleware@2.0.7",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "http-proxy-middleware can call writeBody twice because \"else if\" is not used",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4www-5p9h-95mh",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 http-proxy-middleware",
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 http-proxy-middleware"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.0.5",
+      "total_versions": 92,
+      "recent_versions": [
+        "3.0.3",
+        "2.0.8",
+        "3.0.4",
+        "2.0.9",
+        "3.0.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "2.0.7",
+      "latest_version": "3.0.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 2.0.7 to 3.0.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-968p-4wvh-cqc8",
+    "package_name": "@babel/runtime",
+    "package_version": "7.24.0",
+    "package_purl": "pkg:npm/%40babel/runtime@7.24.0",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-968p-4wvh-cqc8",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @babel/preset-env \u2192 @babel/plugin-transform-regenerator \u2192 regenerator-transform \u2192 @babel/runtime",
+        "@angular-devkit/build-angular \u2192 @babel/runtime"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.28.6",
+      "total_versions": 196,
+      "recent_versions": [
+        "8.0.0-beta.3",
+        "8.0.0-beta.4",
+        "7.28.6",
+        "8.0.0-rc.1",
+        "8.0.0-rc.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "7.24.0",
+      "latest_version": "7.28.6",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 7.24.0 to 7.28.6",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.28.6 available. Verify CVE is fixed in 7.28.6 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24790",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
+      "cvss_v3_score": 9.8,
+      "cvss_v3_severity": "CRITICAL",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe_ids": [
+        "NVD-CWE-noinfo"
+      ],
+      "references": [
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/cl/590316",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/67680",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-2887",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2024-06-05T16:15:10.560",
+      "last_modified": "2024-11-21T08:59:42.813"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-c76h-2ccp-4975",
+    "package_name": "undici",
+    "package_version": "6.11.1",
+    "package_purl": "pkg:npm/undici@6.11.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Use of Insufficiently Random Values in undici",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-c76h-2ccp-4975",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 undici"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.22.0",
+      "total_versions": 262,
+      "recent_versions": [
+        "7.19.1",
+        "7.19.2",
+        "7.20.0",
+        "7.21.0",
+        "7.22.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.11.1",
+      "latest_version": "7.22.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.11.1 to 7.22.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.22.0 available. Verify CVE is fixed in 7.22.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-6rw7-vpxm-498p",
+    "package_name": "qs",
+    "package_version": "6.13.0",
+    "package_purl": "pkg:npm/qs@6.13.0",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-6rw7-vpxm-498p",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 3,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 express \u2192 qs",
+        "karma \u2192 body-parser \u2192 qs"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "6.15.0",
+      "total_versions": 146,
+      "recent_versions": [
+        "6.10.7",
+        "6.11.4",
+        "6.12.5",
+        "6.13.3",
+        "6.15.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.13.0",
+      "latest_version": "6.15.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.13.0 to 6.15.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 6.15.0 available. Verify CVE is fixed in 6.15.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-58c5-g7wp-6w37",
+    "package_name": "@angular/common",
+    "package_version": "17.3.12",
+    "package_purl": "pkg:npm/%40angular/common@17.3.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Angular is Vulnerable to XSRF Token Leakage via Protocol-Relative URLs in Angular HTTP Client",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-58c5-g7wp-6w37",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": true,
+      "occurrence_count": 7,
+      "min_depth": 1,
+      "paths": [
+        "@angular/cdk \u2192 @angular/common",
+        "@angular/common",
+        "@angular/forms \u2192 @angular/common",
+        "@angular/material \u2192 @angular/common",
+        "@angular/platform-browser-dynamic \u2192 @angular/common"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "21.1.4",
+      "total_versions": 1010,
+      "recent_versions": [
+        "21.2.0-next.1",
+        "21.1.3",
+        "21.2.0-next.2",
+        "21.1.4",
+        "21.2.0-next.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "17.3.12",
+      "latest_version": "21.1.4",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 17.3.12 to 21.1.4",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-v4hv-rgfq-gp49",
+    "package_name": "@angular/compiler",
+    "package_version": "17.3.12",
+    "package_purl": "pkg:npm/%40angular/compiler@17.3.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Angular Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-v4hv-rgfq-gp49",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": true,
+      "occurrence_count": 3,
+      "min_depth": 1,
+      "paths": [
+        "@angular/compiler-cli \u2192 @angular/compiler",
+        "@angular/compiler",
+        "@angular/platform-browser-dynamic \u2192 @angular/compiler"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "21.1.4",
+      "total_versions": 1011,
+      "recent_versions": [
+        "21.2.0-next.1",
+        "21.1.3",
+        "21.2.0-next.2",
+        "21.1.4",
+        "21.2.0-next.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "17.3.12",
+      "latest_version": "21.1.4",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 17.3.12 to 21.1.4",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-5gfm-wpxj-wjgq",
+    "package_name": "node-forge",
+    "package_version": "1.3.1",
+    "package_purl": "pkg:npm/node-forge@1.3.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-5gfm-wpxj-wjgq",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 4,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 selfsigned \u2192 node-forge"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.3.3",
+      "total_versions": 133,
+      "recent_versions": [
+        "1.2.1",
+        "1.3.0",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.3.1",
+      "latest_version": "1.3.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.3.1 to 1.3.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-45336",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.",
+      "cvss_v3_score": 6.1,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/643100",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/70530",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/CAWXhan3Jww/m/bk9LAa-lCgAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/bG8cv1muIBM/m/G461hA6lCgAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-3420",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2025-01-28T02:15:28.807",
+      "last_modified": "2025-02-21T18:15:17.400"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-34155",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.",
+      "cvss_v3_score": 4.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/611238",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/69138",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/S9POB9NCTdk",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2024-3105",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://security.netapp.com/advisory/ntap-20240926-0005/",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2024-09-06T21:15:11.947",
+      "last_modified": "2024-11-21T09:18:12.633"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-9gqv-wp59-fq42",
+    "package_name": "http-proxy-middleware",
+    "package_version": "2.0.7",
+    "package_purl": "pkg:npm/http-proxy-middleware@2.0.7",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9gqv-wp59-fq42",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 http-proxy-middleware",
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 http-proxy-middleware"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "3.0.5",
+      "total_versions": 92,
+      "recent_versions": [
+        "3.0.3",
+        "2.0.8",
+        "3.0.4",
+        "2.0.9",
+        "3.0.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "2.0.7",
+      "latest_version": "3.0.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 2.0.7 to 3.0.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 3.0.5 available. Verify CVE is fixed in 3.0.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-xxjr-mmjv-4gpg",
+    "package_name": "lodash",
+    "package_version": "4.17.21",
+    "package_purl": "pkg:npm/lodash@4.17.21",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 inquirer \u2192 lodash",
+        "karma \u2192 lodash"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.17.23",
+      "total_versions": 115,
+      "recent_versions": [
+        "4.17.18",
+        "4.17.19",
+        "4.17.20",
+        "4.17.21",
+        "4.17.23"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.17.21",
+      "latest_version": "4.17.23",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.17.21 to 4.17.23",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.17.23 available. Verify CVE is fixed in 4.17.23 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-60876",
+    "package_name": "busybox",
+    "package_version": "1.37.0-r30",
+    "package_purl": "pkg:apk/alpine/busybox@1.37.0-r30?arch=x86_64&distro=alpine-3.23.3",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be injected. To preserve the HTTP/1.1 request-line shape METHOD SP request-target SP HTTP/1.1, a raw space (0x20) in the request-target must also be rejected (clients should use %20).",
+      "cvss_v3_score": 6.5,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe_ids": [
+        "CWE-284"
+      ],
+      "references": [
+        {
+          "url": "https://gist.github.com/subyumatest/41554af6a72aedaacaec026adc311092",
+          "source": "cve@mitre.org"
+        },
+        {
+          "url": "https://lists.busybox.net/pipermail/busybox/attachments/20250823/ccdc96ef/attachment-0001.htm",
+          "source": "cve@mitre.org"
+        },
+        {
+          "url": "https://lists.busybox.net/pipermail/busybox/attachments/20250828/e7f90492/attachment.htm",
+          "source": "cve@mitre.org"
+        }
+      ],
+      "published": "2025-11-10T20:15:48.683",
+      "last_modified": "2025-12-31T18:29:41.550"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "alpine"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "1.37.0-r30",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-4v9v-hfq4-rm2v",
+    "package_name": "webpack-dev-server",
+    "package_version": "4.15.1",
+    "package_purl": "pkg:npm/webpack-dev-server@4.15.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-4v9v-hfq4-rm2v",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @angular-devkit/build-webpack \u2192 webpack-dev-server",
+        "@angular-devkit/build-angular \u2192 webpack-dev-server"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.3",
+      "total_versions": 222,
+      "recent_versions": [
+        "5.1.0",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.15.1",
+      "latest_version": "5.2.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.15.1 to 5.2.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-5j98-mcp5-4vw2",
+    "package_name": "glob",
+    "package_version": "10.4.5",
+    "package_purl": "pkg:npm/glob@10.4.5",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "glob CLI: Command injection via -c/--cmd executes matches with shell:true",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-5j98-mcp5-4vw2",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 7,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 babel-plugin-istanbul \u2192 test-exclude \u2192 glob",
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 @npmcli/package-json \u2192 glob",
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 node-gyp \u2192 glob",
+        "@angular/cli \u2192 pacote \u2192 cacache \u2192 glob",
+        "@angular/cli \u2192 pacote \u2192 read-package-json \u2192 glob"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "13.0.3",
+      "total_versions": 165,
+      "recent_versions": [
+        "10.5.0",
+        "13.0.0",
+        "13.0.1",
+        "13.0.2",
+        "13.0.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "10.4.5",
+      "latest_version": "13.0.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 10.4.5 to 13.0.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 13.0.3 available. Verify CVE is fixed in 13.0.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61723",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-770"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709858",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75676",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4009",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:19.927",
+      "last_modified": "2026-01-29T15:49:05.343"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-45341",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.",
+      "cvss_v3_score": 6.1,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/643099",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/71156",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/CAWXhan3Jww/m/bk9LAa-lCgAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-dev/c/bG8cv1muIBM/m/G461hA6lCgAJ",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-3373",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2025-01-28T02:15:29.147",
+      "last_modified": "2025-02-21T18:15:17.960"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-cxrh-j4jr-qwg3",
+    "package_name": "undici",
+    "package_version": "6.11.1",
+    "package_purl": "pkg:npm/undici@6.11.1",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "undici Denial of Service attack via bad certificate data",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-cxrh-j4jr-qwg3",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 undici"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.22.0",
+      "total_versions": 262,
+      "recent_versions": [
+        "7.19.1",
+        "7.19.2",
+        "7.20.0",
+        "7.21.0",
+        "7.22.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.11.1",
+      "latest_version": "7.22.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.11.1 to 7.22.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.22.0 available. Verify CVE is fixed in 7.22.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-65ch-62r8-g69g",
+    "package_name": "node-forge",
+    "package_version": "1.3.1",
+    "package_purl": "pkg:npm/node-forge@1.3.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "node-forge is vulnerable to ASN.1 OID Integer Truncation",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-65ch-62r8-g69g",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 4,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 selfsigned \u2192 node-forge"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.3.3",
+      "total_versions": 133,
+      "recent_versions": [
+        "1.2.1",
+        "1.3.0",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.3.1",
+      "latest_version": "1.3.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.3.1 to 1.3.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.3.3 available. Verify CVE is fixed in 1.3.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61725",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "The ParseAddress function constructs domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709860",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75680",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4006",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:20.113",
+      "last_modified": "2025-12-09T18:15:56.347"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-52f5-9888-hmc6",
+    "package_name": "tmp",
+    "package_version": "0.0.33",
+    "package_purl": "pkg:npm/tmp@0.0.33",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-52f5-9888-hmc6",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 inquirer \u2192 external-editor \u2192 tmp",
+        "karma \u2192 tmp"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.2.5",
+      "total_versions": 38,
+      "recent_versions": [
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.0.33",
+      "latest_version": "0.2.5",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.0.33 to 0.2.5",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 0.2.5 available. Verify CVE is fixed in 0.2.5 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-34x7-hfp2-rc4v",
+    "package_name": "tar",
+    "package_version": "6.2.1",
+    "package_purl": "pkg:npm/tar@6.2.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-34x7-hfp2-rc4v",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 3,
+      "min_depth": 3,
+      "paths": [
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 node-gyp \u2192 tar",
+        "@angular/cli \u2192 pacote \u2192 cacache \u2192 tar",
+        "@angular/cli \u2192 pacote \u2192 tar"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.9",
+      "total_versions": 140,
+      "recent_versions": [
+        "7.5.5",
+        "7.5.6",
+        "7.5.7",
+        "7.5.8",
+        "7.5.9"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.2.1",
+      "latest_version": "7.5.9",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.2.1 to 7.5.9",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-9jgg-88mc-972h",
+    "package_name": "webpack-dev-server",
+    "package_version": "4.15.1",
+    "package_purl": "pkg:npm/webpack-dev-server@4.15.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-9jgg-88mc-972h",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @angular-devkit/build-webpack \u2192 webpack-dev-server",
+        "@angular-devkit/build-angular \u2192 webpack-dev-server"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.2.3",
+      "total_versions": 222,
+      "recent_versions": [
+        "5.1.0",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "4.15.1",
+      "latest_version": "5.2.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 4.15.1 to 5.2.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.2.3 available. Verify CVE is fixed in 5.2.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61726",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-jrmj-c5cx-3cw6",
+    "package_name": "@angular/compiler",
+    "package_version": "17.3.12",
+    "package_purl": "pkg:npm/%40angular/compiler@17.3.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Angular has XSS Vulnerability via Unsanitized SVG Script Attributes",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-jrmj-c5cx-3cw6",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": true,
+      "occurrence_count": 3,
+      "min_depth": 1,
+      "paths": [
+        "@angular/compiler-cli \u2192 @angular/compiler",
+        "@angular/compiler",
+        "@angular/platform-browser-dynamic \u2192 @angular/compiler"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "21.1.4",
+      "total_versions": 1011,
+      "recent_versions": [
+        "21.2.0-next.1",
+        "21.1.3",
+        "21.2.0-next.2",
+        "21.1.4",
+        "21.2.0-next.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "17.3.12",
+      "latest_version": "21.1.4",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 17.3.12 to 21.1.4",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 21.1.4 available. Verify CVE is fixed in 21.1.4 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-47912",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: \"http://[::1]/\". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.",
+      "cvss_v3_score": 5.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cwe_ids": [
+        "NVD-CWE-noinfo"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709857",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75678",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4010",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:18.187",
+      "last_modified": "2026-01-29T13:57:18.690"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-58185",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-w7fw-mjwx-w883",
+    "package_name": "qs",
+    "package_version": "6.13.0",
+    "package_purl": "pkg:npm/qs@6.13.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "qs's arrayLimit bypass in comma parsing allows denial of service",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-w7fw-mjwx-w883",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 3,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 express \u2192 qs",
+        "karma \u2192 body-parser \u2192 qs"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "6.15.0",
+      "total_versions": 146,
+      "recent_versions": [
+        "6.10.7",
+        "6.11.4",
+        "6.12.5",
+        "6.13.3",
+        "6.15.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.13.0",
+      "latest_version": "6.15.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.13.0 to 6.15.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 6.15.0 available. Verify CVE is fixed in 6.15.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-73rr-hh4g-fpgx",
+    "package_name": "diff",
+    "package_version": "5.2.0",
+    "package_purl": "pkg:npm/diff@5.2.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-73rr-hh4g-fpgx",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "8.0.3",
+      "total_versions": 54,
+      "recent_versions": [
+        "5.2.1",
+        "5.2.2",
+        "4.0.3",
+        "4.0.4",
+        "3.5.1"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.2.0",
+      "latest_version": "8.0.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.2.0 to 8.0.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 8.0.3 available. Verify CVE is fixed in 8.0.3 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-58186",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as \"a=;\", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.",
+      "cvss_v3_score": 5.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709855",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75672",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4012",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:19.547",
+      "last_modified": "2025-11-04T22:16:33.450"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-58188",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-295"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709853",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75675",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4013",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:19.740",
+      "last_modified": "2026-01-29T15:55:11.970"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-58187",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+      "cvss_v3_score": 7.5,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-407"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709854",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75681",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4007",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:19.643",
+      "last_modified": "2026-01-29T16:02:27.080"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61729",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61730",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-r6q2-hw4h-h46w",
+    "package_name": "tar",
+    "package_version": "6.2.1",
+    "package_purl": "pkg:npm/tar@6.2.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-r6q2-hw4h-h46w",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 3,
+      "min_depth": 3,
+      "paths": [
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 node-gyp \u2192 tar",
+        "@angular/cli \u2192 pacote \u2192 cacache \u2192 tar",
+        "@angular/cli \u2192 pacote \u2192 tar"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.9",
+      "total_versions": 140,
+      "recent_versions": [
+        "7.5.5",
+        "7.5.6",
+        "7.5.7",
+        "7.5.8",
+        "7.5.9"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.2.1",
+      "latest_version": "7.5.9",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.2.1 to 7.5.9",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-68121",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "critical",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61724",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.",
+      "cvss_v3_score": 5.3,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe_ids": [
+        "CWE-770"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/709859",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/75716",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-4015",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2025-10-29T23:16:20.020",
+      "last_modified": "2026-01-29T15:30:53.690"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-47906",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-g9mf-h72j-4rw9",
+    "package_name": "undici",
+    "package_version": "6.11.1",
+    "package_purl": "pkg:npm/undici@6.11.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-g9mf-h72j-4rw9",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 undici"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.22.0",
+      "total_versions": 262,
+      "recent_versions": [
+        "7.19.1",
+        "7.19.2",
+        "7.20.0",
+        "7.21.0",
+        "7.22.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.11.1",
+      "latest_version": "7.22.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.11.1 to 7.22.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.22.0 available. Verify CVE is fixed in 7.22.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-mh29-5h37-fv8m",
+    "package_name": "js-yaml",
+    "package_version": "3.14.1",
+    "package_purl": "pkg:npm/js-yaml@3.14.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "js-yaml has prototype pollution in merge (<<)",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-mh29-5h37-fv8m",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 4,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 babel-plugin-istanbul \u2192 @istanbuljs/load-nyc-config \u2192 js-yaml",
+        "@angular-devkit/build-angular \u2192 postcss-loader \u2192 cosmiconfig \u2192 js-yaml"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "4.1.1",
+      "total_versions": 74,
+      "recent_versions": [
+        "3.14.1",
+        "4.0.0",
+        "4.1.0",
+        "4.1.1",
+        "3.14.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "3.14.1",
+      "latest_version": "4.1.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 3.14.1 to 4.1.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 4.1.1 available. Verify CVE is fixed in 4.1.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61728",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "archive/zip uses a super-linear file name indexing algorithm that is invoked the first time a file in an archive is opened. This can lead to a denial of service when consuming a maliciously constructed ZIP archive.",
+      "cvss_v3_score": 6.5,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "cwe_ids": [
+        "CWE-770"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/736713",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/77102",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2026-4342",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2026/01/15/4",
+          "source": "af854a3a-2127-422b-91ae-364da2661108"
+        }
+      ],
+      "published": "2026-01-28T20:16:09.830",
+      "last_modified": "2026-02-06T18:45:10.420"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-47907",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-22866",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-58183",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-58189",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-4673",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.",
+      "cvss_v3_score": 6.8,
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://go.dev/cl/679257",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/73816",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2025-3751",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2025-06-11T17:15:42.993",
+      "last_modified": "2025-06-12T16:06:20.180"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-8qq5-rm4j-mr97",
+    "package_name": "tar",
+    "package_version": "6.2.1",
+    "package_purl": "pkg:npm/tar@6.2.1",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization",
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-8qq5-rm4j-mr97",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 3,
+      "min_depth": 3,
+      "paths": [
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 node-gyp \u2192 tar",
+        "@angular/cli \u2192 pacote \u2192 cacache \u2192 tar",
+        "@angular/cli \u2192 pacote \u2192 tar"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.5.9",
+      "total_versions": 140,
+      "recent_versions": [
+        "7.5.5",
+        "7.5.6",
+        "7.5.7",
+        "7.5.8",
+        "7.5.9"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "6.2.1",
+      "latest_version": "7.5.9",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 6.2.1 to 7.5.9",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.5.9 available. Verify CVE is fixed in 7.5.9 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61731",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "Building a malicious file with cmd/go can cause can cause a write to an attacker-controlled file with partial control of the file content. The \"#cgo pkg-config:\" directive in a Go source file provides command-line arguments to provide to the Go pkg-config command. An attacker can provide a \"--log-file\" argument to this directive, causing pkg-config to write to an attacker-controlled location.",
+      "cvss_v3_score": 7.8,
+      "cvss_v3_severity": "HIGH",
+      "cvss_v3_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe_ids": [
+        "NVD-CWE-noinfo"
+      ],
+      "references": [
+        {
+          "url": "https://go.dev/cl/736711",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://go.dev/issue/77100",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc",
+          "source": "security@golang.org"
+        },
+        {
+          "url": "https://pkg.go.dev/vuln/GO-2026-4339",
+          "source": "security@golang.org"
+        }
+      ],
+      "published": "2026-01-28T20:16:10.073",
+      "last_modified": "2026-02-06T18:43:14.143"
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61727",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-jqfw-vq24-v9c3",
+    "package_name": "vite",
+    "package_version": "5.4.14",
+    "package_purl": "pkg:npm/vite@5.4.14",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "Vite's `server.fs` settings were not applied to HTML files",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-jqfw-vq24-v9c3",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @vitejs/plugin-basic-ssl \u2192 vite",
+        "@angular-devkit/build-angular \u2192 vite"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "7.3.1",
+      "total_versions": 711,
+      "recent_versions": [
+        "8.0.0-beta.10",
+        "8.0.0-beta.11",
+        "8.0.0-beta.12",
+        "8.0.0-beta.13",
+        "8.0.0-beta.14"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.4.14",
+      "latest_version": "7.3.1",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.4.14 to 7.3.1",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 7.3.1 available. Verify CVE is fixed in 7.3.1 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-v6h2-p8h4-qcjw",
+    "package_name": "brace-expansion",
+    "package_version": "1.1.11",
+    "package_purl": "pkg:npm/brace-expansion@1.1.11",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "brace-expansion Regular Expression Denial of Service vulnerability",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-v6h2-p8h4-qcjw",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 7,
+      "min_depth": 3,
+      "paths": [
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 @npmcli/package-json \u2192 glob \u2192 minimatch \u2192 brace-expansion",
+        "@angular/cli \u2192 pacote \u2192 @npmcli/run-script \u2192 node-gyp \u2192 glob \u2192 minimatch \u2192 brace-expansion",
+        "@angular/cli \u2192 pacote \u2192 cacache \u2192 glob \u2192 minimatch \u2192 brace-expansion",
+        "@angular/cli \u2192 pacote \u2192 npm-packlist \u2192 ignore-walk \u2192 minimatch \u2192 brace-expansion",
+        "@angular/cli \u2192 pacote \u2192 read-package-json \u2192 glob \u2192 minimatch \u2192 brace-expansion"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.0.2",
+      "total_versions": 24,
+      "recent_versions": [
+        "4.0.1",
+        "3.0.1",
+        "2.0.2",
+        "1.1.12",
+        "5.0.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.1.11",
+      "latest_version": "5.0.2",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.1.11 to 5.0.2",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.0.2 available. Verify CVE is fixed in 5.0.2 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-61732",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-4674",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "high",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2024-24789",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-38r7-794h-5758",
+    "package_name": "webpack",
+    "package_version": "5.94.0",
+    "package_purl": "pkg:npm/webpack@5.94.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "webpack buildHttp HttpUriPlugin allowedUris bypass via HTTP redirects \u2192 SSRF + cache persistence",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-38r7-794h-5758",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 16,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @angular-devkit/build-webpack \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 @ngtools/webpack \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 babel-loader \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 copy-webpack-plugin \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 css-loader \u2192 webpack"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.105.2",
+      "total_versions": 867,
+      "recent_versions": [
+        "5.104.0",
+        "5.104.1",
+        "5.105.0",
+        "5.105.1",
+        "5.105.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.94.0",
+      "latest_version": "5.105.2",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.94.0 to 5.105.2",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.105.2 available. Verify CVE is fixed in 5.105.2 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-8fgc-7cc6-rx7x",
+    "package_name": "webpack",
+    "package_version": "5.94.0",
+    "package_purl": "pkg:npm/webpack@5.94.0",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "webpack buildHttp: allowedUris allow-list bypass via URL userinfo (@) leading to build-time SSRF behavior",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-8fgc-7cc6-rx7x",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 16,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 @angular-devkit/build-webpack \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 @ngtools/webpack \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 babel-loader \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 copy-webpack-plugin \u2192 webpack",
+        "@angular-devkit/build-angular \u2192 css-loader \u2192 webpack"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "5.105.2",
+      "total_versions": 867,
+      "recent_versions": [
+        "5.104.0",
+        "5.104.1",
+        "5.105.0",
+        "5.105.1",
+        "5.105.2"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "5.94.0",
+      "latest_version": "5.105.2",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 5.94.0 to 5.105.2",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 5.105.2 available. Verify CVE is fixed in 5.105.2 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-76c9-3jph-rj3q",
+    "package_name": "on-headers",
+    "package_version": "1.0.2",
+    "package_purl": "pkg:npm/on-headers@1.0.2",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "on-headers is vulnerable to http response header manipulation",
+      "cvss_v3_severity": "LOW",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-76c9-3jph-rj3q",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 1,
+      "min_depth": 4,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 webpack-dev-server \u2192 compression \u2192 on-headers"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "1.1.0",
+      "total_versions": 5,
+      "recent_versions": [
+        "0.0.0",
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.1.0"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "1.0.2",
+      "latest_version": "1.1.0",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 1.0.2 to 1.1.0",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 1.1.0 available. Verify CVE is fixed in 1.1.0 and test for breakage."
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2025-22873",
+    "package_name": "stdlib",
+    "package_version": "go1.20.12",
+    "package_purl": "pkg:golang/stdlib@1.20.12",
+    "grype_severity": "low",
+    "nvd_details": {
+      "description": "",
+      "cvss_v3_score": null,
+      "cvss_v3_severity": "",
+      "cvss_v3_vector": "",
+      "cwe_ids": [],
+      "references": [],
+      "published": "",
+      "last_modified": ""
+    },
+    "dependency_info": {
+      "found_in_npm_tree": false,
+      "is_direct": false,
+      "occurrence_count": 0,
+      "min_depth": null,
+      "paths": [],
+      "ecosystem": "unknown"
+    },
+    "npm_registry_info": {},
+    "mitigation": {
+      "current_version": "go1.20.12",
+      "latest_version": "unknown",
+      "upgrade_available": false,
+      "is_deprecated": false,
+      "recommendation": "INVESTIGATE \u2014 already on latest version, CVE may be unpatched",
+      "risk_level": "medium",
+      "notes": [
+        "Already on latest version. Check if CVE is disputed, if a patch is pending, or if an alternative package is needed."
+      ]
+    }
+  },
+  {
+    "cve_id": "GHSA-67mh-4wv8-2f99",
+    "package_name": "esbuild",
+    "package_version": "0.20.1",
+    "package_purl": "pkg:npm/esbuild@0.20.1",
+    "grype_severity": "medium",
+    "nvd_details": {
+      "description": "esbuild enables any website to send any requests to the development server and read the response",
+      "cvss_v3_severity": "MEDIUM",
+      "cvss_v3_score": null,
+      "cwe_ids": [],
+      "references": [
+        {
+          "url": "https://github.com/advisories/GHSA-67mh-4wv8-2f99",
+          "source": "GitHub Advisory"
+        }
+      ]
+    },
+    "dependency_info": {
+      "found_in_npm_tree": true,
+      "is_direct": false,
+      "occurrence_count": 2,
+      "min_depth": 2,
+      "paths": [
+        "@angular-devkit/build-angular \u2192 esbuild",
+        "@angular-devkit/build-angular \u2192 vite \u2192 esbuild"
+      ],
+      "ecosystem": "npm"
+    },
+    "npm_registry_info": {
+      "latest_version": "0.27.3",
+      "total_versions": 476,
+      "recent_versions": [
+        "0.26.0",
+        "0.27.0",
+        "0.27.1",
+        "0.27.2",
+        "0.27.3"
+      ],
+      "deprecated": false
+    },
+    "mitigation": {
+      "current_version": "0.20.1",
+      "latest_version": "0.27.3",
+      "upgrade_available": true,
+      "is_deprecated": false,
+      "recommendation": "UPGRADE \u2014 update from 0.20.1 to 0.27.3",
+      "risk_level": "low",
+      "notes": [
+        "Newer version 0.27.3 available. Verify CVE is fixed in 0.27.3 and test for breakage."
+      ]
+    }
+  }
+]

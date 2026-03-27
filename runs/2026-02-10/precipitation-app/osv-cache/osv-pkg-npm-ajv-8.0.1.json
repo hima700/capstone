@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-2g4f-4pwh-qvx6",
+    "aliases": [
+      "CVE-2025-69873"
+    ],
+    "severity": "MODERATE",
+    "summary": "ajv has ReDoS when using `$data` option"
+  }
+]

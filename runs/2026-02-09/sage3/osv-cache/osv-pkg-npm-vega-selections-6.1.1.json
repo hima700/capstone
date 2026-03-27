@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-829q-m3qg-ph8r",
+    "aliases": [
+      "CVE-2025-65110"
+    ],
+    "severity": "HIGH",
+    "summary": "Vega XSS via expression abusing vlSelectionTuples function array map calls in environments with satisfactory function ga"
+  }
+]

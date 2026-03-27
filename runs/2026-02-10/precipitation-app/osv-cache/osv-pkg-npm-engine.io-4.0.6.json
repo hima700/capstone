@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-273r-mgr4-v34f",
+    "aliases": [
+      "CVE-2022-21676"
+    ],
+    "severity": "HIGH",
+    "summary": "Uncaught Exception in engine.io"
+  },
+  {
+    "id": "GHSA-r7qp-cfhv-p84w",
+    "aliases": [
+      "CVE-2022-41940"
+    ],
+    "severity": "MODERATE",
+    "summary": "Uncaught exception in engine.io"
+  }
+]

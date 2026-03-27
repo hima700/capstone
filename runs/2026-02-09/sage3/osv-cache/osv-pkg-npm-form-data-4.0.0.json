@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-fjxv-7rqg-78g4",
+    "aliases": [
+      "CVE-2025-7783"
+    ],
+    "severity": "CRITICAL",
+    "summary": "form-data uses unsafe random function in form-data for choosing boundary"
+  }
+]

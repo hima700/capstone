@@ -1,0 +1,8 @@
+[
+  {
+    "id": "GHSA-36jr-mh4h-2g58",
+    "aliases": [],
+    "severity": "HIGH",
+    "summary": "d3-color vulnerable to ReDoS"
+  }
+]

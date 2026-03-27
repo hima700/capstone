@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-5fg8-2547-mr8q",
+    "aliases": [
+      "CVE-2021-32796"
+    ],
+    "severity": "MODERATE",
+    "summary": "Misinterpretation of malicious XML input"
+  },
+  {
+    "id": "GHSA-crh6-fp67-6883",
+    "aliases": [
+      "CVE-2022-39353"
+    ],
+    "severity": "CRITICAL",
+    "summary": "xmldom allows multiple root nodes in a DOM"
+  }
+]

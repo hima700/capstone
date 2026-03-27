@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GHSA-765h-qjxv-5f44",
+    "aliases": [
+      "CVE-2021-23383"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Prototype Pollution in handlebars"
+  },
+  {
+    "id": "GHSA-f2jv-r9rf-7988",
+    "aliases": [
+      "CVE-2021-23369"
+    ],
+    "severity": "CRITICAL",
+    "summary": "Remote code execution in handlebars when compiling templates"
+  }
+]

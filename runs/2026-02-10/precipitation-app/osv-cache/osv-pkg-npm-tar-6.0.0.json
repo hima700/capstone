@@ -1,0 +1,82 @@
+[
+  {
+    "id": "GHSA-34x7-hfp2-rc4v",
+    "aliases": [
+      "CVE-2026-24842"
+    ],
+    "severity": "HIGH",
+    "summary": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal"
+  },
+  {
+    "id": "GHSA-3jfq-g458-7qm9",
+    "aliases": [
+      "CVE-2021-32804"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization"
+  },
+  {
+    "id": "GHSA-5955-9wpr-37jh",
+    "aliases": [
+      "CVE-2021-37713"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization"
+  },
+  {
+    "id": "GHSA-83g3-92jg-28cx",
+    "aliases": [
+      "CVE-2026-26960"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction"
+  },
+  {
+    "id": "GHSA-8qq5-rm4j-mr97",
+    "aliases": [
+      "CVE-2026-23745"
+    ],
+    "severity": "HIGH",
+    "summary": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization"
+  },
+  {
+    "id": "GHSA-9r2w-394v-53qc",
+    "aliases": [
+      "CVE-2021-37701"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic li"
+  },
+  {
+    "id": "GHSA-f5x3-32g6-xq36",
+    "aliases": [
+      "CVE-2024-28863"
+    ],
+    "severity": "MODERATE",
+    "summary": "Denial of service while parsing a tar file due to lack of folders count validation"
+  },
+  {
+    "id": "GHSA-qq89-hq3f-393p",
+    "aliases": [
+      "CVE-2021-37712"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic li"
+  },
+  {
+    "id": "GHSA-r628-mhmh-qjhw",
+    "aliases": [
+      "CVE-2021-32803"
+    ],
+    "severity": "HIGH",
+    "summary": "Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning"
+  },
+  {
+    "id": "GHSA-r6q2-hw4h-h46w",
+    "aliases": [
+      "CVE-2026-23950"
+    ],
+    "severity": "HIGH",
+    "summary": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS"
+  }
+]

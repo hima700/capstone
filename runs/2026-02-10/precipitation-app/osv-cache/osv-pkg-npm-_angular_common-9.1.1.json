@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-58c5-g7wp-6w37",
+    "aliases": [
+      "CVE-2025-66035"
+    ],
+    "severity": "HIGH",
+    "summary": "Angular is Vulnerable to XSRF Token Leakage via Protocol-Relative URLs in Angular HTTP Client"
+  }
+]

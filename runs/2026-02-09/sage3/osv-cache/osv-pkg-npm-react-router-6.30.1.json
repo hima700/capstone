@@ -1,0 +1,10 @@
+[
+  {
+    "id": "GHSA-9jcx-v3wj-wh4m",
+    "aliases": [
+      "CVE-2025-68470"
+    ],
+    "severity": "MODERATE",
+    "summary": "React Router has unexpected external redirect via untrusted paths"
+  }
+]

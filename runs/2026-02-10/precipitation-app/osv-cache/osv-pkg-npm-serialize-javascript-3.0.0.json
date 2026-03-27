@@ -1,0 +1,16 @@
+[
+  {
+    "id": "GHSA-5c6j-r48x-rmvq",
+    "aliases": [],
+    "severity": "HIGH",
+    "summary": "Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()"
+  },
+  {
+    "id": "GHSA-hxcc-f52p-wc94",
+    "aliases": [
+      "CVE-2020-7660"
+    ],
+    "severity": "HIGH",
+    "summary": "Insecure serialization leading to RCE in serialize-javascript"
+  }
+]
