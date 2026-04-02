@@ -12,7 +12,8 @@ import os
 def validate_month(month_label, analysis_date, commit_data,
                    enriched_sbom, asis_cves, patched_versions,
                    patched_cves, delta, npm_timeline,
-                   all_commits, prev_month_data=None):
+                   all_commits, prev_month_data=None,
+                   consecutive_reuse_count=0):
     """
     Run all validation gates for a single month.
 
@@ -150,13 +151,10 @@ def validate_month(month_label, analysis_date, commit_data,
                     f"({prev_npm_total} -> {curr_npm_total})"
                 )
 
-    if commit_data and prev_month_data:
-        if commit_data.get("same_commit_reused"):
-            reuse_count = prev_month_data.get("consecutive_reuse", 0) + 1
-            if reuse_count > 3:
-                flags.append(
-                    f"Same commit reused for {reuse_count} consecutive months"
-                )
+    if consecutive_reuse_count > 3:
+        flags.append(
+            f"Same commit reused for {consecutive_reuse_count} consecutive months"
+        )
 
     result = {
         "month": month_label,

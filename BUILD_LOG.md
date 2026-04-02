@@ -175,6 +175,35 @@ Appends 45-field JSON entry to logs/master-execution-log.json.
 Field names match reporter.py graph-to-field mapping exactly.
 
 ### Phase 1 Status: COMPLETE (code written, not yet executed)
+
+---
+
+## Phase 2 -- Orchestrator
+
+### orchestrator.py
+CLI entry point with subcommands: phase0, run, inspect, report.
+
+Subcommands:
+  python orchestrator.py phase0              # One-time setup
+  python orchestrator.py run --month 2025-03 # Single month
+  python orchestrator.py run --all           # All 13 months
+  python orchestrator.py run --resume        # Resume from last
+  python orchestrator.py inspect --month 2025-03  # Dry-run
+  python orchestrator.py report              # Generate graphs
+
+Wiring:
+- Loads master data (CVE ref + npm timeline) once at startup
+- Passes monthly-selected-commits.json entry to validator (has same_commit_reused)
+- Tracks consecutive_reuse counter across months in the loop
+- Hard-stops on validation failure, prints which gate failed
+- Checkpoint/resume via master-execution-log.json
+
+Bug fix: validator.py same_commit_reused flag now receives
+consecutive_reuse_count as a parameter from orchestrator loop.
+
+Verified: inspect mode returns correct data for Month 1.
+
+### Phase 2 Status: COMPLETE
 Files created:
   study-config.json        src/__init__.py      requirements.txt
   tools/semver_check.js    tools/package.json   tools/package-lock.json
