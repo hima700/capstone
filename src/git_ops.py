@@ -123,6 +123,14 @@ def get_lockfile_changing_commits(repo_path):
     return commits
 
 
+def get_contributor_count(repo_path):
+    """Return the number of unique commit authors."""
+    raw = _run_git(["log", "--all", "--format=%aN"], cwd=repo_path)
+    if not raw:
+        return 0
+    return len(set(raw.splitlines()))
+
+
 def has_file_at_commit(repo_path, commit_hash, filepath):
     """Check whether a file exists at a given commit."""
     result = subprocess.run(

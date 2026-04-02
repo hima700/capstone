@@ -16,7 +16,6 @@ Extracted from migration-analyzer-v2.py lines 80-191 with:
 import json
 import os
 import time
-import hashlib
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -94,7 +93,6 @@ def parse_osv_advisory(vuln_obj, target_package=None):
     vuln_id = vuln_obj.get("id", "")
     aliases = vuln_obj.get("aliases", [])
     published = vuln_obj.get("published", "")
-    modified = vuln_obj.get("modified", "")
 
     severity = _extract_severity(vuln_obj)
     source_url = f"https://osv.dev/vulnerability/{vuln_id}"
@@ -273,17 +271,18 @@ def _extract_severity(vuln_obj):
 
 
 def _cvss_string_to_severity(cvss_vector):
-    """Convert a CVSS v3 vector string to a severity label."""
-    if not cvss_vector:
-        return None
-    try:
-        parts = cvss_vector.split("/")
-        for part in parts:
-            if part.startswith("CVSS:"):
-                continue
-        return None
-    except Exception:
-        return None
+    """
+    Convert a CVSS v3 vector string to a severity label.
+
+    OSV severity[] entries with type CVSS_V3 contain the full vector
+    string (e.g. "CVSS:3.1/AV:N/AC:L/..."), not a numeric score.
+    Extracting the base score from the vector requires a CVSS library.
+
+    For now we fall back to database_specific.severity (handled by the
+    caller). If severity gaps are significant after Phase 0B, add the
+    `cvss` library to requirements.txt and compute the score here.
+    """
+    return None
 
 
 def _ecosystem_to_osv(ecosystem):

@@ -27,7 +27,7 @@ from src.config import load_config, compute_analysis_dates, get_month_label, for
 from src.git_ops import (
     clone_repo, get_all_commits, select_commit_for_date,
     get_lockfile_changing_commits, checkout_commit,
-    has_file_at_commit, show_file_at_commit,
+    has_file_at_commit, show_file_at_commit, get_contributor_count,
 )
 from src.normalizer import normalize_package_name
 from src.osv_client import build_master_cve_reference
@@ -57,11 +57,10 @@ def extract_packages_from_lockfile_content(content):
     lf_packages = lockfile.get("packages", {})
     if lf_packages:
         for key, info in lf_packages.items():
-            if not key or key == "":
+            if not key:
                 continue
-            name = key.lstrip("node_modules/")
-            if name.startswith("node_modules/"):
-                name = name.split("node_modules/")[-1]
+            parts = key.split("node_modules/")
+            name = parts[-1]
             if name:
                 packages.add(normalize_package_name(name))
         return packages
@@ -225,11 +224,10 @@ def run_phase0(config_path="study-config.json"):
     print(f"  Saved: {timeline_path}")
 
     # --- Repo facts ---
-    contributors = set()
-    for c in commits:
-        pass
+    contributor_count = get_contributor_count(repo_path)
     repo_facts = {
         "repo_url": config["repo_url"],
+        "contributor_count": contributor_count,
         "first_commit_hash": commits[0]["hash"],
         "first_commit_date": commits[0]["date"].isoformat(),
         "last_commit_hash": commits[-1]["hash"],

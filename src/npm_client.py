@@ -85,8 +85,10 @@ def build_npm_version_timeline(package_list, raw_dir, cache_dir):
     total = len(package_list)
 
     for i, pkg_name in enumerate(package_list, 1):
+        safe_name = _safe_filename(pkg_name)
+        was_cached = os.path.exists(os.path.join(cache_dir, f"{safe_name}.json"))
+
         pkg_data = fetch_npm_package(pkg_name, raw_dir, cache_dir)
-        version_count = len(pkg_data.get("time", {}))
 
         filtered_time = {}
         for ver, ts in pkg_data.get("time", {}).items():
@@ -96,13 +98,10 @@ def build_npm_version_timeline(package_list, raw_dir, cache_dir):
 
         timeline[pkg_name] = filtered_time
 
-        is_cached = os.path.exists(
-            os.path.join(cache_dir, f"{_safe_filename(pkg_name)}.json")
-        )
-        status = "cached" if is_cached else "fetched"
+        status = "cached" if was_cached else "fetched"
         print(f"  [{i}/{total}] {pkg_name} -- {status} ({len(filtered_time)} versions)")
 
-        if not is_cached:
+        if not was_cached:
             time.sleep(REQUEST_DELAY)
 
     return timeline

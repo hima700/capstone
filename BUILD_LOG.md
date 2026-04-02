@@ -87,6 +87,17 @@ namespace already starts with `@` before prepending.
 - 6 lockfile-changing commits found: initial, app, angular 18/19/20/21
 - Purl parsing: scoped (@angular/core), unscoped (express), debian (openssl) all correct
 
+### Bug Fixes (pre-Phase 0B review)
+1. CRITICAL: phase0_setup.py -- lstrip("node_modules/") strips chars not substring.
+   Fixed with split("node_modules/")[-1] to extract last segment (handles nested deps).
+2. HIGH: osv_client.py -- _cvss_string_to_severity was stub returning None.
+   Documented limitation explicitly. Falls back to database_specific.severity.
+3. MEDIUM: npm_client.py -- rate limiting never fired (cache check after write).
+   Fixed by checking was_cached BEFORE calling fetch_npm_package.
+4. LOW: phase0_setup.py -- dead contributors loop. Added get_contributor_count()
+   to git_ops.py, wired it into repo-facts.json.
+5. LOW: osv_client.py -- removed unused `import hashlib` and unused `modified` var.
+
 ### Phase 0A Status: COMPLETE
 Files created:
   study-config.json        src/__init__.py      requirements.txt
