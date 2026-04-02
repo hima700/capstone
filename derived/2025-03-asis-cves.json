@@ -1,0 +1,91 @@
+{
+  "month": "2025-03",
+  "analysis_date": "2025-03-31",
+  "cves": [
+    {
+      "cve_id": "GHSA-968p-4wvh-cqc8",
+      "aliases": [
+        "CVE-2025-27789"
+      ],
+      "published_date": "2025-03-11",
+      "severity": "MEDIUM",
+      "package": "@babel/runtime",
+      "version": "7.24.0",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<7.26.10",
+      "source_url": "https://osv.dev/vulnerability/GHSA-968p-4wvh-cqc8"
+    },
+    {
+      "cve_id": "GHSA-67mh-4wv8-2f99",
+      "aliases": [],
+      "published_date": "2025-02-10",
+      "severity": "MEDIUM",
+      "package": "esbuild",
+      "version": "0.21.5",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<0.25.0",
+      "source_url": "https://osv.dev/vulnerability/GHSA-67mh-4wv8-2f99"
+    },
+    {
+      "cve_id": "GHSA-c76h-2ccp-4975",
+      "aliases": [
+        "CVE-2025-22150"
+      ],
+      "published_date": "2025-01-21",
+      "severity": "MEDIUM",
+      "package": "undici",
+      "version": "6.11.1",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=6.0.0 <6.21.1",
+      "source_url": "https://osv.dev/vulnerability/GHSA-c76h-2ccp-4975"
+    },
+    {
+      "cve_id": "GHSA-4r4m-qw57-chr8",
+      "aliases": [
+        "CVE-2025-31125"
+      ],
+      "published_date": "2025-03-31",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.16",
+      "source_url": "https://osv.dev/vulnerability/GHSA-4r4m-qw57-chr8"
+    },
+    {
+      "cve_id": "GHSA-x574-m823-4x7w",
+      "aliases": [
+        "CVE-2025-30208"
+      ],
+      "published_date": "2025-03-25",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.15",
+      "source_url": "https://osv.dev/vulnerability/GHSA-x574-m823-4x7w"
+    }
+  ],
+  "summary": {
+    "asis_total_cves": 5,
+    "asis_npm_cves": 5,
+    "asis_severity_critical": 0,
+    "asis_severity_high": 0,
+    "asis_severity_medium": 5,
+    "asis_severity_low": 0,
+    "npm_packages_total": 828,
+    "npm_packages_vulnerable": 4,
+    "npm_packages_non_vulnerable": 824,
+    "direct_vulnerable_npm_packages": 0,
+    "transitive_vulnerable_npm_packages": 4,
+    "direct_npm_dep_cves": 0,
+    "transitive_npm_dep_cves": 5,
+    "excluded_advisory_count": 0,
+    "packages_checked": 828
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "GHSA-28xh-wpgr-7fm8": {
+    "id": "GHSA-28xh-wpgr-7fm8",
+    "aliases": [],
+    "published_date": "2019-06-20",
+    "published_iso": "2019-06-20T15:35:49Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-28xh-wpgr-7fm8",
+    "fetched_at": "2026-04-02T07:30:58.563049+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "open",
+        "vulnerable_ranges": [
+          "<6.0.0"
+        ],
+        "fixed_version": "6.0.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

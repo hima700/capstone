@@ -1,0 +1,325 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-74fj-2j2h-c42q",
+      "summary": "Exposure of sensitive information in follow-redirects",
+      "details": "follow-redirects is vulnerable to Exposure of Private Personal Information to an Unauthorized Actor",
+      "aliases": [
+        "CVE-2022-0155"
+      ],
+      "modified": "2023-11-08T04:07:29.226977Z",
+      "published": "2022-01-12T22:46:26Z",
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-359"
+        ],
+        "nvd_published_at": "2022-01-10T20:15:00Z",
+        "github_reviewed": true,
+        "severity": "HIGH",
+        "github_reviewed_at": "2022-01-11T18:41:08Z"
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0155"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/commit/8b347cbcef7c7b72a6e9be20f5710c17d6163c22"
+        },
+        {
+          "type": "WEB",
+          "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects"
+        },
+        {
+          "type": "WEB",
+          "url": "https://huntr.dev/bounties/fc524e4b-ebb6-427d-ab67-a64181020406"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "follow-redirects",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/follow-redirects"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.14.7"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-74fj-2j2h-c42q/GHSA-74fj-2j2h-c42q.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-cxjh-pqwp-8mfp",
+      "summary": "follow-redirects' Proxy-Authorization header kept across hosts",
+      "details": "When using [axios](https://github.com/axios/axios), its dependency follow-redirects only clears authorization header during cross-domain redirect, but allows the proxy-authentication header which contains credentials too.\n\n## Steps To Reproduce & PoC\n\nTest code:\n\n```js\nconst axios = require('axios');\n\naxios.get('http://127.0.0.1:10081/', {\n headers: {\n 'AuThorization': 'Rear Test',\n 'ProXy-AuthoriZation': 'Rear Test',\n 'coOkie': 't=1'\n }\n})\n .then((response) => {\n console.log(response);\n })\n```\n\nWhen I meet the cross-domain redirect, the sensitive headers like authorization and cookie are cleared, but proxy-authentication header is kept.\n\n## Impact\n\nThis vulnerability may lead to credentials leak.\n\n## Recommendations\n\nRemove proxy-authentication header during cross-domain redirect\n\n### Recommended Patch\n\n[follow-redirects/index.js:464](https://github.com/follow-redirects/follow-redirects/commit/c4f847f85176991f95ab9c88af63b1294de8649b)\n\n```diff\n- removeMatchingHeaders(/^(?:authorization|cookie)$/i, this._options.headers);\n+ removeMatchingHeaders(/^(?:authorization|proxy-authorization|cookie)$/i, this._options.headers);\n```",
+      "aliases": [
+        "CVE-2024-28849"
+      ],
+      "modified": "2026-02-04T03:39:16.669258Z",
+      "published": "2024-03-14T17:19:42Z",
+      "related": [
+        "CGA-4vmv-7rfh-8q9h"
+      ],
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "nvd_published_at": "2024-03-14T17:15:52Z",
+        "github_reviewed": true,
+        "severity": "MODERATE",
+        "github_reviewed_at": "2024-03-14T17:19:42Z"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/security/advisories/GHSA-cxjh-pqwp-8mfp"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-28849"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/requests/issues/1885"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/commit/c4f847f85176991f95ab9c88af63b1294de8649b"
+        },
+        {
+          "type": "WEB",
+          "url": "https://hackerone.com/reports/2390009"
+        },
+        {
+          "type": "WEB",
+          "url": "https://fetch.spec.whatwg.org/#authentication-entries"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/follow-redirects/follow-redirects"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VOIF4EPQUCKDBEVTGRQDZ3CGTYQHPO7Z"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "follow-redirects",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/follow-redirects"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.15.6"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/03/GHSA-cxjh-pqwp-8mfp/GHSA-cxjh-pqwp-8mfp.json",
+            "last_known_affected_version_range": "<= 1.15.5"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-jchw-25xp-jwwc",
+      "summary": "Follow Redirects improperly handles URLs in the url.parse() function",
+      "details": "Versions of the package follow-redirects before 1.15.4 are vulnerable to Improper Input Validation due to the improper handling of URLs by the url.parse() function. When new URL() throws an error, it can be manipulated to misinterpret the hostname. An attacker could exploit this weakness to redirect traffic to a malicious site, potentially leading to information disclosure, phishing attacks, or other security breaches.",
+      "aliases": [
+        "CVE-2023-26159"
+      ],
+      "modified": "2026-02-04T02:34:59.271979Z",
+      "published": "2024-01-02T06:30:30Z",
+      "related": [
+        "CGA-j7jg-q5j3-vqq5"
+      ],
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-20",
+          "CWE-601"
+        ],
+        "nvd_published_at": "2024-01-02T05:15:08Z",
+        "github_reviewed": true,
+        "severity": "MODERATE",
+        "github_reviewed_at": "2024-01-08T22:01:39Z"
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-26159"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/issues/235"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/pull/236"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/commit/7a6567e16dfa9ad18a70bfe91784c28653fbf19d"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/follow-redirects/follow-redirects"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZZ425BFKNBQ6AK7I5SAM56TWON5OF2XM"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-6141137"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "follow-redirects",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/follow-redirects"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.15.4"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/01/GHSA-jchw-25xp-jwwc/GHSA-jchw-25xp-jwwc.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-pw2r-vq6v-hr8c",
+      "summary": "Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects",
+      "details": "Exposure of Sensitive Information to an Unauthorized Actor in NPM follow-redirects prior to 1.14.8.",
+      "aliases": [
+        "CVE-2022-0536"
+      ],
+      "modified": "2023-11-08T04:07:35.415981Z",
+      "published": "2022-02-10T00:00:31Z",
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-212"
+        ],
+        "nvd_published_at": "2022-02-09T11:15:00Z",
+        "github_reviewed": true,
+        "severity": "MODERATE",
+        "github_reviewed_at": "2022-02-11T21:18:03Z"
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0536"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/follow-redirects/follow-redirects"
+        },
+        {
+          "type": "WEB",
+          "url": "https://huntr.dev/bounties/7cf2bf90-52da-4d59-8028-a73b132de0db"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "follow-redirects",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/follow-redirects"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.14.8"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/02/GHSA-pw2r-vq6v-hr8c/GHSA-pw2r-vq6v-hr8c.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ]
+    }
+  ]
+}

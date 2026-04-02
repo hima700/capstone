@@ -1,0 +1,68 @@
+{
+  "GHSA-jgqf-hwc5-hh37": {
+    "id": "GHSA-jgqf-hwc5-hh37",
+    "aliases": [
+      "CVE-2015-8859"
+    ],
+    "published_date": "2017-10-24",
+    "published_iso": "2017-10-24T18:33:36Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jgqf-hwc5-hh37",
+    "fetched_at": "2026-04-02T07:31:55.224003+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "send",
+        "vulnerable_ranges": [
+          "<0.11.1"
+        ],
+        "fixed_version": "0.11.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-m6fv-jmcg-4jfg": {
+    "id": "GHSA-m6fv-jmcg-4jfg",
+    "aliases": [
+      "CVE-2024-43799"
+    ],
+    "published_date": "2024-09-10",
+    "published_iso": "2024-09-10T19:42:41Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-m6fv-jmcg-4jfg",
+    "fetched_at": "2026-04-02T07:31:55.225003+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "send",
+        "vulnerable_ranges": [
+          "<0.19.0"
+        ],
+        "fixed_version": "0.19.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-xwg4-93c6-3h42": {
+    "id": "GHSA-xwg4-93c6-3h42",
+    "aliases": [
+      "CVE-2014-6394"
+    ],
+    "published_date": "2017-10-24",
+    "published_iso": "2017-10-24T18:33:36Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-xwg4-93c6-3h42",
+    "fetched_at": "2026-04-02T07:31:55.225003+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "send",
+        "vulnerable_ranges": [
+          "<0.8.4"
+        ],
+        "fixed_version": "0.8.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

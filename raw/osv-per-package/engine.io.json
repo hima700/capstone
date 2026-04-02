@@ -1,0 +1,117 @@
+{
+  "GHSA-273r-mgr4-v34f": {
+    "id": "GHSA-273r-mgr4-v34f",
+    "aliases": [
+      "CVE-2022-21676"
+    ],
+    "published_date": "2022-01-13",
+    "published_iso": "2022-01-13T16:14:17Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-273r-mgr4-v34f",
+    "fetched_at": "2026-04-02T07:28:19.974259+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.1.2"
+        ],
+        "fixed_version": "4.1.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.2.1"
+        ],
+        "fixed_version": "5.2.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.1.1"
+        ],
+        "fixed_version": "6.1.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-j4f2-536g-r55m": {
+    "id": "GHSA-j4f2-536g-r55m",
+    "aliases": [
+      "CVE-2020-36048"
+    ],
+    "published_date": "2022-02-09",
+    "published_iso": "2022-02-09T22:29:04Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-j4f2-536g-r55m",
+    "fetched_at": "2026-04-02T07:28:19.978262+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          "<3.6.0"
+        ],
+        "fixed_version": "3.6.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-q9mw-68c2-j6m5": {
+    "id": "GHSA-q9mw-68c2-j6m5",
+    "aliases": [
+      "CVE-2023-31125"
+    ],
+    "published_date": "2023-05-03",
+    "published_iso": "2023-05-03T21:56:51Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-q9mw-68c2-j6m5",
+    "fetched_at": "2026-04-02T07:28:19.980460+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          ">=5.1.0 <6.4.2"
+        ],
+        "fixed_version": "6.4.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-r7qp-cfhv-p84w": {
+    "id": "GHSA-r7qp-cfhv-p84w",
+    "aliases": [
+      "CVE-2022-41940"
+    ],
+    "published_date": "2022-11-21",
+    "published_iso": "2022-11-21T23:55:41Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-r7qp-cfhv-p84w",
+    "fetched_at": "2026-04-02T07:28:19.981459+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          "<3.6.1"
+        ],
+        "fixed_version": "3.6.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "engine.io",
+        "vulnerable_ranges": [
+          ">=4.0.0 <6.2.1"
+        ],
+        "fixed_version": "6.2.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

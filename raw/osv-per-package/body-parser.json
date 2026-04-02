@@ -1,0 +1,46 @@
+{
+  "GHSA-qwcr-r2fm-qrc7": {
+    "id": "GHSA-qwcr-r2fm-qrc7",
+    "aliases": [
+      "CVE-2024-45590"
+    ],
+    "published_date": "2024-09-10",
+    "published_iso": "2024-09-10T15:52:39Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-qwcr-r2fm-qrc7",
+    "fetched_at": "2026-04-02T07:27:27.999780+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "body-parser",
+        "vulnerable_ranges": [
+          "<1.20.3"
+        ],
+        "fixed_version": "1.20.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-wqch-xfxh-vrr4": {
+    "id": "GHSA-wqch-xfxh-vrr4",
+    "aliases": [
+      "CVE-2025-13466"
+    ],
+    "published_date": "2025-11-25",
+    "published_iso": "2025-11-25T14:20:21Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-wqch-xfxh-vrr4",
+    "fetched_at": "2026-04-02T07:27:28.000780+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "body-parser",
+        "vulnerable_ranges": [
+          ">=2.2.0 <2.2.1"
+        ],
+        "fixed_version": "2.2.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

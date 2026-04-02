@@ -1,0 +1,46 @@
+{
+  "GHSA-g4rg-993r-mgx7": {
+    "id": "GHSA-g4rg-993r-mgx7",
+    "aliases": [
+      "CVE-2021-42740"
+    ],
+    "published_date": "2022-05-24",
+    "published_iso": "2022-05-24T19:18:27Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-g4rg-993r-mgx7",
+    "fetched_at": "2026-04-02T07:32:00.946280+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "shell-quote",
+        "vulnerable_ranges": [
+          ">=1.6.3 <1.7.3"
+        ],
+        "fixed_version": "1.7.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-qg8p-v9q4-gh34": {
+    "id": "GHSA-qg8p-v9q4-gh34",
+    "aliases": [
+      "CVE-2016-10541"
+    ],
+    "published_date": "2019-02-18",
+    "published_iso": "2019-02-18T23:58:29Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-qg8p-v9q4-gh34",
+    "fetched_at": "2026-04-02T07:32:00.947297+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "shell-quote",
+        "vulnerable_ranges": [
+          "<1.6.1"
+        ],
+        "fixed_version": "1.6.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

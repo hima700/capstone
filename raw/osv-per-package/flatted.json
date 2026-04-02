@@ -1,0 +1,46 @@
+{
+  "GHSA-25h7-pfq9-p65f": {
+    "id": "GHSA-25h7-pfq9-p65f",
+    "aliases": [
+      "CVE-2026-32141"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T15:40:42Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-25h7-pfq9-p65f",
+    "fetched_at": "2026-04-02T07:28:50.819729+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "flatted",
+        "vulnerable_ranges": [
+          "<3.4.0"
+        ],
+        "fixed_version": "3.4.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-rf6f-7fwh-wjgh": {
+    "id": "GHSA-rf6f-7fwh-wjgh",
+    "aliases": [
+      "CVE-2026-33228"
+    ],
+    "published_date": "2026-03-19",
+    "published_iso": "2026-03-19T17:43:54Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-rf6f-7fwh-wjgh",
+    "fetched_at": "2026-04-02T07:28:50.822763+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "flatted",
+        "vulnerable_ranges": [
+          "<3.4.2"
+        ],
+        "fixed_version": "3.4.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

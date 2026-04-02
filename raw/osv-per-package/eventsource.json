@@ -1,0 +1,33 @@
+{
+  "GHSA-6h5x-7c5m-7cr7": {
+    "id": "GHSA-6h5x-7c5m-7cr7",
+    "aliases": [
+      "CVE-2022-1650"
+    ],
+    "published_date": "2022-05-13",
+    "published_iso": "2022-05-13T00:01:12Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-6h5x-7c5m-7cr7",
+    "fetched_at": "2026-04-02T07:28:35.753440+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "eventsource",
+        "vulnerable_ranges": [
+          "<1.1.1"
+        ],
+        "fixed_version": "1.1.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "eventsource",
+        "vulnerable_ranges": [
+          ">=2.0.0 <2.0.2"
+        ],
+        "fixed_version": "2.0.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

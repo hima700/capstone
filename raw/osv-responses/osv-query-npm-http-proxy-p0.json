@@ -1,0 +1,137 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-6x33-pw7p-hmpq",
+      "summary": "Denial of Service in http-proxy",
+      "details": "Versions of `http-proxy` prior to 1.18.1 are vulnerable to Denial of Service. An HTTP request with a long body triggers an `ERR_HTTP_HEADERS_SENT` unhandled exception that crashes the proxy server. This is only possible when the proxy server sets headers in the proxy request using the `proxyReq.setHeader` function.   \n\nFor a proxy server running on `http://localhost:3000`, the following curl request triggers the unhandled exception:  \n```curl -XPOST http://localhost:3000 -d \"$(python -c 'print(\"x\"*1025)')\"```\n\n\n## Recommendation\n\nUpgrade to version 1.18.1 or later",
+      "modified": "2024-01-29T20:57:00Z",
+      "published": "2020-09-04T17:59:49Z",
+      "database_specific": {
+        "nvd_published_at": null,
+        "cwe_ids": [
+          "CWE-184",
+          "CWE-693"
+        ],
+        "github_reviewed_at": "2020-08-31T19:01:05Z",
+        "github_reviewed": true,
+        "severity": "HIGH"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/http-party/node-http-proxy/pull/1447/commits/4718119ffbe895aecd9be0d6430357d44b4c7fd3"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/http-party/node-http-proxy/pull/1447/files"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.npmjs.com/advisories/1486"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "http-proxy",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/http-proxy"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.18.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/09/GHSA-6x33-pw7p-hmpq/GHSA-6x33-pw7p-hmpq.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-9xw9-pvgv-6p76",
+      "summary": "Insufficient Error Handling in http-proxy",
+      "details": "Affected versions of `http-proxy` are vulnerable to a denial of service attack, wherein an attacker can force an error which will cause the server to crash.\n\n\n## Recommendation\n\nUpdate to version 0.7.0 or later.",
+      "aliases": [
+        "CVE-2017-16014"
+      ],
+      "modified": "2023-11-08T03:58:59.708321Z",
+      "published": "2018-11-09T17:47:52Z",
+      "database_specific": {
+        "nvd_published_at": null,
+        "cwe_ids": [
+          "CWE-703"
+        ],
+        "github_reviewed_at": "2020-06-16T21:29:54Z",
+        "github_reviewed": true,
+        "severity": "HIGH"
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16014"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/nodejitsu/node-http-proxy/pull/101"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://github.com/advisories/GHSA-9xw9-pvgv-6p76"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.npmjs.com/advisories/323"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "http-proxy",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/http-proxy"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "0.7.0"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2018/11/GHSA-9xw9-pvgv-6p76/GHSA-9xw9-pvgv-6p76.json",
+            "last_known_affected_version_range": "<= 0.6.6"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "GHSA-4v9v-hfq4-rm2v": {
+    "id": "GHSA-4v9v-hfq4-rm2v",
+    "aliases": [
+      "CVE-2025-30359"
+    ],
+    "published_date": "2025-06-04",
+    "published_iso": "2025-06-04T21:09:13Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4v9v-hfq4-rm2v",
+    "fetched_at": "2026-04-02T07:32:54.568692+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack-dev-server",
+        "vulnerable_ranges": [
+          "<5.2.1"
+        ],
+        "fixed_version": "5.2.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-9jgg-88mc-972h": {
+    "id": "GHSA-9jgg-88mc-972h",
+    "aliases": [
+      "CVE-2025-30360"
+    ],
+    "published_date": "2025-06-04",
+    "published_iso": "2025-06-04T21:09:38Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9jgg-88mc-972h",
+    "fetched_at": "2026-04-02T07:32:54.569693+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack-dev-server",
+        "vulnerable_ranges": [
+          "<5.2.1"
+        ],
+        "fixed_version": "5.2.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-cf66-xwfp-gvc4": {
+    "id": "GHSA-cf66-xwfp-gvc4",
+    "aliases": [
+      "CVE-2018-14732"
+    ],
+    "published_date": "2019-01-04",
+    "published_iso": "2019-01-04T17:40:59Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-cf66-xwfp-gvc4",
+    "fetched_at": "2026-04-02T07:32:54.569693+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack-dev-server",
+        "vulnerable_ranges": [
+          "<3.1.11"
+        ],
+        "fixed_version": "3.1.11",
+        "versions_list": []
+      }
+    ]
+  }
+}

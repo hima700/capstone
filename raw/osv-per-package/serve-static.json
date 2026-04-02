@@ -1,0 +1,64 @@
+{
+  "GHSA-c3x7-gjmx-r2ff": {
+    "id": "GHSA-c3x7-gjmx-r2ff",
+    "aliases": [
+      "CVE-2015-1164"
+    ],
+    "published_date": "2020-08-31",
+    "published_iso": "2020-08-31T22:57:02Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c3x7-gjmx-r2ff",
+    "fetched_at": "2026-04-02T07:31:57.364020+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serve-static",
+        "vulnerable_ranges": [
+          "<1.7.2"
+        ],
+        "fixed_version": "1.7.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "serve-static",
+        "vulnerable_ranges": [
+          ">=1.7.0 <1.7.2"
+        ],
+        "fixed_version": "1.7.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-cm22-4g7w-348p": {
+    "id": "GHSA-cm22-4g7w-348p",
+    "aliases": [
+      "CVE-2024-43800"
+    ],
+    "published_date": "2024-09-10",
+    "published_iso": "2024-09-10T19:42:33Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-cm22-4g7w-348p",
+    "fetched_at": "2026-04-02T07:31:57.364020+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serve-static",
+        "vulnerable_ranges": [
+          "<1.16.0"
+        ],
+        "fixed_version": "1.16.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "serve-static",
+        "vulnerable_ranges": [
+          ">=2.0.0 <2.1.0"
+        ],
+        "fixed_version": "2.1.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

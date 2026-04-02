@@ -1,0 +1,51 @@
+{
+  "GHSA-p9pc-299p-vxgp": {
+    "id": "GHSA-p9pc-299p-vxgp",
+    "aliases": [
+      "CVE-2020-7608"
+    ],
+    "published_date": "2020-09-04",
+    "published_iso": "2020-09-04T18:00:54Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-p9pc-299p-vxgp",
+    "fetched_at": "2026-04-02T07:33:03.560406+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "yargs-parser",
+        "vulnerable_ranges": [
+          ">=6.0.0 <13.1.2"
+        ],
+        "fixed_version": "13.1.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "yargs-parser",
+        "vulnerable_ranges": [
+          ">=14.0.0 <15.0.1"
+        ],
+        "fixed_version": "15.0.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "yargs-parser",
+        "vulnerable_ranges": [
+          ">=16.0.0 <18.1.1"
+        ],
+        "fixed_version": "18.1.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "yargs-parser",
+        "vulnerable_ranges": [
+          "<5.0.1"
+        ],
+        "fixed_version": "5.0.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "GHSA-5j98-mcp5-4vw2": {
+    "id": "GHSA-5j98-mcp5-4vw2",
+    "aliases": [
+      "CVE-2025-64756"
+    ],
+    "published_date": "2025-11-17",
+    "published_iso": "2025-11-17T17:38:56Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-5j98-mcp5-4vw2",
+    "fetched_at": "2026-04-02T07:29:03.034448+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "glob",
+        "vulnerable_ranges": [
+          ">=11.0.0 <11.1.0"
+        ],
+        "fixed_version": "11.1.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "glob",
+        "vulnerable_ranges": [
+          ">=10.2.0 <10.5.0"
+        ],
+        "fixed_version": "10.5.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

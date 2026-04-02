@@ -1,0 +1,24 @@
+{
+  "GHSA-7hpj-7hhx-2fgx": {
+    "id": "GHSA-7hpj-7hhx-2fgx",
+    "aliases": [
+      "CVE-2023-52079"
+    ],
+    "published_date": "2023-12-28",
+    "published_iso": "2023-12-28T21:16:20Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-7hpj-7hhx-2fgx",
+    "fetched_at": "2026-04-02T07:30:35.175391+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "msgpackr",
+        "vulnerable_ranges": [
+          "<1.10.1"
+        ],
+        "fixed_version": "1.10.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

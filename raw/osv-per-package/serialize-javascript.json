@@ -1,0 +1,110 @@
+{
+  "GHSA-5c6j-r48x-rmvq": {
+    "id": "GHSA-5c6j-r48x-rmvq",
+    "aliases": [],
+    "published_date": "2026-02-28",
+    "published_iso": "2026-02-28T02:50:45Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-5c6j-r48x-rmvq",
+    "fetched_at": "2026-04-02T07:31:56.030579+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serialize-javascript",
+        "vulnerable_ranges": [
+          "<7.0.3"
+        ],
+        "fixed_version": "7.0.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-76p7-773f-r4q5": {
+    "id": "GHSA-76p7-773f-r4q5",
+    "aliases": [
+      "CVE-2024-11831"
+    ],
+    "published_date": "2025-02-10",
+    "published_iso": "2025-02-10T18:30:47Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-76p7-773f-r4q5",
+    "fetched_at": "2026-04-02T07:31:56.031584+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serialize-javascript",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.2"
+        ],
+        "fixed_version": "6.0.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-h9rv-jmmf-4pgx": {
+    "id": "GHSA-h9rv-jmmf-4pgx",
+    "aliases": [
+      "CVE-2019-16769"
+    ],
+    "published_date": "2019-12-05",
+    "published_iso": "2019-12-05T18:44:37Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-h9rv-jmmf-4pgx",
+    "fetched_at": "2026-04-02T07:31:56.031584+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serialize-javascript",
+        "vulnerable_ranges": [
+          "<2.1.1"
+        ],
+        "fixed_version": "2.1.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-hxcc-f52p-wc94": {
+    "id": "GHSA-hxcc-f52p-wc94",
+    "aliases": [
+      "CVE-2020-7660"
+    ],
+    "published_date": "2020-08-11",
+    "published_iso": "2020-08-11T17:21:13Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hxcc-f52p-wc94",
+    "fetched_at": "2026-04-02T07:31:56.032583+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serialize-javascript",
+        "vulnerable_ranges": [
+          "<3.1.0"
+        ],
+        "fixed_version": "3.1.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-qj8w-gfj5-8c6v": {
+    "id": "GHSA-qj8w-gfj5-8c6v",
+    "aliases": [
+      "CVE-2026-34043"
+    ],
+    "published_date": "2026-03-27",
+    "published_iso": "2026-03-27T18:18:54Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-qj8w-gfj5-8c6v",
+    "fetched_at": "2026-04-02T07:31:56.032583+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serialize-javascript",
+        "vulnerable_ranges": [
+          "<7.0.5"
+        ],
+        "fixed_version": "7.0.5",
+        "versions_list": []
+      }
+    ]
+  }
+}

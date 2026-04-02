@@ -1,0 +1,44 @@
+{
+  "GHSA-c4w7-xm78-47vh": {
+    "id": "GHSA-c4w7-xm78-47vh",
+    "aliases": [
+      "CVE-2020-7774"
+    ],
+    "published_date": "2021-03-29",
+    "published_iso": "2021-03-29T16:05:12Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c4w7-xm78-47vh",
+    "fetched_at": "2026-04-02T07:33:01.709933+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "y18n",
+        "vulnerable_ranges": [
+          "<3.2.2"
+        ],
+        "fixed_version": "3.2.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "y18n",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.0.1"
+        ],
+        "fixed_version": "4.0.1",
+        "versions_list": [
+          "4.0.0"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "y18n",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.0.5"
+        ],
+        "fixed_version": "5.0.5",
+        "versions_list": []
+      }
+    ]
+  }
+}

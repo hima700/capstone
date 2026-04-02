@@ -1,0 +1,24 @@
+{
+  "GHSA-6c8f-qphg-qjgp": {
+    "id": "GHSA-6c8f-qphg-qjgp",
+    "aliases": [
+      "CVE-2019-20149"
+    ],
+    "published_date": "2020-03-31",
+    "published_iso": "2020-03-31T15:59:54Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-6c8f-qphg-qjgp",
+    "fetched_at": "2026-04-02T07:30:05.581790+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "kind-of",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.3"
+        ],
+        "fixed_version": "6.0.3",
+        "versions_list": []
+      }
+    ]
+  }
+}

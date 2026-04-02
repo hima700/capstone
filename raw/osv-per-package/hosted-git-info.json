@@ -1,0 +1,33 @@
+{
+  "GHSA-43f8-2h32-f4cj": {
+    "id": "GHSA-43f8-2h32-f4cj",
+    "aliases": [
+      "CVE-2021-23362"
+    ],
+    "published_date": "2021-05-06",
+    "published_iso": "2021-05-06T16:10:39Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-43f8-2h32-f4cj",
+    "fetched_at": "2026-04-02T07:29:14.893585+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "hosted-git-info",
+        "vulnerable_ranges": [
+          "<2.8.9"
+        ],
+        "fixed_version": "2.8.9",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "hosted-git-info",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.0.8"
+        ],
+        "fixed_version": "3.0.8",
+        "versions_list": []
+      }
+    ]
+  }
+}

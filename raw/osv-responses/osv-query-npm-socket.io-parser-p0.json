@@ -1,0 +1,537 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-677m-j7p3-52f9",
+      "summary": "socket.io allows an unbounded number of binary attachments",
+      "details": "### Impact\n\nA specially crafted Socket.IO packet can make the server wait for a large number of binary attachments and buffer them, which can be exploited to make the server run out of memory.\n\n### Patches\n\n| Version range    | Used by                                    | Fixed version |\n|------------------|--------------------------------------------|---------------|\n| `>=4.0.0 <4.2.6` | `socket.io@4.x` and `socket.io-client@4.x` | `4.2.6`       |\n| `>=3.4.0 <3.4.4` | `socket.io@2.x`                            | `3.4.4`       |\n| `<3.3.5`         | `socket.io-client@2.x`                     | `3.3.5`       |\n\n### Workarounds\n\nThere is no known workaround except upgrading to a safe version.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Open a discussion [here](https://github.com/socketio/socket.io/discussions)",
+      "aliases": [
+        "CVE-2026-33151"
+      ],
+      "modified": "2026-03-23T05:06:54.289219582Z",
+      "published": "2026-03-18T17:26:14Z",
+      "related": [
+        "CGA-459v-c6c8-7cxf"
+      ],
+      "database_specific": {
+        "github_reviewed": true,
+        "github_reviewed_at": "2026-03-18T17:26:14Z",
+        "nvd_published_at": "2026-03-20T21:17:15Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-754"
+        ]
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io/security/advisories/GHSA-677m-j7p3-52f9"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33151"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io/commit/719f9ebab0772ffb882bd614b387e585c1aa75d4"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io/commit/9d39f1f080510f036782f2177fac701cc041faaf"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io/commit/b25738c416c4e32fbff62ee182afa8f6d0dacf78"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/socketio/socket.io"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.3.5"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-677m-j7p3-52f9/GHSA-677m-j7p3-52f9.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "3.4.0"
+                },
+                {
+                  "fixed": "3.4.4"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-677m-j7p3-52f9/GHSA-677m-j7p3-52f9.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "4.2.6"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-677m-j7p3-52f9/GHSA-677m-j7p3-52f9.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.5",
+      "severity": [
+        {
+          "type": "CVSS_V4",
+          "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-cqmj-92xf-r6r9",
+      "summary": "Insufficient validation when decoding a Socket.IO packet",
+      "details": "### Impact\n\nA specially crafted Socket.IO packet can trigger an uncaught exception on the Socket.IO server, thus killing the Node.js process.\n\n```\nTypeError: Cannot convert object to primitive value\n       at Socket.emit (node:events:507:25)\n       at .../node_modules/socket.io/lib/socket.js:531:14\n```\n\n### Patches\n\nA fix has been released today (2023/05/22):\n\n- https://github.com/socketio/socket.io-parser/commit/3b78117bf6ba7e99d7a5cfc1ba54d0477554a7f3, included in `socket.io-parser@4.2.3`\n- https://github.com/socketio/socket.io-parser/commit/2dc3c92622dad113b8676be06f23b1ed46b02ced, included in `socket.io-parser@3.4.3`\n\n\nAnother fix has been released for the `3.3.x` branch:\n\n- https://github.com/socketio/socket.io-parser/commit/ee006607495eca4ec7262ad080dd3a91439a5ba4, included in `socket.io-parser@3.3.4\n\n| `socket.io` version | `socket.io-parser` version                                                                              | Needs minor update?                  |\n|---------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------|\n| `4.5.2...latest`    | `~4.2.0` ([ref](https://github.com/socketio/socket.io/commit/9890b036cf942f6b6ad2afeb6a8361c32cd5d528)) | `npm audit fix` should be sufficient |\n| `4.1.3...4.5.1`     | `~4.1.1` ([ref](https://github.com/socketio/socket.io/commit/7c44893d7878cd5bba1eff43150c3e664f88fb57)) | Please upgrade to `socket.io@4.6.x`  |\n| `3.0.5...4.1.2`     | `~4.0.3` ([ref](https://github.com/socketio/socket.io/commit/752dfe3b1e5fecda53dae899b4a39e6fed5a1a17)) | Please upgrade to `socket.io@4.6.x`  |\n| `3.0.0...3.0.4`     | `~4.0.1` ([ref](https://github.com/socketio/socket.io/commit/1af3267e3f5f7884214cf2ca4d5282d620092fb0)) | Please upgrade to `socket.io@4.6.x`  |\n| `2.3.0...2.5.0`     | `~3.4.0` ([ref](https://github.com/socketio/socket.io/commit/cf39362014f5ff13a17168b74772c43920d6e4fd)) | `npm audit fix` should be sufficient |\n\n\n### Workarounds\n\nThere is no known workaround except upgrading to a safe version.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Open a discussion [here](https://github.com/socketio/socket.io/discussions)\n\nThanks to [@rafax00](https://github.com/rafax00) for the responsible disclosure.\n",
+      "aliases": [
+        "CVE-2023-32695"
+      ],
+      "modified": "2024-11-18T16:26:29Z",
+      "published": "2023-05-23T19:55:13Z",
+      "database_specific": {
+        "github_reviewed": true,
+        "github_reviewed_at": "2023-05-23T19:55:13Z",
+        "nvd_published_at": "2023-05-27T16:15:09Z",
+        "severity": "MODERATE",
+        "cwe_ids": [
+          "CWE-20",
+          "CWE-754"
+        ]
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/security/advisories/GHSA-cqmj-92xf-r6r9"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32695"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/1c220ddbf45ea4b44bc8dbf6f9ae245f672ba1b9"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/2dc3c92622dad113b8676be06f23b1ed46b02ced"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/3b78117bf6ba7e99d7a5cfc1ba54d0477554a7f3"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/ee006607495eca4ec7262ad080dd3a91439a5ba4"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/socketio/socket.io-parser"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/releases/tag/4.2.3"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.0.4"
+                },
+                {
+                  "fixed": "4.2.3"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-cqmj-92xf-r6r9/GHSA-cqmj-92xf-r6r9.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "3.4.0"
+                },
+                {
+                  "fixed": "3.4.3"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-cqmj-92xf-r6r9/GHSA-cqmj-92xf-r6r9.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.3.4"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-cqmj-92xf-r6r9/GHSA-cqmj-92xf-r6r9.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+        },
+        {
+          "type": "CVSS_V4",
+          "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-qm95-pgcg-qqfq",
+      "summary": "Insufficient validation when decoding a Socket.IO packet",
+      "details": "Due to improper type validation in the `socket.io-parser` library (which is used by the `socket.io` and `socket.io-client` packages to encode and decode Socket.IO packets), it is possible to overwrite the _placeholder object which allows an attacker to place references to functions at arbitrary places in the resulting query object.\n\nExample:\n\n```js\nconst decoder = new Decoder();\n\ndecoder.on(\"decoded\", (packet) => {\n console.log(packet.data); // prints [ 'hello', [Function: splice] ]\n})\n\ndecoder.add('51-[\"hello\",{\"_placeholder\":true,\"num\":\"splice\"}]');\ndecoder.add(Buffer.from(\"world\"));\n```\n\nThis bubbles up in the `socket.io` package:\n\n```js\nio.on(\"connection\", (socket) => {\n socket.on(\"hello\", (val) => {\n // here, \"val\" could be a function instead of a buffer\n });\n});\n```\n\n:warning: IMPORTANT NOTE :warning:\n\nYou need to make sure that the payload that you received from the client is actually a `Buffer` object:\n\n```js\nio.on(\"connection\", (socket) => {\n socket.on(\"hello\", (val) => {\n if (!Buffer.isBuffer(val)) {\n socket.disconnect();\n return;\n }\n // ...\n });\n});\n```\n\n**If that's already the case, then you are not impacted by this issue, and there is no way an attacker could make your server crash (or escalate privileges, ...).**\n\nExample of values that could be sent by a malicious user:\n\n- a number that is out of bounds\n\nSample packet: `451-[\"hello\",{\"_placeholder\":true,\"num\":10}]`\n\n```js\nio.on(\"connection\", (socket) => {\n socket.on(\"hello\", (val) => {\n // val is `undefined`\n });\n});\n```\n\n- a value that is not a number, like `undefined`\n\nSample packet: `451-[\"hello\",{\"_placeholder\":true,\"num\":undefined}]`\n\n```js\nio.on(\"connection\", (socket) => {\n socket.on(\"hello\", (val) => {\n // val is `undefined`\n });\n});\n```\n\n- a string that is part of the prototype of `Array`, like \"push\"\n\nSample packet: `451-[\"hello\",{\"_placeholder\":true,\"num\":\"push\"}]`\n\n```js\nio.on(\"connection\", (socket) => {\n socket.on(\"hello\", (val) => {\n // val is a reference to the \"push\" function\n });\n});\n```\n\n- a string that is part of the prototype of `Object`, like \"hasOwnProperty\"\n\nSample packet: `451-[\"hello\",{\"_placeholder\":true,\"num\":\"hasOwnProperty\"}]`\n\n```js\nio.on(\"connection\", (socket) => {\n socket.on(\"hello\", (val) => {\n // val is a reference to the \"hasOwnProperty\" function\n });\n});\n```\n\nThis should be fixed by:\n\n- https://github.com/socketio/socket.io-parser/commit/b5d0cb7dc56a0601a09b056beaeeb0e43b160050, included in `socket.io-parser@4.2.1`\n- https://github.com/socketio/socket.io-parser/commit/b559f050ee02bd90bd853b9823f8de7fa94a80d4, included in `socket.io-parser@4.0.5`\n- https://github.com/socketio/socket.io-parser/commit/04d23cecafe1b859fb03e0cbf6ba3b74dff56d14, included in `socket.io-parser@3.4.2`\n- https://github.com/socketio/socket.io-parser/commit/fb21e422fc193b34347395a33e0f625bebc09983, included in `socket.io-parser@3.3.3`\n\n### Dependency analysis for the `socket.io` package\n\n| `socket.io` version | `socket.io-parser` version | Covered? |\n|---------------------|---------------------------------------------------------------------------------------------------------|------------------------|\n| `4.5.2...latest` | `~4.2.0` ([ref](https://github.com/socketio/socket.io/commit/9890b036cf942f6b6ad2afeb6a8361c32cd5d528)) | Yes :heavy_check_mark: |\n| `4.1.3...4.5.1` | `~4.0.4` ([ref](https://github.com/socketio/socket.io/commit/7c44893d7878cd5bba1eff43150c3e664f88fb57)) | Yes :heavy_check_mark: |\n| `3.0.5...4.1.2` | `~4.0.3` ([ref](https://github.com/socketio/socket.io/commit/752dfe3b1e5fecda53dae899b4a39e6fed5a1a17)) | Yes :heavy_check_mark: |\n| `3.0.0...3.0.4` | `~4.0.1` ([ref](https://github.com/socketio/socket.io/commit/1af3267e3f5f7884214cf2ca4d5282d620092fb0)) | Yes :heavy_check_mark: |\n| `2.3.0...2.5.0` | `~3.4.0` ([ref](https://github.com/socketio/socket.io/commit/cf39362014f5ff13a17168b74772c43920d6e4fd)) | Yes :heavy_check_mark: |\n\n\n### Dependency analysis for the `socket.io-client` package\n\n| `socket.io-client` version | `socket.io-parser` version | Covered? |\n|----------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------|\n| `4.5.0...latest` | `~4.2.0` ([ref](https://github.com/socketio/socket.io-client/commit/b862924b7f1720979e5db2f0154906b305d420e3)) | Yes :heavy_check_mark: |\n| `4.3.0...4.4.1` | `~4.1.1` ([ref](https://github.com/socketio/socket.io-client/commit/91b948b8607166fcc79f028a6428819277214188)) | No, but the impact is very limited |\n| `3.1.0...4.2.0` | `~4.0.4` ([ref](https://github.com/socketio/socket.io-client/commit/5d9b4eb42b1f5778e6f033096694acb331b132c4)) | Yes :heavy_check_mark: |\n| `3.0.5` | `~4.0.3` ([ref](https://github.com/socketio/socket.io-client/commit/cf9fc358365cc15a41260a51dc186c881bf086ca)) | Yes :heavy_check_mark: |\n| `3.0.0...3.0.4` | `~4.0.1` ([ref](https://github.com/socketio/socket.io-client/commit/b7e07ba633ceb9c1dc94cc894c10b9bfca536c7a)) | Yes :heavy_check_mark: |\n| `2.2.0...2.5.0` | `~3.3.0` ([ref](https://github.com/socketio/socket.io-client/commit/06e9a4ca2621176c30c352b2ba8b34fa42b8d0ba)) | Yes :heavy_check_mark: |\n",
+      "aliases": [
+        "CVE-2022-2421"
+      ],
+      "modified": "2023-11-08T04:08:29.946069Z",
+      "published": "2022-10-26T12:00:28Z",
+      "database_specific": {
+        "github_reviewed": true,
+        "github_reviewed_at": "2022-10-28T20:19:04Z",
+        "nvd_published_at": "2022-10-26T10:15:00Z",
+        "severity": "CRITICAL",
+        "cwe_ids": [
+          "CWE-1287",
+          "CWE-20",
+          "CWE-89"
+        ]
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-2421"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/04d23cecafe1b859fb03e0cbf6ba3b74dff56d14"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/b559f050ee02bd90bd853b9823f8de7fa94a80d4"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/b5d0cb7dc56a0601a09b056beaeeb0e43b160050"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/fb21e422fc193b34347395a33e0f625bebc09983"
+        },
+        {
+          "type": "WEB",
+          "url": "https://csirt.divd.nl/CVE-2022-2421"
+        },
+        {
+          "type": "WEB",
+          "url": "https://csirt.divd.nl/DIVD-2022-00045"
+        },
+        {
+          "type": "WEB",
+          "url": "https://csirt.divd.nl/cases/DIVD-2022-00045"
+        },
+        {
+          "type": "WEB",
+          "url": "https://csirt.divd.nl/cves/CVE-2022-2421"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/socketio/socket.io-parser"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "4.0.5"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/10/GHSA-qm95-pgcg-qqfq/GHSA-qm95-pgcg-qqfq.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.1.0"
+                },
+                {
+                  "fixed": "4.2.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/10/GHSA-qm95-pgcg-qqfq/GHSA-qm95-pgcg-qqfq.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.3.3"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/10/GHSA-qm95-pgcg-qqfq/GHSA-qm95-pgcg-qqfq.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "3.4.0"
+                },
+                {
+                  "fixed": "3.4.2"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/10/GHSA-qm95-pgcg-qqfq/GHSA-qm95-pgcg-qqfq.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-xfhh-g9f5-x4m4",
+      "summary": "Resource exhaustion in socket.io-parser",
+      "details": "The `socket.io-parser` npm package before versions 3.3.2 and 3.4.1 allows attackers to cause a denial of service (memory consumption) via a large packet because a concatenation approach is used.",
+      "aliases": [
+        "CVE-2020-36049"
+      ],
+      "modified": "2023-11-08T04:03:40.136588Z",
+      "published": "2021-06-30T16:51:31Z",
+      "database_specific": {
+        "github_reviewed": true,
+        "github_reviewed_at": "2021-04-06T23:06:09Z",
+        "nvd_published_at": "2021-01-08T00:15:00Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-400"
+        ]
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36049"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/commit/dcb942d24db97162ad16a67c2a0cf30875342d55"
+        },
+        {
+          "type": "WEB",
+          "url": "https://blog.caller.xyz/socketio-engineio-dos"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/bcaller/kill-engine-io"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/releases/tag/3.3.2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/socket.io-parser/releases/tag/3.4.1"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.npmjs.com/package/socket.io-parser"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.3.2"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-xfhh-g9f5-x4m4/GHSA-xfhh-g9f5-x4m4.json"
+          }
+        },
+        {
+          "package": {
+            "name": "socket.io-parser",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/socket.io-parser"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "3.4.0"
+                },
+                {
+                  "fixed": "3.4.1"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "3.4.0"
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-xfhh-g9f5-x4m4/GHSA-xfhh-g9f5-x4m4.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    }
+  ]
+}

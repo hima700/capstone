@@ -1,0 +1,32 @@
+[
+  {
+    "hash": "4d887cb29ff899e407a41dcdd29b854a63e57d6d",
+    "date": "2025-03-12T19:07:30+00:00",
+    "message": "initial commit"
+  },
+  {
+    "hash": "97d9f53d4809277f6f02b1a703a1ceee4993ad0b",
+    "date": "2025-03-14T03:40:16+00:00",
+    "message": "app"
+  },
+  {
+    "hash": "66375184942459c277e8140e2f1e58d0c6a57a5f",
+    "date": "2026-03-17T21:48:24+00:00",
+    "message": "upgrade angular 18"
+  },
+  {
+    "hash": "d782d2e5b377b02f823fedb168e8e5d46aed7fdf",
+    "date": "2026-03-17T22:11:34+00:00",
+    "message": "upgrade angular 19"
+  },
+  {
+    "hash": "3356f195f2a463faa7399989c6c4b61a2a5a87bc",
+    "date": "2026-03-17T22:33:22+00:00",
+    "message": "upgrade angular 20"
+  },
+  {
+    "hash": "65571e44deeba879c7429fcd7e044e50b995673a",
+    "date": "2026-03-17T23:41:41+00:00",
+    "message": "upgrade angular 21, fix breadcrumbs, update styles"
+  }
+]

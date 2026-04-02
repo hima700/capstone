@@ -1,0 +1,145 @@
+{
+  "GHSA-394c-5j6w-4xmx": {
+    "id": "GHSA-394c-5j6w-4xmx",
+    "aliases": [
+      "CVE-2020-7793"
+    ],
+    "published_date": "2022-02-09",
+    "published_iso": "2022-02-09T22:46:53Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-394c-5j6w-4xmx",
+    "fetched_at": "2026-04-02T07:32:36.368518+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          "<0.7.23"
+        ],
+        "fixed_version": "0.7.23",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-662x-fhqg-9p8v": {
+    "id": "GHSA-662x-fhqg-9p8v",
+    "aliases": [
+      "CVE-2020-7733"
+    ],
+    "published_date": "2021-05-07",
+    "published_iso": "2021-05-07T16:18:19Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-662x-fhqg-9p8v",
+    "fetched_at": "2026-04-02T07:32:36.369533+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          "<0.7.22"
+        ],
+        "fixed_version": "0.7.22",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-78cj-fxph-m83p": {
+    "id": "GHSA-78cj-fxph-m83p",
+    "aliases": [
+      "CVE-2021-27292"
+    ],
+    "published_date": "2021-05-06",
+    "published_iso": "2021-05-06T16:11:13Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-78cj-fxph-m83p",
+    "fetched_at": "2026-04-02T07:32:36.370549+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          ">=0.7.14 <0.7.24"
+        ],
+        "fixed_version": "0.7.24",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-fhg7-m89q-25r3": {
+    "id": "GHSA-fhg7-m89q-25r3",
+    "aliases": [
+      "CVE-2022-25927"
+    ],
+    "published_date": "2023-01-24",
+    "published_iso": "2023-01-24T15:36:32Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-fhg7-m89q-25r3",
+    "fetched_at": "2026-04-02T07:32:36.370549+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          ">=0.7.30 <0.7.33"
+        ],
+        "fixed_version": "0.7.33",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          ">=0.8.0 <1.0.33"
+        ],
+        "fixed_version": "1.0.33",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-pjwm-rvh2-c87w": {
+    "id": "GHSA-pjwm-rvh2-c87w",
+    "aliases": [
+      "CVE-2021-4229"
+    ],
+    "published_date": "2021-10-22",
+    "published_iso": "2021-10-22T20:38:14Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-pjwm-rvh2-c87w",
+    "fetched_at": "2026-04-02T07:32:36.370549+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          ">=0.7.29 <0.7.30"
+        ],
+        "fixed_version": "0.7.30",
+        "versions_list": [
+          "0.7.29"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          ">=0.8.0 <0.8.1"
+        ],
+        "fixed_version": "0.8.1",
+        "versions_list": [
+          "0.8.0"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ua-parser-js",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.0.1"
+        ],
+        "fixed_version": "1.0.1",
+        "versions_list": [
+          "1.0.0"
+        ]
+      }
+    ]
+  }
+}

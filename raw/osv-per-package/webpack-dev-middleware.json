@@ -1,0 +1,42 @@
+{
+  "GHSA-wr3j-pwj9-hqq6": {
+    "id": "GHSA-wr3j-pwj9-hqq6",
+    "aliases": [
+      "CVE-2024-29180"
+    ],
+    "published_date": "2024-03-21",
+    "published_iso": "2024-03-21T18:59:28Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-wr3j-pwj9-hqq6",
+    "fetched_at": "2026-04-02T07:32:53.869602+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack-dev-middleware",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.1.0"
+        ],
+        "fixed_version": "7.1.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "webpack-dev-middleware",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.1.2"
+        ],
+        "fixed_version": "6.1.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "webpack-dev-middleware",
+        "vulnerable_ranges": [
+          "<5.3.4"
+        ],
+        "fixed_version": "5.3.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

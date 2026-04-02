@@ -1,0 +1,13 @@
+{
+  "month": "2025-06",
+  "analysis_date": "2025-06-30",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "manual_review_flags": [],
+  "checks_run": {
+    "date_validations": 5,
+    "reconciliation_checks": 6,
+    "anomaly_detections": 3
+  }
+}

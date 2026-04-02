@@ -1,0 +1,86 @@
+{
+  "GHSA-566m-qj78-rww5": {
+    "id": "GHSA-566m-qj78-rww5",
+    "aliases": [
+      "CVE-2021-23382"
+    ],
+    "published_date": "2022-01-07",
+    "published_iso": "2022-01-07T00:21:36Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-566m-qj78-rww5",
+    "fetched_at": "2026-04-02T07:31:16.634041+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "postcss",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.2.13"
+        ],
+        "fixed_version": "8.2.13",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "postcss",
+        "vulnerable_ranges": [
+          "<7.0.36"
+        ],
+        "fixed_version": "7.0.36",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-7fh5-64p2-3v2j": {
+    "id": "GHSA-7fh5-64p2-3v2j",
+    "aliases": [
+      "CVE-2023-44270"
+    ],
+    "published_date": "2023-09-30",
+    "published_iso": "2023-09-30T00:31:10Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-7fh5-64p2-3v2j",
+    "fetched_at": "2026-04-02T07:31:16.635043+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "postcss",
+        "vulnerable_ranges": [
+          "<8.4.31"
+        ],
+        "fixed_version": "8.4.31",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-hwj9-h5mp-3pm3": {
+    "id": "GHSA-hwj9-h5mp-3pm3",
+    "aliases": [
+      "CVE-2021-23368"
+    ],
+    "published_date": "2021-05-10",
+    "published_iso": "2021-05-10T15:29:24Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hwj9-h5mp-3pm3",
+    "fetched_at": "2026-04-02T07:31:16.635043+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "postcss",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.0.36"
+        ],
+        "fixed_version": "7.0.36",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "postcss",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.2.10"
+        ],
+        "fixed_version": "8.2.10",
+        "versions_list": []
+      }
+    ]
+  }
+}

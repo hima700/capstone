@@ -1,0 +1,15 @@
+{
+  "month": "2025-10",
+  "analysis_date": "2025-10-31",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "manual_review_flags": [
+    "Same commit reused for 7 consecutive months"
+  ],
+  "checks_run": {
+    "date_validations": 5,
+    "reconciliation_checks": 6,
+    "anomaly_detections": 3
+  }
+}

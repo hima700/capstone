@@ -1,0 +1,122 @@
+{
+  "GHSA-58f5-hfqc-jgch": {
+    "id": "GHSA-58f5-hfqc-jgch",
+    "aliases": [
+      "CVE-2021-29443"
+    ],
+    "published_date": "2021-04-19",
+    "published_iso": "2021-04-19T14:57:22Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-58f5-hfqc-jgch",
+    "fetched_at": "2026-04-02T07:29:54.776742+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.28.1"
+        ],
+        "fixed_version": "1.28.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=2.0.0 <2.0.5"
+        ],
+        "fixed_version": "2.0.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.11.4"
+        ],
+        "fixed_version": "3.11.4",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-hhhv-q57g-882q": {
+    "id": "GHSA-hhhv-q57g-882q",
+    "aliases": [
+      "CVE-2024-28176"
+    ],
+    "published_date": "2024-03-07",
+    "published_iso": "2024-03-07T17:40:57Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hhhv-q57g-882q",
+    "fetched_at": "2026-04-02T07:29:54.777741+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=3.0.0 <4.15.5"
+        ],
+        "fixed_version": "4.15.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          "<2.0.7"
+        ],
+        "fixed_version": "2.0.7",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-jv3g-j58f-9mq9": {
+    "id": "GHSA-jv3g-j58f-9mq9",
+    "aliases": [
+      "CVE-2022-36083"
+    ],
+    "published_date": "2022-09-16",
+    "published_iso": "2022-09-16T17:44:42Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jv3g-j58f-9mq9",
+    "fetched_at": "2026-04-02T07:29:54.778743+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.28.2"
+        ],
+        "fixed_version": "1.28.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=2.0.0 <2.0.6"
+        ],
+        "fixed_version": "2.0.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.20.4"
+        ],
+        "fixed_version": "3.20.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "jose",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.9.2"
+        ],
+        "fixed_version": "4.9.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

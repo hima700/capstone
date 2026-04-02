@@ -1,0 +1,24 @@
+{
+  "GHSA-92vm-wfm5-mxvv": {
+    "id": "GHSA-92vm-wfm5-mxvv",
+    "aliases": [
+      "CVE-2016-1000236"
+    ],
+    "published_date": "2020-01-06",
+    "published_iso": "2020-01-06T18:44:10Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-92vm-wfm5-mxvv",
+    "fetched_at": "2026-04-02T07:27:55.748245+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "cookie-signature",
+        "vulnerable_ranges": [
+          "<1.0.4"
+        ],
+        "fixed_version": "1.0.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

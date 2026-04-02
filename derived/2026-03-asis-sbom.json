@@ -1,0 +1,3906 @@
+{
+  "month": "2026-03",
+  "lockfile_present": true,
+  "packages": [
+    {
+      "name": "@algolia/abtesting",
+      "version": "1.14.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/abtesting@1.14.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-abtesting",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-abtesting@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-analytics",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-analytics@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-common",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-common@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-insights",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-insights@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-personalization",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-personalization@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-query-suggestions",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-query-suggestions@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/client-search",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/client-search@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/ingestion",
+      "version": "1.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/ingestion@1.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/monitoring",
+      "version": "1.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/monitoring@1.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/recommend",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/recommend@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/requester-browser-xhr",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/requester-browser-xhr@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/requester-fetch",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/requester-fetch@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@algolia/requester-node-http",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@algolia/requester-node-http@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@ampproject/remapping",
+      "version": "2.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@ampproject/remapping@2.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@angular-devkit/architect",
+      "version": "0.2102.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular-devkit/architect@0.2102.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@angular-devkit/core",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular-devkit/core@21.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "chokidar",
+      "version": "4.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/chokidar@4.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "readdirp",
+      "version": "4.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/readdirp@4.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "source-map",
+      "version": "0.6.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/source-map@0.6.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@angular-devkit/schematics",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular-devkit/schematics@21.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@angular/animations",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/animations@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/build",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/build@21.2.2",
+      "depth": "direct"
+    },
+    {
+      "name": "istanbul-lib-instrument",
+      "version": "5.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/istanbul-lib-instrument@5.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@angular/cdk",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/cdk@21.2.2",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/cli",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/cli@21.2.2",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/common",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/common@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/compiler",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/compiler@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/compiler-cli",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/compiler-cli@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/core",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/core@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/forms",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/forms@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/material",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/material@21.2.2",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/platform-browser",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/platform-browser@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/platform-browser-dynamic",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/platform-browser-dynamic@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@angular/router",
+      "version": "21.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@angular/router@21.2.4",
+      "depth": "direct"
+    },
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/code-frame@7.29.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/compat-data",
+      "version": "7.29.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/compat-data@7.29.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.29.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/core@7.29.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "convert-source-map",
+      "version": "1.9.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/convert-source-map@1.9.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "semver",
+      "version": "7.7.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/semver@7.7.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.29.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/generator@7.29.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-annotate-as-pure",
+      "version": "7.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-annotate-as-pure@7.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-compilation-targets",
+      "version": "7.28.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-compilation-targets@7.28.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-globals",
+      "version": "7.28.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-globals@7.28.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-module-imports",
+      "version": "7.28.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-module-imports@7.28.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-module-transforms",
+      "version": "7.28.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-module-transforms@7.28.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-split-export-declaration",
+      "version": "7.24.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-split-export-declaration@7.24.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "7.27.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-string-parser@7.27.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.28.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-validator-identifier@7.28.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helper-validator-option",
+      "version": "7.27.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helper-validator-option@7.27.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/helpers",
+      "version": "7.29.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/helpers@7.29.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.29.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/parser@7.29.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.28.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/template@7.28.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.29.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/traverse@7.29.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.29.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@babel/types@7.29.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@colors/colors",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@colors/colors@1.5.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@emnapi/core",
+      "version": "1.9.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@emnapi/core@1.9.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@emnapi/runtime",
+      "version": "1.9.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@emnapi/runtime@1.9.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@emnapi/wasi-threads",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@emnapi/wasi-threads@1.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/aix-ppc64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/android-arm@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/android-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/android-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/darwin-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/darwin-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/freebsd-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/freebsd-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-arm@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-ia32@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-loong64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-mips64el@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-ppc64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-riscv64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-s390x@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/linux-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/netbsd-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/netbsd-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/openbsd-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/openbsd-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/openharmony-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/sunos-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/win32-arm64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/win32-ia32@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@esbuild/win32-x64@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@gar/promise-retry",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@gar/promise-retry@1.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@harperfast/extended-iterable",
+      "version": "1.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@harperfast/extended-iterable@1.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@hono/node-server",
+      "version": "1.19.11",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@hono/node-server@1.19.11",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/ansi",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/ansi@1.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/checkbox",
+      "version": "4.3.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/checkbox@4.3.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/confirm",
+      "version": "5.1.21",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/confirm@5.1.21",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/core",
+      "version": "10.3.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/core@10.3.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/editor",
+      "version": "4.2.23",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/editor@4.2.23",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/expand",
+      "version": "4.0.23",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/expand@4.0.23",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/external-editor",
+      "version": "1.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/external-editor@1.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.7.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/iconv-lite@0.7.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/figures",
+      "version": "1.0.15",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/figures@1.0.15",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/input",
+      "version": "4.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/input@4.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/number",
+      "version": "3.0.23",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/number@3.0.23",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/password",
+      "version": "4.0.23",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/password@4.0.23",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/prompts",
+      "version": "7.10.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/prompts@7.10.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/rawlist",
+      "version": "4.1.11",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/rawlist@4.1.11",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/search",
+      "version": "3.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/search@3.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/select",
+      "version": "4.4.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/select@4.4.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@inquirer/type",
+      "version": "3.0.10",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@inquirer/type@3.0.10",
+      "depth": "transitive"
+    },
+    {
+      "name": "@isaacs/fs-minipass",
+      "version": "4.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@isaacs/fs-minipass@4.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@istanbuljs/schema",
+      "version": "0.1.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@istanbuljs/schema@0.1.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@jridgewell/gen-mapping@0.3.13",
+      "depth": "transitive"
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@jridgewell/remapping@2.3.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@jridgewell/resolve-uri@3.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@jridgewell/sourcemap-codec@1.5.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@jridgewell/trace-mapping@0.3.31",
+      "depth": "transitive"
+    },
+    {
+      "name": "@listr2/prompt-adapter-inquirer",
+      "version": "3.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@listr2/prompt-adapter-inquirer@3.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-darwin-arm64",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-darwin-arm64@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-darwin-x64",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-darwin-x64@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-linux-arm",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-linux-arm@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-linux-arm64",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-linux-arm64@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-linux-x64",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-linux-x64@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-win32-arm64",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-win32-arm64@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@lmdb/lmdb-win32-x64",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@lmdb/lmdb-win32-x64@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@modelcontextprotocol/sdk",
+      "version": "1.26.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@modelcontextprotocol/sdk@1.26.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "http-errors",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/http-errors@2.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "raw-body",
+      "version": "2.5.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/raw-body@2.5.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "statuses",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/statuses@1.5.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-darwin-arm64",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-darwin-x64",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@msgpackr-extract/msgpackr-extract-darwin-x64@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-linux-arm",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@msgpackr-extract/msgpackr-extract-linux-arm@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-linux-arm64",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@msgpackr-extract/msgpackr-extract-linux-arm64@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-linux-x64",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@msgpackr-extract/msgpackr-extract-linux-x64@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-win32-x64",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@msgpackr-extract/msgpackr-extract-win32-x64@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-android-arm-eabi",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-android-arm-eabi@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-android-arm64",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-android-arm64@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-darwin-arm64",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-darwin-arm64@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-darwin-x64",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-darwin-x64@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-freebsd-x64",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-freebsd-x64@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-arm-gnueabihf",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-arm-gnueabihf@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-arm64-gnu",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-arm64-gnu@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-arm64-musl",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-arm64-musl@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-ppc64-gnu",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-ppc64-gnu@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-riscv64-gnu",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-riscv64-gnu@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-s390x-gnu",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-s390x-gnu@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-x64-gnu",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-x64-gnu@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-linux-x64-musl",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-linux-x64-musl@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-openharmony-arm64",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-openharmony-arm64@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-win32-arm64-msvc",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-win32-arm64-msvc@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-win32-ia32-msvc",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-win32-ia32-msvc@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/nice-win32-x64-msvc",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/nice-win32-x64-msvc@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@napi-rs/wasm-runtime",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@napi-rs/wasm-runtime@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/agent",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/agent@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.2.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/lru-cache@11.2.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/fs",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/fs@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/git",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/git@7.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "isexe",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/isexe@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "which",
+      "version": "1.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/which@1.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/installed-package-contents",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/installed-package-contents@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/node-gyp",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/node-gyp@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/package-json",
+      "version": "7.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/package-json@7.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/balanced-match@4.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "brace-expansion",
+      "version": "5.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/brace-expansion@5.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "glob",
+      "version": "7.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/glob@7.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "minimatch",
+      "version": "3.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minimatch@3.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/promise-spawn",
+      "version": "9.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/promise-spawn@9.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/redact",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/redact@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@npmcli/run-script",
+      "version": "10.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@npmcli/run-script@10.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.113.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@oxc-project/types@0.113.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-android-arm64",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-android-arm64@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-darwin-arm64",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-darwin-arm64@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-darwin-x64",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-darwin-x64@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-freebsd-x64",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-freebsd-x64@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-linux-arm-glibc",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-linux-arm-glibc@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-linux-arm-musl",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-linux-arm-musl@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-linux-arm64-glibc",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-linux-arm64-glibc@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-linux-arm64-musl",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-linux-arm64-musl@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-linux-x64-glibc",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-linux-x64-glibc@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-linux-x64-musl",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-linux-x64-musl@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-win32-arm64",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-win32-arm64@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-win32-ia32",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-win32-ia32@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "@parcel/watcher-win32-x64",
+      "version": "2.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@parcel/watcher-win32-x64@2.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "node-addon-api",
+      "version": "6.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/node-addon-api@6.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-android-arm64@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-darwin-arm64@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-darwin-x64@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-freebsd-x64@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-linux-arm64-gnu@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-linux-arm64-musl@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-linux-x64-gnu@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-linux-x64-musl@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-openharmony-arm64@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-wasm32-wasi",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-wasm32-wasi@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-win32-arm64-msvc@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/binding-win32-x64-msvc@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rolldown/pluginutils@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-android-arm-eabi",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-android-arm-eabi@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-android-arm64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-android-arm64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-darwin-arm64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-darwin-arm64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-darwin-x64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-darwin-x64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-freebsd-arm64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-freebsd-arm64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-freebsd-x64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-freebsd-x64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-arm-gnueabihf@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-arm-musleabihf@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-arm64-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-arm64-musl@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-loong64-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-musl",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-loong64-musl@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-ppc64-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-musl",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-ppc64-musl@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-riscv64-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-riscv64-musl@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-s390x-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-x64-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-musl",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-linux-x64-musl@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-openbsd-x64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-openbsd-x64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-openharmony-arm64",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-openharmony-arm64@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-win32-arm64-msvc@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-win32-ia32-msvc@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-win32-x64-gnu@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@rollup/rollup-win32-x64-msvc@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@schematics/angular",
+      "version": "21.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@schematics/angular@21.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@sigstore/bundle",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@sigstore/bundle@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@sigstore/core",
+      "version": "3.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@sigstore/core@3.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@sigstore/protobuf-specs",
+      "version": "0.5.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@sigstore/protobuf-specs@0.5.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@sigstore/sign",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@sigstore/sign@4.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@sigstore/tuf",
+      "version": "4.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@sigstore/tuf@4.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@sigstore/verify",
+      "version": "3.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@sigstore/verify@3.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@socket.io/component-emitter",
+      "version": "3.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@socket.io/component-emitter@3.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "@standard-schema/spec",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@standard-schema/spec@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@tufjs/canonical-json",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@tufjs/canonical-json@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@tufjs/models",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@tufjs/models@4.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "@tybys/wasm-util",
+      "version": "0.10.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@tybys/wasm-util@0.10.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "@types/cors",
+      "version": "2.8.17",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@types/cors@2.8.17",
+      "depth": "transitive"
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.8",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@types/estree@1.0.8",
+      "depth": "transitive"
+    },
+    {
+      "name": "@types/file-saver",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@types/file-saver@2.0.7",
+      "depth": "direct"
+    },
+    {
+      "name": "@types/jasmine",
+      "version": "5.1.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@types/jasmine@5.1.7",
+      "depth": "direct"
+    },
+    {
+      "name": "@types/node",
+      "version": "22.13.10",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@types/node@22.13.10",
+      "depth": "transitive"
+    },
+    {
+      "name": "@vitejs/plugin-basic-ssl",
+      "version": "2.1.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@vitejs/plugin-basic-ssl@2.1.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "@yarnpkg/lockfile",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/@yarnpkg/lockfile@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "abbrev",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/abbrev@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "accepts",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/accepts@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "negotiator",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/negotiator@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/agent-base@7.1.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "ajv",
+      "version": "8.18.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ajv@8.18.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ajv-formats@3.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "algoliasearch",
+      "version": "5.48.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/algoliasearch@5.48.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "ansi-escapes",
+      "version": "7.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ansi-escapes@7.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "ansi-regex",
+      "version": "6.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ansi-regex@6.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "ansi-styles",
+      "version": "6.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ansi-styles@6.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "anymatch",
+      "version": "3.1.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/anymatch@3.1.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "picomatch",
+      "version": "2.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/picomatch@2.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "base64id",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/base64id@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "version": "2.10.8",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/baseline-browser-mapping@2.10.8",
+      "depth": "transitive"
+    },
+    {
+      "name": "beasties",
+      "version": "0.4.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/beasties@0.4.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "binary-extensions",
+      "version": "2.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/binary-extensions@2.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "body-parser",
+      "version": "2.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/body-parser@2.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "debug",
+      "version": "4.3.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/debug@4.3.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ms@2.1.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "boolbase",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/boolbase@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "braces",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/braces@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "browserslist",
+      "version": "4.28.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/browserslist@4.28.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "buffer-from",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/buffer-from@1.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "bytes",
+      "version": "3.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/bytes@3.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "cacache",
+      "version": "20.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cacache@20.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/call-bind-apply-helpers@1.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "call-bound",
+      "version": "1.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/call-bound@1.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "caniuse-lite",
+      "version": "1.0.30001780",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/caniuse-lite@1.0.30001780",
+      "depth": "transitive"
+    },
+    {
+      "name": "chalk",
+      "version": "5.6.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/chalk@5.6.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "chardet",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/chardet@2.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "chownr",
+      "version": "3.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/chownr@3.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "cli-cursor",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cli-cursor@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "cli-spinners",
+      "version": "3.4.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cli-spinners@3.4.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "cli-truncate",
+      "version": "5.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cli-truncate@5.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "string-width",
+      "version": "7.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/string-width@7.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "strip-ansi",
+      "version": "7.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/strip-ansi@7.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "cli-width",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cli-width@4.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "cliui",
+      "version": "7.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cliui@7.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "emoji-regex",
+      "version": "10.6.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/emoji-regex@10.6.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "6.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/wrap-ansi@6.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/color-convert@2.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/color-name@1.1.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "colorette",
+      "version": "2.0.20",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/colorette@2.0.20",
+      "depth": "transitive"
+    },
+    {
+      "name": "concat-map",
+      "version": "0.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/concat-map@0.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "connect",
+      "version": "3.7.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/connect@3.7.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "content-disposition",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/content-disposition@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "content-type",
+      "version": "1.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/content-type@1.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "cookie",
+      "version": "0.7.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cookie@0.7.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "cookie-signature",
+      "version": "1.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cookie-signature@1.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "cors",
+      "version": "2.8.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cors@2.8.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/cross-spawn@7.0.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "css-select",
+      "version": "6.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/css-select@6.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "css-what",
+      "version": "7.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/css-what@7.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "custom-event",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/custom-event@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "date-format",
+      "version": "4.0.14",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/date-format@4.0.14",
+      "depth": "transitive"
+    },
+    {
+      "name": "depd",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/depd@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "destroy",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/destroy@1.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/detect-libc@2.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "di",
+      "version": "0.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/di@0.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "dom-serialize",
+      "version": "2.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/dom-serialize@2.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "dom-serializer",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/dom-serializer@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "domelementtype",
+      "version": "2.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/domelementtype@2.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "domhandler",
+      "version": "5.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/domhandler@5.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "domutils",
+      "version": "3.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/domutils@3.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/dunder-proto@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "ee-first",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ee-first@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "electron-to-chromium",
+      "version": "1.5.313",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/electron-to-chromium@1.5.313",
+      "depth": "transitive"
+    },
+    {
+      "name": "encodeurl",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/encodeurl@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "engine.io",
+      "version": "6.6.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/engine.io@6.6.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "engine.io-parser",
+      "version": "5.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/engine.io-parser@5.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "ent",
+      "version": "2.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ent@2.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "entities",
+      "version": "6.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/entities@6.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "env-paths",
+      "version": "2.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/env-paths@2.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "environment",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/environment@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "err-code",
+      "version": "2.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/err-code@2.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/es-define-property@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "es-errors",
+      "version": "1.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/es-errors@1.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "es-object-atoms",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/es-object-atoms@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.27.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/esbuild@0.27.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "escalade",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/escalade@3.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "escape-html",
+      "version": "1.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/escape-html@1.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "etag",
+      "version": "1.8.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/etag@1.8.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "eventemitter3",
+      "version": "5.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/eventemitter3@5.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "eventsource",
+      "version": "3.0.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/eventsource@3.0.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "eventsource-parser",
+      "version": "3.0.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/eventsource-parser@3.0.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "exponential-backoff",
+      "version": "3.1.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/exponential-backoff@3.1.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "express",
+      "version": "5.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/express@5.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "express-rate-limit",
+      "version": "8.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/express-rate-limit@8.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "finalhandler",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/finalhandler@1.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "media-typer",
+      "version": "0.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/media-typer@0.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "mime-db",
+      "version": "1.54.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mime-db@1.54.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "mime-types",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mime-types@3.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "qs",
+      "version": "6.13.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/qs@6.13.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "type-is",
+      "version": "1.6.18",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/type-is@1.6.18",
+      "depth": "transitive"
+    },
+    {
+      "name": "extend",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/extend@3.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fast-deep-equal@3.1.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "fast-uri",
+      "version": "3.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fast-uri@3.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fdir@6.5.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "file-saver",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/file-saver@2.0.5",
+      "depth": "direct"
+    },
+    {
+      "name": "fill-range",
+      "version": "7.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fill-range@7.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "on-finished",
+      "version": "2.4.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/on-finished@2.4.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "flatted",
+      "version": "3.3.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/flatted@3.3.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "follow-redirects",
+      "version": "1.15.9",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/follow-redirects@1.15.9",
+      "depth": "transitive"
+    },
+    {
+      "name": "forwarded",
+      "version": "0.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/forwarded@0.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "fresh",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fresh@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "fs-extra",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fs-extra@8.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "fs-minipass",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fs-minipass@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "fs.realpath",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fs.realpath@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/fsevents@2.3.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "function-bind",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/function-bind@1.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/gensync@1.0.0-beta.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "get-caller-file",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/get-caller-file@2.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "get-east-asian-width",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/get-east-asian-width@1.5.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/get-intrinsic@1.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "get-proto",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/get-proto@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "glob-parent",
+      "version": "5.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/glob-parent@5.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "glob-to-regexp",
+      "version": "0.4.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/glob-to-regexp@0.4.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "gopd",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/gopd@1.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/graceful-fs@4.2.11",
+      "depth": "transitive"
+    },
+    {
+      "name": "has-flag",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/has-flag@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/has-symbols@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/has-tostringtag@1.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/hasown@2.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "hono",
+      "version": "4.12.8",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/hono@4.12.8",
+      "depth": "transitive"
+    },
+    {
+      "name": "hosted-git-info",
+      "version": "9.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/hosted-git-info@9.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "html-escaper",
+      "version": "2.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/html-escaper@2.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "htmlparser2",
+      "version": "10.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/htmlparser2@10.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "http-cache-semantics",
+      "version": "4.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/http-cache-semantics@4.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "http-proxy",
+      "version": "1.18.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/http-proxy@1.18.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "http-proxy-agent",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/http-proxy-agent@7.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/https-proxy-agent@7.0.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "ignore-walk",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ignore-walk@8.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "immutable",
+      "version": "5.1.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/immutable@5.1.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "imurmurhash",
+      "version": "0.1.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/imurmurhash@0.1.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "inflight",
+      "version": "1.0.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/inflight@1.0.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "inherits",
+      "version": "2.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/inherits@2.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "ini",
+      "version": "6.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ini@6.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "ip-address",
+      "version": "10.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ip-address@10.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "ipaddr.js",
+      "version": "1.9.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ipaddr.js@1.9.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-binary-path",
+      "version": "2.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-binary-path@2.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-extglob",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-extglob@2.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "version": "5.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-fullwidth-code-point@5.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-glob",
+      "version": "4.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-glob@4.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-interactive",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-interactive@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-number",
+      "version": "7.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-number@7.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-promise",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-promise@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-regex",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-regex@1.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "is-unicode-supported",
+      "version": "2.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/is-unicode-supported@2.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "isbinaryfile",
+      "version": "4.0.10",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/isbinaryfile@4.0.10",
+      "depth": "transitive"
+    },
+    {
+      "name": "istanbul-lib-coverage",
+      "version": "3.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/istanbul-lib-coverage@3.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "istanbul-lib-report",
+      "version": "3.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/istanbul-lib-report@3.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "istanbul-lib-source-maps",
+      "version": "4.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/istanbul-lib-source-maps@4.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "istanbul-reports",
+      "version": "3.1.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/istanbul-reports@3.1.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "jasmine-core",
+      "version": "4.6.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/jasmine-core@4.6.1",
+      "depth": "direct"
+    },
+    {
+      "name": "jose",
+      "version": "6.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/jose@6.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/js-tokens@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "jsesc",
+      "version": "3.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/jsesc@3.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "json-parse-even-better-errors",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/json-parse-even-better-errors@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/json-schema-traverse@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "json-schema-typed",
+      "version": "8.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/json-schema-typed@8.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "json5",
+      "version": "2.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/json5@2.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "jsonc-parser",
+      "version": "3.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/jsonc-parser@3.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "jsonfile",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/jsonfile@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "jsonparse",
+      "version": "1.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/jsonparse@1.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "karma",
+      "version": "6.4.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/karma@6.4.4",
+      "depth": "direct"
+    },
+    {
+      "name": "karma-chrome-launcher",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/karma-chrome-launcher@3.2.0",
+      "depth": "direct"
+    },
+    {
+      "name": "karma-coverage",
+      "version": "2.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/karma-coverage@2.2.1",
+      "depth": "direct"
+    },
+    {
+      "name": "karma-jasmine",
+      "version": "5.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/karma-jasmine@5.1.0",
+      "depth": "direct"
+    },
+    {
+      "name": "karma-jasmine-html-reporter",
+      "version": "2.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/karma-jasmine-html-reporter@2.1.0",
+      "depth": "direct"
+    },
+    {
+      "name": "tmp",
+      "version": "0.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/tmp@0.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "yargs",
+      "version": "18.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/yargs@18.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "yargs-parser",
+      "version": "22.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/yargs-parser@22.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "listr2",
+      "version": "9.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/listr2@9.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "lmdb",
+      "version": "3.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/lmdb@3.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "lodash",
+      "version": "4.17.21",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/lodash@4.17.21",
+      "depth": "transitive"
+    },
+    {
+      "name": "log-symbols",
+      "version": "7.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/log-symbols@7.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "log-update",
+      "version": "6.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/log-update@6.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "slice-ansi",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/slice-ansi@8.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "log4js",
+      "version": "6.9.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/log4js@6.9.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "magic-string",
+      "version": "0.30.21",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/magic-string@0.30.21",
+      "depth": "transitive"
+    },
+    {
+      "name": "make-dir",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/make-dir@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "make-fetch-happen",
+      "version": "15.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/make-fetch-happen@15.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/math-intrinsics@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "merge-descriptors",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/merge-descriptors@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "mime",
+      "version": "2.6.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mime@2.6.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "mimic-function",
+      "version": "5.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mimic-function@5.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "minimist",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minimist@1.2.8",
+      "depth": "transitive"
+    },
+    {
+      "name": "minipass",
+      "version": "3.3.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minipass@3.3.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "minipass-collect",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minipass-collect@2.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "minipass-fetch",
+      "version": "5.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minipass-fetch@5.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "minipass-flush",
+      "version": "1.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minipass-flush@1.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "yallist",
+      "version": "3.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/yallist@3.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "minipass-pipeline",
+      "version": "1.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minipass-pipeline@1.2.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "minipass-sized",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minipass-sized@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "minizlib",
+      "version": "3.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/minizlib@3.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "mkdirp",
+      "version": "0.5.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mkdirp@0.5.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "mrmime",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mrmime@2.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "msgpackr",
+      "version": "1.11.9",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/msgpackr@1.11.9",
+      "depth": "transitive"
+    },
+    {
+      "name": "msgpackr-extract",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/msgpackr-extract@3.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "mute-stream",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/mute-stream@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.11",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/nanoid@3.3.11",
+      "depth": "transitive"
+    },
+    {
+      "name": "node-gyp",
+      "version": "12.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/node-gyp@12.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "node-gyp-build-optional-packages",
+      "version": "5.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/node-gyp-build-optional-packages@5.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "node-releases",
+      "version": "2.0.36",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/node-releases@2.0.36",
+      "depth": "transitive"
+    },
+    {
+      "name": "nopt",
+      "version": "9.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/nopt@9.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "normalize-path",
+      "version": "3.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/normalize-path@3.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-bundled",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-bundled@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-install-checks",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-install-checks@8.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-normalize-package-bin",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-normalize-package-bin@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-package-arg",
+      "version": "13.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-package-arg@13.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-packlist",
+      "version": "10.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-packlist@10.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-pick-manifest",
+      "version": "11.0.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-pick-manifest@11.0.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "npm-registry-fetch",
+      "version": "19.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/npm-registry-fetch@19.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "nth-check",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/nth-check@2.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "object-assign",
+      "version": "4.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/object-assign@4.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "object-inspect",
+      "version": "1.13.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/object-inspect@1.13.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "once",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/once@1.4.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "onetime",
+      "version": "7.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/onetime@7.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "ora",
+      "version": "9.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ora@9.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "ordered-binary",
+      "version": "1.6.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ordered-binary@1.6.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "p-map",
+      "version": "7.0.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/p-map@7.0.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "pacote",
+      "version": "21.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/pacote@21.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "parse5",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/parse5@8.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "parse5-html-rewriting-stream",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/parse5-html-rewriting-stream@8.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "parse5-sax-parser",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/parse5-sax-parser@8.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "parseurl",
+      "version": "1.3.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/parseurl@1.3.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "path-is-absolute",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/path-is-absolute@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/path-key@3.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "path-scurry",
+      "version": "2.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/path-scurry@2.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "8.3.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/path-to-regexp@8.3.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/picocolors@1.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "piscina",
+      "version": "5.1.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/piscina@5.1.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "pkce-challenge",
+      "version": "5.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/pkce-challenge@5.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.8",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/postcss@8.5.8",
+      "depth": "transitive"
+    },
+    {
+      "name": "postcss-media-query-parser",
+      "version": "0.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/postcss-media-query-parser@0.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "postcss-safe-parser",
+      "version": "7.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/postcss-safe-parser@7.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "proc-log",
+      "version": "6.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/proc-log@6.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "promise-retry",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/promise-retry@2.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "retry",
+      "version": "0.13.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/retry@0.13.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "proxy-addr",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/proxy-addr@2.0.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "punycode",
+      "version": "1.4.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/punycode@1.4.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "qjobs",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/qjobs@1.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "range-parser",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/range-parser@1.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "reflect-metadata",
+      "version": "0.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/reflect-metadata@0.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "require-directory",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/require-directory@2.1.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/require-from-string@2.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "requires-port",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/requires-port@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "restore-cursor",
+      "version": "5.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/restore-cursor@5.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "rfdc",
+      "version": "1.4.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/rfdc@1.4.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "rimraf",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/rimraf@3.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.0.0-rc.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/rolldown@1.0.0-rc.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "rollup",
+      "version": "4.59.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/rollup@4.59.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "router",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/router@2.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "rxjs",
+      "version": "7.8.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/rxjs@7.8.2",
+      "depth": "direct"
+    },
+    {
+      "name": "safe-regex-test",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/safe-regex-test@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/safer-buffer@2.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "sass",
+      "version": "1.97.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/sass@1.97.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "send",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/send@1.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "serve-static",
+      "version": "2.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/serve-static@2.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "setprototypeof",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/setprototypeof@1.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/shebang-command@2.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/shebang-regex@3.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "side-channel",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/side-channel@1.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "side-channel-list",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/side-channel-list@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "side-channel-map",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/side-channel-map@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "side-channel-weakmap",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/side-channel-weakmap@1.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/signal-exit@4.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "sigstore",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/sigstore@4.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "smart-buffer",
+      "version": "4.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/smart-buffer@4.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "socket.io",
+      "version": "4.8.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/socket.io@4.8.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "socket.io-adapter",
+      "version": "2.5.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/socket.io-adapter@2.5.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "socket.io-parser",
+      "version": "4.2.4",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/socket.io-parser@4.2.4",
+      "depth": "transitive"
+    },
+    {
+      "name": "socks",
+      "version": "2.8.7",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/socks@2.8.7",
+      "depth": "transitive"
+    },
+    {
+      "name": "socks-proxy-agent",
+      "version": "8.0.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/socks-proxy-agent@8.0.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/source-map-js@1.2.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "source-map-support",
+      "version": "0.5.21",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/source-map-support@0.5.21",
+      "depth": "transitive"
+    },
+    {
+      "name": "spdx-exceptions",
+      "version": "2.5.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/spdx-exceptions@2.5.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "spdx-expression-parse",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/spdx-expression-parse@4.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "spdx-license-ids",
+      "version": "3.0.23",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/spdx-license-ids@3.0.23",
+      "depth": "transitive"
+    },
+    {
+      "name": "ssri",
+      "version": "13.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ssri@13.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "stdin-discarder",
+      "version": "0.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/stdin-discarder@0.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "streamroller",
+      "version": "3.1.5",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/streamroller@3.1.5",
+      "depth": "transitive"
+    },
+    {
+      "name": "supports-color",
+      "version": "7.2.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/supports-color@7.2.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "tar",
+      "version": "7.5.11",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/tar@7.5.11",
+      "depth": "transitive"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.15",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/tinyglobby@0.2.15",
+      "depth": "transitive"
+    },
+    {
+      "name": "to-regex-range",
+      "version": "5.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/to-regex-range@5.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/toidentifier@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/tslib@2.8.1",
+      "depth": "direct"
+    },
+    {
+      "name": "tuf-js",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/tuf-js@4.1.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/typescript@5.9.3",
+      "depth": "direct"
+    },
+    {
+      "name": "ua-parser-js",
+      "version": "0.7.40",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ua-parser-js@0.7.40",
+      "depth": "transitive"
+    },
+    {
+      "name": "undici",
+      "version": "7.22.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/undici@7.22.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "undici-types",
+      "version": "6.20.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/undici-types@6.20.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "unique-filename",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/unique-filename@5.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "unique-slug",
+      "version": "6.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/unique-slug@6.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "universalify",
+      "version": "0.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/universalify@0.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "unpipe",
+      "version": "1.0.0",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/unpipe@1.0.0",
+      "depth": "transitive"
+    },
+    {
+      "name": "update-browserslist-db",
+      "version": "1.2.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/update-browserslist-db@1.2.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/utils-merge@1.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "validate-npm-package-name",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/validate-npm-package-name@7.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "vary",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/vary@1.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "vite",
+      "version": "7.3.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/vite@7.3.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "void-elements",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/void-elements@2.0.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "watchpack",
+      "version": "2.5.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/watchpack@2.5.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "weak-lru-cache",
+      "version": "1.2.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/weak-lru-cache@1.2.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "wrappy",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/wrappy@1.0.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "ws",
+      "version": "8.17.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/ws@8.17.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "y18n",
+      "version": "5.0.8",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/y18n@5.0.8",
+      "depth": "transitive"
+    },
+    {
+      "name": "yoctocolors",
+      "version": "2.1.2",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/yoctocolors@2.1.2",
+      "depth": "transitive"
+    },
+    {
+      "name": "yoctocolors-cjs",
+      "version": "2.1.3",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/yoctocolors-cjs@2.1.3",
+      "depth": "transitive"
+    },
+    {
+      "name": "zod",
+      "version": "4.3.6",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/zod@4.3.6",
+      "depth": "transitive"
+    },
+    {
+      "name": "zod-to-json-schema",
+      "version": "3.25.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/zod-to-json-schema@3.25.1",
+      "depth": "transitive"
+    },
+    {
+      "name": "zone.js",
+      "version": "0.15.1",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/zone.js@0.15.1",
+      "depth": "direct"
+    },
+    {
+      "name": "checkout",
+      "version": "v4",
+      "ecosystem": "github",
+      "purl": "pkg:github/actions/checkout@v4",
+      "depth": "unknown_dependency_depth"
+    },
+    {
+      "name": "deploy-pages",
+      "version": "v4",
+      "ecosystem": "github",
+      "purl": "pkg:github/actions/deploy-pages@v4",
+      "depth": "unknown_dependency_depth"
+    },
+    {
+      "name": "setup-node",
+      "version": "v4",
+      "ecosystem": "github",
+      "purl": "pkg:github/actions/setup-node@v4",
+      "depth": "unknown_dependency_depth"
+    },
+    {
+      "name": "upload-pages-artifact",
+      "version": "v3",
+      "ecosystem": "github",
+      "purl": "pkg:github/actions/upload-pages-artifact@v3",
+      "depth": "unknown_dependency_depth"
+    }
+  ],
+  "counts": {
+    "npm_packages_total": 552,
+    "npm_packages_direct": 26,
+    "npm_packages_transitive": 526,
+    "npm_unknown_depth": 0,
+    "non_npm_packages": 4,
+    "total_packages": 556
+  }
+}

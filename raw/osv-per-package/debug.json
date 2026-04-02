@@ -1,0 +1,132 @@
+{
+  "GHSA-4x49-vf9v-38px": {
+    "id": "GHSA-4x49-vf9v-38px",
+    "aliases": [
+      "CVE-2025-59144",
+      "GHSA-8mgj-vmr8-frr6",
+      "MAL-2025-46974"
+    ],
+    "published_date": "2025-09-15",
+    "published_iso": "2025-09-15T21:30:55Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4x49-vf9v-38px",
+    "fetched_at": "2026-04-02T07:28:04.391671+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          ">=4.4.2 <4.4.3"
+        ],
+        "fixed_version": "4.4.3",
+        "versions_list": [
+          "4.4.2"
+        ]
+      }
+    ]
+  },
+  "GHSA-9vvw-cc9w-f27h": {
+    "id": "GHSA-9vvw-cc9w-f27h",
+    "aliases": [
+      "CVE-2017-20165"
+    ],
+    "published_date": "2023-01-09",
+    "published_iso": "2023-01-09T12:30:19Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9vvw-cc9w-f27h",
+    "fetched_at": "2026-04-02T07:28:04.392968+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.1.0"
+        ],
+        "fixed_version": "3.1.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          "<2.6.9"
+        ],
+        "fixed_version": "2.6.9",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-gxpj-cx7g-858c": {
+    "id": "GHSA-gxpj-cx7g-858c",
+    "aliases": [
+      "CVE-2017-16137"
+    ],
+    "published_date": "2018-08-09",
+    "published_iso": "2018-08-09T20:18:07Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-gxpj-cx7g-858c",
+    "fetched_at": "2026-04-02T07:28:04.392968+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          "<2.6.9"
+        ],
+        "fixed_version": "2.6.9",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.1.0"
+        ],
+        "fixed_version": "3.1.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          ">=3.2.0 <3.2.7"
+        ],
+        "fixed_version": "3.2.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.3.1"
+        ],
+        "fixed_version": "4.3.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "MAL-2025-46974": {
+    "id": "MAL-2025-46974",
+    "aliases": [
+      "CVE-2025-59144",
+      "GHSA-4x49-vf9v-38px",
+      "GHSA-8mgj-vmr8-frr6"
+    ],
+    "published_date": "2025-09-08",
+    "published_iso": "2025-09-08T14:26:51Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2025-46974",
+    "fetched_at": "2026-04-02T07:28:04.393980+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "debug",
+        "vulnerable_ranges": [],
+        "fixed_version": null,
+        "versions_list": [
+          "4.4.2"
+        ]
+      }
+    ]
+  }
+}

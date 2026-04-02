@@ -1,0 +1,216 @@
+{
+  "GHSA-c75v-2vq8-878f": {
+    "id": "GHSA-c75v-2vq8-878f",
+    "aliases": [
+      "CVE-2021-4231"
+    ],
+    "published_date": "2022-05-27",
+    "published_iso": "2022-05-27T00:01:08Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c75v-2vq8-878f",
+    "fetched_at": "2026-04-02T07:23:00.150470+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=11.0.0 <11.0.5"
+        ],
+        "fixed_version": "11.0.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=11.1.0-next.0 <11.1.0-next.3"
+        ],
+        "fixed_version": "11.1.0-next.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          "<10.2.5"
+        ],
+        "fixed_version": "10.2.5",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-g93w-mfhg-p222": {
+    "id": "GHSA-g93w-mfhg-p222",
+    "aliases": [
+      "CVE-2026-32635"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:56:18Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-g93w-mfhg-p222",
+    "fetched_at": "2026-04-02T07:23:00.151468+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=22.0.0-next.0 <22.0.0-next.3"
+        ],
+        "fixed_version": "22.0.0-next.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.2.4"
+        ],
+        "fixed_version": "21.2.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0.0.0 <20.3.18"
+        ],
+        "fixed_version": "20.3.18",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=19.0.0-next.0 <19.2.20"
+        ],
+        "fixed_version": "19.2.20",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=17.0.0-next.0 <=18.2.14"
+        ],
+        "fixed_version": null,
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-jrmj-c5cx-3cw6": {
+    "id": "GHSA-jrmj-c5cx-3cw6",
+    "aliases": [
+      "CVE-2026-22610"
+    ],
+    "published_date": "2026-01-09",
+    "published_iso": "2026-01-09T18:52:14Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jrmj-c5cx-3cw6",
+    "fetched_at": "2026-04-02T07:23:00.151468+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=21.1.0-next.0 <21.1.0-rc.0"
+        ],
+        "fixed_version": "21.1.0-rc.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.0.7"
+        ],
+        "fixed_version": "21.0.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0 <20.3.16"
+        ],
+        "fixed_version": "20.3.16",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=19.0.0-next.0 <19.2.18"
+        ],
+        "fixed_version": "19.2.18",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          "<=18.2.14"
+        ],
+        "fixed_version": null,
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-prjf-86w9-mfqv": {
+    "id": "GHSA-prjf-86w9-mfqv",
+    "aliases": [
+      "CVE-2026-27970"
+    ],
+    "published_date": "2026-02-27",
+    "published_iso": "2026-02-27T18:33:16Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-prjf-86w9-mfqv",
+    "fetched_at": "2026-04-02T07:23:00.151468+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=21.2.0-next.0 <21.2.0"
+        ],
+        "fixed_version": "21.2.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.1.6"
+        ],
+        "fixed_version": "21.1.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0 <20.3.17"
+        ],
+        "fixed_version": "20.3.17",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          ">=19.0.0-next.0 <19.2.19"
+        ],
+        "fixed_version": "19.2.19",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/core",
+        "vulnerable_ranges": [
+          "<=18.2.14"
+        ],
+        "fixed_version": null,
+        "versions_list": []
+      }
+    ]
+  }
+}

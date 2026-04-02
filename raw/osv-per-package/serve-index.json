@@ -1,0 +1,24 @@
+{
+  "GHSA-v633-x5vv-hqwc": {
+    "id": "GHSA-v633-x5vv-hqwc",
+    "aliases": [
+      "CVE-2015-8856"
+    ],
+    "published_date": "2017-10-24",
+    "published_iso": "2017-10-24T18:33:36Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-v633-x5vv-hqwc",
+    "fetched_at": "2026-04-02T07:31:56.702065+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "serve-index",
+        "vulnerable_ranges": [
+          "<1.6.3"
+        ],
+        "fixed_version": "1.6.3",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "GHSA-968p-4wvh-cqc8": {
+    "id": "GHSA-968p-4wvh-cqc8",
+    "aliases": [
+      "CVE-2025-27789"
+    ],
+    "published_date": "2025-03-11",
+    "published_iso": "2025-03-11T20:30:18Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-968p-4wvh-cqc8",
+    "fetched_at": "2026-04-02T07:23:16.955937+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@babel/helpers",
+        "vulnerable_ranges": [
+          "<7.26.10"
+        ],
+        "fixed_version": "7.26.10",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@babel/helpers",
+        "vulnerable_ranges": [
+          ">=8.0.0-alpha.0 <8.0.0-alpha.17"
+        ],
+        "fixed_version": "8.0.0-alpha.17",
+        "versions_list": []
+      }
+    ]
+  }
+}

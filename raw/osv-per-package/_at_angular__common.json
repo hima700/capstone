@@ -1,0 +1,42 @@
+{
+  "GHSA-58c5-g7wp-6w37": {
+    "id": "GHSA-58c5-g7wp-6w37",
+    "aliases": [
+      "CVE-2025-66035"
+    ],
+    "published_date": "2025-11-26",
+    "published_iso": "2025-11-26T23:18:50Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-58c5-g7wp-6w37",
+    "fetched_at": "2026-04-02T07:22:57.089889+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/common",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.0.1"
+        ],
+        "fixed_version": "21.0.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/common",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0 <20.3.14"
+        ],
+        "fixed_version": "20.3.14",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/common",
+        "vulnerable_ranges": [
+          "<19.2.16"
+        ],
+        "fixed_version": "19.2.16",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "GHSA-4wf5-vphf-c2xc": {
+    "id": "GHSA-4wf5-vphf-c2xc",
+    "aliases": [
+      "CVE-2022-25858"
+    ],
+    "published_date": "2022-07-16",
+    "published_iso": "2022-07-16T00:00:20Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4wf5-vphf-c2xc",
+    "fetched_at": "2026-04-02T07:32:26.341022+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "terser",
+        "vulnerable_ranges": [
+          "<4.8.1"
+        ],
+        "fixed_version": "4.8.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "terser",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.14.2"
+        ],
+        "fixed_version": "5.14.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

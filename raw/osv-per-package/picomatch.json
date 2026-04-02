@@ -1,0 +1,82 @@
+{
+  "GHSA-3v7f-55p6-f55p": {
+    "id": "GHSA-3v7f-55p6-f55p",
+    "aliases": [
+      "CVE-2026-33672"
+    ],
+    "published_date": "2026-03-25",
+    "published_iso": "2026-03-25T21:13:39Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3v7f-55p6-f55p",
+    "fetched_at": "2026-04-02T07:31:13.729232+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "picomatch",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.0.4"
+        ],
+        "fixed_version": "4.0.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "picomatch",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.0.2"
+        ],
+        "fixed_version": "3.0.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "picomatch",
+        "vulnerable_ranges": [
+          "<2.3.2"
+        ],
+        "fixed_version": "2.3.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-c2c7-rcm5-vvqj": {
+    "id": "GHSA-c2c7-rcm5-vvqj",
+    "aliases": [
+      "CVE-2026-33671"
+    ],
+    "published_date": "2026-03-25",
+    "published_iso": "2026-03-25T21:12:07Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c2c7-rcm5-vvqj",
+    "fetched_at": "2026-04-02T07:31:13.730232+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "picomatch",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.0.4"
+        ],
+        "fixed_version": "4.0.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "picomatch",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.0.2"
+        ],
+        "fixed_version": "3.0.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "picomatch",
+        "vulnerable_ranges": [
+          "<2.3.2"
+        ],
+        "fixed_version": "2.3.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

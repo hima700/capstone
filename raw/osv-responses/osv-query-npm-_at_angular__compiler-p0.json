@@ -1,0 +1,718 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-g93w-mfhg-p222",
+      "summary": "Angular vulnerable to XSS in i18n attribute bindings",
+      "details": "A Cross-Site Scripting (XSS) vulnerability has been identified in the Angular runtime and compiler. It occurs when the application uses a security-sensitive attribute (for example href on an anchor tag) together with Angular's ability to internationalize attributes. Enabling internationalization for the sensitive attribute by adding `i18n-<attribute>` name bypasses Angular's built-in sanitization mechanism, which when combined with a data binding to untrusted user-generated data can allow an attacker to inject a malicious script. \n\nThe following example illustrates the issue:\n```html\n<a href=\"{{maliciousUrl}}\" i18n-href>Click me</a>\n```\n\nThe following attributes have been confirmed to be vulnerable:\n- `action`\n- `background`\n- `cite`\n- `codebase`\n- `data`\n- `formaction`\n- `href`\n- `itemtype`\n- `longdesc`\n- `poster`\n- `src`\n- `xlink:href`\n\n### Impact\nWhen exploited, this vulnerability allows an attacker to execute arbitrary code within the context of the vulnerable application's domain. This enables:\n- Session Hijacking: Stealing session cookies and authentication tokens.\n- Data Exfiltration: Capturing and transmitting sensitive user data.\n- Unauthorized Actions: Performing actions on behalf of the user.\n\n### Attack Preconditions\n1. The application must use a vulnerable version of Angular.\n2. The application must bind unsanitized user input to one of the attributes mentioned above.\n3. The bound value must be marked for internationalization via the presence of a `i18n-<name>` attribute on the same element.\n\n### Patches\n- 22.0.0-next.3\n- 21.2.4\n- 20.3.18\n- 19.2.20\n\n### Workarounds\nThe primary workaround is to ensure that any data bound to the vulnerable attributes is **never sourced from untrusted user input** (e.g., database, API response, URL parameters) until the patch is applied, or when it is, it shouldn't be marked for internationalization.\n\nAlternatively, users can explicitly sanitize their attributes by passing them through Angular's `DomSanitizer`:\n```ts\nimport {Component, inject, SecurityContext} from '@angular/core';\nimport {DomSanitizer} from '@angular/platform-browser';\n\n@Component({\n  template: `\n    <form action=\"{{url}}\" i18n-action>\n      <button>Submit</button>\n    </form>\n  `,\n})\nexport class App {\n  url: string;\n\n  constructor() {\n    const dangerousUrl = 'javascript:alert(1)';\n    const sanitizer = inject(DomSanitizer);\n    this.url = sanitizer.sanitize(SecurityContext.URL, dangerousUrl) || '';\n  }\n}\n```\n\n### References\n- [Fix 1](https://github.com/angular/angular/pull/67541) \n- [Fix 2](https://github.com/angular/angular/pull/67561)",
+      "aliases": [
+        "CVE-2026-32635"
+      ],
+      "modified": "2026-03-17T01:31:35.828211Z",
+      "published": "2026-03-13T20:56:18Z",
+      "database_specific": {
+        "nvd_published_at": "2026-03-16T14:19:40Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "github_reviewed": true,
+        "github_reviewed_at": "2026-03-13T20:56:18Z"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/security/advisories/GHSA-g93w-mfhg-p222"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32635"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/pull/67541"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/pull/67561"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/commit/224e60ecb1b90115baa702f1c06edc1d64d86187"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/commit/78dea55351fb305b33a919c43a6b363137eca166"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/commit/8630319f74c9575a21693d875cc7d5252516146d"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/commit/ed2d324f9cc12aab6cfa0569ef10b73243a62c65"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/angular/angular"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "22.0.0-next.0"
+                },
+                {
+                  "fixed": "22.0.0-next.3"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.0.0-next.0"
+                },
+                {
+                  "fixed": "21.2.4"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "20.0.0-next.0.0.0"
+                },
+                {
+                  "fixed": "20.3.18"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "19.0.0-next.0"
+                },
+                {
+                  "fixed": "19.2.20"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "17.0.0-next.0"
+                },
+                {
+                  "last_affected": "18.2.14"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "22.0.0-next.0"
+                },
+                {
+                  "fixed": "22.0.0-next.3"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.0.0-next.0"
+                },
+                {
+                  "fixed": "21.2.4"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "20.0.0-next.0.0.0"
+                },
+                {
+                  "fixed": "20.3.18"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "19.0.0-next.0"
+                },
+                {
+                  "fixed": "19.2.20"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "17.0.0-next.0"
+                },
+                {
+                  "last_affected": "18.2.14"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g93w-mfhg-p222/GHSA-g93w-mfhg-p222.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.5",
+      "severity": [
+        {
+          "type": "CVSS_V4",
+          "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-jrmj-c5cx-3cw6",
+      "summary": "Angular has XSS Vulnerability via Unsanitized SVG Script Attributes",
+      "details": "A Cross-Site Scripting (XSS) vulnerability has been identified in the Angular Template Compiler. The vulnerability exists because Angular\u2019s internal sanitization schema fails to recognize the `href` and `xlink:href` attributes of SVG `<script>` elements as a **Resource URL** context.\n\nIn a standard security model, attributes that can load and execute code (like a script's source) should be strictly validated. However, because the compiler does not classify these specific SVG attributes correctly, it allows attackers to bypass Angular's built-in security protections.\n\nWhen template binding is used to assign user-controlled data to these attributes for example, `<script [attr.href]=\"userInput\">` the compiler treats the value as a standard string or a non-sensitive URL rather than a resource link. This enables an attacker to provide a malicious payload, such as a `data:text/javascript` URI or a link to an external malicious script.\n\n### Impact\nWhen successfully exploited, this vulnerability allows for **arbitrary JavaScript execution** within the context of the victim's browser session. This can lead to:\n- **Session Hijacking:** Stealing session cookies, localStorage data, or authentication tokens.\n- **Data Exfiltration:** Accessing and transmitting sensitive information displayed within the application.\n- **Unauthorized Actions:** Performing state-changing actions (like clicking buttons or submitting forms) on behalf of the authenticated user.\n\n### Attack Preconditions\n\n1. The victim application must explicitly use SVG `<script>` elements within its templates.\n2. The application must use property or attribute binding (interpolation) for the `href` or `xlink:href` attributes of those SVG scripts.\n3. The data bound to these attributes must be derived from an untrusted source (e.g., URL parameters, user-submitted database entries, or unsanitized API responses).\n\n### Patches\n- 19.2.18\n- 20.3.16\n- 21.0.7\n- 21.1.0-rc.0\n\n### Workarounds\nUntil the patch is applied, developers should:\n\n- **Avoid Dynamic Bindings**: Do not use Angular template binding (e.g., `[attr.href]`) for SVG `<script>` elements.\n- **Input Validation**: If dynamic values must be used, strictly validate the input against a strict allowlist of trusted URLs on the server side or before it reaches the template.\n\n### Resources\n\n- https://github.com/angular/angular/pull/66318",
+      "aliases": [
+        "CVE-2026-22610"
+      ],
+      "modified": "2026-02-03T03:14:59.788071Z",
+      "published": "2026-01-09T18:52:14Z",
+      "database_specific": {
+        "nvd_published_at": "2026-01-10T04:16:01Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "github_reviewed": true,
+        "github_reviewed_at": "2026-01-09T18:52:14Z"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/security/advisories/GHSA-jrmj-c5cx-3cw6"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22610"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/pull/66318"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/commit/91dc91bae4a1bbefc58bef6ef739d0e02ab44d56"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/angular/angular"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.1.0-next.0"
+                },
+                {
+                  "fixed": "21.1.0-rc.0"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.1.0-next.0"
+                },
+                {
+                  "fixed": "21.1.0-rc.0"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.0.0-next.0"
+                },
+                {
+                  "fixed": "21.0.7"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.0.0-next.0"
+                },
+                {
+                  "fixed": "21.0.7"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "20.0.0-next.0"
+                },
+                {
+                  "fixed": "20.3.16"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "20.0.0-next.0"
+                },
+                {
+                  "fixed": "20.3.16"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "19.0.0-next.0"
+                },
+                {
+                  "fixed": "19.2.18"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "19.0.0-next.0"
+                },
+                {
+                  "fixed": "19.2.18"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "last_affected": "18.2.14"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/core",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/core"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "last_affected": "18.2.14"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-jrmj-c5cx-3cw6/GHSA-jrmj-c5cx-3cw6.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V4",
+          "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-v4hv-rgfq-gp49",
+      "summary": "Angular Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes",
+      "details": "A **Stored Cross-Site Scripting ([XSS](https://angular.dev/best-practices/security#preventing-cross-site-scripting-xss))** vulnerability has been identified in the **Angular Template Compiler**. It occurs because the compiler's internal security schema is incomplete, allowing attackers to bypass Angular's built-in security sanitization. Specifically, the schema fails to classify certain URL-holding attributes (e.g., those that could contain [`javascript:` URLs](https://developer.mozilla.org/en-US/Web/URI/Reference/Schemes/javascript)) as requiring strict URL security, enabling the injection of malicious scripts.\n\nAdditionally, a related vulnerability exists involving SVG animation elements (`<animate>`, `<set>`, `<animateMotion>`, `<animateTransform>`). The `attributeName` attribute on these elements was not properly validated, allowing attackers to dynamically target security-sensitive attributes like `href` or `xlink:href` on other elements. By binding `attributeName` to \"href\" and providing a `javascript:` URL in the `values` or `to` attribute, an attacker could bypass sanitization and execute arbitrary code.\n\nAttributes confirmed to be vulnerable include:\n*   SVG-related attributes: (e.g., `xlink:href`), and various MathML attributes (e.g., `math|href`, `annotation|href`).\n*   SVG animation `attributeName` attribute when bound to \"href\" or \"xlink:href\".\n\nWhen template binding is used to assign untrusted, user-controlled data to these attributes (e.g., `[attr.xlink:href]=\"maliciousURL\"` or `<animate [attributeName]=\"'href'\" [values]=\"maliciousURL\">`), the compiler incorrectly falls back to a non-sanitizing context or fails to block the dangerous attribute assignment. This allows an attacker to inject a `javascript:URL` payload. Upon user interaction (like a click) on the element, or automatically in the case of animations, the malicious JavaScript executes in the context of the application's origin.\n\n### Impact\n\nWhen exploited, this vulnerability allows an attacker to execute arbitrary code within the context of the vulnerable application's domain. This enables:\n\n* **Session Hijacking:** Stealing session cookies and authentication tokens.  \n* **Data Exfiltration:** Capturing and transmitting sensitive user data.  \n* **Unauthorized Actions:** Performing actions on behalf of the user.\n\n### Patches\n\n- 19.2.17\n- 20.3.15\n- 21.0.2\n\n### Attack Preconditions\n\n* The victim's Angular application must render data derived from **untrusted input** (e.g., from a database or API) and bind it to one of the unsanitized URL attributes or the `attributeName` of an SVG animation element.\n* The victim must perform a **user interaction** (e.g., clicking) on the compromised element for the stored script to execute, or the animation must trigger the execution.\n\n### Workarounds\n\nIf you cannot upgrade, you can workaround the issue by ensuring that any data bound to the vulnerable attributes is never sourced from untrusted user input (e.g., database, API response, URL parameters).\n\n* **Avoid Affected Template Bindings:** Specifically avoid using template bindings (e.g., `[attr.xlink:href]=\"maliciousURL\"`) to assign untrusted data to the vulnerable SVG/MathML attributes.\n* **Avoid Dynamic `attributeName` on SVG Animations:** Do not bind untrusted data to the `attributeName` attribute of SVG animation elements (`<animate>`, `<set>`, etc.).\n* **Enable [Content Security Policy (CSP)](https://angular.dev/best-practices/security#content-security-policy):** Configure a robust CSP header that disallows `javascript:` URLs.",
+      "aliases": [
+        "CVE-2025-66412"
+      ],
+      "modified": "2025-12-02T01:38:38.792648Z",
+      "published": "2025-12-02T01:20:30Z",
+      "database_specific": {
+        "nvd_published_at": "2025-12-01T23:15:53Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "github_reviewed": true,
+        "github_reviewed_at": "2025-12-02T01:20:30Z"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/security/advisories/GHSA-v4hv-rgfq-gp49"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66412"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/angular/angular/commit/1c6b0704fb63d051fab8acff84d076abfbc4893a"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/angular/angular"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "21.0.0-next.0"
+                },
+                {
+                  "fixed": "21.0.2"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/12/GHSA-v4hv-rgfq-gp49/GHSA-v4hv-rgfq-gp49.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "20.0.0-next.0"
+                },
+                {
+                  "fixed": "20.3.15"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/12/GHSA-v4hv-rgfq-gp49/GHSA-v4hv-rgfq-gp49.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "19.0.0-next.0"
+                },
+                {
+                  "fixed": "19.2.17"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/12/GHSA-v4hv-rgfq-gp49/GHSA-v4hv-rgfq-gp49.json"
+          }
+        },
+        {
+          "package": {
+            "name": "@angular/compiler",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/%40angular/compiler"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "last_affected": "18.2.14"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/12/GHSA-v4hv-rgfq-gp49/GHSA-v4hv-rgfq-gp49.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V4",
+          "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ]
+    }
+  ]
+}

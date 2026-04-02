@@ -1,0 +1,24 @@
+{
+  "GHSA-pxg6-pf52-xh8x": {
+    "id": "GHSA-pxg6-pf52-xh8x",
+    "aliases": [
+      "CVE-2024-47764"
+    ],
+    "published_date": "2024-10-04",
+    "published_iso": "2024-10-04T20:31:00Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-pxg6-pf52-xh8x",
+    "fetched_at": "2026-04-02T07:27:55.137129+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "cookie",
+        "vulnerable_ranges": [
+          "<0.7.0"
+        ],
+        "fixed_version": "0.7.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

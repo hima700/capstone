@@ -1,0 +1,24 @@
+{
+  "GHSA-w8qv-6jwh-64r5": {
+    "id": "GHSA-w8qv-6jwh-64r5",
+    "aliases": [
+      "CVE-2021-23364"
+    ],
+    "published_date": "2021-05-24",
+    "published_iso": "2021-05-24T19:52:40Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-w8qv-6jwh-64r5",
+    "fetched_at": "2026-04-02T07:27:31.092644+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "browserslist",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.16.5"
+        ],
+        "fixed_version": "4.16.5",
+        "versions_list": []
+      }
+    ]
+  }
+}

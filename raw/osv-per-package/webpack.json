@@ -1,0 +1,90 @@
+{
+  "GHSA-38r7-794h-5758": {
+    "id": "GHSA-38r7-794h-5758",
+    "aliases": [
+      "CVE-2025-68157"
+    ],
+    "published_date": "2026-02-05",
+    "published_iso": "2026-02-05T18:35:28Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-38r7-794h-5758",
+    "fetched_at": "2026-04-02T07:32:53.205552+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack",
+        "vulnerable_ranges": [
+          ">=5.49.0 <5.104.0"
+        ],
+        "fixed_version": "5.104.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-4vvj-4cpr-p986": {
+    "id": "GHSA-4vvj-4cpr-p986",
+    "aliases": [
+      "CVE-2024-43788"
+    ],
+    "published_date": "2024-08-27",
+    "published_iso": "2024-08-27T19:50:40Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4vvj-4cpr-p986",
+    "fetched_at": "2026-04-02T07:32:53.206883+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack",
+        "vulnerable_ranges": [
+          ">=5.0.0-alpha.0 <5.94.0"
+        ],
+        "fixed_version": "5.94.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-8fgc-7cc6-rx7x": {
+    "id": "GHSA-8fgc-7cc6-rx7x",
+    "aliases": [
+      "CVE-2025-68458"
+    ],
+    "published_date": "2026-02-05",
+    "published_iso": "2026-02-05T18:38:10Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8fgc-7cc6-rx7x",
+    "fetched_at": "2026-04-02T07:32:53.206883+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack",
+        "vulnerable_ranges": [
+          ">=5.49.0 <5.104.1"
+        ],
+        "fixed_version": "5.104.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-hc6q-2mpp-qw7j": {
+    "id": "GHSA-hc6q-2mpp-qw7j",
+    "aliases": [
+      "CVE-2023-28154"
+    ],
+    "published_date": "2023-03-13",
+    "published_iso": "2023-03-13T03:30:15Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hc6q-2mpp-qw7j",
+    "fetched_at": "2026-04-02T07:32:53.206883+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.76.0"
+        ],
+        "fixed_version": "5.76.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

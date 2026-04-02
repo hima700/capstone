@@ -1,0 +1,84 @@
+{
+  "GHSA-pp7h-53gx-mx7r": {
+    "id": "GHSA-pp7h-53gx-mx7r",
+    "aliases": [
+      "CVE-2020-8244"
+    ],
+    "published_date": "2020-09-02",
+    "published_iso": "2020-09-02T15:26:19Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-pp7h-53gx-mx7r",
+    "fetched_at": "2026-04-02T07:27:27.354273+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "bl",
+        "vulnerable_ranges": [
+          "<1.2.3"
+        ],
+        "fixed_version": "1.2.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "bl",
+        "vulnerable_ranges": [
+          ">=2.0.0 <2.2.1"
+        ],
+        "fixed_version": "2.2.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "bl",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.0.1"
+        ],
+        "fixed_version": "3.0.1",
+        "versions_list": [
+          "3.0.0"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "bl",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.0.3"
+        ],
+        "fixed_version": "4.0.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-wrw9-m778-g6mc": {
+    "id": "GHSA-wrw9-m778-g6mc",
+    "aliases": [],
+    "published_date": "2019-06-03",
+    "published_iso": "2019-06-03T17:27:57Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-wrw9-m778-g6mc",
+    "fetched_at": "2026-04-02T07:27:27.354273+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "bl",
+        "vulnerable_ranges": [
+          "<0.9.5"
+        ],
+        "fixed_version": "0.9.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "bl",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.0.1"
+        ],
+        "fixed_version": "1.0.1",
+        "versions_list": [
+          "1.0.0"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "analysis_date": "2025-03-31T23:59:59Z",
+    "month_label": "2025-03",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": false,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-04-30T23:59:59Z",
+    "month_label": "2025-04",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-05-31T23:59:59Z",
+    "month_label": "2025-05",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-06-30T23:59:59Z",
+    "month_label": "2025-06",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-07-31T23:59:59Z",
+    "month_label": "2025-07",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-08-31T23:59:59Z",
+    "month_label": "2025-08",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-09-30T23:59:59Z",
+    "month_label": "2025-09",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-10-31T23:59:59Z",
+    "month_label": "2025-10",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-11-30T23:59:59Z",
+    "month_label": "2025-11",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2025-12-31T23:59:59Z",
+    "month_label": "2025-12",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2026-01-31T23:59:59Z",
+    "month_label": "2026-01",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2026-02-28T23:59:59Z",
+    "month_label": "2026-02",
+    "selected_commit_hash": "4712ac7867515a55b52426cb5f11f4c9807c1944",
+    "selected_commit_date": "2025-03-15T02:00:10+00:00",
+    "same_commit_reused": true,
+    "lockfile_present": true
+  },
+  {
+    "analysis_date": "2026-03-31T23:59:59Z",
+    "month_label": "2026-03",
+    "selected_commit_hash": "619c10f844b4f017580b712cbfd1eff50c987651",
+    "selected_commit_date": "2026-03-17T23:43:37+00:00",
+    "same_commit_reused": false,
+    "lockfile_present": true
+  }
+]

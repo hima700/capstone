@@ -1,0 +1,397 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-273r-mgr4-v34f",
+      "summary": "Uncaught Exception in engine.io",
+      "details": "### Impact\n\nA specially crafted HTTP request can trigger an uncaught exception on the Engine.IO server, thus killing the Node.js process.\n\n> RangeError: Invalid WebSocket frame: RSV2 and RSV3 must be clear\n>   at Receiver.getInfo (/.../node_modules/ws/lib/receiver.js:176:14)\n>   at Receiver.startLoop (/.../node_modules/ws/lib/receiver.js:136:22)\n>   at Receiver._write (/.../node_modules/ws/lib/receiver.js:83:10)\n>   at writeOrBuffer (internal/streams/writable.js:358:12)\n\nThis impacts all the users of the [`engine.io`](https://www.npmjs.com/package/engine.io) package starting from version `4.0.0`, including those who uses depending packages like [`socket.io`](https://www.npmjs.com/package/socket.io).\n\n### Patches\n\nA fix has been released for each major branch:\n\n| Version range | Fixed version |\n| --- | --- |\n| `engine.io@4.x.x` | `4.1.2` |\n| `engine.io@5.x.x` | `5.2.1` |\n| `engine.io@6.x.x` | `6.1.1` |\n\nPrevious versions (`< 4.0.0`) are not impacted.\n\nFor `socket.io` users:\n\n| Version range | `engine.io` version | Needs minor update? |\n| --- | --- | --- |\n| `socket.io@4.4.x` | `~6.1.0` | -\n| `socket.io@4.3.x` | `~6.0.0` | Please upgrade to `socket.io@4.4.x`\n| `socket.io@4.2.x` | `~5.2.0` | -\n| `socket.io@4.1.x` | `~5.1.1` | Please upgrade to `socket.io@4.4.x`\n| `socket.io@4.0.x` | `~5.0.0` | Please upgrade to `socket.io@4.4.x`\n| `socket.io@3.1.x` | `~4.1.0` | -\n| `socket.io@3.0.x` | `~4.0.0` | Please upgrade to `socket.io@3.1.x` or `socket.io@4.4.x` (see [here](https://socket.io/docs/v4/migrating-from-3-x-to-4-0/))\n\nIn most cases, running `npm audit fix` should be sufficient. You can also use  `npm update engine.io --depth=9999`.\n\n### Workarounds\n\nThere is no known workaround except upgrading to a safe version.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [`engine.io`](https://github.com/socketio/engine.io)\n\nThanks to Marcus Wejderot from Mevisio for the responsible disclosure.\n",
+      "aliases": [
+        "CVE-2022-21676"
+      ],
+      "modified": "2023-11-08T04:08:07.289618Z",
+      "published": "2022-01-13T16:14:17Z",
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-754",
+          "CWE-755"
+        ],
+        "nvd_published_at": "2022-01-12T19:15:00Z",
+        "github_reviewed": true,
+        "github_reviewed_at": "2022-01-12T19:26:23Z",
+        "severity": "HIGH"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/security/advisories/GHSA-273r-mgr4-v34f"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21676"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/66f889fc1d966bf5bfa0de1939069153643874ab"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/a70800d7e96da32f6e6622804ef659ebc58659db"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/c0e194d44933bd83bf9a4b126fca68ba7bf5098c"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/releases/tag/4.1.2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/releases/tag/5.2.1"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/releases/tag/6.1.1"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.netapp.com/advisory/ntap-20220209-0002"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "4.1.2"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-273r-mgr4-v34f/GHSA-273r-mgr4-v34f.json"
+          }
+        },
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "5.0.0"
+                },
+                {
+                  "fixed": "5.2.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-273r-mgr4-v34f/GHSA-273r-mgr4-v34f.json"
+          }
+        },
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "6.0.0"
+                },
+                {
+                  "fixed": "6.1.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-273r-mgr4-v34f/GHSA-273r-mgr4-v34f.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-j4f2-536g-r55m",
+      "summary": "Resource exhaustion in engine.io",
+      "details": "Engine.IO before 4.0.0 and 3.6.0 allows attackers to cause a denial of service (resource consumption) via a POST request to the long polling transport.",
+      "aliases": [
+        "CVE-2020-36048"
+      ],
+      "modified": "2025-05-29T23:06:32Z",
+      "published": "2022-02-09T22:29:04Z",
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "nvd_published_at": "2021-01-08T00:15:00Z",
+        "github_reviewed": true,
+        "github_reviewed_at": "2021-04-06T22:58:33Z",
+        "severity": "HIGH"
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36048"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/58e274c437e9cbcf69fd913c813aad8fbd253703"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/734f9d1268840722c41219e69eb58318e0b2ac6b"
+        },
+        {
+          "type": "WEB",
+          "url": "https://blog.caller.xyz/socketio-engineio-dos"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/bcaller/kill-engine-io"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/socketio/engine.io"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.6.0"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/02/GHSA-j4f2-536g-r55m/GHSA-j4f2-536g-r55m.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-q9mw-68c2-j6m5",
+      "summary": "engine.io Uncaught Exception vulnerability",
+      "details": "### Impact\n\nA specially crafted HTTP request can trigger an uncaught exception on the Engine.IO server, thus killing the Node.js process.\n\n```\nTypeError: Cannot read properties of undefined (reading 'handlesUpgrades')\n    at Server.onWebSocket (build/server.js:515:67)\n```\n\nThis impacts all the users of the [`engine.io`](https://www.npmjs.com/package/engine.io) package, including those who uses depending packages like [`socket.io`](https://www.npmjs.com/package/socket.io).\n\n### Patches\n\nA fix has been released today (2023/05/02): [6.4.2](https://github.com/socketio/engine.io/releases/tag/6.4.2)\n\nThis bug was introduced in version 5.1.0 and included in version 4.1.0 of the `socket.io` parent package. Older versions are not impacted.\n\nFor `socket.io` users:\n\n| Version range               | `engine.io` version | Needs minor update?                                                                                    |\n|-----------------------------|---------------------|--------------------------------------------------------------------------------------------------------|\n| `socket.io@4.6.x`           | `~6.4.0`            | `npm audit fix` should be sufficient                                                                   |\n| `socket.io@4.5.x`           | `~6.2.0`            | Please upgrade to `socket.io@4.6.x`                                                                    |\n| `socket.io@4.4.x`           | `~6.1.0`            | Please upgrade to `socket.io@4.6.x`                                                                    |\n| `socket.io@4.3.x`           | `~6.0.0`            | Please upgrade to `socket.io@4.6.x`                                                                    |\n| `socket.io@4.2.x`           | `~5.2.0`            | Please upgrade to `socket.io@4.6.x`                                                                    |\n| `socket.io@4.1.x`           | `~5.1.1`            | Please upgrade to `socket.io@4.6.x`                                                                    |\n| `socket.io@4.0.x`           | `~5.0.0`            | Not impacted |\n| `socket.io@3.1.x`           | `~4.1.0`            | Not impacted |\n| `socket.io@3.0.x`           | `~4.0.0`            | Not impacted |\n| `socket.io@2.5.0`           | `~3.6.0`            | Not impacted |\n| `socket.io@2.4.x` and below | `~3.5.0`            | Not impacted |\n\n### Workarounds\n\nThere is no known workaround except upgrading to a safe version.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [`engine.io`](https://github.com/socketio/engine.io)\n\nThanks to Thomas Rinsma from Codean for the responsible disclosure.",
+      "aliases": [
+        "CVE-2023-31125"
+      ],
+      "modified": "2025-02-13T18:54:10Z",
+      "published": "2023-05-03T21:56:51Z",
+      "related": [
+        "CVE-2023-31125"
+      ],
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-248"
+        ],
+        "nvd_published_at": "2023-05-08T21:15:11Z",
+        "github_reviewed": true,
+        "github_reviewed_at": "2023-05-03T21:56:51Z",
+        "severity": "MODERATE"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/security/advisories/GHSA-q9mw-68c2-j6m5"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31125"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/fc480b4f305e16fe5972cf337d055e598372dc44"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/socketio/engine.io"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/releases/tag/6.4.2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.netapp.com/advisory/ntap-20230622-0002"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "5.1.0"
+                },
+                {
+                  "fixed": "6.4.2"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-q9mw-68c2-j6m5/GHSA-q9mw-68c2-j6m5.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-r7qp-cfhv-p84w",
+      "summary": "Uncaught exception in engine.io",
+      "details": "### Impact\n\nA specially crafted HTTP request can trigger an uncaught exception on the Engine.IO server, thus killing the Node.js process.\n\n```\nevents.js:292\n      throw er; // Unhandled 'error' event\n      ^\n\nError: read ECONNRESET\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)\nEmitted 'error' event on Socket instance at:\n    at emitErrorNT (internal/streams/destroy.js:106:8)\n    at emitErrorCloseNT (internal/streams/destroy.js:74:3)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21) {\n  errno: -104,\n  code: 'ECONNRESET',\n  syscall: 'read'\n}\n```\n\nThis impacts all the users of the [`engine.io`](https://www.npmjs.com/package/engine.io) package, including those who uses depending packages like [`socket.io`](https://www.npmjs.com/package/socket.io).\n\n### Patches\n\nA fix has been released today (2022/11/20):\n\n| Version range     | Fixed version |\n|-------------------|---------------|\n| `engine.io@3.x.y` | `3.6.1`       |\n| `engine.io@6.x.y` | `6.2.1`       |\n\nFor `socket.io` users:\n\n| Version range               | `engine.io` version | Needs minor update?                                                                                    |\n|-----------------------------|---------------------|--------------------------------------------------------------------------------------------------------|\n| `socket.io@4.5.x`           | `~6.2.0`            | `npm audit fix` should be sufficient                                                                   |\n| `socket.io@4.4.x`           | `~6.1.0`            | Please upgrade to `socket.io@4.5.x`                                                                    |\n| `socket.io@4.3.x`           | `~6.0.0`            | Please upgrade to `socket.io@4.5.x`                                                                    |\n| `socket.io@4.2.x`           | `~5.2.0`            | Please upgrade to `socket.io@4.5.x`                                                                    |\n| `socket.io@4.1.x`           | `~5.1.1`            | Please upgrade to `socket.io@4.5.x`                                                                    |\n| `socket.io@4.0.x`           | `~5.0.0`            | Please upgrade to `socket.io@4.5.x`                                                                    |\n| `socket.io@3.1.x`           | `~4.1.0`            | Please upgrade to `socket.io@4.5.x` (see [here](https://socket.io/docs/v4/migrating-from-3-x-to-4-0/)) |\n| `socket.io@3.0.x`           | `~4.0.0`            | Please upgrade to `socket.io@4.5.x` (see [here](https://socket.io/docs/v4/migrating-from-3-x-to-4-0/)) |\n| `socket.io@2.5.0`           | `~3.6.0`            | `npm audit fix` should be sufficient                                                                   |\n| `socket.io@2.4.x` and below | `~3.5.0`            | Please upgrade to `socket.io@2.5.0`                                                                    |\n\n### Workarounds\n\nThere is no known workaround except upgrading to a safe version.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [`engine.io`](https://github.com/socketio/engine.io)\n\nThanks to [Jonathan Neve](https://github.com/jonathanneve) for the responsible disclosure.\n",
+      "aliases": [
+        "CVE-2022-41940"
+      ],
+      "modified": "2023-11-08T04:10:36.669362Z",
+      "published": "2022-11-21T23:55:41Z",
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-248"
+        ],
+        "nvd_published_at": "2022-11-22T01:15:00Z",
+        "github_reviewed": true,
+        "github_reviewed_at": "2022-11-21T23:55:41Z",
+        "severity": "MODERATE"
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/security/advisories/GHSA-r7qp-cfhv-p84w"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41940"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/425e833ab13373edf1dd5a0706f07100db14e3c6"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/socketio/engine.io/commit/83c4071af871fc188298d7d591e95670bf9f9085"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/socketio/engine.io"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.6.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/11/GHSA-r7qp-cfhv-p84w/GHSA-r7qp-cfhv-p84w.json"
+          }
+        },
+        {
+          "package": {
+            "name": "engine.io",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/engine.io"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "6.2.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/11/GHSA-r7qp-cfhv-p84w/GHSA-r7qp-cfhv-p84w.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    }
+  ]
+}

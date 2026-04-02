@@ -1,0 +1,24 @@
+{
+  "GHSA-52f5-9888-hmc6": {
+    "id": "GHSA-52f5-9888-hmc6",
+    "aliases": [
+      "CVE-2025-54798"
+    ],
+    "published_date": "2025-08-06",
+    "published_iso": "2025-08-06T17:06:04Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-52f5-9888-hmc6",
+    "fetched_at": "2026-04-02T07:32:29.829324+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "tmp",
+        "vulnerable_ranges": [
+          "<0.2.4"
+        ],
+        "fixed_version": "0.2.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

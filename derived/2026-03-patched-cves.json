@@ -1,0 +1,12 @@
+{
+  "month": "2026-03",
+  "analysis_date": "2026-03-31",
+  "patched_cves": [],
+  "summary": {
+    "patched_total_cves": 0,
+    "patched_nday": 0,
+    "patched_zeroday": 0,
+    "patched_npm_packages_vulnerable": 0,
+    "churn_introduced_total": 0
+  }
+}

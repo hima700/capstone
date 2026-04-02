@@ -1,0 +1,24 @@
+{
+  "GHSA-c6rq-rjc2-86v2": {
+    "id": "GHSA-c6rq-rjc2-86v2",
+    "aliases": [
+      "CVE-2017-18869"
+    ],
+    "published_date": "2022-02-10",
+    "published_iso": "2022-02-10T23:33:39Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c6rq-rjc2-86v2",
+    "fetched_at": "2026-04-02T07:27:40.320200+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "chownr",
+        "vulnerable_ranges": [
+          "<1.1.0"
+        ],
+        "fixed_version": "1.1.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

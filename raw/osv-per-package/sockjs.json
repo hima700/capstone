@@ -1,0 +1,46 @@
+{
+  "GHSA-c9g6-9335-x697": {
+    "id": "GHSA-c9g6-9335-x697",
+    "aliases": [
+      "CVE-2020-7693"
+    ],
+    "published_date": "2021-04-13",
+    "published_iso": "2021-04-13T15:27:51Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c9g6-9335-x697",
+    "fetched_at": "2026-04-02T07:32:08.909322+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "sockjs",
+        "vulnerable_ranges": [
+          "<0.3.20"
+        ],
+        "fixed_version": "0.3.20",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-hh8v-jmh3-9437": {
+    "id": "GHSA-hh8v-jmh3-9437",
+    "aliases": [
+      "CVE-2020-8823"
+    ],
+    "published_date": "2021-04-13",
+    "published_iso": "2021-04-13T15:25:33Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hh8v-jmh3-9437",
+    "fetched_at": "2026-04-02T07:32:08.911321+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "sockjs",
+        "vulnerable_ranges": [
+          "<0.3.0"
+        ],
+        "fixed_version": "0.3.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

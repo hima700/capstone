@@ -1,0 +1,46 @@
+{
+  "GHSA-7x7c-qm48-pq9c": {
+    "id": "GHSA-7x7c-qm48-pq9c",
+    "aliases": [
+      "CVE-2022-0437"
+    ],
+    "published_date": "2022-02-06",
+    "published_iso": "2022-02-06T00:00:54Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-7x7c-qm48-pq9c",
+    "fetched_at": "2026-04-02T07:30:02.117666+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "karma",
+        "vulnerable_ranges": [
+          "<6.3.14"
+        ],
+        "fixed_version": "6.3.14",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-rc3x-jf5g-xvc5": {
+    "id": "GHSA-rc3x-jf5g-xvc5",
+    "aliases": [
+      "CVE-2021-23495"
+    ],
+    "published_date": "2022-02-26",
+    "published_iso": "2022-02-26T00:00:38Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-rc3x-jf5g-xvc5",
+    "fetched_at": "2026-04-02T07:30:02.118660+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "karma",
+        "vulnerable_ranges": [
+          "<6.3.16"
+        ],
+        "fixed_version": "6.3.16",
+        "versions_list": []
+      }
+    ]
+  }
+}

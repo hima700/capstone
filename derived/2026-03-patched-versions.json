@@ -1,0 +1,4976 @@
+{
+  "month": "2026-03",
+  "analysis_date": "2026-03-31",
+  "patched_versions": [
+    {
+      "package": "@algolia/abtesting",
+      "asis_version": "1.14.1",
+      "patched_version": "1.16.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-abtesting",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-analytics",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-common",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-insights",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-personalization",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-query-suggestions",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/client-search",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/ingestion",
+      "asis_version": "1.48.1",
+      "patched_version": "1.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/monitoring",
+      "asis_version": "1.48.1",
+      "patched_version": "1.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/recommend",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/requester-browser-xhr",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/requester-fetch",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@algolia/requester-node-http",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@ampproject/remapping",
+      "asis_version": "2.3.0",
+      "patched_version": "2.3.0",
+      "asis_publish_date": "2024-03-01",
+      "patched_publish_date": "2024-03-01",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@angular-devkit/architect",
+      "asis_version": "0.2102.2",
+      "patched_version": "0.2102.5",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@angular-devkit/core",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.5",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "chokidar",
+      "asis_version": "4.0.3",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2024-12-18",
+      "patched_publish_date": "2025-11-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "readdirp",
+      "asis_version": "4.1.2",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-02-14",
+      "patched_publish_date": "2025-11-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "source-map",
+      "asis_version": "0.6.1",
+      "patched_version": "0.7.6",
+      "asis_publish_date": "2017-09-29",
+      "patched_publish_date": "2025-07-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@angular-devkit/schematics",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.5",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@angular/animations",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/build",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.5",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "istanbul-lib-instrument",
+      "asis_version": "5.2.1",
+      "patched_version": "6.0.3",
+      "asis_publish_date": "2022-10-05",
+      "patched_publish_date": "2024-06-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@angular/cdk",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.4",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/cli",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.5",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/common",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/compiler",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/compiler-cli",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/core",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/forms",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/material",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.4",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/platform-browser",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/platform-browser-dynamic",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@angular/router",
+      "asis_version": "21.2.4",
+      "patched_version": "22.0.0-next.5",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@babel/code-frame",
+      "asis_version": "7.29.0",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-31",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/compat-data",
+      "asis_version": "7.29.0",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-31",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/core",
+      "asis_version": "7.29.0",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-31",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "convert-source-map",
+      "asis_version": "1.9.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2022-10-10",
+      "patched_publish_date": "2022-10-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "semver",
+      "asis_version": "7.7.4",
+      "patched_version": "7.7.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-02-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/generator",
+      "asis_version": "7.29.1",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-02-04",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-annotate-as-pure",
+      "asis_version": "7.27.3",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2025-05-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-compilation-targets",
+      "asis_version": "7.28.6",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-12",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-globals",
+      "asis_version": "7.28.0",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2025-07-02",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-module-imports",
+      "asis_version": "7.28.6",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-12",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-module-transforms",
+      "asis_version": "7.28.6",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-12",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-split-export-declaration",
+      "asis_version": "7.24.7",
+      "patched_version": "8.0.0-alpha.11",
+      "asis_publish_date": "2024-06-05",
+      "patched_publish_date": "2024-06-07",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-string-parser",
+      "asis_version": "7.27.1",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2025-04-30",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-validator-identifier",
+      "asis_version": "7.28.5",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2025-10-23",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helper-validator-option",
+      "asis_version": "7.27.1",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2025-04-30",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/helpers",
+      "asis_version": "7.29.2",
+      "patched_version": "7.29.2",
+      "asis_publish_date": "2026-03-16",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/parser",
+      "asis_version": "7.29.2",
+      "patched_version": "7.29.2",
+      "asis_publish_date": "2026-03-16",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/template",
+      "asis_version": "7.28.6",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-12",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/traverse",
+      "asis_version": "7.29.0",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-31",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@babel/types",
+      "asis_version": "7.29.0",
+      "patched_version": "8.0.0-rc.3",
+      "asis_publish_date": "2026-01-31",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@colors/colors",
+      "asis_version": "1.5.0",
+      "patched_version": "1.6.0",
+      "asis_publish_date": "2022-02-12",
+      "patched_publish_date": "2023-07-10",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@emnapi/core",
+      "asis_version": "1.9.0",
+      "patched_version": "1.9.1",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@emnapi/runtime",
+      "asis_version": "1.9.0",
+      "patched_version": "1.9.1",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@emnapi/wasi-threads",
+      "asis_version": "1.2.0",
+      "patched_version": "1.2.0",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/aix-ppc64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/android-arm",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/android-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/android-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/darwin-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/darwin-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/freebsd-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/freebsd-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-arm",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-ia32",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-loong64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-mips64el",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-ppc64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-riscv64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-s390x",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/linux-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/netbsd-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/netbsd-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/openbsd-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/openbsd-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/openharmony-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/sunos-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/win32-arm64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/win32-ia32",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@esbuild/win32-x64",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@gar/promise-retry",
+      "asis_version": "1.0.2",
+      "patched_version": "1.0.3",
+      "asis_publish_date": "2026-02-24",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@harperfast/extended-iterable",
+      "asis_version": "1.0.3",
+      "patched_version": "1.0.3",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@hono/node-server",
+      "asis_version": "1.19.11",
+      "patched_version": "1.19.12",
+      "asis_publish_date": "2026-03-05",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/ansi",
+      "asis_version": "1.0.2",
+      "patched_version": "2.0.4",
+      "asis_publish_date": "2025-11-08",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/checkbox",
+      "asis_version": "4.3.2",
+      "patched_version": "5.1.2",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/confirm",
+      "asis_version": "5.1.21",
+      "patched_version": "6.0.10",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/core",
+      "asis_version": "10.3.2",
+      "patched_version": "11.1.7",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/editor",
+      "asis_version": "4.2.23",
+      "patched_version": "5.0.10",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/expand",
+      "asis_version": "4.0.23",
+      "patched_version": "5.0.10",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/external-editor",
+      "asis_version": "1.0.3",
+      "patched_version": "2.0.4",
+      "asis_publish_date": "2025-11-08",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "iconv-lite",
+      "asis_version": "0.7.2",
+      "patched_version": "1.0.0-alpha.1",
+      "asis_publish_date": "2026-01-08",
+      "patched_publish_date": "2026-01-08",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/figures",
+      "asis_version": "1.0.15",
+      "patched_version": "2.0.4",
+      "asis_publish_date": "2025-11-08",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/input",
+      "asis_version": "4.3.1",
+      "patched_version": "5.0.10",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/number",
+      "asis_version": "3.0.23",
+      "patched_version": "4.0.10",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/password",
+      "asis_version": "4.0.23",
+      "patched_version": "5.0.10",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/prompts",
+      "asis_version": "7.10.1",
+      "patched_version": "8.3.2",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/rawlist",
+      "asis_version": "4.1.11",
+      "patched_version": "5.2.6",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/search",
+      "asis_version": "3.2.2",
+      "patched_version": "4.1.6",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/select",
+      "asis_version": "4.4.2",
+      "patched_version": "5.1.2",
+      "asis_publish_date": "2025-11-12",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@inquirer/type",
+      "asis_version": "3.0.10",
+      "patched_version": "4.0.4",
+      "asis_publish_date": "2025-11-08",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@isaacs/fs-minipass",
+      "asis_version": "4.0.1",
+      "patched_version": "4.0.1",
+      "asis_publish_date": "2024-04-18",
+      "patched_publish_date": "2024-04-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@istanbuljs/schema",
+      "asis_version": "0.1.3",
+      "patched_version": "0.1.3",
+      "asis_publish_date": "2021-02-13",
+      "patched_publish_date": "2021-02-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@jridgewell/gen-mapping",
+      "asis_version": "0.3.13",
+      "patched_version": "0.3.13",
+      "asis_publish_date": "2025-08-12",
+      "patched_publish_date": "2025-08-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@jridgewell/remapping",
+      "asis_version": "2.3.5",
+      "patched_version": "2.3.5",
+      "asis_publish_date": "2025-08-12",
+      "patched_publish_date": "2025-08-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@jridgewell/resolve-uri",
+      "asis_version": "3.1.2",
+      "patched_version": "3.1.2",
+      "asis_publish_date": "2024-02-14",
+      "patched_publish_date": "2024-02-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@jridgewell/sourcemap-codec",
+      "asis_version": "1.5.5",
+      "patched_version": "1.5.5",
+      "asis_publish_date": "2025-08-12",
+      "patched_publish_date": "2025-08-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@jridgewell/trace-mapping",
+      "asis_version": "0.3.31",
+      "patched_version": "0.3.31",
+      "asis_publish_date": "2025-09-10",
+      "patched_publish_date": "2025-09-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@listr2/prompt-adapter-inquirer",
+      "asis_version": "3.0.5",
+      "patched_version": "4.2.2",
+      "asis_publish_date": "2025-10-20",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-darwin-arm64",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-darwin-x64",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-linux-arm",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-linux-arm64",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-linux-x64",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-win32-arm64",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@lmdb/lmdb-win32-x64",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@modelcontextprotocol/sdk",
+      "asis_version": "1.26.0",
+      "patched_version": "1.29.0",
+      "asis_publish_date": "2026-02-04",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "http-errors",
+      "asis_version": "2.0.1",
+      "patched_version": "2.0.1",
+      "asis_publish_date": "2025-11-20",
+      "patched_publish_date": "2025-11-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "raw-body",
+      "asis_version": "2.5.2",
+      "patched_version": "2.5.3",
+      "asis_publish_date": "2023-02-21",
+      "patched_publish_date": "2025-11-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "statuses",
+      "asis_version": "1.5.0",
+      "patched_version": "2.0.2",
+      "asis_publish_date": "2018-03-28",
+      "patched_publish_date": "2025-06-06",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@msgpackr-extract/msgpackr-extract-darwin-arm64",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@msgpackr-extract/msgpackr-extract-darwin-x64",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@msgpackr-extract/msgpackr-extract-linux-arm",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@msgpackr-extract/msgpackr-extract-linux-arm64",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@msgpackr-extract/msgpackr-extract-linux-x64",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@msgpackr-extract/msgpackr-extract-win32-x64",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-android-arm-eabi",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-android-arm64",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-darwin-arm64",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-darwin-x64",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-freebsd-x64",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-arm-gnueabihf",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-arm64-gnu",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-arm64-musl",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-ppc64-gnu",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-riscv64-gnu",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-s390x-gnu",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-x64-gnu",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-linux-x64-musl",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-openharmony-arm64",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-win32-arm64-msvc",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-win32-ia32-msvc",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/nice-win32-x64-msvc",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@napi-rs/wasm-runtime",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.2",
+      "asis_publish_date": "2025-12-30",
+      "patched_publish_date": "2026-03-28",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/agent",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2025-09-18",
+      "patched_publish_date": "2025-09-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "lru-cache",
+      "asis_version": "11.2.7",
+      "patched_version": "11.2.7",
+      "asis_publish_date": "2026-03-13",
+      "patched_publish_date": "2026-03-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/fs",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-10-23",
+      "patched_publish_date": "2025-10-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/git",
+      "asis_version": "7.0.2",
+      "patched_version": "7.0.2",
+      "asis_publish_date": "2026-02-24",
+      "patched_publish_date": "2026-02-24",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "isexe",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2026-02-09",
+      "patched_publish_date": "2026-02-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "which",
+      "asis_version": "1.3.1",
+      "patched_version": "6.0.1",
+      "asis_publish_date": "2018-05-25",
+      "patched_publish_date": "2026-02-10",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/installed-package-contents",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2025-10-23",
+      "patched_publish_date": "2025-10-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/node-gyp",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/package-json",
+      "asis_version": "7.0.5",
+      "patched_version": "7.0.5",
+      "asis_publish_date": "2026-02-19",
+      "patched_publish_date": "2026-02-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "balanced-match",
+      "asis_version": "4.0.4",
+      "patched_version": "4.0.4",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-02-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "brace-expansion",
+      "asis_version": "5.0.4",
+      "patched_version": "3.0.2",
+      "asis_publish_date": "2026-02-27",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "glob",
+      "asis_version": "7.2.3",
+      "patched_version": "13.0.6",
+      "asis_publish_date": "2022-05-15",
+      "patched_publish_date": "2026-02-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "minimatch",
+      "asis_version": "3.1.2",
+      "patched_version": "10.2.5",
+      "asis_publish_date": "2022-02-15",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/promise-spawn",
+      "asis_version": "9.0.1",
+      "patched_version": "9.0.1",
+      "asis_publish_date": "2025-11-13",
+      "patched_publish_date": "2025-11-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/redact",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@npmcli/run-script",
+      "asis_version": "10.0.4",
+      "patched_version": "10.0.4",
+      "asis_publish_date": "2026-02-26",
+      "patched_publish_date": "2026-02-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@oxc-project/types",
+      "asis_version": "0.113.0",
+      "patched_version": "0.123.0",
+      "asis_publish_date": "2026-02-10",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-android-arm64",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-darwin-arm64",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-darwin-x64",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-freebsd-x64",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-linux-arm-glibc",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-linux-arm-musl",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-linux-arm64-glibc",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-linux-arm64-musl",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-linux-x64-glibc",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-linux-x64-musl",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-win32-arm64",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-win32-ia32",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@parcel/watcher-win32-x64",
+      "asis_version": "2.5.6",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2026-01-23",
+      "patched_publish_date": "2026-01-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "node-addon-api",
+      "asis_version": "6.1.0",
+      "patched_version": "8.7.0",
+      "asis_publish_date": "2023-04-20",
+      "patched_publish_date": "2026-03-26",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-android-arm64",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-darwin-arm64",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-darwin-x64",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-freebsd-x64",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-linux-arm-gnueabihf",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-linux-arm64-gnu",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-linux-arm64-musl",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-linux-x64-gnu",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-linux-x64-musl",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-openharmony-arm64",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-wasm32-wasi",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-win32-arm64-msvc",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/binding-win32-x64-msvc",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rolldown/pluginutils",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-android-arm-eabi",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-android-arm64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-darwin-arm64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-darwin-x64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-freebsd-arm64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-freebsd-x64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm-gnueabihf",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm-musleabihf",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm64-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm64-musl",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-loong64-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-loong64-musl",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-ppc64-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-ppc64-musl",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-riscv64-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-riscv64-musl",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-s390x-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-x64-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-linux-x64-musl",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-openbsd-x64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-openharmony-arm64",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-win32-arm64-msvc",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-win32-ia32-msvc",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-win32-x64-gnu",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@rollup/rollup-win32-x64-msvc",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@schematics/angular",
+      "asis_version": "21.2.2",
+      "patched_version": "21.2.5",
+      "asis_publish_date": "2026-03-11",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@sigstore/bundle",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2025-07-29",
+      "patched_publish_date": "2025-07-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@sigstore/core",
+      "asis_version": "3.1.0",
+      "patched_version": "3.2.0",
+      "asis_publish_date": "2025-12-19",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@sigstore/protobuf-specs",
+      "asis_version": "0.5.0",
+      "patched_version": "0.5.0",
+      "asis_publish_date": "2025-07-10",
+      "patched_publish_date": "2025-07-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@sigstore/sign",
+      "asis_version": "4.1.0",
+      "patched_version": "4.1.1",
+      "asis_publish_date": "2025-12-19",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@sigstore/tuf",
+      "asis_version": "4.0.1",
+      "patched_version": "4.0.2",
+      "asis_publish_date": "2025-12-19",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@sigstore/verify",
+      "asis_version": "3.1.0",
+      "patched_version": "3.1.0",
+      "asis_publish_date": "2025-12-19",
+      "patched_publish_date": "2025-12-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@socket.io/component-emitter",
+      "asis_version": "3.1.2",
+      "patched_version": "3.1.2",
+      "asis_publish_date": "2024-04-26",
+      "patched_publish_date": "2024-04-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@standard-schema/spec",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2025-12-15",
+      "patched_publish_date": "2025-12-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@tufjs/canonical-json",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2023-08-17",
+      "patched_publish_date": "2023-08-17",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@tufjs/models",
+      "asis_version": "4.1.0",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2025-12-18",
+      "patched_publish_date": "2025-12-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@tybys/wasm-util",
+      "asis_version": "0.10.1",
+      "patched_version": "0.10.1",
+      "asis_publish_date": "2025-09-11",
+      "patched_publish_date": "2025-09-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@types/cors",
+      "asis_version": "2.8.17",
+      "patched_version": "2.8.19",
+      "asis_publish_date": "2023-11-20",
+      "patched_publish_date": "2025-06-07",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@types/estree",
+      "asis_version": "1.0.8",
+      "patched_version": "1.0.8",
+      "asis_publish_date": "2025-06-06",
+      "patched_publish_date": "2025-06-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "@types/file-saver",
+      "asis_version": "2.0.7",
+      "patched_version": "2.0.7",
+      "asis_publish_date": "2023-11-07",
+      "patched_publish_date": "2023-11-07",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "@types/jasmine",
+      "asis_version": "5.1.7",
+      "patched_version": "6.0.0",
+      "asis_publish_date": "2025-02-21",
+      "patched_publish_date": "2026-01-21",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "@types/node",
+      "asis_version": "22.13.10",
+      "patched_version": "25.5.0",
+      "asis_publish_date": "2025-03-08",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@vitejs/plugin-basic-ssl",
+      "asis_version": "2.1.4",
+      "patched_version": "2.3.0",
+      "asis_publish_date": "2026-01-20",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "@yarnpkg/lockfile",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2018-09-10",
+      "patched_publish_date": "2018-09-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "abbrev",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2025-10-20",
+      "patched_publish_date": "2025-10-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "accepts",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2024-08-31",
+      "patched_publish_date": "2024-08-31",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "negotiator",
+      "asis_version": "1.0.0",
+      "patched_version": "0.6.4",
+      "asis_publish_date": "2024-08-31",
+      "patched_publish_date": "2024-10-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "agent-base",
+      "asis_version": "7.1.4",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-07-07",
+      "patched_publish_date": "2026-03-11",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ajv",
+      "asis_version": "8.18.0",
+      "patched_version": "6.14.0",
+      "asis_publish_date": "2026-02-14",
+      "patched_publish_date": "2026-02-20",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ajv-formats",
+      "asis_version": "3.0.1",
+      "patched_version": "3.0.1",
+      "asis_publish_date": "2024-03-30",
+      "patched_publish_date": "2024-03-30",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "algoliasearch",
+      "asis_version": "5.48.1",
+      "patched_version": "5.50.0",
+      "asis_publish_date": "2026-02-12",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ansi-escapes",
+      "asis_version": "7.3.0",
+      "patched_version": "7.3.0",
+      "asis_publish_date": "2026-02-04",
+      "patched_publish_date": "2026-02-04",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ansi-regex",
+      "asis_version": "6.2.2",
+      "patched_version": "6.2.2",
+      "asis_publish_date": "2025-09-08",
+      "patched_publish_date": "2025-09-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ansi-styles",
+      "asis_version": "6.2.3",
+      "patched_version": "6.2.3",
+      "asis_publish_date": "2025-09-08",
+      "patched_publish_date": "2025-09-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "anymatch",
+      "asis_version": "3.1.3",
+      "patched_version": "3.1.3",
+      "asis_publish_date": "2022-11-21",
+      "patched_publish_date": "2022-11-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "picomatch",
+      "asis_version": "2.3.1",
+      "patched_version": "4.0.4",
+      "asis_publish_date": "2022-01-02",
+      "patched_publish_date": "2026-03-23",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "base64id",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2019-05-27",
+      "patched_publish_date": "2019-05-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "baseline-browser-mapping",
+      "asis_version": "2.10.8",
+      "patched_version": "2.10.13",
+      "asis_publish_date": "2026-03-14",
+      "patched_publish_date": "2026-03-31",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "beasties",
+      "asis_version": "0.4.1",
+      "patched_version": "0.4.1",
+      "asis_publish_date": "2026-01-22",
+      "patched_publish_date": "2026-01-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "binary-extensions",
+      "asis_version": "2.3.0",
+      "patched_version": "3.1.0",
+      "asis_publish_date": "2024-03-14",
+      "patched_publish_date": "2025-05-04",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "body-parser",
+      "asis_version": "2.2.2",
+      "patched_version": "2.2.2",
+      "asis_publish_date": "2026-01-07",
+      "patched_publish_date": "2026-01-07",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "debug",
+      "asis_version": "4.3.7",
+      "patched_version": "4.4.3",
+      "asis_publish_date": "2024-09-06",
+      "patched_publish_date": "2025-09-13",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ms",
+      "asis_version": "2.1.3",
+      "patched_version": "4.0.0-nightly.202508271359",
+      "asis_publish_date": "2020-12-08",
+      "patched_publish_date": "2025-08-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "boolbase",
+      "asis_version": "1.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2014-02-15",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "braces",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-05-21",
+      "patched_publish_date": "2024-05-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "browserslist",
+      "asis_version": "4.28.1",
+      "patched_version": "4.28.2",
+      "asis_publish_date": "2025-12-03",
+      "patched_publish_date": "2026-03-31",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "buffer-from",
+      "asis_version": "1.1.2",
+      "patched_version": "1.1.2",
+      "asis_publish_date": "2021-07-29",
+      "patched_publish_date": "2021-07-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "bytes",
+      "asis_version": "3.1.2",
+      "patched_version": "3.1.2",
+      "asis_publish_date": "2022-01-28",
+      "patched_publish_date": "2022-01-28",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cacache",
+      "asis_version": "20.0.3",
+      "patched_version": "20.0.4",
+      "asis_publish_date": "2025-11-21",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "asis_version": "1.0.2",
+      "patched_version": "1.0.2",
+      "asis_publish_date": "2025-02-12",
+      "patched_publish_date": "2025-02-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "call-bound",
+      "asis_version": "1.0.4",
+      "patched_version": "1.0.4",
+      "asis_publish_date": "2025-03-03",
+      "patched_publish_date": "2025-03-03",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "caniuse-lite",
+      "asis_version": "1.0.30001780",
+      "patched_version": "1.0.30001782",
+      "asis_publish_date": "2026-03-17",
+      "patched_publish_date": "2026-03-29",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "chalk",
+      "asis_version": "5.6.2",
+      "patched_version": "5.6.2",
+      "asis_publish_date": "2025-09-08",
+      "patched_publish_date": "2025-09-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "chardet",
+      "asis_version": "2.1.1",
+      "patched_version": "2.1.1",
+      "asis_publish_date": "2025-10-29",
+      "patched_publish_date": "2025-10-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "chownr",
+      "asis_version": "3.0.0",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2024-04-06",
+      "patched_publish_date": "2024-04-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cli-cursor",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2024-07-26",
+      "patched_publish_date": "2024-07-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cli-spinners",
+      "asis_version": "3.4.0",
+      "patched_version": "3.4.0",
+      "asis_publish_date": "2026-01-13",
+      "patched_publish_date": "2026-01-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cli-truncate",
+      "asis_version": "5.2.0",
+      "patched_version": "5.2.0",
+      "asis_publish_date": "2026-03-01",
+      "patched_publish_date": "2026-03-01",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "string-width",
+      "asis_version": "7.2.0",
+      "patched_version": "8.2.0",
+      "asis_publish_date": "2024-06-30",
+      "patched_publish_date": "2026-02-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "strip-ansi",
+      "asis_version": "7.2.0",
+      "patched_version": "7.2.0",
+      "asis_publish_date": "2026-02-26",
+      "patched_publish_date": "2026-02-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cli-width",
+      "asis_version": "4.1.0",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2023-08-05",
+      "patched_publish_date": "2023-08-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cliui",
+      "asis_version": "7.0.4",
+      "patched_version": "9.0.1",
+      "asis_publish_date": "2020-11-09",
+      "patched_publish_date": "2025-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "emoji-regex",
+      "asis_version": "10.6.0",
+      "patched_version": "10.6.0",
+      "asis_publish_date": "2025-10-13",
+      "patched_publish_date": "2025-10-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "wrap-ansi",
+      "asis_version": "6.2.0",
+      "patched_version": "10.0.0",
+      "asis_publish_date": "2019-11-11",
+      "patched_publish_date": "2026-02-20",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "color-convert",
+      "asis_version": "2.0.1",
+      "patched_version": "3.1.3",
+      "asis_publish_date": "2019-08-19",
+      "patched_publish_date": "2025-11-14",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "color-name",
+      "asis_version": "1.1.4",
+      "patched_version": "2.1.0",
+      "asis_publish_date": "2018-09-21",
+      "patched_publish_date": "2025-11-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "colorette",
+      "asis_version": "2.0.20",
+      "patched_version": "2.0.20",
+      "asis_publish_date": "2023-04-16",
+      "patched_publish_date": "2023-04-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "concat-map",
+      "asis_version": "0.0.1",
+      "patched_version": "0.0.2",
+      "asis_publish_date": "2014-01-30",
+      "patched_publish_date": "2022-10-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "connect",
+      "asis_version": "3.7.0",
+      "patched_version": "3.7.0",
+      "asis_publish_date": "2019-05-18",
+      "patched_publish_date": "2019-05-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "content-disposition",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2025-11-18",
+      "patched_publish_date": "2025-11-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "content-type",
+      "asis_version": "1.0.5",
+      "patched_version": "1.0.5",
+      "asis_publish_date": "2023-01-29",
+      "patched_publish_date": "2023-01-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cookie",
+      "asis_version": "0.7.2",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2024-10-07",
+      "patched_publish_date": "2025-11-26",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "cookie-signature",
+      "asis_version": "1.2.2",
+      "patched_version": "1.2.2",
+      "asis_publish_date": "2024-10-29",
+      "patched_publish_date": "2024-10-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "cors",
+      "asis_version": "2.8.5",
+      "patched_version": "2.8.6",
+      "asis_publish_date": "2018-11-04",
+      "patched_publish_date": "2026-01-22",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "cross-spawn",
+      "asis_version": "7.0.6",
+      "patched_version": "6.0.6",
+      "asis_publish_date": "2024-11-18",
+      "patched_publish_date": "2024-11-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "css-select",
+      "asis_version": "6.0.0",
+      "patched_version": "7.0.0",
+      "asis_publish_date": "2025-06-29",
+      "patched_publish_date": "2026-03-22",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "css-what",
+      "asis_version": "7.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-06-29",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "custom-event",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2016-10-13",
+      "patched_publish_date": "2016-10-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "date-format",
+      "asis_version": "4.0.14",
+      "patched_version": "4.0.14",
+      "asis_publish_date": "2022-09-26",
+      "patched_publish_date": "2022-09-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "depd",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2018-10-26",
+      "patched_publish_date": "2018-10-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "destroy",
+      "asis_version": "1.2.0",
+      "patched_version": "1.2.0",
+      "asis_publish_date": "2022-03-20",
+      "patched_publish_date": "2022-03-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "detect-libc",
+      "asis_version": "2.1.2",
+      "patched_version": "2.1.2",
+      "asis_publish_date": "2025-10-05",
+      "patched_publish_date": "2025-10-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "di",
+      "asis_version": "0.0.1",
+      "patched_version": "2.0.0-pre-14",
+      "asis_publish_date": "2013-04-03",
+      "patched_publish_date": "2015-02-04",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "dom-serialize",
+      "asis_version": "2.2.1",
+      "patched_version": "2.2.1",
+      "asis_publish_date": "2015-11-05",
+      "patched_publish_date": "2015-11-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "dom-serializer",
+      "asis_version": "2.0.0",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2022-04-09",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "domelementtype",
+      "asis_version": "2.3.0",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2022-04-07",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "domhandler",
+      "asis_version": "5.0.3",
+      "patched_version": "6.0.1",
+      "asis_publish_date": "2022-04-30",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "domutils",
+      "asis_version": "3.2.2",
+      "patched_version": "4.0.2",
+      "asis_publish_date": "2025-01-06",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "dunder-proto",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2024-12-17",
+      "patched_publish_date": "2024-12-17",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ee-first",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2015-05-25",
+      "patched_publish_date": "2015-05-25",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "electron-to-chromium",
+      "asis_version": "1.5.313",
+      "patched_version": "1.5.329",
+      "asis_publish_date": "2026-03-12",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "encodeurl",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2024-03-29",
+      "patched_publish_date": "2024-03-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "engine.io",
+      "asis_version": "6.6.4",
+      "patched_version": "6.6.6",
+      "asis_publish_date": "2025-01-28",
+      "patched_publish_date": "2026-03-10",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "engine.io-parser",
+      "asis_version": "5.2.3",
+      "patched_version": "5.2.3",
+      "asis_publish_date": "2024-07-11",
+      "patched_publish_date": "2024-07-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ent",
+      "asis_version": "2.2.2",
+      "patched_version": "2.2.2",
+      "asis_publish_date": "2024-12-16",
+      "patched_publish_date": "2024-12-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "entities",
+      "asis_version": "6.0.1",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-06-08",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "env-paths",
+      "asis_version": "2.2.1",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2021-03-08",
+      "patched_publish_date": "2026-01-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "environment",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2024-05-14",
+      "patched_publish_date": "2024-05-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "err-code",
+      "asis_version": "2.0.3",
+      "patched_version": "3.0.1",
+      "asis_publish_date": "2020-06-18",
+      "patched_publish_date": "2021-02-05",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "es-define-property",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2024-12-06",
+      "patched_publish_date": "2024-12-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "es-errors",
+      "asis_version": "1.3.0",
+      "patched_version": "1.3.0",
+      "asis_publish_date": "2024-02-05",
+      "patched_publish_date": "2024-02-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "es-object-atoms",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2025-01-15",
+      "patched_publish_date": "2025-01-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "esbuild",
+      "asis_version": "0.27.3",
+      "patched_version": "0.27.4",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-03-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "escalade",
+      "asis_version": "3.2.0",
+      "patched_version": "3.2.0",
+      "asis_publish_date": "2024-08-29",
+      "patched_publish_date": "2024-08-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "escape-html",
+      "asis_version": "1.0.3",
+      "patched_version": "1.0.3",
+      "asis_publish_date": "2015-09-01",
+      "patched_publish_date": "2015-09-01",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "etag",
+      "asis_version": "1.8.1",
+      "patched_version": "1.8.1",
+      "asis_publish_date": "2017-09-13",
+      "patched_publish_date": "2017-09-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "eventemitter3",
+      "asis_version": "5.0.4",
+      "patched_version": "5.0.4",
+      "asis_publish_date": "2026-01-19",
+      "patched_publish_date": "2026-01-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "eventsource",
+      "asis_version": "3.0.7",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2025-05-09",
+      "patched_publish_date": "2025-11-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "eventsource-parser",
+      "asis_version": "3.0.6",
+      "patched_version": "3.0.6",
+      "asis_publish_date": "2025-08-29",
+      "patched_publish_date": "2025-08-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "exponential-backoff",
+      "asis_version": "3.1.3",
+      "patched_version": "3.1.3",
+      "asis_publish_date": "2025-10-10",
+      "patched_publish_date": "2025-10-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "express",
+      "asis_version": "5.2.1",
+      "patched_version": "4.22.1",
+      "asis_publish_date": "2025-12-01",
+      "patched_publish_date": "2025-12-01",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "express-rate-limit",
+      "asis_version": "8.3.1",
+      "patched_version": "8.3.2",
+      "asis_publish_date": "2026-03-09",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "finalhandler",
+      "asis_version": "1.1.2",
+      "patched_version": "2.1.1",
+      "asis_publish_date": "2019-05-10",
+      "patched_publish_date": "2025-12-01",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "media-typer",
+      "asis_version": "0.3.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2014-09-08",
+      "patched_publish_date": "2019-04-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "mime-db",
+      "asis_version": "1.54.0",
+      "patched_version": "1.54.0",
+      "asis_publish_date": "2025-03-18",
+      "patched_publish_date": "2025-03-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "mime-types",
+      "asis_version": "3.0.2",
+      "patched_version": "3.0.2",
+      "asis_publish_date": "2025-11-20",
+      "patched_publish_date": "2025-11-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "qs",
+      "asis_version": "6.13.0",
+      "patched_version": "6.15.0",
+      "asis_publish_date": "2024-08-01",
+      "patched_publish_date": "2026-02-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "type-is",
+      "asis_version": "1.6.18",
+      "patched_version": "2.0.1",
+      "asis_publish_date": "2019-04-26",
+      "patched_publish_date": "2025-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "extend",
+      "asis_version": "3.0.2",
+      "patched_version": "2.0.2",
+      "asis_publish_date": "2018-07-19",
+      "patched_publish_date": "2018-07-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "fast-deep-equal",
+      "asis_version": "3.1.3",
+      "patched_version": "3.1.3",
+      "asis_publish_date": "2020-06-08",
+      "patched_publish_date": "2020-06-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "fast-uri",
+      "asis_version": "3.1.0",
+      "patched_version": "3.1.0",
+      "asis_publish_date": "2025-08-25",
+      "patched_publish_date": "2025-08-25",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "fdir",
+      "asis_version": "6.5.0",
+      "patched_version": "6.5.0",
+      "asis_publish_date": "2025-08-14",
+      "patched_publish_date": "2025-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "file-saver",
+      "asis_version": "2.0.5",
+      "patched_version": "2.0.5",
+      "asis_publish_date": "2020-11-19",
+      "patched_publish_date": "2020-11-19",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "fill-range",
+      "asis_version": "7.1.1",
+      "patched_version": "7.1.1",
+      "asis_publish_date": "2024-05-21",
+      "patched_publish_date": "2024-05-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "on-finished",
+      "asis_version": "2.4.1",
+      "patched_version": "2.4.1",
+      "asis_publish_date": "2022-02-22",
+      "patched_publish_date": "2022-02-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "flatted",
+      "asis_version": "3.3.3",
+      "patched_version": "3.4.2",
+      "asis_publish_date": "2025-02-18",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "follow-redirects",
+      "asis_version": "1.15.9",
+      "patched_version": "1.15.11",
+      "asis_publish_date": "2024-09-06",
+      "patched_publish_date": "2025-07-31",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "forwarded",
+      "asis_version": "0.2.0",
+      "patched_version": "0.2.0",
+      "asis_publish_date": "2021-05-31",
+      "patched_publish_date": "2021-05-31",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "fresh",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2024-09-04",
+      "patched_publish_date": "2024-09-04",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "fs-extra",
+      "asis_version": "8.1.0",
+      "patched_version": "11.3.4",
+      "asis_publish_date": "2019-06-28",
+      "patched_publish_date": "2026-03-03",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "fs-minipass",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2023-08-14",
+      "patched_publish_date": "2023-08-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "fs.realpath",
+      "asis_version": "1.0.0",
+      "patched_version": "1.0.0",
+      "asis_publish_date": "2016-06-15",
+      "patched_publish_date": "2016-06-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "fsevents",
+      "asis_version": "2.3.3",
+      "patched_version": "2.3.3",
+      "asis_publish_date": "2023-08-21",
+      "patched_publish_date": "2023-08-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "function-bind",
+      "asis_version": "1.1.2",
+      "patched_version": "1.1.2",
+      "asis_publish_date": "2023-10-12",
+      "patched_publish_date": "2023-10-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "gensync",
+      "asis_version": "1.0.0-beta.2",
+      "patched_version": "1.0.0-beta.2",
+      "asis_publish_date": "2020-10-27",
+      "patched_publish_date": "2020-10-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "get-caller-file",
+      "asis_version": "2.0.5",
+      "patched_version": "2.0.5",
+      "asis_publish_date": "2019-03-09",
+      "patched_publish_date": "2019-03-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "get-east-asian-width",
+      "asis_version": "1.5.0",
+      "patched_version": "1.5.0",
+      "asis_publish_date": "2026-02-18",
+      "patched_publish_date": "2026-02-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "get-intrinsic",
+      "asis_version": "1.3.0",
+      "patched_version": "1.3.1",
+      "asis_publish_date": "2025-02-22",
+      "patched_publish_date": "2025-09-29",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "get-proto",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2025-01-02",
+      "patched_publish_date": "2025-01-02",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "glob-parent",
+      "asis_version": "5.1.2",
+      "patched_version": "6.0.2",
+      "asis_publish_date": "2021-03-06",
+      "patched_publish_date": "2021-09-29",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "glob-to-regexp",
+      "asis_version": "0.4.1",
+      "patched_version": "0.4.1",
+      "asis_publish_date": "2019-04-01",
+      "patched_publish_date": "2019-04-01",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "gopd",
+      "asis_version": "1.2.0",
+      "patched_version": "1.2.0",
+      "asis_publish_date": "2024-12-04",
+      "patched_publish_date": "2024-12-04",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "graceful-fs",
+      "asis_version": "4.2.11",
+      "patched_version": "4.2.11",
+      "asis_publish_date": "2023-03-16",
+      "patched_publish_date": "2023-03-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "has-flag",
+      "asis_version": "4.0.0",
+      "patched_version": "5.0.1",
+      "asis_publish_date": "2019-04-06",
+      "patched_publish_date": "2021-07-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "has-symbols",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2024-12-02",
+      "patched_publish_date": "2024-12-02",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "has-tostringtag",
+      "asis_version": "1.0.2",
+      "patched_version": "1.0.2",
+      "asis_publish_date": "2024-02-01",
+      "patched_publish_date": "2024-02-01",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "hasown",
+      "asis_version": "2.0.2",
+      "patched_version": "2.0.2",
+      "asis_publish_date": "2024-03-10",
+      "patched_publish_date": "2024-03-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "hono",
+      "asis_version": "4.12.8",
+      "patched_version": "4.12.9",
+      "asis_publish_date": "2026-03-14",
+      "patched_publish_date": "2026-03-23",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "hosted-git-info",
+      "asis_version": "9.0.2",
+      "patched_version": "9.0.2",
+      "asis_publish_date": "2025-10-08",
+      "patched_publish_date": "2025-10-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "html-escaper",
+      "asis_version": "2.0.2",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2020-03-27",
+      "patched_publish_date": "2021-02-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "htmlparser2",
+      "asis_version": "10.1.0",
+      "patched_version": "12.0.0",
+      "asis_publish_date": "2026-01-21",
+      "patched_publish_date": "2026-03-20",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "http-cache-semantics",
+      "asis_version": "4.2.0",
+      "patched_version": "4.2.0",
+      "asis_publish_date": "2025-05-09",
+      "patched_publish_date": "2025-05-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "http-proxy",
+      "asis_version": "1.18.1",
+      "patched_version": "1.18.1",
+      "asis_publish_date": "2020-05-17",
+      "patched_publish_date": "2020-05-17",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "http-proxy-agent",
+      "asis_version": "7.0.2",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2024-02-15",
+      "patched_publish_date": "2026-03-11",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "https-proxy-agent",
+      "asis_version": "7.0.6",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2024-12-07",
+      "patched_publish_date": "2026-03-11",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ignore-walk",
+      "asis_version": "8.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-07-24",
+      "patched_publish_date": "2025-07-24",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "immutable",
+      "asis_version": "5.1.5",
+      "patched_version": "3.8.3",
+      "asis_publish_date": "2026-03-03",
+      "patched_publish_date": "2026-03-06",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "imurmurhash",
+      "asis_version": "0.1.4",
+      "patched_version": "0.1.4",
+      "asis_publish_date": "2013-08-24",
+      "patched_publish_date": "2013-08-24",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "inflight",
+      "asis_version": "1.0.6",
+      "patched_version": "1.0.6",
+      "asis_publish_date": "2016-10-13",
+      "patched_publish_date": "2016-10-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "inherits",
+      "asis_version": "2.0.4",
+      "patched_version": "2.0.4",
+      "asis_publish_date": "2019-06-19",
+      "patched_publish_date": "2019-06-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ini",
+      "asis_version": "6.0.0",
+      "patched_version": "6.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ip-address",
+      "asis_version": "10.1.0",
+      "patched_version": "10.1.0",
+      "asis_publish_date": "2025-11-08",
+      "patched_publish_date": "2025-11-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ipaddr.js",
+      "asis_version": "1.9.1",
+      "patched_version": "2.3.0",
+      "asis_publish_date": "2019-07-17",
+      "patched_publish_date": "2025-11-28",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-binary-path",
+      "asis_version": "2.1.0",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2019-04-19",
+      "patched_publish_date": "2024-04-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-extglob",
+      "asis_version": "2.1.1",
+      "patched_version": "2.1.1",
+      "asis_publish_date": "2016-12-11",
+      "patched_publish_date": "2016-12-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "asis_version": "5.1.0",
+      "patched_version": "5.1.0",
+      "asis_publish_date": "2025-08-31",
+      "patched_publish_date": "2025-08-31",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-glob",
+      "asis_version": "4.0.3",
+      "patched_version": "4.0.3",
+      "asis_publish_date": "2021-09-29",
+      "patched_publish_date": "2021-09-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-interactive",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2021-05-03",
+      "patched_publish_date": "2021-05-03",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-number",
+      "asis_version": "7.0.0",
+      "patched_version": "7.0.0",
+      "asis_publish_date": "2018-07-04",
+      "patched_publish_date": "2018-07-04",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-promise",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2020-04-27",
+      "patched_publish_date": "2020-04-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-regex",
+      "asis_version": "1.2.1",
+      "patched_version": "1.2.1",
+      "asis_publish_date": "2024-12-12",
+      "patched_publish_date": "2024-12-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "is-unicode-supported",
+      "asis_version": "2.1.0",
+      "patched_version": "2.1.0",
+      "asis_publish_date": "2024-09-09",
+      "patched_publish_date": "2024-09-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "isbinaryfile",
+      "asis_version": "4.0.10",
+      "patched_version": "6.0.0",
+      "asis_publish_date": "2022-03-25",
+      "patched_publish_date": "2025-12-05",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "istanbul-lib-coverage",
+      "asis_version": "3.2.2",
+      "patched_version": "3.2.2",
+      "asis_publish_date": "2023-11-08",
+      "patched_publish_date": "2023-11-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "istanbul-lib-report",
+      "asis_version": "3.0.1",
+      "patched_version": "3.0.1",
+      "asis_publish_date": "2023-07-25",
+      "patched_publish_date": "2023-07-25",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "istanbul-lib-source-maps",
+      "asis_version": "4.0.1",
+      "patched_version": "5.0.6",
+      "asis_publish_date": "2021-10-12",
+      "patched_publish_date": "2024-07-02",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "istanbul-reports",
+      "asis_version": "3.1.7",
+      "patched_version": "3.2.0",
+      "asis_publish_date": "2024-02-19",
+      "patched_publish_date": "2025-08-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "jasmine-core",
+      "asis_version": "4.6.1",
+      "patched_version": "7.0.0-pre.0",
+      "asis_publish_date": "2024-05-25",
+      "patched_publish_date": "2026-02-22",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "jose",
+      "asis_version": "6.2.1",
+      "patched_version": "6.2.2",
+      "asis_publish_date": "2026-03-09",
+      "patched_publish_date": "2026-03-18",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "js-tokens",
+      "asis_version": "4.0.0",
+      "patched_version": "10.0.0",
+      "asis_publish_date": "2018-01-28",
+      "patched_publish_date": "2025-12-08",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "jsesc",
+      "asis_version": "3.1.0",
+      "patched_version": "3.1.0",
+      "asis_publish_date": "2024-12-11",
+      "patched_publish_date": "2024-12-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "json-parse-even-better-errors",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "json-schema-traverse",
+      "asis_version": "1.0.0",
+      "patched_version": "1.0.0",
+      "asis_publish_date": "2020-12-13",
+      "patched_publish_date": "2020-12-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "json-schema-typed",
+      "asis_version": "8.0.2",
+      "patched_version": "8.0.2",
+      "asis_publish_date": "2025-11-17",
+      "patched_publish_date": "2025-11-17",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "json5",
+      "asis_version": "2.2.3",
+      "patched_version": "2.2.3",
+      "asis_publish_date": "2022-12-31",
+      "patched_publish_date": "2022-12-31",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "jsonc-parser",
+      "asis_version": "3.3.1",
+      "patched_version": "4.0.0-next.1",
+      "asis_publish_date": "2024-06-24",
+      "patched_publish_date": "2026-03-10",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "jsonfile",
+      "asis_version": "4.0.0",
+      "patched_version": "6.2.0",
+      "asis_publish_date": "2017-09-12",
+      "patched_publish_date": "2025-08-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "jsonparse",
+      "asis_version": "1.3.1",
+      "patched_version": "1.3.1",
+      "asis_publish_date": "2017-05-09",
+      "patched_publish_date": "2017-05-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "karma",
+      "asis_version": "6.4.4",
+      "patched_version": "6.4.4",
+      "asis_publish_date": "2024-07-29",
+      "patched_publish_date": "2024-07-29",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "karma-chrome-launcher",
+      "asis_version": "3.2.0",
+      "patched_version": "3.2.0",
+      "asis_publish_date": "2023-04-20",
+      "patched_publish_date": "2023-04-20",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "karma-coverage",
+      "asis_version": "2.2.1",
+      "patched_version": "2.2.1",
+      "asis_publish_date": "2023-06-23",
+      "patched_publish_date": "2023-06-23",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "karma-jasmine",
+      "asis_version": "5.1.0",
+      "patched_version": "5.1.0",
+      "asis_publish_date": "2022-06-16",
+      "patched_publish_date": "2022-06-16",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "karma-jasmine-html-reporter",
+      "asis_version": "2.1.0",
+      "patched_version": "2.2.0",
+      "asis_publish_date": "2023-06-05",
+      "patched_publish_date": "2026-01-27",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "tmp",
+      "asis_version": "0.2.3",
+      "patched_version": "0.2.5",
+      "asis_publish_date": "2024-02-29",
+      "patched_publish_date": "2025-08-08",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "yargs",
+      "asis_version": "18.0.0",
+      "patched_version": "18.0.0",
+      "asis_publish_date": "2025-05-27",
+      "patched_publish_date": "2025-05-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "yargs-parser",
+      "asis_version": "22.0.0",
+      "patched_version": "22.0.0",
+      "asis_publish_date": "2025-05-26",
+      "patched_publish_date": "2025-05-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "listr2",
+      "asis_version": "9.0.5",
+      "patched_version": "10.2.1",
+      "asis_publish_date": "2025-10-20",
+      "patched_publish_date": "2026-03-02",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "lmdb",
+      "asis_version": "3.5.1",
+      "patched_version": "3.5.2",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "lodash",
+      "asis_version": "4.17.21",
+      "patched_version": "4.18.0",
+      "asis_publish_date": "2021-02-20",
+      "patched_publish_date": "2026-03-31",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "log-symbols",
+      "asis_version": "7.0.1",
+      "patched_version": "7.0.1",
+      "asis_publish_date": "2025-05-21",
+      "patched_publish_date": "2025-05-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "log-update",
+      "asis_version": "6.1.0",
+      "patched_version": "7.2.0",
+      "asis_publish_date": "2024-07-26",
+      "patched_publish_date": "2026-02-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "slice-ansi",
+      "asis_version": "8.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2026-02-10",
+      "patched_publish_date": "2026-02-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "log4js",
+      "asis_version": "6.9.1",
+      "patched_version": "6.9.1",
+      "asis_publish_date": "2023-03-08",
+      "patched_publish_date": "2023-03-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "magic-string",
+      "asis_version": "0.30.21",
+      "patched_version": "0.30.21",
+      "asis_publish_date": "2025-10-24",
+      "patched_publish_date": "2025-10-24",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "make-dir",
+      "asis_version": "4.0.0",
+      "patched_version": "5.1.0",
+      "asis_publish_date": "2023-06-23",
+      "patched_publish_date": "2025-09-10",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "make-fetch-happen",
+      "asis_version": "15.0.5",
+      "patched_version": "15.0.5",
+      "asis_publish_date": "2026-03-16",
+      "patched_publish_date": "2026-03-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "math-intrinsics",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2024-12-19",
+      "patched_publish_date": "2024-12-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "merge-descriptors",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2023-11-16",
+      "patched_publish_date": "2023-11-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "mime",
+      "asis_version": "2.6.0",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2021-11-02",
+      "patched_publish_date": "2025-09-12",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "mimic-function",
+      "asis_version": "5.0.1",
+      "patched_version": "5.0.1",
+      "asis_publish_date": "2024-03-14",
+      "patched_publish_date": "2024-03-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "minimist",
+      "asis_version": "1.2.8",
+      "patched_version": "0.2.4",
+      "asis_publish_date": "2023-02-09",
+      "patched_publish_date": "2023-02-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "minipass",
+      "asis_version": "3.3.6",
+      "patched_version": "7.1.3",
+      "asis_publish_date": "2022-11-25",
+      "patched_publish_date": "2026-02-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "minipass-collect",
+      "asis_version": "2.0.1",
+      "patched_version": "2.0.1",
+      "asis_publish_date": "2023-08-20",
+      "patched_publish_date": "2023-08-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "minipass-fetch",
+      "asis_version": "5.0.2",
+      "patched_version": "5.0.2",
+      "asis_publish_date": "2026-02-23",
+      "patched_publish_date": "2026-02-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "minipass-flush",
+      "asis_version": "1.0.5",
+      "patched_version": "1.0.7",
+      "asis_publish_date": "2019-09-30",
+      "patched_publish_date": "2026-03-26",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "yallist",
+      "asis_version": "3.1.1",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2019-09-30",
+      "patched_publish_date": "2024-04-09",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "minipass-pipeline",
+      "asis_version": "1.2.4",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2020-07-28",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "minipass-sized",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2026-01-07",
+      "patched_publish_date": "2026-01-07",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "minizlib",
+      "asis_version": "3.1.0",
+      "patched_version": "3.1.0",
+      "asis_publish_date": "2025-09-21",
+      "patched_publish_date": "2025-09-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "mkdirp",
+      "asis_version": "0.5.6",
+      "patched_version": "3.0.1",
+      "asis_publish_date": "2022-03-22",
+      "patched_publish_date": "2023-04-24",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "mrmime",
+      "asis_version": "2.0.1",
+      "patched_version": "2.0.1",
+      "asis_publish_date": "2025-02-17",
+      "patched_publish_date": "2025-02-17",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "msgpackr",
+      "asis_version": "1.11.9",
+      "patched_version": "1.11.9",
+      "asis_publish_date": "2026-03-10",
+      "patched_publish_date": "2026-03-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "msgpackr-extract",
+      "asis_version": "3.0.3",
+      "patched_version": "3.0.3",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "mute-stream",
+      "asis_version": "2.0.0",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2024-09-24",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "nanoid",
+      "asis_version": "3.3.11",
+      "patched_version": "5.1.7",
+      "asis_publish_date": "2025-03-18",
+      "patched_publish_date": "2026-03-15",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "node-gyp",
+      "asis_version": "12.2.0",
+      "patched_version": "12.2.0",
+      "asis_publish_date": "2026-01-27",
+      "patched_publish_date": "2026-01-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "node-gyp-build-optional-packages",
+      "asis_version": "5.2.2",
+      "patched_version": "5.2.2",
+      "asis_publish_date": "2024-06-09",
+      "patched_publish_date": "2024-06-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "node-releases",
+      "asis_version": "2.0.36",
+      "patched_version": "2.0.36",
+      "asis_publish_date": "2026-03-04",
+      "patched_publish_date": "2026-03-04",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "nopt",
+      "asis_version": "9.0.0",
+      "patched_version": "9.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "normalize-path",
+      "asis_version": "3.0.0",
+      "patched_version": "3.0.0",
+      "asis_publish_date": "2018-04-19",
+      "patched_publish_date": "2018-04-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-bundled",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-10-23",
+      "patched_publish_date": "2025-10-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-install-checks",
+      "asis_version": "8.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-normalize-package-bin",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-package-arg",
+      "asis_version": "13.0.2",
+      "patched_version": "13.0.2",
+      "asis_publish_date": "2025-11-13",
+      "patched_publish_date": "2025-11-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-packlist",
+      "asis_version": "10.0.4",
+      "patched_version": "10.0.4",
+      "asis_publish_date": "2026-02-20",
+      "patched_publish_date": "2026-02-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-pick-manifest",
+      "asis_version": "11.0.3",
+      "patched_version": "11.0.3",
+      "asis_publish_date": "2025-10-23",
+      "patched_publish_date": "2025-10-23",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "npm-registry-fetch",
+      "asis_version": "19.1.1",
+      "patched_version": "19.1.1",
+      "asis_publish_date": "2025-11-13",
+      "patched_publish_date": "2025-11-13",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "nth-check",
+      "asis_version": "2.1.1",
+      "patched_version": "3.0.1",
+      "asis_publish_date": "2022-05-23",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "object-assign",
+      "asis_version": "4.1.1",
+      "patched_version": "4.1.1",
+      "asis_publish_date": "2017-01-16",
+      "patched_publish_date": "2017-01-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "object-inspect",
+      "asis_version": "1.13.4",
+      "patched_version": "1.13.4",
+      "asis_publish_date": "2025-02-05",
+      "patched_publish_date": "2025-02-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "once",
+      "asis_version": "1.4.0",
+      "patched_version": "1.4.0",
+      "asis_publish_date": "2016-09-06",
+      "patched_publish_date": "2016-09-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "onetime",
+      "asis_version": "7.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2023-11-05",
+      "patched_publish_date": "2026-02-02",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ora",
+      "asis_version": "9.3.0",
+      "patched_version": "9.3.0",
+      "asis_publish_date": "2026-02-05",
+      "patched_publish_date": "2026-02-05",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ordered-binary",
+      "asis_version": "1.6.1",
+      "patched_version": "1.6.1",
+      "asis_publish_date": "2026-01-02",
+      "patched_publish_date": "2026-01-02",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "p-map",
+      "asis_version": "7.0.4",
+      "patched_version": "7.0.4",
+      "asis_publish_date": "2025-11-11",
+      "patched_publish_date": "2025-11-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "pacote",
+      "asis_version": "21.3.1",
+      "patched_version": "21.5.0",
+      "asis_publish_date": "2026-02-10",
+      "patched_publish_date": "2026-03-09",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "parse5",
+      "asis_version": "8.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-07-09",
+      "patched_publish_date": "2025-07-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "parse5-html-rewriting-stream",
+      "asis_version": "8.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-07-09",
+      "patched_publish_date": "2025-07-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "parse5-sax-parser",
+      "asis_version": "8.0.0",
+      "patched_version": "8.0.0",
+      "asis_publish_date": "2025-07-09",
+      "patched_publish_date": "2025-07-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "parseurl",
+      "asis_version": "1.3.3",
+      "patched_version": "1.3.3",
+      "asis_publish_date": "2019-04-16",
+      "patched_publish_date": "2019-04-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "path-is-absolute",
+      "asis_version": "1.0.1",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2016-09-30",
+      "patched_publish_date": "2018-11-08",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "path-key",
+      "asis_version": "3.1.1",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2019-11-22",
+      "patched_publish_date": "2021-04-09",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "path-scurry",
+      "asis_version": "2.0.2",
+      "patched_version": "2.0.2",
+      "asis_publish_date": "2026-02-19",
+      "patched_publish_date": "2026-02-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "path-to-regexp",
+      "asis_version": "8.3.0",
+      "patched_version": "8.4.1",
+      "asis_publish_date": "2025-09-02",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "picocolors",
+      "asis_version": "1.1.1",
+      "patched_version": "1.1.1",
+      "asis_publish_date": "2024-10-16",
+      "patched_publish_date": "2024-10-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "piscina",
+      "asis_version": "5.1.4",
+      "patched_version": "5.1.4",
+      "asis_publish_date": "2025-11-07",
+      "patched_publish_date": "2025-11-07",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "pkce-challenge",
+      "asis_version": "5.0.1",
+      "patched_version": "6.0.0",
+      "asis_publish_date": "2025-11-23",
+      "patched_publish_date": "2026-02-01",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "postcss",
+      "asis_version": "8.5.8",
+      "patched_version": "8.5.8",
+      "asis_publish_date": "2026-03-02",
+      "patched_publish_date": "2026-03-02",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "postcss-media-query-parser",
+      "asis_version": "0.2.3",
+      "patched_version": "0.2.3",
+      "asis_publish_date": "2016-10-27",
+      "patched_publish_date": "2016-10-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "postcss-safe-parser",
+      "asis_version": "7.0.1",
+      "patched_version": "7.0.1",
+      "asis_publish_date": "2024-10-04",
+      "patched_publish_date": "2024-10-04",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "proc-log",
+      "asis_version": "6.1.0",
+      "patched_version": "6.1.0",
+      "asis_publish_date": "2025-11-25",
+      "patched_publish_date": "2025-11-25",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "promise-retry",
+      "asis_version": "2.0.1",
+      "patched_version": "2.0.1",
+      "asis_publish_date": "2020-06-14",
+      "patched_publish_date": "2020-06-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "retry",
+      "asis_version": "0.13.1",
+      "patched_version": "0.13.1",
+      "asis_publish_date": "2021-06-21",
+      "patched_publish_date": "2021-06-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "proxy-addr",
+      "asis_version": "2.0.7",
+      "patched_version": "2.0.7",
+      "asis_publish_date": "2021-06-01",
+      "patched_publish_date": "2021-06-01",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "punycode",
+      "asis_version": "1.4.1",
+      "patched_version": "2.3.1",
+      "asis_publish_date": "2016-03-20",
+      "patched_publish_date": "2023-10-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "qjobs",
+      "asis_version": "1.2.0",
+      "patched_version": "1.2.0",
+      "asis_publish_date": "2018-02-19",
+      "patched_publish_date": "2018-02-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "range-parser",
+      "asis_version": "1.2.1",
+      "patched_version": "1.2.1",
+      "asis_publish_date": "2019-05-11",
+      "patched_publish_date": "2019-05-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "reflect-metadata",
+      "asis_version": "0.2.2",
+      "patched_version": "0.2.2",
+      "asis_publish_date": "2024-03-29",
+      "patched_publish_date": "2024-03-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "require-directory",
+      "asis_version": "2.1.1",
+      "patched_version": "2.1.1",
+      "asis_publish_date": "2015-05-28",
+      "patched_publish_date": "2015-05-28",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "require-from-string",
+      "asis_version": "2.0.2",
+      "patched_version": "2.0.2",
+      "asis_publish_date": "2018-04-09",
+      "patched_publish_date": "2018-04-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "requires-port",
+      "asis_version": "1.0.0",
+      "patched_version": "1.0.0",
+      "asis_publish_date": "2015-10-30",
+      "patched_publish_date": "2015-10-30",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "restore-cursor",
+      "asis_version": "5.1.0",
+      "patched_version": "5.1.0",
+      "asis_publish_date": "2024-07-26",
+      "patched_publish_date": "2024-07-26",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "rfdc",
+      "asis_version": "1.4.1",
+      "patched_version": "1.4.1",
+      "asis_publish_date": "2024-06-12",
+      "patched_publish_date": "2024-06-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "rimraf",
+      "asis_version": "3.0.2",
+      "patched_version": "6.1.3",
+      "asis_publish_date": "2020-02-09",
+      "patched_publish_date": "2026-02-16",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "rolldown",
+      "asis_version": "1.0.0-rc.4",
+      "patched_version": "1.0.0-rc.12",
+      "asis_publish_date": "2026-02-11",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "rollup",
+      "asis_version": "4.59.0",
+      "patched_version": "4.60.1",
+      "asis_publish_date": "2026-02-22",
+      "patched_publish_date": "2026-03-30",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "router",
+      "asis_version": "2.2.0",
+      "patched_version": "2.2.0",
+      "asis_publish_date": "2025-03-27",
+      "patched_publish_date": "2025-03-27",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "rxjs",
+      "asis_version": "7.8.2",
+      "patched_version": "7.8.2",
+      "asis_publish_date": "2025-02-22",
+      "patched_publish_date": "2025-02-22",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "safe-regex-test",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2024-12-12",
+      "patched_publish_date": "2024-12-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "safer-buffer",
+      "asis_version": "2.1.2",
+      "patched_version": "2.1.2",
+      "asis_publish_date": "2018-04-08",
+      "patched_publish_date": "2018-04-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "sass",
+      "asis_version": "1.97.3",
+      "patched_version": "1.98.0",
+      "asis_publish_date": "2026-01-21",
+      "patched_publish_date": "2026-03-10",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "send",
+      "asis_version": "1.2.1",
+      "patched_version": "1.2.1",
+      "asis_publish_date": "2025-12-15",
+      "patched_publish_date": "2025-12-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "serve-static",
+      "asis_version": "2.2.1",
+      "patched_version": "2.2.1",
+      "asis_publish_date": "2025-12-15",
+      "patched_publish_date": "2025-12-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "setprototypeof",
+      "asis_version": "1.2.0",
+      "patched_version": "1.2.0",
+      "asis_publish_date": "2019-07-18",
+      "patched_publish_date": "2019-07-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "shebang-command",
+      "asis_version": "2.0.0",
+      "patched_version": "2.0.0",
+      "asis_publish_date": "2019-09-06",
+      "patched_publish_date": "2019-09-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "shebang-regex",
+      "asis_version": "3.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2019-04-27",
+      "patched_publish_date": "2021-08-13",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "side-channel",
+      "asis_version": "1.1.0",
+      "patched_version": "1.1.0",
+      "asis_publish_date": "2024-12-11",
+      "patched_publish_date": "2024-12-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "side-channel-list",
+      "asis_version": "1.0.0",
+      "patched_version": "1.0.0",
+      "asis_publish_date": "2024-12-10",
+      "patched_publish_date": "2024-12-10",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "side-channel-map",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2024-12-11",
+      "patched_publish_date": "2024-12-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "side-channel-weakmap",
+      "asis_version": "1.0.2",
+      "patched_version": "1.0.2",
+      "asis_publish_date": "2024-12-11",
+      "patched_publish_date": "2024-12-11",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "signal-exit",
+      "asis_version": "4.1.0",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2023-07-29",
+      "patched_publish_date": "2023-07-29",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "sigstore",
+      "asis_version": "4.1.0",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2025-12-19",
+      "patched_publish_date": "2025-12-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "smart-buffer",
+      "asis_version": "4.2.0",
+      "patched_version": "4.2.0",
+      "asis_publish_date": "2021-08-07",
+      "patched_publish_date": "2021-08-07",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "socket.io",
+      "asis_version": "4.8.1",
+      "patched_version": "4.8.3",
+      "asis_publish_date": "2024-10-25",
+      "patched_publish_date": "2025-12-23",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "socket.io-adapter",
+      "asis_version": "2.5.5",
+      "patched_version": "2.5.6",
+      "asis_publish_date": "2024-06-18",
+      "patched_publish_date": "2025-12-23",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "socket.io-parser",
+      "asis_version": "4.2.4",
+      "patched_version": "3.3.5",
+      "asis_publish_date": "2023-05-31",
+      "patched_publish_date": "2026-03-17",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "socks",
+      "asis_version": "2.8.7",
+      "patched_version": "2.8.7",
+      "asis_publish_date": "2025-08-12",
+      "patched_publish_date": "2025-08-12",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "socks-proxy-agent",
+      "asis_version": "8.0.5",
+      "patched_version": "9.0.0",
+      "asis_publish_date": "2024-12-07",
+      "patched_publish_date": "2026-03-11",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "source-map-js",
+      "asis_version": "1.2.1",
+      "patched_version": "1.2.1",
+      "asis_publish_date": "2024-09-08",
+      "patched_publish_date": "2024-09-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "source-map-support",
+      "asis_version": "0.5.21",
+      "patched_version": "0.5.21",
+      "asis_publish_date": "2021-11-19",
+      "patched_publish_date": "2021-11-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "spdx-exceptions",
+      "asis_version": "2.5.0",
+      "patched_version": "2.5.0",
+      "asis_publish_date": "2024-02-15",
+      "patched_publish_date": "2024-02-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "spdx-expression-parse",
+      "asis_version": "4.0.0",
+      "patched_version": "4.0.0",
+      "asis_publish_date": "2023-11-21",
+      "patched_publish_date": "2023-11-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "spdx-license-ids",
+      "asis_version": "3.0.23",
+      "patched_version": "3.0.23",
+      "asis_publish_date": "2026-02-20",
+      "patched_publish_date": "2026-02-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "ssri",
+      "asis_version": "13.0.1",
+      "patched_version": "13.0.1",
+      "asis_publish_date": "2026-02-09",
+      "patched_publish_date": "2026-02-09",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "stdin-discarder",
+      "asis_version": "0.3.1",
+      "patched_version": "0.3.1",
+      "asis_publish_date": "2026-01-08",
+      "patched_publish_date": "2026-01-08",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "streamroller",
+      "asis_version": "3.1.5",
+      "patched_version": "3.1.5",
+      "asis_publish_date": "2023-02-15",
+      "patched_publish_date": "2023-02-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "supports-color",
+      "asis_version": "7.2.0",
+      "patched_version": "10.2.2",
+      "asis_publish_date": "2020-08-28",
+      "patched_publish_date": "2025-09-08",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "tar",
+      "asis_version": "7.5.11",
+      "patched_version": "7.5.13",
+      "asis_publish_date": "2026-03-09",
+      "patched_publish_date": "2026-03-23",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "tinyglobby",
+      "asis_version": "0.2.15",
+      "patched_version": "0.2.15",
+      "asis_publish_date": "2025-09-06",
+      "patched_publish_date": "2025-09-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "to-regex-range",
+      "asis_version": "5.0.1",
+      "patched_version": "5.0.1",
+      "asis_publish_date": "2019-04-07",
+      "patched_publish_date": "2019-04-07",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "toidentifier",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2021-11-14",
+      "patched_publish_date": "2021-11-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "tslib",
+      "asis_version": "2.8.1",
+      "patched_version": "2.8.1",
+      "asis_publish_date": "2024-10-31",
+      "patched_publish_date": "2024-10-31",
+      "already_at_latest": true,
+      "depth": "direct"
+    },
+    {
+      "package": "tuf-js",
+      "asis_version": "4.1.0",
+      "patched_version": "4.1.0",
+      "asis_publish_date": "2025-12-18",
+      "patched_publish_date": "2025-12-18",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "typescript",
+      "asis_version": "5.9.3",
+      "patched_version": "6.0.0-dev.20260324",
+      "asis_publish_date": "2025-09-30",
+      "patched_publish_date": "2026-03-24",
+      "already_at_latest": false,
+      "depth": "direct"
+    },
+    {
+      "package": "ua-parser-js",
+      "asis_version": "0.7.40",
+      "patched_version": "2.0.9",
+      "asis_publish_date": "2024-12-21",
+      "patched_publish_date": "2026-02-03",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "undici",
+      "asis_version": "7.22.0",
+      "patched_version": "7.24.6",
+      "asis_publish_date": "2026-02-13",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "undici-types",
+      "asis_version": "6.20.0",
+      "patched_version": "7.24.6",
+      "asis_publish_date": "2024-10-09",
+      "patched_publish_date": "2026-03-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "unique-filename",
+      "asis_version": "5.0.0",
+      "patched_version": "5.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "unique-slug",
+      "asis_version": "6.0.0",
+      "patched_version": "6.0.0",
+      "asis_publish_date": "2025-10-22",
+      "patched_publish_date": "2025-10-22",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "universalify",
+      "asis_version": "0.1.2",
+      "patched_version": "2.0.1",
+      "asis_publish_date": "2018-06-20",
+      "patched_publish_date": "2023-11-01",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "unpipe",
+      "asis_version": "1.0.0",
+      "patched_version": "1.0.0",
+      "asis_publish_date": "2015-06-14",
+      "patched_publish_date": "2015-06-14",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "update-browserslist-db",
+      "asis_version": "1.2.3",
+      "patched_version": "1.2.3",
+      "asis_publish_date": "2025-12-16",
+      "patched_publish_date": "2025-12-16",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "utils-merge",
+      "asis_version": "1.0.1",
+      "patched_version": "1.0.1",
+      "asis_publish_date": "2017-09-20",
+      "patched_publish_date": "2017-09-20",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "validate-npm-package-name",
+      "asis_version": "7.0.2",
+      "patched_version": "7.0.2",
+      "asis_publish_date": "2026-01-06",
+      "patched_publish_date": "2026-01-06",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "vary",
+      "asis_version": "1.1.2",
+      "patched_version": "1.1.2",
+      "asis_publish_date": "2017-09-24",
+      "patched_publish_date": "2017-09-24",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "vite",
+      "asis_version": "7.3.1",
+      "patched_version": "8.0.3",
+      "asis_publish_date": "2026-01-07",
+      "patched_publish_date": "2026-03-26",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "void-elements",
+      "asis_version": "2.0.1",
+      "patched_version": "3.1.0",
+      "asis_publish_date": "2015-01-28",
+      "patched_publish_date": "2017-01-19",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "watchpack",
+      "asis_version": "2.5.1",
+      "patched_version": "2.5.1",
+      "asis_publish_date": "2026-01-15",
+      "patched_publish_date": "2026-01-15",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "weak-lru-cache",
+      "asis_version": "1.2.2",
+      "patched_version": "1.2.2",
+      "asis_publish_date": "2022-02-02",
+      "patched_publish_date": "2022-02-02",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "wrappy",
+      "asis_version": "1.0.2",
+      "patched_version": "0.0.0",
+      "asis_publish_date": "2016-05-17",
+      "patched_publish_date": "2021-04-22",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "ws",
+      "asis_version": "8.17.1",
+      "patched_version": "8.20.0",
+      "asis_publish_date": "2024-06-16",
+      "patched_publish_date": "2026-03-21",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "y18n",
+      "asis_version": "5.0.8",
+      "patched_version": "5.0.8",
+      "asis_publish_date": "2021-04-07",
+      "patched_publish_date": "2021-04-07",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "yoctocolors",
+      "asis_version": "2.1.2",
+      "patched_version": "2.1.2",
+      "asis_publish_date": "2025-08-19",
+      "patched_publish_date": "2025-08-19",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "yoctocolors-cjs",
+      "asis_version": "2.1.3",
+      "patched_version": "2.1.3",
+      "asis_publish_date": "2025-08-21",
+      "patched_publish_date": "2025-08-21",
+      "already_at_latest": true,
+      "depth": "transitive"
+    },
+    {
+      "package": "zod",
+      "asis_version": "4.3.6",
+      "patched_version": "4.4.0-canary.20260125T215152",
+      "asis_publish_date": "2026-01-22",
+      "patched_publish_date": "2026-01-25",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "zod-to-json-schema",
+      "asis_version": "3.25.1",
+      "patched_version": "3.25.2",
+      "asis_publish_date": "2025-12-27",
+      "patched_publish_date": "2026-03-27",
+      "already_at_latest": false,
+      "depth": "transitive"
+    },
+    {
+      "package": "zone.js",
+      "asis_version": "0.15.1",
+      "patched_version": "0.16.1",
+      "asis_publish_date": "2025-05-22",
+      "patched_publish_date": "2026-02-19",
+      "already_at_latest": false,
+      "depth": "direct"
+    }
+  ],
+  "unresolved_count": 0,
+  "unresolved_packages": []
+}

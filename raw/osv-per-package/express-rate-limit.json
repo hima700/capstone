@@ -1,0 +1,44 @@
+{
+  "GHSA-46wh-pxpv-q5gq": {
+    "id": "GHSA-46wh-pxpv-q5gq",
+    "aliases": [
+      "CVE-2026-30827"
+    ],
+    "published_date": "2026-03-06",
+    "published_iso": "2026-03-06T18:36:56Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-46wh-pxpv-q5gq",
+    "fetched_at": "2026-04-02T07:28:40.141877+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "express-rate-limit",
+        "vulnerable_ranges": [
+          ">=8.2.0 <8.2.2"
+        ],
+        "fixed_version": "8.2.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "express-rate-limit",
+        "vulnerable_ranges": [
+          ">=8.1.0 <8.1.1"
+        ],
+        "fixed_version": "8.1.1",
+        "versions_list": [
+          "8.1.0"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "express-rate-limit",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.0.2"
+        ],
+        "fixed_version": "8.0.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

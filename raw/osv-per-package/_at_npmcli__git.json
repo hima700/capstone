@@ -1,0 +1,22 @@
+{
+  "GHSA-hxwm-x553-x359": {
+    "id": "GHSA-hxwm-x553-x359",
+    "aliases": [],
+    "published_date": "2021-08-05",
+    "published_iso": "2021-08-05T17:07:39Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hxwm-x553-x359",
+    "fetched_at": "2026-04-02T07:25:54.488582+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@npmcli/git",
+        "vulnerable_ranges": [
+          "<2.0.8"
+        ],
+        "fixed_version": "2.0.8",
+        "versions_list": []
+      }
+    ]
+  }
+}

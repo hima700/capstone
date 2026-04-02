@@ -1,0 +1,73 @@
+{
+  "GHSA-93q8-gq69-wqmw": {
+    "id": "GHSA-93q8-gq69-wqmw",
+    "aliases": [
+      "CVE-2021-3807"
+    ],
+    "published_date": "2021-09-20",
+    "published_iso": "2021-09-20T20:20:09Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-93q8-gq69-wqmw",
+    "fetched_at": "2026-04-02T07:27:15.136097+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ansi-regex",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.1"
+        ],
+        "fixed_version": "6.0.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ansi-regex",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.0.1"
+        ],
+        "fixed_version": "5.0.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ansi-regex",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.1.1"
+        ],
+        "fixed_version": "4.1.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ansi-regex",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.0.1"
+        ],
+        "fixed_version": "3.0.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "MAL-2025-46966": {
+    "id": "MAL-2025-46966",
+    "aliases": [
+      "GHSA-jvhh-2m83-6w29"
+    ],
+    "published_date": "2025-09-08",
+    "published_iso": "2025-09-08T17:18:30Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2025-46966",
+    "fetched_at": "2026-04-02T07:27:15.137105+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ansi-regex",
+        "vulnerable_ranges": [],
+        "fixed_version": null,
+        "versions_list": [
+          "6.2.1"
+        ]
+      }
+    ]
+  }
+}

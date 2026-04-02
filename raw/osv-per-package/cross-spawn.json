@@ -1,0 +1,33 @@
+{
+  "GHSA-3xgq-45jj-v275": {
+    "id": "GHSA-3xgq-45jj-v275",
+    "aliases": [
+      "CVE-2024-21538"
+    ],
+    "published_date": "2024-11-08",
+    "published_iso": "2024-11-08T06:30:47Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3xgq-45jj-v275",
+    "fetched_at": "2026-04-02T07:28:00.242713+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "cross-spawn",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.0.5"
+        ],
+        "fixed_version": "7.0.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "cross-spawn",
+        "vulnerable_ranges": [
+          "<6.0.6"
+        ],
+        "fixed_version": "6.0.6",
+        "versions_list": []
+      }
+    ]
+  }
+}

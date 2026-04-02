@@ -1,0 +1,14 @@
+{
+  "repo_url": "https://github.com/HCDP/hcdp_file_explorer",
+  "contributor_count": 1,
+  "first_commit_hash": "4d887cb29ff899e407a41dcdd29b854a63e57d6d",
+  "first_commit_date": "2025-03-12T19:07:30+00:00",
+  "last_commit_hash": "619c10f844b4f017580b712cbfd1eff50c987651",
+  "last_commit_date": "2026-03-17T23:43:37+00:00",
+  "total_commits": 24,
+  "lockfile_change_commits": 6,
+  "total_unique_packages": 1015,
+  "total_advisories_in_master_ref": 305,
+  "monthly_checkpoints": 13,
+  "generated_at": "2026-04-02T07:33:18.700322+00:00"
+}

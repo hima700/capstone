@@ -1,0 +1,44 @@
+{
+  "GHSA-8g7p-74h8-hg48": {
+    "id": "GHSA-8g7p-74h8-hg48",
+    "aliases": [
+      "CVE-2018-3739"
+    ],
+    "published_date": "2018-07-27",
+    "published_iso": "2018-07-27T17:04:52Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8g7p-74h8-hg48",
+    "fetched_at": "2026-04-02T07:29:23.404301+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "https-proxy-agent",
+        "vulnerable_ranges": [
+          "<2.2.0"
+        ],
+        "fixed_version": "2.2.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-pc5p-h8pf-mvwp": {
+    "id": "GHSA-pc5p-h8pf-mvwp",
+    "aliases": [],
+    "published_date": "2020-04-16",
+    "published_iso": "2020-04-16T03:14:56Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-pc5p-h8pf-mvwp",
+    "fetched_at": "2026-04-02T07:29:23.404301+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "https-proxy-agent",
+        "vulnerable_ranges": [
+          "<2.2.3"
+        ],
+        "fixed_version": "2.2.3",
+        "versions_list": []
+      }
+    ]
+  }
+}

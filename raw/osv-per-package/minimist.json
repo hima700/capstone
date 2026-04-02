@@ -1,0 +1,64 @@
+{
+  "GHSA-vh95-rmgr-6w4m": {
+    "id": "GHSA-vh95-rmgr-6w4m",
+    "aliases": [
+      "CVE-2020-7598"
+    ],
+    "published_date": "2020-04-03",
+    "published_iso": "2020-04-03T21:48:32Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-vh95-rmgr-6w4m",
+    "fetched_at": "2026-04-02T07:30:26.912307+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "minimist",
+        "vulnerable_ranges": [
+          "<0.2.1"
+        ],
+        "fixed_version": "0.2.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "minimist",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.2.3"
+        ],
+        "fixed_version": "1.2.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-xvch-5gv4-984h": {
+    "id": "GHSA-xvch-5gv4-984h",
+    "aliases": [
+      "CVE-2021-44906"
+    ],
+    "published_date": "2022-03-18",
+    "published_iso": "2022-03-18T00:01:09Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-xvch-5gv4-984h",
+    "fetched_at": "2026-04-02T07:30:26.912307+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "minimist",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.2.6"
+        ],
+        "fixed_version": "1.2.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "minimist",
+        "vulnerable_ranges": [
+          "<0.2.4"
+        ],
+        "fixed_version": "0.2.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

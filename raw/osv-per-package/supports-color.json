@@ -1,0 +1,24 @@
+{
+  "MAL-2025-46981": {
+    "id": "MAL-2025-46981",
+    "aliases": [
+      "GHSA-pj3j-3w3f-j752"
+    ],
+    "published_date": "2025-09-08",
+    "published_iso": "2025-09-08T17:16:42Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2025-46981",
+    "fetched_at": "2026-04-02T07:32:23.076863+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "supports-color",
+        "vulnerable_ranges": [],
+        "fixed_version": null,
+        "versions_list": [
+          "10.2.1"
+        ]
+      }
+    ]
+  }
+}

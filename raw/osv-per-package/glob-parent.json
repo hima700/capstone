@@ -1,0 +1,50 @@
+{
+  "GHSA-cj88-88mr-972w": {
+    "id": "GHSA-cj88-88mr-972w",
+    "aliases": [
+      "BIT-gulp-2021-35065",
+      "CVE-2021-35065"
+    ],
+    "published_date": "2022-07-18",
+    "published_iso": "2022-07-18T17:03:23Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-cj88-88mr-972w",
+    "fetched_at": "2026-04-02T07:29:03.688545+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "glob-parent",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.1"
+        ],
+        "fixed_version": "6.0.1",
+        "versions_list": [
+          "6.0.0"
+        ]
+      }
+    ]
+  },
+  "GHSA-ww39-953v-wcq6": {
+    "id": "GHSA-ww39-953v-wcq6",
+    "aliases": [
+      "BIT-gulp-2020-28469",
+      "CVE-2020-28469"
+    ],
+    "published_date": "2021-06-07",
+    "published_iso": "2021-06-07T21:56:34Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-ww39-953v-wcq6",
+    "fetched_at": "2026-04-02T07:29:03.689543+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "glob-parent",
+        "vulnerable_ranges": [
+          ">=4.0.0 <5.1.2"
+        ],
+        "fixed_version": "5.1.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

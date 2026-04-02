@@ -1,0 +1,24 @@
+{
+  "GHSA-m95q-7qp3-xv42": {
+    "id": "GHSA-m95q-7qp3-xv42",
+    "aliases": [
+      "CVE-2023-4316"
+    ],
+    "published_date": "2023-09-28",
+    "published_iso": "2023-09-28T21:30:58Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-m95q-7qp3-xv42",
+    "fetched_at": "2026-04-02T07:33:05.900526+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "zod",
+        "vulnerable_ranges": [
+          "<3.22.3"
+        ],
+        "fixed_version": "3.22.3",
+        "versions_list": []
+      }
+    ]
+  }
+}

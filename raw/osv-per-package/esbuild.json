@@ -1,0 +1,22 @@
+{
+  "GHSA-67mh-4wv8-2f99": {
+    "id": "GHSA-67mh-4wv8-2f99",
+    "aliases": [],
+    "published_date": "2025-02-10",
+    "published_iso": "2025-02-10T17:48:07Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-67mh-4wv8-2f99",
+    "fetched_at": "2026-04-02T07:28:28.164857+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "esbuild",
+        "vulnerable_ranges": [
+          "<0.25.0"
+        ],
+        "fixed_version": "0.25.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

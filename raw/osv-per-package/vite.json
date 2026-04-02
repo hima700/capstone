@@ -1,0 +1,896 @@
+{
+  "GHSA-353f-5xf4-qw67": {
+    "id": "GHSA-353f-5xf4-qw67",
+    "aliases": [
+      "CVE-2023-34092"
+    ],
+    "published_date": "2023-06-06",
+    "published_iso": "2023-06-06T02:01:39Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-353f-5xf4-qw67",
+    "fetched_at": "2026-04-02T07:32:49.640570+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<2.9.16"
+        ],
+        "fixed_version": "2.9.16",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=3.0.2 <3.2.7"
+        ],
+        "fixed_version": "3.2.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.0.5"
+        ],
+        "fixed_version": "4.0.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.1.0 <4.1.5"
+        ],
+        "fixed_version": "4.1.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.2.0 <4.2.3"
+        ],
+        "fixed_version": "4.2.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.3.0 <4.3.9"
+        ],
+        "fixed_version": "4.3.9",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-356w-63v5-8wf4": {
+    "id": "GHSA-356w-63v5-8wf4",
+    "aliases": [
+      "CVE-2025-32395"
+    ],
+    "published_date": "2025-04-11",
+    "published_iso": "2025-04-11T14:06:03Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-356w-63v5-8wf4",
+    "fetched_at": "2026-04-02T07:32:49.641569+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.2.0 <6.2.6"
+        ],
+        "fixed_version": "6.2.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.1.0 <6.1.5"
+        ],
+        "fixed_version": "6.1.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.15"
+        ],
+        "fixed_version": "6.0.15",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.4.18"
+        ],
+        "fixed_version": "5.4.18",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<4.5.13"
+        ],
+        "fixed_version": "4.5.13",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-4r4m-qw57-chr8": {
+    "id": "GHSA-4r4m-qw57-chr8",
+    "aliases": [
+      "CVE-2025-31125"
+    ],
+    "published_date": "2025-03-31",
+    "published_iso": "2025-03-31T17:31:54Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4r4m-qw57-chr8",
+    "fetched_at": "2026-04-02T07:32:49.641569+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.2.0 <6.2.4"
+        ],
+        "fixed_version": "6.2.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.1.0 <6.1.3"
+        ],
+        "fixed_version": "6.1.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.13"
+        ],
+        "fixed_version": "6.0.13",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.4.16"
+        ],
+        "fixed_version": "5.4.16",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<4.5.11"
+        ],
+        "fixed_version": "4.5.11",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-64vr-g452-qvp3": {
+    "id": "GHSA-64vr-g452-qvp3",
+    "aliases": [
+      "CVE-2024-45812"
+    ],
+    "published_date": "2024-09-17",
+    "published_iso": "2024-09-17T19:28:01Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-64vr-g452-qvp3",
+    "fetched_at": "2026-04-02T07:32:49.642568+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.4.0 <5.4.6"
+        ],
+        "fixed_version": "5.4.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.3.0 <5.3.6"
+        ],
+        "fixed_version": "5.3.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.2.0 <5.2.14"
+        ],
+        "fixed_version": "5.2.14",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.5.4"
+        ],
+        "fixed_version": "4.5.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<3.2.11"
+        ],
+        "fixed_version": "3.2.11",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.1.8"
+        ],
+        "fixed_version": "5.1.8",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-859w-5945-r5v3": {
+    "id": "GHSA-859w-5945-r5v3",
+    "aliases": [
+      "CVE-2025-46565"
+    ],
+    "published_date": "2025-04-30",
+    "published_iso": "2025-04-30T17:40:27Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-859w-5945-r5v3",
+    "fetched_at": "2026-04-02T07:32:49.643571+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.3.0 <6.3.4"
+        ],
+        "fixed_version": "6.3.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.2.0 <6.2.7"
+        ],
+        "fixed_version": "6.2.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.1.6"
+        ],
+        "fixed_version": "6.1.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.4.19"
+        ],
+        "fixed_version": "5.4.19",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<4.5.14"
+        ],
+        "fixed_version": "4.5.14",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-8jhw-289h-jh2g": {
+    "id": "GHSA-8jhw-289h-jh2g",
+    "aliases": [
+      "CVE-2024-31207"
+    ],
+    "published_date": "2024-04-03",
+    "published_iso": "2024-04-03T16:46:17Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8jhw-289h-jh2g",
+    "fetched_at": "2026-04-02T07:32:49.643571+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=2.7.0 <2.9.18"
+        ],
+        "fixed_version": "2.9.18",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.2.10"
+        ],
+        "fixed_version": "3.2.10",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.5.3"
+        ],
+        "fixed_version": "4.5.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.0.13"
+        ],
+        "fixed_version": "5.0.13",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.1.0 <5.1.7"
+        ],
+        "fixed_version": "5.1.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.2.0 <5.2.6"
+        ],
+        "fixed_version": "5.2.6",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-92r3-m2mg-pj97": {
+    "id": "GHSA-92r3-m2mg-pj97",
+    "aliases": [
+      "CVE-2023-49293"
+    ],
+    "published_date": "2023-12-05",
+    "published_iso": "2023-12-05T23:31:34Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-92r3-m2mg-pj97",
+    "fetched_at": "2026-04-02T07:32:49.644567+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.4.0 <4.4.12"
+        ],
+        "fixed_version": "4.4.12",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.5.0 <4.5.1"
+        ],
+        "fixed_version": "4.5.1",
+        "versions_list": [
+          "4.5.0"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.0.5"
+        ],
+        "fixed_version": "5.0.5",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-93m4-6634-74q7": {
+    "id": "GHSA-93m4-6634-74q7",
+    "aliases": [
+      "CVE-2025-62522"
+    ],
+    "published_date": "2025-10-20",
+    "published_iso": "2025-10-20T19:54:28Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-93m4-6634-74q7",
+    "fetched_at": "2026-04-02T07:32:49.644567+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=7.1.0 <7.1.11"
+        ],
+        "fixed_version": "7.1.11",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.0.8"
+        ],
+        "fixed_version": "7.0.8",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.4.1"
+        ],
+        "fixed_version": "6.4.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=2.9.18 <5.4.21"
+        ],
+        "fixed_version": "5.4.21",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=3.2.9 <5.4.21"
+        ],
+        "fixed_version": "5.4.21",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.5.3 <5.4.21"
+        ],
+        "fixed_version": "5.4.21",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.2.6 <5.4.21"
+        ],
+        "fixed_version": "5.4.21",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-9cwx-2883-4wfx": {
+    "id": "GHSA-9cwx-2883-4wfx",
+    "aliases": [
+      "CVE-2024-45811"
+    ],
+    "published_date": "2024-09-17",
+    "published_iso": "2024-09-17T18:44:12Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9cwx-2883-4wfx",
+    "fetched_at": "2026-04-02T07:32:49.645570+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.4.0 <5.4.6"
+        ],
+        "fixed_version": "5.4.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.3.0 <5.3.6"
+        ],
+        "fixed_version": "5.3.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.2.0 <5.2.14"
+        ],
+        "fixed_version": "5.2.14",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.5.4"
+        ],
+        "fixed_version": "4.5.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<3.2.11"
+        ],
+        "fixed_version": "3.2.11",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.1.8"
+        ],
+        "fixed_version": "5.1.8",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-c24v-8rfc-w8vw": {
+    "id": "GHSA-c24v-8rfc-w8vw",
+    "aliases": [
+      "CVE-2024-23331"
+    ],
+    "published_date": "2024-01-19",
+    "published_iso": "2024-01-19T21:58:47Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c24v-8rfc-w8vw",
+    "fetched_at": "2026-04-02T07:32:49.645570+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=2.7.0 <2.9.17"
+        ],
+        "fixed_version": "2.9.17",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.2.8"
+        ],
+        "fixed_version": "3.2.8",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.5.2"
+        ],
+        "fixed_version": "4.5.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.0.12"
+        ],
+        "fixed_version": "5.0.12",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-g4jq-h2w9-997c": {
+    "id": "GHSA-g4jq-h2w9-997c",
+    "aliases": [
+      "CVE-2025-58751"
+    ],
+    "published_date": "2025-09-09",
+    "published_iso": "2025-09-09T20:55:56Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-g4jq-h2w9-997c",
+    "fetched_at": "2026-04-02T07:32:49.646566+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=7.1.0 <7.1.5"
+        ],
+        "fixed_version": "7.1.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.0.7"
+        ],
+        "fixed_version": "7.0.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.3.6"
+        ],
+        "fixed_version": "6.3.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<5.4.20"
+        ],
+        "fixed_version": "5.4.20",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-jqfw-vq24-v9c3": {
+    "id": "GHSA-jqfw-vq24-v9c3",
+    "aliases": [
+      "CVE-2025-58752"
+    ],
+    "published_date": "2025-09-09",
+    "published_iso": "2025-09-09T20:54:42Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jqfw-vq24-v9c3",
+    "fetched_at": "2026-04-02T07:32:49.647569+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=7.1.0 <7.1.5"
+        ],
+        "fixed_version": "7.1.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.0.7"
+        ],
+        "fixed_version": "7.0.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.3.6"
+        ],
+        "fixed_version": "6.3.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<5.4.20"
+        ],
+        "fixed_version": "5.4.20",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-mv48-hcvh-8jj8": {
+    "id": "GHSA-mv48-hcvh-8jj8",
+    "aliases": [
+      "CVE-2022-35204"
+    ],
+    "published_date": "2022-08-19",
+    "published_iso": "2022-08-19T00:00:20Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-mv48-hcvh-8jj8",
+    "fetched_at": "2026-04-02T07:32:49.647569+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<2.9.13"
+        ],
+        "fixed_version": "2.9.13",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=3.0.0-alpha.0 <3.0.0-beta.4"
+        ],
+        "fixed_version": "3.0.0-beta.4",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-vg6x-rcgg-rjx6": {
+    "id": "GHSA-vg6x-rcgg-rjx6",
+    "aliases": [
+      "CVE-2025-24010"
+    ],
+    "published_date": "2025-01-21",
+    "published_iso": "2025-01-21T19:52:55Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-vg6x-rcgg-rjx6",
+    "fetched_at": "2026-04-02T07:32:49.647569+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.9"
+        ],
+        "fixed_version": "6.0.9",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.4.12"
+        ],
+        "fixed_version": "5.4.12",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<4.5.6"
+        ],
+        "fixed_version": "4.5.6",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-x574-m823-4x7w": {
+    "id": "GHSA-x574-m823-4x7w",
+    "aliases": [
+      "CVE-2025-30208"
+    ],
+    "published_date": "2025-03-25",
+    "published_iso": "2025-03-25T14:00:02Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-x574-m823-4x7w",
+    "fetched_at": "2026-04-02T07:32:49.647569+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.2.0 <6.2.3"
+        ],
+        "fixed_version": "6.2.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.1.0 <6.1.2"
+        ],
+        "fixed_version": "6.1.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.12"
+        ],
+        "fixed_version": "6.0.12",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.4.15"
+        ],
+        "fixed_version": "5.4.15",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<4.5.10"
+        ],
+        "fixed_version": "4.5.10",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-xcj6-pq6g-qj4x": {
+    "id": "GHSA-xcj6-pq6g-qj4x",
+    "aliases": [
+      "CVE-2025-31486"
+    ],
+    "published_date": "2025-04-04",
+    "published_iso": "2025-04-04T14:20:05Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-xcj6-pq6g-qj4x",
+    "fetched_at": "2026-04-02T07:32:49.648981+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.2.0 <6.2.5"
+        ],
+        "fixed_version": "6.2.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.1.0 <6.1.4"
+        ],
+        "fixed_version": "6.1.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.0.14"
+        ],
+        "fixed_version": "6.0.14",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.4.17"
+        ],
+        "fixed_version": "5.4.17",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "vite",
+        "vulnerable_ranges": [
+          "<4.5.12"
+        ],
+        "fixed_version": "4.5.12",
+        "versions_list": []
+      }
+    ]
+  }
+}

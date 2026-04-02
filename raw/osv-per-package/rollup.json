@@ -1,0 +1,82 @@
+{
+  "GHSA-gcx4-mw62-g8wm": {
+    "id": "GHSA-gcx4-mw62-g8wm",
+    "aliases": [
+      "CVE-2024-47068"
+    ],
+    "published_date": "2024-09-23",
+    "published_iso": "2024-09-23T22:11:02Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-gcx4-mw62-g8wm",
+    "fetched_at": "2026-04-02T07:31:45.143729+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "rollup",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.29.5"
+        ],
+        "fixed_version": "3.29.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "rollup",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.22.4"
+        ],
+        "fixed_version": "4.22.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "rollup",
+        "vulnerable_ranges": [
+          "<2.79.2"
+        ],
+        "fixed_version": "2.79.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-mw96-cpmx-2vgc": {
+    "id": "GHSA-mw96-cpmx-2vgc",
+    "aliases": [
+      "CVE-2026-27606"
+    ],
+    "published_date": "2026-02-25",
+    "published_iso": "2026-02-25T22:37:26Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-mw96-cpmx-2vgc",
+    "fetched_at": "2026-04-02T07:31:45.145721+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "rollup",
+        "vulnerable_ranges": [
+          "<2.80.0"
+        ],
+        "fixed_version": "2.80.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "rollup",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.30.0"
+        ],
+        "fixed_version": "3.30.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "rollup",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.59.0"
+        ],
+        "fixed_version": "4.59.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

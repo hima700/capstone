@@ -1,0 +1,66 @@
+{
+  "GHSA-325j-24f4-qv5x": {
+    "id": "GHSA-325j-24f4-qv5x",
+    "aliases": [
+      "CVE-2018-7651"
+    ],
+    "published_date": "2018-03-07",
+    "published_iso": "2018-03-07T22:22:20Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-325j-24f4-qv5x",
+    "fetched_at": "2026-04-02T07:32:17.350383+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ssri",
+        "vulnerable_ranges": [
+          "<5.2.2"
+        ],
+        "fixed_version": "5.2.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-vx3p-948g-6vhq": {
+    "id": "GHSA-vx3p-948g-6vhq",
+    "aliases": [
+      "CVE-2021-27290"
+    ],
+    "published_date": "2021-03-19",
+    "published_iso": "2021-03-19T21:24:36Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-vx3p-948g-6vhq",
+    "fetched_at": "2026-04-02T07:32:17.351382+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ssri",
+        "vulnerable_ranges": [
+          ">=5.2.2 <6.0.2"
+        ],
+        "fixed_version": "6.0.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ssri",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.1.1"
+        ],
+        "fixed_version": "7.1.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ssri",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.0.1"
+        ],
+        "fixed_version": "8.0.1",
+        "versions_list": [
+          "8.0.0"
+        ]
+      }
+    ]
+  }
+}

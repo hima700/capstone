@@ -1,0 +1,148 @@
+{
+  "GHSA-27v5-c462-wpq7": {
+    "id": "GHSA-27v5-c462-wpq7",
+    "aliases": [
+      "CVE-2026-4923"
+    ],
+    "published_date": "2026-03-27",
+    "published_iso": "2026-03-27T22:23:52Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-27v5-c462-wpq7",
+    "fetched_at": "2026-04-02T07:31:12.012814+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.4.0"
+        ],
+        "fixed_version": "8.4.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-37ch-88jc-xwx2": {
+    "id": "GHSA-37ch-88jc-xwx2",
+    "aliases": [
+      "CVE-2026-4867"
+    ],
+    "published_date": "2026-03-27",
+    "published_iso": "2026-03-27T20:04:53Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-37ch-88jc-xwx2",
+    "fetched_at": "2026-04-02T07:31:12.013814+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          "<0.1.13"
+        ],
+        "fixed_version": "0.1.13",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-9wv6-86v2-598j": {
+    "id": "GHSA-9wv6-86v2-598j",
+    "aliases": [
+      "CVE-2024-45296"
+    ],
+    "published_date": "2024-09-09",
+    "published_iso": "2024-09-09T20:19:15Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9wv6-86v2-598j",
+    "fetched_at": "2026-04-02T07:31:12.014815+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          ">=0.2.0 <1.9.0"
+        ],
+        "fixed_version": "1.9.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          "<0.1.10"
+        ],
+        "fixed_version": "0.1.10",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          ">=7.0.0 <8.0.0"
+        ],
+        "fixed_version": "8.0.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          ">=2.0.0 <3.3.0"
+        ],
+        "fixed_version": "3.3.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          ">=4.0.0 <6.3.0"
+        ],
+        "fixed_version": "6.3.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-j3q9-mxjg-w52f": {
+    "id": "GHSA-j3q9-mxjg-w52f",
+    "aliases": [
+      "CVE-2026-4926"
+    ],
+    "published_date": "2026-03-27",
+    "published_iso": "2026-03-27T22:23:27Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-j3q9-mxjg-w52f",
+    "fetched_at": "2026-04-02T07:31:12.014815+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.4.0"
+        ],
+        "fixed_version": "8.4.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-rhx6-c78j-4q9w": {
+    "id": "GHSA-rhx6-c78j-4q9w",
+    "aliases": [
+      "CVE-2024-52798"
+    ],
+    "published_date": "2024-12-05",
+    "published_iso": "2024-12-05T22:40:47Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-rhx6-c78j-4q9w",
+    "fetched_at": "2026-04-02T07:31:12.014815+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "path-to-regexp",
+        "vulnerable_ranges": [
+          "<0.1.12"
+        ],
+        "fixed_version": "0.1.12",
+        "versions_list": []
+      }
+    ]
+  }
+}

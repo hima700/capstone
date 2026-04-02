@@ -1,0 +1,68 @@
+{
+  "GHSA-3fw8-66wf-pr7m": {
+    "id": "GHSA-3fw8-66wf-pr7m",
+    "aliases": [
+      "CVE-2013-7370"
+    ],
+    "published_date": "2020-08-31",
+    "published_iso": "2020-08-31T22:41:27Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3fw8-66wf-pr7m",
+    "fetched_at": "2026-04-02T07:27:52.133436+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "connect",
+        "vulnerable_ranges": [
+          "<2.8.1"
+        ],
+        "fixed_version": "2.8.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-6w62-83g6-rfhj": {
+    "id": "GHSA-6w62-83g6-rfhj",
+    "aliases": [
+      "CVE-2013-7371"
+    ],
+    "published_date": "2022-05-05",
+    "published_iso": "2022-05-05T00:29:11Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-6w62-83g6-rfhj",
+    "fetched_at": "2026-04-02T07:27:52.133436+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "connect",
+        "vulnerable_ranges": [
+          "<2.8.2"
+        ],
+        "fixed_version": "2.8.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-rch9-xh7r-mqgw": {
+    "id": "GHSA-rch9-xh7r-mqgw",
+    "aliases": [
+      "CVE-2018-3717"
+    ],
+    "published_date": "2018-07-26",
+    "published_iso": "2018-07-26T15:08:05Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-rch9-xh7r-mqgw",
+    "fetched_at": "2026-04-02T07:27:52.134691+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "connect",
+        "vulnerable_ranges": [
+          "<2.14.0"
+        ],
+        "fixed_version": "2.14.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

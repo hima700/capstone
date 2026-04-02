@@ -1,0 +1,24 @@
+{
+  "GHSA-g78m-2chm-r7qv": {
+    "id": "GHSA-g78m-2chm-r7qv",
+    "aliases": [
+      "CVE-2020-7662"
+    ],
+    "published_date": "2020-06-05",
+    "published_iso": "2020-06-05T16:16:12Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-g78m-2chm-r7qv",
+    "fetched_at": "2026-04-02T07:32:57.531248+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "websocket-extensions",
+        "vulnerable_ranges": [
+          "<0.1.4"
+        ],
+        "fixed_version": "0.1.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

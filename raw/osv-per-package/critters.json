@@ -1,0 +1,24 @@
+{
+  "GHSA-cx3j-qqxj-9597": {
+    "id": "GHSA-cx3j-qqxj-9597",
+    "aliases": [
+      "CVE-2023-3481"
+    ],
+    "published_date": "2023-08-11",
+    "published_iso": "2023-08-11T18:57:53Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-cx3j-qqxj-9597",
+    "fetched_at": "2026-04-02T07:27:59.621084+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "critters",
+        "vulnerable_ranges": [
+          ">=0.0.17 <0.0.20"
+        ],
+        "fixed_version": "0.0.20",
+        "versions_list": []
+      }
+    ]
+  }
+}

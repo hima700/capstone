@@ -1,0 +1,200 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-cj88-88mr-972w",
+      "summary": "glob-parent 6.0.0 vulnerable to Regular Expression Denial of Service",
+      "details": "glob-parent 6.0.0 is vulnerable to Regular Expression Denial of Service (ReDoS). This issue is fixed in version 6.0.1.\n\nThis vulnerability is separate from [GHSA-ww39-953v-wcq6](https://github.com/advisories/GHSA-ww39-953v-wcq6).",
+      "aliases": [
+        "BIT-gulp-2021-35065",
+        "CVE-2021-35065"
+      ],
+      "modified": "2025-04-14T22:13:25Z",
+      "published": "2022-07-18T17:03:23Z",
+      "database_specific": {
+        "nvd_published_at": "2022-12-26T07:15:00Z",
+        "cwe_ids": [
+          "CWE-1333",
+          "CWE-400"
+        ],
+        "severity": "HIGH",
+        "github_reviewed_at": "2022-07-18T17:03:23Z",
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35065"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/opensearch-project/OpenSearch-Dashboards/issues/1103"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/pull/49"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/commit/32f6d52663b7addac38d0dff570d8127edf03f47"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/commit/3e9f04a3b4349db7e1962d87c9a7398cda51f339"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/gulpjs/glob-parent"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/releases/tag/v6.0.1"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.netapp.com/advisory/ntap-20230214-0010"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.snyk.io/vuln/SNYK-JS-GLOBPARENT-1314294"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.mend.io/vulnerability-database/CVE-2021-35065"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "glob-parent",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/glob-parent"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "6.0.0"
+                },
+                {
+                  "fixed": "6.0.1"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "6.0.0"
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/07/GHSA-cj88-88mr-972w/GHSA-cj88-88mr-972w.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-ww39-953v-wcq6",
+      "summary": "glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex",
+      "details": "This affects the package glob-parent before 5.1.2. The enclosure regex used to check for strings ending in enclosure containing path separator.",
+      "aliases": [
+        "BIT-gulp-2020-28469",
+        "CVE-2020-28469"
+      ],
+      "modified": "2025-01-14T08:57:10.357296Z",
+      "published": "2021-06-07T21:56:34Z",
+      "database_specific": {
+        "nvd_published_at": "2021-06-03T16:15:00Z",
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "severity": "HIGH",
+        "github_reviewed_at": "2021-06-04T18:30:45Z",
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28469"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/pull/36"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/pull/36/commits/c6db86422a9731d4f3d332ce4a81c27ea6b0ee46"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/commit/4a80667c69355c76a572a5892b0f133c8e1f457e"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/gulpjs/glob-parent"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/blob/6ce8d11f2f1ed8e80a9526b1dc8cf3aa71f43474/index.js%23L9"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/gulpjs/glob-parent/releases/tag/v5.1.2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBES128-1059093"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1059092"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JS-GLOBPARENT-1016905"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "glob-parent",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/glob-parent"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "5.1.2"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-ww39-953v-wcq6/GHSA-ww39-953v-wcq6.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    }
+  ]
+}

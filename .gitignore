@@ -17,11 +17,7 @@ Desktop.ini
 .DS_Store
 
 # Pipeline generated data (rebuild via phase0 + orchestrator)
-raw/
-derived/
-master/
-reports/
-logs/
+
 
 # Old prototype runs (Grype-based, not v17)
 runs/

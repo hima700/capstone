@@ -1,0 +1,24 @@
+{
+  "GHSA-82v2-mx6x-wq7q": {
+    "id": "GHSA-82v2-mx6x-wq7q",
+    "aliases": [
+      "CVE-2022-21704"
+    ],
+    "published_date": "2022-01-21",
+    "published_iso": "2022-01-21T18:53:27Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-82v2-mx6x-wq7q",
+    "fetched_at": "2026-04-02T07:30:14.728582+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "log4js",
+        "vulnerable_ranges": [
+          "<6.4.0"
+        ],
+        "fixed_version": "6.4.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "GHSA-p28h-cc7q-c4fg": {
+    "id": "GHSA-p28h-cc7q-c4fg",
+    "aliases": [
+      "CVE-2022-21222"
+    ],
+    "published_date": "2022-10-01",
+    "published_iso": "2022-10-01T00:00:24Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-p28h-cc7q-c4fg",
+    "fetched_at": "2026-04-02T07:28:02.025329+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "css-what",
+        "vulnerable_ranges": [
+          "<2.1.3"
+        ],
+        "fixed_version": "2.1.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-q8pj-2vqx-8ggc": {
+    "id": "GHSA-q8pj-2vqx-8ggc",
+    "aliases": [
+      "CVE-2021-33587"
+    ],
+    "published_date": "2021-06-07",
+    "published_iso": "2021-06-07T22:11:39Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-q8pj-2vqx-8ggc",
+    "fetched_at": "2026-04-02T07:28:02.026329+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "css-what",
+        "vulnerable_ranges": [
+          ">=4.0.0 <5.0.1"
+        ],
+        "fixed_version": "5.0.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

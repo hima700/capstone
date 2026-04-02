@@ -1,0 +1,52 @@
+{
+  "GHSA-frh7-2f84-v9mw": {
+    "id": "GHSA-frh7-2f84-v9mw",
+    "aliases": [
+      "CVE-2025-59331",
+      "GHSA-hfm8-9jrf-7g9w",
+      "MAL-2025-46977"
+    ],
+    "published_date": "2025-09-15",
+    "published_iso": "2025-09-15T23:58:46Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-frh7-2f84-v9mw",
+    "fetched_at": "2026-04-02T07:29:35.883823+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "is-arrayish",
+        "vulnerable_ranges": [
+          ">=0.3.3 <0.3.4"
+        ],
+        "fixed_version": "0.3.4",
+        "versions_list": [
+          "0.3.3"
+        ]
+      }
+    ]
+  },
+  "MAL-2025-46977": {
+    "id": "MAL-2025-46977",
+    "aliases": [
+      "CVE-2025-59331",
+      "GHSA-frh7-2f84-v9mw",
+      "GHSA-hfm8-9jrf-7g9w"
+    ],
+    "published_date": "2025-09-08",
+    "published_iso": "2025-09-08T15:17:54Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2025-46977",
+    "fetched_at": "2026-04-02T07:29:35.883823+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "is-arrayish",
+        "vulnerable_ranges": [],
+        "fixed_version": null,
+        "versions_list": [
+          "0.3.3"
+        ]
+      }
+    ]
+  }
+}

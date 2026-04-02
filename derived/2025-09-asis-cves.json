@@ -1,0 +1,273 @@
+{
+  "month": "2025-09",
+  "analysis_date": "2025-09-30",
+  "cves": [
+    {
+      "cve_id": "GHSA-968p-4wvh-cqc8",
+      "aliases": [
+        "CVE-2025-27789"
+      ],
+      "published_date": "2025-03-11",
+      "severity": "MEDIUM",
+      "package": "@babel/runtime",
+      "version": "7.24.0",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<7.26.10",
+      "source_url": "https://osv.dev/vulnerability/GHSA-968p-4wvh-cqc8"
+    },
+    {
+      "cve_id": "GHSA-v6h2-p8h4-qcjw",
+      "aliases": [
+        "CVE-2025-5889"
+      ],
+      "published_date": "2025-06-09",
+      "severity": "LOW",
+      "package": "brace-expansion",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=2.0.0 <2.0.2",
+      "source_url": "https://osv.dev/vulnerability/GHSA-v6h2-p8h4-qcjw"
+    },
+    {
+      "cve_id": "GHSA-67mh-4wv8-2f99",
+      "aliases": [],
+      "published_date": "2025-02-10",
+      "severity": "MEDIUM",
+      "package": "esbuild",
+      "version": "0.21.5",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<0.25.0",
+      "source_url": "https://osv.dev/vulnerability/GHSA-67mh-4wv8-2f99"
+    },
+    {
+      "cve_id": "GHSA-4www-5p9h-95mh",
+      "aliases": [
+        "CVE-2025-32996"
+      ],
+      "published_date": "2025-04-15",
+      "severity": "MEDIUM",
+      "package": "http-proxy-middleware",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=1.3.0 <2.0.8",
+      "source_url": "https://osv.dev/vulnerability/GHSA-4www-5p9h-95mh"
+    },
+    {
+      "cve_id": "GHSA-9gqv-wp59-fq42",
+      "aliases": [
+        "CVE-2025-32997"
+      ],
+      "published_date": "2025-04-15",
+      "severity": "MEDIUM",
+      "package": "http-proxy-middleware",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=1.3.0 <2.0.9",
+      "source_url": "https://osv.dev/vulnerability/GHSA-9gqv-wp59-fq42"
+    },
+    {
+      "cve_id": "GHSA-52f5-9888-hmc6",
+      "aliases": [
+        "CVE-2025-54798"
+      ],
+      "published_date": "2025-08-06",
+      "severity": "LOW",
+      "package": "tmp",
+      "version": "0.0.33",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<0.2.4",
+      "source_url": "https://osv.dev/vulnerability/GHSA-52f5-9888-hmc6"
+    },
+    {
+      "cve_id": "GHSA-76c9-3jph-rj3q",
+      "aliases": [
+        "CVE-2025-7339"
+      ],
+      "published_date": "2025-07-17",
+      "severity": "LOW",
+      "package": "on-headers",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<1.1.0",
+      "source_url": "https://osv.dev/vulnerability/GHSA-76c9-3jph-rj3q"
+    },
+    {
+      "cve_id": "GHSA-c76h-2ccp-4975",
+      "aliases": [
+        "CVE-2025-22150"
+      ],
+      "published_date": "2025-01-21",
+      "severity": "MEDIUM",
+      "package": "undici",
+      "version": "6.11.1",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=6.0.0 <6.21.1",
+      "source_url": "https://osv.dev/vulnerability/GHSA-c76h-2ccp-4975"
+    },
+    {
+      "cve_id": "GHSA-cxrh-j4jr-qwg3",
+      "aliases": [
+        "CVE-2025-47279"
+      ],
+      "published_date": "2025-05-15",
+      "severity": "LOW",
+      "package": "undici",
+      "version": "6.11.1",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=6.0.0 <6.21.2",
+      "source_url": "https://osv.dev/vulnerability/GHSA-cxrh-j4jr-qwg3"
+    },
+    {
+      "cve_id": "GHSA-356w-63v5-8wf4",
+      "aliases": [
+        "CVE-2025-32395"
+      ],
+      "published_date": "2025-04-11",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.18",
+      "source_url": "https://osv.dev/vulnerability/GHSA-356w-63v5-8wf4"
+    },
+    {
+      "cve_id": "GHSA-4r4m-qw57-chr8",
+      "aliases": [
+        "CVE-2025-31125"
+      ],
+      "published_date": "2025-03-31",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.16",
+      "source_url": "https://osv.dev/vulnerability/GHSA-4r4m-qw57-chr8"
+    },
+    {
+      "cve_id": "GHSA-859w-5945-r5v3",
+      "aliases": [
+        "CVE-2025-46565"
+      ],
+      "published_date": "2025-04-30",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.19",
+      "source_url": "https://osv.dev/vulnerability/GHSA-859w-5945-r5v3"
+    },
+    {
+      "cve_id": "GHSA-g4jq-h2w9-997c",
+      "aliases": [
+        "CVE-2025-58751"
+      ],
+      "published_date": "2025-09-09",
+      "severity": "LOW",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<5.4.20",
+      "source_url": "https://osv.dev/vulnerability/GHSA-g4jq-h2w9-997c"
+    },
+    {
+      "cve_id": "GHSA-jqfw-vq24-v9c3",
+      "aliases": [
+        "CVE-2025-58752"
+      ],
+      "published_date": "2025-09-09",
+      "severity": "LOW",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<5.4.20",
+      "source_url": "https://osv.dev/vulnerability/GHSA-jqfw-vq24-v9c3"
+    },
+    {
+      "cve_id": "GHSA-x574-m823-4x7w",
+      "aliases": [
+        "CVE-2025-30208"
+      ],
+      "published_date": "2025-03-25",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.15",
+      "source_url": "https://osv.dev/vulnerability/GHSA-x574-m823-4x7w"
+    },
+    {
+      "cve_id": "GHSA-xcj6-pq6g-qj4x",
+      "aliases": [
+        "CVE-2025-31486"
+      ],
+      "published_date": "2025-04-04",
+      "severity": "MEDIUM",
+      "package": "vite",
+      "version": "5.4.14",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": ">=5.0.0 <5.4.17",
+      "source_url": "https://osv.dev/vulnerability/GHSA-xcj6-pq6g-qj4x"
+    },
+    {
+      "cve_id": "GHSA-4v9v-hfq4-rm2v",
+      "aliases": [
+        "CVE-2025-30359"
+      ],
+      "published_date": "2025-06-04",
+      "severity": "MEDIUM",
+      "package": "webpack-dev-server",
+      "version": "4.15.1",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<5.2.1",
+      "source_url": "https://osv.dev/vulnerability/GHSA-4v9v-hfq4-rm2v"
+    },
+    {
+      "cve_id": "GHSA-9jgg-88mc-972h",
+      "aliases": [
+        "CVE-2025-30360"
+      ],
+      "published_date": "2025-06-04",
+      "severity": "MEDIUM",
+      "package": "webpack-dev-server",
+      "version": "4.15.1",
+      "ecosystem": "npm",
+      "depth": "transitive",
+      "matched_range": "<5.2.1",
+      "source_url": "https://osv.dev/vulnerability/GHSA-9jgg-88mc-972h"
+    }
+  ],
+  "summary": {
+    "asis_total_cves": 18,
+    "asis_npm_cves": 18,
+    "asis_severity_critical": 0,
+    "asis_severity_high": 0,
+    "asis_severity_medium": 12,
+    "asis_severity_low": 6,
+    "npm_packages_total": 828,
+    "npm_packages_vulnerable": 9,
+    "npm_packages_non_vulnerable": 819,
+    "direct_vulnerable_npm_packages": 0,
+    "transitive_vulnerable_npm_packages": 9,
+    "direct_npm_dep_cves": 0,
+    "transitive_npm_dep_cves": 18,
+    "excluded_advisory_count": 0,
+    "packages_checked": 828
+  }
+}

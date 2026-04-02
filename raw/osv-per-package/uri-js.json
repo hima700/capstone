@@ -1,0 +1,24 @@
+{
+  "GHSA-333w-rxj3-f55r": {
+    "id": "GHSA-333w-rxj3-f55r",
+    "aliases": [
+      "CVE-2017-16021"
+    ],
+    "published_date": "2018-07-24",
+    "published_iso": "2018-07-24T20:00:30Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-333w-rxj3-f55r",
+    "fetched_at": "2026-04-02T07:32:45.220380+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "uri-js",
+        "vulnerable_ranges": [
+          "<3.0.0"
+        ],
+        "fixed_version": "3.0.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

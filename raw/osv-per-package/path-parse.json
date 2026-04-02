@@ -1,0 +1,24 @@
+{
+  "GHSA-hj48-42vr-x3v9": {
+    "id": "GHSA-hj48-42vr-x3v9",
+    "aliases": [
+      "CVE-2021-23343"
+    ],
+    "published_date": "2021-08-10",
+    "published_iso": "2021-08-10T15:33:47Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hj48-42vr-x3v9",
+    "fetched_at": "2026-04-02T07:31:10.714187+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "path-parse",
+        "vulnerable_ranges": [
+          "<1.0.7"
+        ],
+        "fixed_version": "1.0.7",
+        "versions_list": []
+      }
+    ]
+  }
+}

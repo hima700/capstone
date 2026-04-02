@@ -1,0 +1,33 @@
+{
+  "GHSA-67hx-6x53-jw92": {
+    "id": "GHSA-67hx-6x53-jw92",
+    "aliases": [
+      "CVE-2023-45133"
+    ],
+    "published_date": "2023-10-16",
+    "published_iso": "2023-10-16T13:55:36Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-67hx-6x53-jw92",
+    "fetched_at": "2026-04-02T07:24:09.924909+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@babel/traverse",
+        "vulnerable_ranges": [
+          "<7.23.2"
+        ],
+        "fixed_version": "7.23.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@babel/traverse",
+        "vulnerable_ranges": [
+          ">=8.0.0-alpha.0 <8.0.0-alpha.4"
+        ],
+        "fixed_version": "8.0.0-alpha.4",
+        "versions_list": []
+      }
+    ]
+  }
+}

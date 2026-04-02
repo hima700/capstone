@@ -1,0 +1,24 @@
+{
+  "MAL-2025-46983": {
+    "id": "MAL-2025-46983",
+    "aliases": [
+      "GHSA-2rv4-jp6r-xgq7"
+    ],
+    "published_date": "2025-09-08",
+    "published_iso": "2025-09-08T17:19:41Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2025-46983",
+    "fetched_at": "2026-04-02T07:32:59.279546+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "wrap-ansi",
+        "vulnerable_ranges": [],
+        "fixed_version": null,
+        "versions_list": [
+          "9.0.1"
+        ]
+      }
+    ]
+  }
+}

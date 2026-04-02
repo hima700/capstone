@@ -1,0 +1,164 @@
+{
+  "GHSA-2mhh-w6q8-5hxw": {
+    "id": "GHSA-2mhh-w6q8-5hxw",
+    "aliases": [
+      "CVE-2016-10518"
+    ],
+    "published_date": "2019-02-18",
+    "published_iso": "2019-02-18T23:56:42Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-2mhh-w6q8-5hxw",
+    "fetched_at": "2026-04-02T07:33:01.043978+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          "<1.0.1"
+        ],
+        "fixed_version": "1.0.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-3h5v-q93c-6h6q": {
+    "id": "GHSA-3h5v-q93c-6h6q",
+    "aliases": [
+      "CVE-2024-37890"
+    ],
+    "published_date": "2024-06-17",
+    "published_iso": "2024-06-17T19:09:10Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3h5v-q93c-6h6q",
+    "fetched_at": "2026-04-02T07:33:01.044979+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=2.1.0 <5.2.4"
+        ],
+        "fixed_version": "5.2.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.2.3"
+        ],
+        "fixed_version": "6.2.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.5.10"
+        ],
+        "fixed_version": "7.5.10",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=8.0.0 <8.17.1"
+        ],
+        "fixed_version": "8.17.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-5v72-xg48-5rpm": {
+    "id": "GHSA-5v72-xg48-5rpm",
+    "aliases": [],
+    "published_date": "2019-06-04",
+    "published_iso": "2019-06-04T19:37:52Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-5v72-xg48-5rpm",
+    "fetched_at": "2026-04-02T07:33:01.044979+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=0.2.6 <1.1.5"
+        ],
+        "fixed_version": "1.1.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=2.0.0 <3.3.1"
+        ],
+        "fixed_version": "3.3.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-6663-c963-2gqg": {
+    "id": "GHSA-6663-c963-2gqg",
+    "aliases": [
+      "CVE-2016-10542"
+    ],
+    "published_date": "2019-02-18",
+    "published_iso": "2019-02-18T23:58:35Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-6663-c963-2gqg",
+    "fetched_at": "2026-04-02T07:33:01.045976+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          "<1.1.1"
+        ],
+        "fixed_version": "1.1.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-6fc8-4gx4-v693": {
+    "id": "GHSA-6fc8-4gx4-v693",
+    "aliases": [
+      "CVE-2021-32640"
+    ],
+    "published_date": "2021-05-28",
+    "published_iso": "2021-05-28T19:19:03Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-6fc8-4gx4-v693",
+    "fetched_at": "2026-04-02T07:33:01.045976+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.4.6"
+        ],
+        "fixed_version": "7.4.6",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.2.2"
+        ],
+        "fixed_version": "6.2.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "ws",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.2.3"
+        ],
+        "fixed_version": "5.2.3",
+        "versions_list": []
+      }
+    ]
+  }
+}

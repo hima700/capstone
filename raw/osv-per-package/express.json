@@ -1,0 +1,139 @@
+{
+  "GHSA-cm5g-3pgc-8rg4": {
+    "id": "GHSA-cm5g-3pgc-8rg4",
+    "aliases": [
+      "CVE-2024-10491"
+    ],
+    "published_date": "2024-10-29",
+    "published_iso": "2024-10-29T18:30:37Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-cm5g-3pgc-8rg4",
+    "fetched_at": "2026-04-02T07:28:39.503864+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          "<4.0.0-rc1"
+        ],
+        "fixed_version": "4.0.0-rc1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-gpvr-g6gh-9mc2": {
+    "id": "GHSA-gpvr-g6gh-9mc2",
+    "aliases": [
+      "CVE-2014-6393"
+    ],
+    "published_date": "2018-10-23",
+    "published_iso": "2018-10-23T17:22:54Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-gpvr-g6gh-9mc2",
+    "fetched_at": "2026-04-02T07:28:39.504879+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          "<3.11.0"
+        ],
+        "fixed_version": "3.11.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.5.0"
+        ],
+        "fixed_version": "4.5.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-jj78-5fmv-mv28": {
+    "id": "GHSA-jj78-5fmv-mv28",
+    "aliases": [
+      "CVE-2024-9266"
+    ],
+    "published_date": "2024-10-03",
+    "published_iso": "2024-10-03T21:31:05Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jj78-5fmv-mv28",
+    "fetched_at": "2026-04-02T07:28:39.504879+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          ">=3.4.5 <4.0.0-rc1"
+        ],
+        "fixed_version": "4.0.0-rc1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-qw6h-vgh9-j6wx": {
+    "id": "GHSA-qw6h-vgh9-j6wx",
+    "aliases": [
+      "CVE-2024-43796"
+    ],
+    "published_date": "2024-09-10",
+    "published_iso": "2024-09-10T19:41:04Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-qw6h-vgh9-j6wx",
+    "fetched_at": "2026-04-02T07:28:39.504879+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          "<4.20.0"
+        ],
+        "fixed_version": "4.20.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          ">=5.0.0-alpha.1 <5.0.0"
+        ],
+        "fixed_version": "5.0.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-rv95-896h-c2vc": {
+    "id": "GHSA-rv95-896h-c2vc",
+    "aliases": [
+      "CVE-2024-29041"
+    ],
+    "published_date": "2024-03-25",
+    "published_iso": "2024-03-25T19:40:26Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-rv95-896h-c2vc",
+    "fetched_at": "2026-04-02T07:28:39.505886+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          "<4.19.2"
+        ],
+        "fixed_version": "4.19.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "express",
+        "vulnerable_ranges": [
+          ">=5.0.0-alpha.1 <5.0.0-beta.3"
+        ],
+        "fixed_version": "5.0.0-beta.3",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "GHSA-jmqm-f2gx-4fjv": {
+    "id": "GHSA-jmqm-f2gx-4fjv",
+    "aliases": [],
+    "published_date": "2020-07-07",
+    "published_iso": "2020-07-07T18:59:10Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jmqm-f2gx-4fjv",
+    "fetched_at": "2026-04-02T07:30:50.326157+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "npm-registry-fetch",
+        "vulnerable_ranges": [
+          "<4.0.5"
+        ],
+        "fixed_version": "4.0.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "npm-registry-fetch",
+        "vulnerable_ranges": [
+          ">=5.0.0 <8.1.1"
+        ],
+        "fixed_version": "8.1.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

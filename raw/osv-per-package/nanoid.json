@@ -1,0 +1,55 @@
+{
+  "GHSA-mwcw-c2x4-8c55": {
+    "id": "GHSA-mwcw-c2x4-8c55",
+    "aliases": [
+      "CVE-2024-55565"
+    ],
+    "published_date": "2024-12-09",
+    "published_iso": "2024-12-09T03:30:59Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-mwcw-c2x4-8c55",
+    "fetched_at": "2026-04-02T07:30:37.497860+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "nanoid",
+        "vulnerable_ranges": [
+          ">=4.0.0 <5.0.9"
+        ],
+        "fixed_version": "5.0.9",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "nanoid",
+        "vulnerable_ranges": [
+          "<3.3.8"
+        ],
+        "fixed_version": "3.3.8",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-qrpm-p2h7-hrv2": {
+    "id": "GHSA-qrpm-p2h7-hrv2",
+    "aliases": [
+      "CVE-2021-23566"
+    ],
+    "published_date": "2022-01-21",
+    "published_iso": "2022-01-21T23:57:06Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-qrpm-p2h7-hrv2",
+    "fetched_at": "2026-04-02T07:30:37.498862+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "nanoid",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.1.31"
+        ],
+        "fixed_version": "3.1.31",
+        "versions_list": []
+      }
+    ]
+  }
+}

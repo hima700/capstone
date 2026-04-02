@@ -1,0 +1,605 @@
+{
+  "GHSA-2mjp-6q6p-2qxm": {
+    "id": "GHSA-2mjp-6q6p-2qxm",
+    "aliases": [
+      "CVE-2026-1525"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:07:03Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-2mjp-6q6p-2qxm",
+    "fetched_at": "2026-04-02T07:32:37.652428+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<6.24.0"
+        ],
+        "fixed_version": "6.24.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.24.0"
+        ],
+        "fixed_version": "7.24.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-3787-6prv-h9w3": {
+    "id": "GHSA-3787-6prv-h9w3",
+    "aliases": [
+      "CVE-2024-24758"
+    ],
+    "published_date": "2024-02-16",
+    "published_iso": "2024-02-16T16:02:52Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3787-6prv-h9w3",
+    "fetched_at": "2026-04-02T07:32:37.653432+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.28.3"
+        ],
+        "fixed_version": "5.28.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.6.1"
+        ],
+        "fixed_version": "6.6.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-3cvr-822r-rqcc": {
+    "id": "GHSA-3cvr-822r-rqcc",
+    "aliases": [
+      "CVE-2022-31150"
+    ],
+    "published_date": "2022-07-21",
+    "published_iso": "2022-07-21T20:30:10Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3cvr-822r-rqcc",
+    "fetched_at": "2026-04-02T07:32:37.654436+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.8.0"
+        ],
+        "fixed_version": "5.8.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-3g92-w8c5-73pq": {
+    "id": "GHSA-3g92-w8c5-73pq",
+    "aliases": [
+      "CVE-2024-38372"
+    ],
+    "published_date": "2024-07-09",
+    "published_iso": "2024-07-09T13:32:30Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-3g92-w8c5-73pq",
+    "fetched_at": "2026-04-02T07:32:37.655434+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.14.0 <6.19.2"
+        ],
+        "fixed_version": "6.19.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-4992-7rv2-5pvq": {
+    "id": "GHSA-4992-7rv2-5pvq",
+    "aliases": [
+      "CVE-2026-1527"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:41:26Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4992-7rv2-5pvq",
+    "fetched_at": "2026-04-02T07:32:37.656441+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<6.24.0"
+        ],
+        "fixed_version": "6.24.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.24.0"
+        ],
+        "fixed_version": "7.24.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-5r9g-qh6m-jxff": {
+    "id": "GHSA-5r9g-qh6m-jxff",
+    "aliases": [
+      "BIT-node-2023-23936",
+      "BIT-node-min-2023-23936",
+      "CVE-2023-23936"
+    ],
+    "published_date": "2023-02-16",
+    "published_iso": "2023-02-16T20:46:30Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-5r9g-qh6m-jxff",
+    "fetched_at": "2026-04-02T07:32:37.657442+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=2.0.0 <5.19.1"
+        ],
+        "fixed_version": "5.19.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-8qr4-xgw6-wmr3": {
+    "id": "GHSA-8qr4-xgw6-wmr3",
+    "aliases": [
+      "CVE-2022-35949"
+    ],
+    "published_date": "2022-08-18",
+    "published_iso": "2022-08-18T18:59:46Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8qr4-xgw6-wmr3",
+    "fetched_at": "2026-04-02T07:32:37.659447+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.8.2"
+        ],
+        "fixed_version": "5.8.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-9f24-jqhm-jfcw": {
+    "id": "GHSA-9f24-jqhm-jfcw",
+    "aliases": [
+      "CVE-2024-24750"
+    ],
+    "published_date": "2024-02-16",
+    "published_iso": "2024-02-16T15:59:38Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9f24-jqhm-jfcw",
+    "fetched_at": "2026-04-02T07:32:37.661450+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.6.1"
+        ],
+        "fixed_version": "6.6.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-9qxr-qj54-h672": {
+    "id": "GHSA-9qxr-qj54-h672",
+    "aliases": [
+      "CVE-2024-30261"
+    ],
+    "published_date": "2024-04-04",
+    "published_iso": "2024-04-04T14:20:54Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9qxr-qj54-h672",
+    "fetched_at": "2026-04-02T07:32:37.662434+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.28.4"
+        ],
+        "fixed_version": "5.28.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.11.1"
+        ],
+        "fixed_version": "6.11.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-c76h-2ccp-4975": {
+    "id": "GHSA-c76h-2ccp-4975",
+    "aliases": [
+      "CVE-2025-22150"
+    ],
+    "published_date": "2025-01-21",
+    "published_iso": "2025-01-21T21:10:47Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-c76h-2ccp-4975",
+    "fetched_at": "2026-04-02T07:32:37.662434+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=4.5.0 <5.28.5"
+        ],
+        "fixed_version": "5.28.5",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.21.1"
+        ],
+        "fixed_version": "6.21.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.2.3"
+        ],
+        "fixed_version": "7.2.3",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-cxrh-j4jr-qwg3": {
+    "id": "GHSA-cxrh-j4jr-qwg3",
+    "aliases": [
+      "CVE-2025-47279"
+    ],
+    "published_date": "2025-05-15",
+    "published_iso": "2025-05-15T14:15:06Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-cxrh-j4jr-qwg3",
+    "fetched_at": "2026-04-02T07:32:37.663433+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.29.0"
+        ],
+        "fixed_version": "5.29.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.21.2"
+        ],
+        "fixed_version": "6.21.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.5.0"
+        ],
+        "fixed_version": "7.5.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-f269-vfmq-vjvj": {
+    "id": "GHSA-f269-vfmq-vjvj",
+    "aliases": [
+      "CVE-2026-1528"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:07:26Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-f269-vfmq-vjvj",
+    "fetched_at": "2026-04-02T07:32:37.664433+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.24.0"
+        ],
+        "fixed_version": "6.24.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.24.0"
+        ],
+        "fixed_version": "7.24.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-f772-66g8-q5h3": {
+    "id": "GHSA-f772-66g8-q5h3",
+    "aliases": [
+      "CVE-2022-35948"
+    ],
+    "published_date": "2022-08-18",
+    "published_iso": "2022-08-18T19:02:56Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-f772-66g8-q5h3",
+    "fetched_at": "2026-04-02T07:32:37.665426+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.8.2"
+        ],
+        "fixed_version": "5.8.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-g9mf-h72j-4rw9": {
+    "id": "GHSA-g9mf-h72j-4rw9",
+    "aliases": [
+      "CVE-2026-22036"
+    ],
+    "published_date": "2026-01-14",
+    "published_iso": "2026-01-14T21:06:08Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-g9mf-h72j-4rw9",
+    "fetched_at": "2026-04-02T07:32:37.666428+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.18.2"
+        ],
+        "fixed_version": "7.18.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<6.23.0"
+        ],
+        "fixed_version": "6.23.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-m4v8-wqvr-p9f7": {
+    "id": "GHSA-m4v8-wqvr-p9f7",
+    "aliases": [
+      "CVE-2024-30260"
+    ],
+    "published_date": "2024-04-04",
+    "published_iso": "2024-04-04T14:20:39Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-m4v8-wqvr-p9f7",
+    "fetched_at": "2026-04-02T07:32:37.666428+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.28.4"
+        ],
+        "fixed_version": "5.28.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=6.0.0 <6.11.1"
+        ],
+        "fixed_version": "6.11.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-pgw7-wx7w-2w33": {
+    "id": "GHSA-pgw7-wx7w-2w33",
+    "aliases": [
+      "CVE-2022-32210"
+    ],
+    "published_date": "2022-06-17",
+    "published_iso": "2022-06-17T01:02:29Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-pgw7-wx7w-2w33",
+    "fetched_at": "2026-04-02T07:32:37.667427+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=4.8.2 <5.5.1"
+        ],
+        "fixed_version": "5.5.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-phc3-fgpg-7m6h": {
+    "id": "GHSA-phc3-fgpg-7m6h",
+    "aliases": [
+      "CVE-2026-2581"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:37:58Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-phc3-fgpg-7m6h",
+    "fetched_at": "2026-04-02T07:32:37.668425+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.17.0 <7.24.0"
+        ],
+        "fixed_version": "7.24.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-q768-x9m6-m9qp": {
+    "id": "GHSA-q768-x9m6-m9qp",
+    "aliases": [
+      "CVE-2022-31151"
+    ],
+    "published_date": "2022-07-21",
+    "published_iso": "2022-07-21T20:31:05Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-q768-x9m6-m9qp",
+    "fetched_at": "2026-04-02T07:32:37.668425+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.8.0"
+        ],
+        "fixed_version": "5.8.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-r6ch-mqf9-qc9w": {
+    "id": "GHSA-r6ch-mqf9-qc9w",
+    "aliases": [
+      "CVE-2023-24807"
+    ],
+    "published_date": "2023-02-16",
+    "published_iso": "2023-02-16T20:46:10Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-r6ch-mqf9-qc9w",
+    "fetched_at": "2026-04-02T07:32:37.668425+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.19.1"
+        ],
+        "fixed_version": "5.19.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-v9p9-hfj2-hcw8": {
+    "id": "GHSA-v9p9-hfj2-hcw8",
+    "aliases": [
+      "CVE-2026-2229"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:41:41Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-v9p9-hfj2-hcw8",
+    "fetched_at": "2026-04-02T07:32:37.669874+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<6.24.0"
+        ],
+        "fixed_version": "6.24.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.24.0"
+        ],
+        "fixed_version": "7.24.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-vrm6-8vpv-qv8q": {
+    "id": "GHSA-vrm6-8vpv-qv8q",
+    "aliases": [
+      "CVE-2026-1526"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:41:56Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-vrm6-8vpv-qv8q",
+    "fetched_at": "2026-04-02T07:32:37.670886+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<6.24.0"
+        ],
+        "fixed_version": "6.24.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          ">=7.0.0 <7.24.0"
+        ],
+        "fixed_version": "7.24.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-wqq4-5wpv-mx2g": {
+    "id": "GHSA-wqq4-5wpv-mx2g",
+    "aliases": [
+      "CVE-2023-45143"
+    ],
+    "published_date": "2023-10-16",
+    "published_iso": "2023-10-16T14:05:37Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-wqq4-5wpv-mx2g",
+    "fetched_at": "2026-04-02T07:32:37.670886+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "undici",
+        "vulnerable_ranges": [
+          "<5.26.2"
+        ],
+        "fixed_version": "5.26.2",
+        "versions_list": []
+      }
+    ]
+  }
+}

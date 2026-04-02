@@ -1,0 +1,24 @@
+{
+  "GHSA-4fc4-chg7-h8gh": {
+    "id": "GHSA-4fc4-chg7-h8gh",
+    "aliases": [
+      "CVE-2020-15262"
+    ],
+    "published_date": "2020-10-19",
+    "published_iso": "2020-10-19T20:02:44Z",
+    "severity": "LOW",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4fc4-chg7-h8gh",
+    "fetched_at": "2026-04-02T07:32:56.374933+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "webpack-subresource-integrity",
+        "vulnerable_ranges": [
+          "<1.5.1"
+        ],
+        "fixed_version": "1.5.1",
+        "versions_list": []
+      }
+    ]
+  }
+}

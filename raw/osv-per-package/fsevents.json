@@ -1,0 +1,46 @@
+{
+  "GHSA-8r6j-v8pm-fqw3": {
+    "id": "GHSA-8r6j-v8pm-fqw3",
+    "aliases": [
+      "CVE-2023-45311"
+    ],
+    "published_date": "2023-10-06",
+    "published_iso": "2023-10-06T21:30:49Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8r6j-v8pm-fqw3",
+    "fetched_at": "2026-04-02T07:28:57.987905+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "fsevents",
+        "vulnerable_ranges": [
+          "<1.2.11"
+        ],
+        "fixed_version": "1.2.11",
+        "versions_list": []
+      }
+    ]
+  },
+  "MAL-2023-462": {
+    "id": "MAL-2023-462",
+    "aliases": [
+      "GHSA-xv2f-5jw4-v95m"
+    ],
+    "published_date": "2023-04-27",
+    "published_iso": "2023-04-27T19:20:00Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2023-462",
+    "fetched_at": "2026-04-02T07:28:57.987905+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "fsevents",
+        "vulnerable_ranges": [
+          ">=1.0.0 <1.2.11"
+        ],
+        "fixed_version": "1.2.11",
+        "versions_list": []
+      }
+    ]
+  }
+}

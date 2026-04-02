@@ -1,0 +1,77 @@
+{
+  "GHSA-25hc-qcg6-38wj": {
+    "id": "GHSA-25hc-qcg6-38wj",
+    "aliases": [
+      "CVE-2024-38355"
+    ],
+    "published_date": "2024-06-19",
+    "published_iso": "2024-06-19T15:04:41Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-25hc-qcg6-38wj",
+    "fetched_at": "2026-04-02T07:32:06.866078+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "socket.io",
+        "vulnerable_ranges": [
+          "<2.5.1"
+        ],
+        "fixed_version": "2.5.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "socket.io",
+        "vulnerable_ranges": [
+          ">=3.0.0 <4.6.2"
+        ],
+        "fixed_version": "4.6.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-fxwf-4rqh-v8g3": {
+    "id": "GHSA-fxwf-4rqh-v8g3",
+    "aliases": [
+      "CVE-2020-28481"
+    ],
+    "published_date": "2021-01-20",
+    "published_iso": "2021-01-20T21:22:37Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-fxwf-4rqh-v8g3",
+    "fetched_at": "2026-04-02T07:32:06.867084+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "socket.io",
+        "vulnerable_ranges": [
+          "<2.4.0"
+        ],
+        "fixed_version": "2.4.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-qv2v-m59f-v5fw": {
+    "id": "GHSA-qv2v-m59f-v5fw",
+    "aliases": [
+      "CVE-2017-16031"
+    ],
+    "published_date": "2018-11-07",
+    "published_iso": "2018-11-07T00:29:37Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-qv2v-m59f-v5fw",
+    "fetched_at": "2026-04-02T07:32:06.868087+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "socket.io",
+        "vulnerable_ranges": [
+          "<0.9.7"
+        ],
+        "fixed_version": "0.9.7",
+        "versions_list": []
+      }
+    ]
+  }
+}

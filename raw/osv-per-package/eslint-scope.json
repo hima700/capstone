@@ -1,0 +1,24 @@
+{
+  "GHSA-hxxf-q3w9-4xgw": {
+    "id": "GHSA-hxxf-q3w9-4xgw",
+    "aliases": [],
+    "published_date": "2018-07-12",
+    "published_iso": "2018-07-12T19:52:02Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-hxxf-q3w9-4xgw",
+    "fetched_at": "2026-04-02T07:28:31.157947+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "eslint-scope",
+        "vulnerable_ranges": [
+          ">=3.7.2 <3.7.3"
+        ],
+        "fixed_version": "3.7.3",
+        "versions_list": [
+          "3.7.2"
+        ]
+      }
+    ]
+  }
+}

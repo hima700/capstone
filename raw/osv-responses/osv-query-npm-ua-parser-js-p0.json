@@ -1,0 +1,452 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-394c-5j6w-4xmx",
+      "summary": "ua-parser-js Regular Expression Denial of Service vulnerability",
+      "details": "The package ua-parser-js before 0.7.23 are vulnerable to Regular Expression Denial of Service (ReDoS) in multiple regexes (see linked commit for more info).",
+      "aliases": [
+        "CVE-2020-7793"
+      ],
+      "modified": "2025-01-14T08:56:58.344848Z",
+      "published": "2022-02-09T22:46:53Z",
+      "database_specific": {
+        "github_reviewed_at": "2021-04-08T21:32:22Z",
+        "nvd_published_at": "2020-12-11T14:15:00Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7793"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/commit/6d1f26df051ba681463ef109d36c9cf0f7e32b18"
+        },
+        {
+          "type": "WEB",
+          "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBFAISALMAN-1050388"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1050387"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JS-UAPARSERJS-1023599"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "0.7.23"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/02/GHSA-394c-5j6w-4xmx/GHSA-394c-5j6w-4xmx.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-662x-fhqg-9p8v",
+      "summary": "Regular Expression Denial of Service in ua-parser-js",
+      "details": "The package ua-parser-js before 0.7.22 are vulnerable to Regular Expression Denial of Service (ReDoS) via the regex for Redmi Phones and Mi Pad Tablets UA.",
+      "aliases": [
+        "CVE-2020-7733"
+      ],
+      "modified": "2025-01-14T08:57:11.858219Z",
+      "published": "2021-05-07T16:18:19Z",
+      "database_specific": {
+        "github_reviewed_at": "2021-05-03T19:19:25Z",
+        "nvd_published_at": "2020-09-16T14:15:00Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7733"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/commit/233d3bae22a795153a7e6638887ce159c63e557d"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBFAISALMAN-674666"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-674665"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/SNYK-JS-UAPARSERJS-610226"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.oracle.com//security-alerts/cpujul2021.html"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "0.7.22"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/05/GHSA-662x-fhqg-9p8v/GHSA-662x-fhqg-9p8v.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-78cj-fxph-m83p",
+      "summary": "Regular Expression Denial of Service (ReDoS) in ua-parser-js",
+      "details": "ua-parser-js >= 0.7.14, fixed in 0.7.24, uses a regular expression which is vulnerable to denial of service. If an attacker sends a malicious User-Agent header, ua-parser-js will get stuck processing it for an extended period of time.",
+      "aliases": [
+        "CVE-2021-27292"
+      ],
+      "modified": "2023-11-08T04:05:24.127561Z",
+      "published": "2021-05-06T16:11:13Z",
+      "database_specific": {
+        "github_reviewed_at": "2021-03-22T20:23:57Z",
+        "nvd_published_at": "2021-03-17T13:15:00Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27292"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/commit/809439e20e273ce0d25c1d04e111dcf6011eb566"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pygments/pygments/commit/2e7e8c4a7b318f4032493773732754e418279a14"
+        },
+        {
+          "type": "WEB",
+          "url": "https://gist.github.com/b-c-ds/6941d80d6b4e694df4bc269493b7be76"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0.7.14"
+                },
+                {
+                  "fixed": "0.7.24"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/05/GHSA-78cj-fxph-m83p/GHSA-78cj-fxph-m83p.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-fhg7-m89q-25r3",
+      "summary": "ReDoS Vulnerability in ua-parser-js version",
+      "details": "### Description:\nA regular expression denial of service (ReDoS) vulnerability has been discovered in `ua-parser-js`.\n\n### Impact:\nThis vulnerability bypass the library's `MAX_LENGTH` input limit prevention. By crafting a very-very-long user-agent string with specific pattern, an attacker can turn the script to get stuck processing for a very long time which results in a denial of service (DoS) condition.\n\n### Affected Versions:\nFrom version `0.7.30` to before versions `0.7.33` / `1.0.33`.\n\n### Patches:\nA patch has been released to remove the vulnerable regular expression, update to version `0.7.33` / `1.0.33` or later.\n\n### References:\n[Regular expression Denial of Service - ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)\n\n### Credits:\nThanks to @Snyk who first reported the issue.",
+      "aliases": [
+        "CVE-2022-25927"
+      ],
+      "modified": "2025-10-17T16:52:22Z",
+      "published": "2023-01-24T15:36:32Z",
+      "database_specific": {
+        "github_reviewed_at": "2023-01-24T15:36:32Z",
+        "nvd_published_at": "2023-01-26T21:15:00Z",
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-1333",
+          "CWE-400"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/security/advisories/GHSA-fhg7-m89q-25r3"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25927"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/commit/a6140a17dd0300a35cfc9cff999545f267889411"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/faisalman/ua-parser-js"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.snyk.io/vuln/SNYK-JS-UAPARSERJS-3244450"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0.7.30"
+                },
+                {
+                  "fixed": "0.7.33"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/01/GHSA-fhg7-m89q-25r3/GHSA-fhg7-m89q-25r3.json"
+          }
+        },
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0.8.0"
+                },
+                {
+                  "fixed": "1.0.33"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/01/GHSA-fhg7-m89q-25r3/GHSA-fhg7-m89q-25r3.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    },
+    {
+      "id": "GHSA-pjwm-rvh2-c87w",
+      "summary": "Embedded malware in ua-parser-js",
+      "details": "The npm package `ua-parser-js` had three versions published with malicious code. Users of affected versions (0.7.29, 0.8.0, 1.0.0) should upgrade as soon as possible and check their systems for suspicious activity. See [this issue](https://github.com/faisalman/ua-parser-js/issues/536) for details as they unfold.\n\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "aliases": [
+        "CVE-2021-4229"
+      ],
+      "modified": "2026-03-16T03:12:55.836011Z",
+      "published": "2021-10-22T20:38:14Z",
+      "related": [
+        "CVE-2021-4229"
+      ],
+      "database_specific": {
+        "github_reviewed_at": "2021-10-22T20:37:42Z",
+        "nvd_published_at": null,
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-829",
+          "CWE-912"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/issues/536"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/faisalman/ua-parser-js/issues/536#issuecomment-949772496"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/faisalman/ua-parser-js"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.npmjs.com/package/ua-parser-js"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0.7.29"
+                },
+                {
+                  "fixed": "0.7.30"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "0.7.29"
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/10/GHSA-pjwm-rvh2-c87w/GHSA-pjwm-rvh2-c87w.json"
+          }
+        },
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0.8.0"
+                },
+                {
+                  "fixed": "0.8.1"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "0.8.0"
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/10/GHSA-pjwm-rvh2-c87w/GHSA-pjwm-rvh2-c87w.json"
+          }
+        },
+        {
+          "package": {
+            "name": "ua-parser-js",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/ua-parser-js"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "1.0.0"
+                },
+                {
+                  "fixed": "1.0.1"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "1.0.0"
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/10/GHSA-pjwm-rvh2-c87w/GHSA-pjwm-rvh2-c87w.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.5",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+        }
+      ]
+    }
+  ]
+}

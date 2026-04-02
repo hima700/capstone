@@ -1,0 +1,15 @@
+{
+  "month": "2026-03",
+  "analysis_date": "2026-03-31",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "manual_review_flags": [
+    "Dependency count changed by 33% (828 -> 552)"
+  ],
+  "checks_run": {
+    "date_validations": 5,
+    "reconciliation_checks": 6,
+    "anomaly_detections": 3
+  }
+}

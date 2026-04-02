@@ -1,0 +1,64 @@
+{
+  "GHSA-2j2x-2gpw-g8fm": {
+    "id": "GHSA-2j2x-2gpw-g8fm",
+    "aliases": [
+      "CVE-2020-36632"
+    ],
+    "published_date": "2022-12-25",
+    "published_iso": "2022-12-25T21:30:22Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-2j2x-2gpw-g8fm",
+    "fetched_at": "2026-04-02T07:28:50.173994+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "flat",
+        "vulnerable_ranges": [
+          "<1.6.2"
+        ],
+        "fixed_version": "1.6.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "flat",
+        "vulnerable_ranges": [
+          ">=2.0.0 <2.0.2"
+        ],
+        "fixed_version": "2.0.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "flat",
+        "vulnerable_ranges": [
+          ">=3.0.0 <3.0.1"
+        ],
+        "fixed_version": "3.0.1",
+        "versions_list": [
+          "3.0.0"
+        ]
+      },
+      {
+        "ecosystem": "npm",
+        "package": "flat",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.0.2"
+        ],
+        "fixed_version": "4.0.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "flat",
+        "vulnerable_ranges": [
+          ">=5.0.0 <5.0.1"
+        ],
+        "fixed_version": "5.0.1",
+        "versions_list": [
+          "5.0.0"
+        ]
+      }
+    ]
+  }
+}

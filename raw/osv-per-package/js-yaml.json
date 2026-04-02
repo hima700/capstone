@@ -1,0 +1,95 @@
+{
+  "GHSA-2pr6-76vf-7546": {
+    "id": "GHSA-2pr6-76vf-7546",
+    "aliases": [],
+    "published_date": "2019-06-05",
+    "published_iso": "2019-06-05T14:35:29Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-2pr6-76vf-7546",
+    "fetched_at": "2026-04-02T07:29:55.957163+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "js-yaml",
+        "vulnerable_ranges": [
+          "<3.13.0"
+        ],
+        "fixed_version": "3.13.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-8j8c-7jfh-h6hx": {
+    "id": "GHSA-8j8c-7jfh-h6hx",
+    "aliases": [],
+    "published_date": "2019-06-04",
+    "published_iso": "2019-06-04T20:14:07Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8j8c-7jfh-h6hx",
+    "fetched_at": "2026-04-02T07:29:55.957163+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "js-yaml",
+        "vulnerable_ranges": [
+          "<3.13.1"
+        ],
+        "fixed_version": "3.13.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-mh29-5h37-fv8m": {
+    "id": "GHSA-mh29-5h37-fv8m",
+    "aliases": [
+      "CVE-2025-64718"
+    ],
+    "published_date": "2025-11-14",
+    "published_iso": "2025-11-14T14:29:48Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-mh29-5h37-fv8m",
+    "fetched_at": "2026-04-02T07:29:55.958162+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "js-yaml",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.1.1"
+        ],
+        "fixed_version": "4.1.1",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "js-yaml",
+        "vulnerable_ranges": [
+          "<3.14.2"
+        ],
+        "fixed_version": "3.14.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-xxvw-45rp-3mj2": {
+    "id": "GHSA-xxvw-45rp-3mj2",
+    "aliases": [
+      "CVE-2013-4660"
+    ],
+    "published_date": "2017-10-24",
+    "published_iso": "2017-10-24T18:33:37Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-xxvw-45rp-3mj2",
+    "fetched_at": "2026-04-02T07:29:55.958162+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "js-yaml",
+        "vulnerable_ranges": [
+          "<2.0.5"
+        ],
+        "fixed_version": "2.0.5",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "GHSA-6x33-pw7p-hmpq": {
+    "id": "GHSA-6x33-pw7p-hmpq",
+    "aliases": [],
+    "published_date": "2020-09-04",
+    "published_iso": "2020-09-04T17:59:49Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-6x33-pw7p-hmpq",
+    "fetched_at": "2026-04-02T07:29:20.175717+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "http-proxy",
+        "vulnerable_ranges": [
+          "<1.18.1"
+        ],
+        "fixed_version": "1.18.1",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-9xw9-pvgv-6p76": {
+    "id": "GHSA-9xw9-pvgv-6p76",
+    "aliases": [
+      "CVE-2017-16014"
+    ],
+    "published_date": "2018-11-09",
+    "published_iso": "2018-11-09T17:47:52Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-9xw9-pvgv-6p76",
+    "fetched_at": "2026-04-02T07:29:20.176716+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "http-proxy",
+        "vulnerable_ranges": [
+          "<0.7.0"
+        ],
+        "fixed_version": "0.7.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

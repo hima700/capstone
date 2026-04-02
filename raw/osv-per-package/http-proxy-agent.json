@@ -1,0 +1,44 @@
+{
+  "GHSA-86wf-436m-h424": {
+    "id": "GHSA-86wf-436m-h424",
+    "aliases": [
+      "CVE-2019-10196"
+    ],
+    "published_date": "2022-01-06",
+    "published_iso": "2022-01-06T20:30:13Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-86wf-436m-h424",
+    "fetched_at": "2026-04-02T07:29:20.813759+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "http-proxy-agent",
+        "vulnerable_ranges": [
+          "<2.1.0"
+        ],
+        "fixed_version": "2.1.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-8w57-jfpm-945m": {
+    "id": "GHSA-8w57-jfpm-945m",
+    "aliases": [],
+    "published_date": "2019-06-11",
+    "published_iso": "2019-06-11T16:16:07Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8w57-jfpm-945m",
+    "fetched_at": "2026-04-02T07:29:20.813759+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "http-proxy-agent",
+        "vulnerable_ranges": [
+          "<2.1.0"
+        ],
+        "fixed_version": "2.1.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

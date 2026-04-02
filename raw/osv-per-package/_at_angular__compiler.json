@@ -1,0 +1,167 @@
+{
+  "GHSA-g93w-mfhg-p222": {
+    "id": "GHSA-g93w-mfhg-p222",
+    "aliases": [
+      "CVE-2026-32635"
+    ],
+    "published_date": "2026-03-13",
+    "published_iso": "2026-03-13T20:56:18Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-g93w-mfhg-p222",
+    "fetched_at": "2026-04-02T07:22:57.893378+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=22.0.0-next.0 <22.0.0-next.3"
+        ],
+        "fixed_version": "22.0.0-next.3",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.2.4"
+        ],
+        "fixed_version": "21.2.4",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0.0.0 <20.3.18"
+        ],
+        "fixed_version": "20.3.18",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=19.0.0-next.0 <19.2.20"
+        ],
+        "fixed_version": "19.2.20",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=17.0.0-next.0 <=18.2.14"
+        ],
+        "fixed_version": null,
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-jrmj-c5cx-3cw6": {
+    "id": "GHSA-jrmj-c5cx-3cw6",
+    "aliases": [
+      "CVE-2026-22610"
+    ],
+    "published_date": "2026-01-09",
+    "published_iso": "2026-01-09T18:52:14Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jrmj-c5cx-3cw6",
+    "fetched_at": "2026-04-02T07:22:57.894379+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=21.1.0-next.0 <21.1.0-rc.0"
+        ],
+        "fixed_version": "21.1.0-rc.0",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.0.7"
+        ],
+        "fixed_version": "21.0.7",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0 <20.3.16"
+        ],
+        "fixed_version": "20.3.16",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=19.0.0-next.0 <19.2.18"
+        ],
+        "fixed_version": "19.2.18",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          "<=18.2.14"
+        ],
+        "fixed_version": null,
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-v4hv-rgfq-gp49": {
+    "id": "GHSA-v4hv-rgfq-gp49",
+    "aliases": [
+      "CVE-2025-66412"
+    ],
+    "published_date": "2025-12-02",
+    "published_iso": "2025-12-02T01:20:30Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-v4hv-rgfq-gp49",
+    "fetched_at": "2026-04-02T07:22:57.894379+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=21.0.0-next.0 <21.0.2"
+        ],
+        "fixed_version": "21.0.2",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=20.0.0-next.0 <20.3.15"
+        ],
+        "fixed_version": "20.3.15",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          ">=19.0.0-next.0 <19.2.17"
+        ],
+        "fixed_version": "19.2.17",
+        "versions_list": []
+      },
+      {
+        "ecosystem": "npm",
+        "package": "@angular/compiler",
+        "vulnerable_ranges": [
+          "<=18.2.14"
+        ],
+        "fixed_version": null,
+        "versions_list": []
+      }
+    ]
+  }
+}

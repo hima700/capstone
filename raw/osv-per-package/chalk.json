@@ -1,0 +1,24 @@
+{
+  "MAL-2025-46969": {
+    "id": "MAL-2025-46969",
+    "aliases": [
+      "GHSA-2v46-p5h4-248w"
+    ],
+    "published_date": "2025-09-08",
+    "published_iso": "2025-09-08T17:11:19Z",
+    "severity": "UNKNOWN",
+    "source_url": "https://osv.dev/vulnerability/MAL-2025-46969",
+    "fetched_at": "2026-04-02T07:27:38.488652+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "chalk",
+        "vulnerable_ranges": [],
+        "fixed_version": null,
+        "versions_list": [
+          "5.6.1"
+        ]
+      }
+    ]
+  }
+}

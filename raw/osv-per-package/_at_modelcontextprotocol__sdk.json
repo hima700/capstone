@@ -1,0 +1,68 @@
+{
+  "GHSA-345p-7cg4-v4c7": {
+    "id": "GHSA-345p-7cg4-v4c7",
+    "aliases": [
+      "CVE-2026-25536"
+    ],
+    "published_date": "2026-02-04",
+    "published_iso": "2026-02-04T20:04:16Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-345p-7cg4-v4c7",
+    "fetched_at": "2026-04-02T07:25:36.653820+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@modelcontextprotocol/sdk",
+        "vulnerable_ranges": [
+          ">=1.10.0 <1.26.0"
+        ],
+        "fixed_version": "1.26.0",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-8r9q-7v3j-jr4g": {
+    "id": "GHSA-8r9q-7v3j-jr4g",
+    "aliases": [
+      "CVE-2026-0621"
+    ],
+    "published_date": "2026-01-05",
+    "published_iso": "2026-01-05T21:30:33Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-8r9q-7v3j-jr4g",
+    "fetched_at": "2026-04-02T07:25:36.653820+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@modelcontextprotocol/sdk",
+        "vulnerable_ranges": [
+          "<1.25.2"
+        ],
+        "fixed_version": "1.25.2",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-w48q-cv73-mx4w": {
+    "id": "GHSA-w48q-cv73-mx4w",
+    "aliases": [
+      "CVE-2025-66414"
+    ],
+    "published_date": "2025-12-02",
+    "published_iso": "2025-12-02T16:51:57Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-w48q-cv73-mx4w",
+    "fetched_at": "2026-04-02T07:25:36.654971+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "@modelcontextprotocol/sdk",
+        "vulnerable_ranges": [
+          "<1.24.0"
+        ],
+        "fixed_version": "1.24.0",
+        "versions_list": []
+      }
+    ]
+  }
+}

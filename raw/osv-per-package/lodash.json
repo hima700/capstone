@@ -1,0 +1,178 @@
+{
+  "GHSA-29mw-wpgm-hmr9": {
+    "id": "GHSA-29mw-wpgm-hmr9",
+    "aliases": [
+      "CVE-2020-28500"
+    ],
+    "published_date": "2022-01-06",
+    "published_iso": "2022-01-06T20:30:46Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-29mw-wpgm-hmr9",
+    "fetched_at": "2026-04-02T07:30:12.474362+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.17.21"
+        ],
+        "fixed_version": "4.17.21",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-35jh-r3h4-6jhm": {
+    "id": "GHSA-35jh-r3h4-6jhm",
+    "aliases": [
+      "CVE-2021-23337"
+    ],
+    "published_date": "2021-05-06",
+    "published_iso": "2021-05-06T16:05:51Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-35jh-r3h4-6jhm",
+    "fetched_at": "2026-04-02T07:30:12.474362+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          "<4.17.21"
+        ],
+        "fixed_version": "4.17.21",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-4xc9-xhrj-v574": {
+    "id": "GHSA-4xc9-xhrj-v574",
+    "aliases": [
+      "CVE-2018-16487"
+    ],
+    "published_date": "2019-02-07",
+    "published_iso": "2019-02-07T18:16:48Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-4xc9-xhrj-v574",
+    "fetched_at": "2026-04-02T07:30:12.475366+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          "<4.17.11"
+        ],
+        "fixed_version": "4.17.11",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-fvqr-27wr-82fm": {
+    "id": "GHSA-fvqr-27wr-82fm",
+    "aliases": [
+      "CVE-2018-3721"
+    ],
+    "published_date": "2018-07-26",
+    "published_iso": "2018-07-26T15:14:52Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-fvqr-27wr-82fm",
+    "fetched_at": "2026-04-02T07:30:12.475366+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          "<4.17.5"
+        ],
+        "fixed_version": "4.17.5",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-jf85-cpcp-j695": {
+    "id": "GHSA-jf85-cpcp-j695",
+    "aliases": [
+      "CVE-2019-10744"
+    ],
+    "published_date": "2019-07-10",
+    "published_iso": "2019-07-10T19:45:23Z",
+    "severity": "CRITICAL",
+    "source_url": "https://osv.dev/vulnerability/GHSA-jf85-cpcp-j695",
+    "fetched_at": "2026-04-02T07:30:12.475366+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          "<4.17.12"
+        ],
+        "fixed_version": "4.17.12",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-p6mc-m468-83gw": {
+    "id": "GHSA-p6mc-m468-83gw",
+    "aliases": [
+      "CVE-2020-8203"
+    ],
+    "published_date": "2020-07-15",
+    "published_iso": "2020-07-15T19:15:48Z",
+    "severity": "HIGH",
+    "source_url": "https://osv.dev/vulnerability/GHSA-p6mc-m468-83gw",
+    "fetched_at": "2026-04-02T07:30:12.476371+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          ">=3.7.0 <4.17.19"
+        ],
+        "fixed_version": "4.17.19",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-x5rq-j2xg-h7qm": {
+    "id": "GHSA-x5rq-j2xg-h7qm",
+    "aliases": [
+      "CVE-2019-1010266"
+    ],
+    "published_date": "2019-07-19",
+    "published_iso": "2019-07-19T16:13:07Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-x5rq-j2xg-h7qm",
+    "fetched_at": "2026-04-02T07:30:12.476371+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          ">=4.7.0 <4.17.11"
+        ],
+        "fixed_version": "4.17.11",
+        "versions_list": []
+      }
+    ]
+  },
+  "GHSA-xxjr-mmjv-4gpg": {
+    "id": "GHSA-xxjr-mmjv-4gpg",
+    "aliases": [
+      "CVE-2025-13465"
+    ],
+    "published_date": "2026-01-21",
+    "published_iso": "2026-01-21T23:01:22Z",
+    "severity": "MEDIUM",
+    "source_url": "https://osv.dev/vulnerability/GHSA-xxjr-mmjv-4gpg",
+    "fetched_at": "2026-04-02T07:30:12.477366+00:00",
+    "affected": [
+      {
+        "ecosystem": "npm",
+        "package": "lodash",
+        "vulnerable_ranges": [
+          ">=4.0.0 <4.17.23"
+        ],
+        "fixed_version": "4.17.23",
+        "versions_list": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "vulns": [
+    {
+      "id": "GHSA-cwfw-4gq5-mrqx",
+      "summary": "Regular Expression Denial of Service (ReDoS) in braces",
+      "details": "A vulnerability was found in Braces versions from v2.2.0 up to but not including v2.3.1. Affected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks. This has been patched in version 2.3.1.",
+      "aliases": [
+        "CVE-2018-1109"
+      ],
+      "modified": "2025-11-26T17:32:10.727937Z",
+      "published": "2022-01-06T20:42:03Z",
+      "database_specific": {
+        "severity": "LOW",
+        "nvd_published_at": "2021-03-30T02:15:00Z",
+        "github_reviewed_at": "2021-03-31T21:35:00Z",
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1109"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/micromatch/braces/commit/abdafb0cae1e0c00f184abbadc692f4eaa98f451"
+        },
+        {
+          "type": "WEB",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1547272"
+        },
+        {
+          "type": "WEB",
+          "url": "https://snyk.io/vuln/npm:braces:20180219"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "braces",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/braces"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "2.2.0"
+                },
+                {
+                  "fixed": "2.3.1"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-cwfw-4gq5-mrqx/GHSA-cwfw-4gq5-mrqx.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3"
+    },
+    {
+      "id": "GHSA-grv7-fg5c-xmjg",
+      "summary": "Uncontrolled resource consumption in braces",
+      "details": "The NPM package `braces` fails to limit the number of characters it can handle, which could lead to Memory Exhaustion. In `lib/parse.js,` if a malicious user sends \"imbalanced braces\" as input, the parsing will enter a loop, which will cause the program to start allocating heap memory without freeing it at any moment of the loop. Eventually, the JavaScript heap limit is reached, and the program will crash.\n",
+      "aliases": [
+        "CVE-2024-4068"
+      ],
+      "modified": "2026-02-04T02:37:33.860557Z",
+      "published": "2024-05-14T18:30:54Z",
+      "related": [
+        "CGA-8hvf-38pw-fqj9"
+      ],
+      "database_specific": {
+        "severity": "HIGH",
+        "nvd_published_at": "2024-05-14T15:42:48Z",
+        "github_reviewed_at": "2024-06-10T20:17:26Z",
+        "cwe_ids": [
+          "CWE-1050",
+          "CWE-400"
+        ],
+        "github_reviewed": true
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4068"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/micromatch/braces/issues/35"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/micromatch/braces/pull/37"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/micromatch/braces/pull/40"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff"
+        },
+        {
+          "type": "WEB",
+          "url": "https://devhub.checkmarx.com/cve-details/CVE-2024-4068"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/micromatch/braces"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/micromatch/braces/blob/98414f9f1fabe021736e26836d8306d5de747e0d/lib/parse.js#L308"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "braces",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/braces"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "3.0.3"
+                }
+              ]
+            }
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/05/GHSA-grv7-fg5c-xmjg/GHSA-grv7-fg5c-xmjg.json"
+          }
+        }
+      ],
+      "schema_version": "1.7.3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ]
+    }
+  ]
+}
