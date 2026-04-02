@@ -133,6 +133,48 @@ Master artifacts produced:
   master/repo-facts.json                 (0.5 KB)
 
 ### Phase 0B Status: COMPLETE
+
+---
+
+## Phase 1 -- Monthly Loop Modules
+
+### Module 1: src/semver_engine.py
+Python wrapper around tools/semver_check.js.
+Functions: check_batch(), satisfies(), satisfies_batch(), compare(), sort_versions()
+All npm range matching routes through here (never packaging.version).
+
+### Module 2: src/sbom.py (Step 1)
+Syft filesystem SBOM generation + lockfile parsing + depth tagging.
+Functions: generate_sbom(), parse_lockfile(), parse_package_json(),
+           extract_packages_from_syft(), tag_dependency_depth(), build_enriched_sbom()
+Uses lockfile as authoritative source, Syft for non-npm packages.
+
+### Module 3: src/cve_matcher.py (Step 2)
+AS-IS CVE matching against master reference with date filtering.
+Functions: match_asis_cves()
+Batch semver checks for efficiency. Produces severity/ecosystem/depth breakdowns.
+
+### Module 4: src/patched_state.py (Steps 3, 4, 5)
+Step 3: compute_patched_versions() -- highest npm version <= analysis_date
+Step 4: enumerate_intermediates() -- all versions between AS-IS and PATCHED
+Step 5: compute_patched_cves() -- N-day/zero-day split, churn-introduced detection
+
+### Module 5: src/delta.py (Step 6)
+Set operations: cves_fixed, nday_introduced, zeroday_introduced,
+churn_introduced, net_reduction, patched_retained, intermediate peaks.
+
+### Module 6: src/validator.py (Step 7)
+Hard-stop gates (A2-A7), reconciliation checks (6 invariants),
+anomaly detection (3 triggers). Pipeline halts on any error.
+
+### Module 7: src/confidence.py
+HIGH/MEDIUM/LOW assignment per methodology Section 7.5 thresholds.
+
+### Module 8: src/execution_log.py
+Appends 45-field JSON entry to logs/master-execution-log.json.
+Field names match reporter.py graph-to-field mapping exactly.
+
+### Phase 1 Status: COMPLETE (code written, not yet executed)
 Files created:
   study-config.json        src/__init__.py      requirements.txt
   tools/semver_check.js    tools/package.json   tools/package-lock.json
