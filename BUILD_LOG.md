@@ -226,6 +226,40 @@ Result: All 13 months PASSED validation with HIGH confidence.
   dependency count change >30% (month 13)
 
 ### Phase 3 Status: COMPLETE
+
+---
+
+## Phase 4 -- Reporting
+
+### src/reporter.py
+Reads logs/master-execution-log.json, generates 14 graphs + 1 CSV table.
+All field names match the 45-field execution log schema exactly.
+
+Command: `python orchestrator.py report`
+
+Generated:
+  reports/plots/01-asis-total-cves.png
+  reports/plots/02-patched-total-cves.png
+  reports/plots/03-cves-fixed.png
+  reports/plots/04-nday-patched.png
+  reports/plots/05-zeroday-patched.png
+  reports/plots/06-net-reduction.png
+  reports/plots/07-npm-dependency-count.png
+  reports/plots/08-ecosystem-breakdown.png
+  reports/plots/09-vulnerability-ratio.png
+  reports/plots/10-vuln-packages-comparison.png
+  reports/plots/11-severity-distribution.png
+  reports/plots/12-direct-transitive-split.png
+  reports/plots/13-intermediate-spikes.png
+  reports/plots/14-churn-introduced.png
+  reports/tables/monthly-summary.csv
+
+Notes:
+- Graph 08 shows npm-only (Debian/Go are 0 -- study scope is npm)
+- Graph 04 is flat at 0 (no N-day introduced in any month)
+- All net_reduction values are positive in this dataset
+
+### Phase 4 Status: COMPLETE
 Files created:
   study-config.json        src/__init__.py      requirements.txt
   tools/semver_check.js    tools/package.json   tools/package-lock.json
