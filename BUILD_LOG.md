@@ -99,6 +99,40 @@ namespace already starts with `@` before prepending.
 5. LOW: osv_client.py -- removed unused `import hashlib` and unused `modified` var.
 
 ### Phase 0A Status: COMPLETE
+
+---
+
+## Phase 0B -- Master Reference Data
+
+### Step 1: Create src/osv_client.py
+OSV.dev API client with pagination, per-package caching, and rate limiting.
+Queries POST /v1/query per package to get all advisories.
+
+### Step 2: Create src/npm_client.py
+npm registry client fetching full package documents (including `time` map).
+Date-filtered version lookups replace packaging.version sorting.
+
+### Step 3: Create phase0_setup.py
+One-time orchestrator: package discovery -> OSV queries -> npm queries.
+
+### Step 4: Run phase0_setup.py
+Command: `python phase0_setup.py`
+Required 3 attempts due to network interruptions (caching made restarts instant).
+
+Results:
+- 1015 unique packages discovered from 8 lockfile commits
+- 305 OSV advisories found across all packages
+- 166,063 npm version timeline entries
+- All 1015/1015 OSV and 1015/1015 npm packages cached
+
+Master artifacts produced:
+  master/lockfile-change-commits.json    (0.9 KB, 6 commits)
+  master/monthly-selected-commits.json   (3.6 KB, 13 checkpoints)
+  master/master-cve-reference.v1.json    (229 KB, 305 advisories)
+  master/npm-version-timeline.v1.json    (8.7 MB, 166,063 versions)
+  master/repo-facts.json                 (0.5 KB)
+
+### Phase 0B Status: COMPLETE
 Files created:
   study-config.json        src/__init__.py      requirements.txt
   tools/semver_check.js    tools/package.json   tools/package-lock.json
