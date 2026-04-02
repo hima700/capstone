@@ -258,7 +258,8 @@ def _extract_severity(vuln_obj):
     """Extract severity from OSV vulnerability, preferring database_specific."""
     db_severity = vuln_obj.get("database_specific", {}).get("severity", "")
     if db_severity:
-        return db_severity.upper()
+        s = db_severity.upper()
+        return "MEDIUM" if s == "MODERATE" else s
 
     for s in vuln_obj.get("severity", []):
         if s.get("type") == "CVSS_V3":
