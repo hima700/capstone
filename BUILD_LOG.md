@@ -204,6 +204,28 @@ consecutive_reuse_count as a parameter from orchestrator loop.
 Verified: inspect mode returns correct data for Month 1.
 
 ### Phase 2 Status: COMPLETE
+
+---
+
+## Phase 3 -- Validation
+
+### Phase 3A: Month 1 single run
+Command: `python orchestrator.py run --month 2025-03`
+Result: PASSED. 828 npm packages, 5 AS-IS CVEs (all MEDIUM, all transitive),
+all 5 fixed by patching, HIGH confidence, 45/45 schema fields present.
+
+### Phase 3D: Full 13-month run
+Command: `python orchestrator.py run --all`
+Result: All 13 months PASSED validation with HIGH confidence.
+- 78 derived files, 13 validation reports, 13 execution log entries
+- Months 1-12: same commit 4712ac7, 828 packages, AS-IS CVEs grow 5->44
+- Month 13: new commit 619c10f, 552 packages (33% drop flagged), 21 CVEs
+- Zero N-day introduced across all months
+- Zero-day trend: 59->0 as future CVEs become known
+- Anomaly flags fired correctly: same_commit_reused (months 5-12),
+  dependency count change >30% (month 13)
+
+### Phase 3 Status: COMPLETE
 Files created:
   study-config.json        src/__init__.py      requirements.txt
   tools/semver_check.js    tools/package.json   tools/package-lock.json
