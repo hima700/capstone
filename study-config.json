@@ -1,0 +1,44 @@
+{
+  "project_name": "hcdp-file-explorer",
+  "repo_url": "https://github.com/HCDP/hcdp_file_explorer",
+  "repo_local_path": "repos/hcdp_file_explorer",
+
+  "first_commit_hash": "4d887cb",
+  "first_commit_date": "2025-03-12",
+  "study_start": "2025-03-31",
+  "study_end": "2026-03-31",
+  "analysis_date_rule": "end-of-month 23:59:59 UTC",
+  "total_checkpoints": 13,
+
+  "patch_simulation_policy": "upgrade-all-resolved-npm-to-latest-by-date",
+  "patch_simulation_scope": "resolved-component-version-substitution",
+  "dev_dependencies_included": true,
+  "package_counting_unit": "unique-package-version-pairs",
+
+  "semver_engine": "node-semver-via-subprocess",
+  "semver_helper_path": "tools/semver_check.js",
+
+  "osv_primary_source": true,
+  "osv_api_base": "https://api.osv.dev/v1",
+  "npm_registry_base": "https://registry.npmjs.org",
+
+  "grype_role": "spot-check-only",
+
+  "ecosystems_in_scope": {
+    "npm": {
+      "cve_source": "osv",
+      "patch_simulation": true,
+      "direct_transitive_classification": true
+    },
+    "debian": {
+      "cve_source": "osv",
+      "patch_simulation": false,
+      "direct_transitive_classification": false
+    },
+    "golang": {
+      "cve_source": "osv",
+      "patch_simulation": false,
+      "direct_transitive_classification": false
+    }
+  }
+}
