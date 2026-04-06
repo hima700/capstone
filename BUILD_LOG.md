@@ -260,6 +260,29 @@ Notes:
 - All net_reduction values are positive in this dataset
 
 ### Phase 4 Status: COMPLETE
+
+---
+
+## Gap Fixes
+
+### Gap 2: Added patch_simulation_scope field to execution log
+New field (46 total) echoes study-config value in every log entry.
+
+### Gap 3: Stale-interval self-test in validator
+Hard-stop: if same commit is reused but dependency count changes,
+that's a pipeline bug. Added to validator.py.
+
+### Gap 4: Timeline membership validation in validator
+Hard-stop: if a PATCHED version doesn't exist in npm timeline.
+Warning: if an AS-IS version isn't in timeline.
+
+### Gap 1: Phase B determinism diff
+Ran Month 1 twice (Run A and Run B), diffed all 8 output files.
+Result: all outputs byte-identical. Pipeline is deterministic.
+
+### Full 13-month re-run with all fixes
+All 13 months passed. New validation checks fired correctly.
+Reports regenerated (14 graphs + 1 CSV).
 Files created:
   study-config.json        src/__init__.py      requirements.txt
   tools/semver_check.js    tools/package.json   tools/package-lock.json

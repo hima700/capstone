@@ -133,6 +133,40 @@ def validate_month(month_label, analysis_date, commit_data,
             errors.append(f"Duplicate CVE-package-version: {key}")
         cve_pkg_keys.add(key)
 
+    # === Stale-Interval Self-Test (hard stop) ===
+    # When the same commit is reused, the SBOM is identical, so
+    # dependency counts must not change. Any change indicates a pipeline bug.
+    if commit_data and commit_data.get("same_commit_reused") and prev_month_data:
+        prev_npm_total_stale = prev_month_data.get("npm_packages_total", 0)
+        if prev_npm_total_stale > 0 and npm_total != prev_npm_total_stale:
+            errors.append(
+                f"Stale-interval: dependency count changed "
+                f"({prev_npm_total_stale} -> {npm_total}) "
+                f"while commit was reused (pipeline bug)"
+            )
+
+    # === Timeline Membership Validation (hard stop) ===
+    # Every npm package in patch simulation must have matching entries
+    # in the npm timeline for both AS-IS and PATCHED versions, or be
+    # explicitly logged as unresolved.
+    for pv in patched_versions.get("patched_versions", []):
+        pkg_name = pv["package"]
+        timeline_entry = npm_timeline.get(pkg_name, {})
+        if not timeline_entry:
+            continue
+        asis_ver = pv.get("asis_version", "")
+        patched_ver = pv.get("patched_version", "")
+        if asis_ver and asis_ver not in timeline_entry:
+            warnings.append(
+                f"Timeline: AS-IS version {pkg_name}@{asis_ver} "
+                f"not found in npm timeline"
+            )
+        if patched_ver and patched_ver not in timeline_entry:
+            errors.append(
+                f"Timeline: PATCHED version {pkg_name}@{patched_ver} "
+                f"not found in npm timeline (should not be selected)"
+            )
+
     # === Anomaly Detection (flags, not hard stops) ===
 
     if a_summary.get("asis_total_cves", 0) == 0 and prev_month_data:
@@ -166,6 +200,8 @@ def validate_month(month_label, analysis_date, commit_data,
         "checks_run": {
             "date_validations": 5,
             "reconciliation_checks": 6,
+            "stale_interval_test": 1,
+            "timeline_membership": 1,
             "anomaly_detections": 3,
         },
     }

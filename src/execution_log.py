@@ -2,7 +2,7 @@
 Master execution log for the SBOM CVE pipeline.
 
 Methodology v17 Section 6.7: Appends one JSON object per month to
-logs/master-execution-log.json with all 45 fields. reporter.py reads
+logs/master-execution-log.json with all 46 fields. reporter.py reads
 these exact field names for all 14 graphs.
 
 Three fields are required even when zero:
@@ -40,6 +40,7 @@ def append_log_entry(analysis_date, commit_data, config,
         "lockfile_present": enriched_sbom.get("lockfile_present", False),
         "dev_dependencies_included": config.get("dev_dependencies_included", True),
         "patch_simulation_policy": config.get("patch_simulation_policy", ""),
+        "patch_simulation_scope": config.get("patch_simulation_scope", ""),
         "npm_packages_total": counts.get("npm_packages_total", 0),
         "npm_packages_direct": counts.get("npm_packages_direct", 0),
         "npm_packages_transitive": counts.get("npm_packages_transitive", 0),
